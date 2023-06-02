@@ -1,6 +1,6 @@
-## bcdg
+## BC Developer's Guide
 
-A guide to application development for the Government of the Province of British Columbia
+A guide to application development for the Government of the Province of British Columbia.
 
 ## Getting started
 
