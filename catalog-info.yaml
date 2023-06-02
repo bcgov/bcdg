@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bcdg"
+  description: "A guide to application development for the Government of the Province of British Columbia"
+  annotations:
+    github.com/project-slug: brightcoast/bcdg
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "citz"

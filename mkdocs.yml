@@ -1,0 +1,8 @@
+site_name: "bcdg"
+site_description: "A guide to application development for the Government of the Province of British Columbia"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
