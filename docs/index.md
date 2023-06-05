@@ -1,6 +1,6 @@
 ## BC Developer's Guide
 
-A guide to application development for the Government of the Province of British Columbia.
+This document is a guide to application development for the Government of the Province of British Columbia.
 
 ## Getting started
 
