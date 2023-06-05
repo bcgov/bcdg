@@ -4,7 +4,7 @@
 
 # Introduction
 
-This is the GitHub repository for the BC Developer's Guide, which provides guidance for technologists working on software applications for the Province of British Columbia. Devlopment of the guide is being lead by the Developer Experience Team, within the Ministry of Citizens' Service Exchange Lab, in collaboration with other teams and members of the developer community.
+This is the GitHub repository for the BC Developer's Guide, which provides guidance for technologists working on software applications for the Province of British Columbia. Devlopment of the guide is being lead by the Developer Experience Team within the Ministry of Citizens' Services Exchange Lab, in collaboration with other teams and members of the developer community.
 
 ## Copyright
 
