@@ -4,7 +4,7 @@ metadata:
   name: "bcdg"
   description: "A guide to application development for the Government of the Province of British Columbia"
   annotations:
-    github.com/project-slug: brightcoast/bcdg
+    github.com/project-slug: bcgov/bcdg
     backstage.io/techdocs-ref: dir:.
 spec:
   type: documentation
