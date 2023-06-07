@@ -8,7 +8,7 @@ This is the GitHub repository for the BC Developer's Guide, which provides guida
 
 ## Copyright
 
-Copyright 2023 Province of British Columbia
+Copyright &copy; 2023 Province of British Columbia
 
 ## License
 
@@ -18,5 +18,3 @@ xmlns:dct="http://purl.org/dc/terms/" property="dct:title">bcdg</span> by <span
 xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">the Province of British Columbia
 </span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
 Creative Commons Attribution 4.0 International License</a>.
-
-
