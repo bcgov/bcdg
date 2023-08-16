@@ -6,23 +6,23 @@ nav:
   - Digital Government: digital_government.md
   - Ways of Working: ways_of_working.md
   - Supports for developers: supports_for_developers.md
-  - Developer community: developer_community.md
-  - Application lifecycle: application_lifecycle.md
-  - Deploying applications: deploying_applications.md
-  - Testing applications: testing_applications.md
-  - Operating applications: operating_applications.md
-  - Licensing and intellectual property: licensing_and_intellectual_property.md
-  - Code management: code_management.md
-  - Common code, components, and services: common.md
-  - Languages and frameworks: languages_and_frameworks.md
-  - Design: design.md
-  - Accessibility: accessibility.md
-  - Multilingual support: multilingual_support.md
-  - Architecture: architecture.md
-  - Networking: networking.md
-  - Security: security.md
-  - Compliance: compliance.md
-  - Data and APIs: data_and_apis.md
+  # - Developer community: developer_community.md
+  # - Application lifecycle: application_lifecycle.md
+  # - Deploying applications: deploying_applications.md
+  # - Testing applications: testing_applications.md
+  # - Operating applications: operating_applications.md
+  # - Licensing and intellectual property: licensing_and_intellectual_property.md
+  # - Code management: code_management.md
+  # - Common code, components, and services: common.md
+  # - Languages and frameworks: languages_and_frameworks.md
+  # - Design: design.md
+  # - Accessibility: accessibility.md
+  # - Multilingual support: multilingual_support.md
+  # - Architecture: architecture.md
+  # - Networking: networking.md
+  # - Security: security.md
+  # - Compliance: compliance.md
+  # - Data and APIs: data_and_apis.md
 
 plugins:
   - techdocs-core
