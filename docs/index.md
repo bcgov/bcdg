@@ -1,16 +1,16 @@
 ## BC Developer's Guide
 
-This document is a living guide to application development for the Government of the Province of British Columbia. It covers topics applicable across all Ministries and teams, with the goal of providing wayfinding and guidance to individuals and teams as they make the best technical choices to achieve their project goals. 
+This document is a living guide to application development for the Government of the Province of British Columbia. It covers topics applicable across all Ministries and teams, with the aim of providing wayfinding and guidance to individuals and teams so they can make the best technical choices to achieve their project goals. 
 
 ## Table of Contents
 
 ### [Use Github in BC Gov](/use-github-in-bcgov/bc-government-organizations-in-github/)
 
-Github is the preferred tool for sharing and storing code within the BC Government. Learn what you need to know about developing and licensing your code within Github in the context of a BC Government project. 
+GitHub is the preferred tool for sharing and storing code within the BC Government. Learn what you need to know about developing and licensing your code within Github in the context of a BC Government project. 
 
 ### [Rocketchat](/rocketchat/steps-to-join-rocketchat/)
 
-Learn how to join and navigate Rocketchat, our open chat tool for technical discussions (think: Slack or Discord for the BC Government). 
+Learn how to join and navigate Rocketchat, our open group chat tool for technical discussions (think: Slack or Discord for the BC Government). 
 
 ### [Design System](/design-system/about-the-design-system/)
 
