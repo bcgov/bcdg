@@ -4,15 +4,15 @@ This document is a living guide to application development for the Government of
 
 ## Current Topics
 
-### [Use Github in BC Gov](/use-github-in-bcgov/bc-government-organizations-in-github/)
+### [Use Github in BC Gov](./use-github-in-bcgov/bc-government-organizations-in-github/)
 
 GitHub is the preferred tool for storing and sharing code within the BC Government. Learn what you need to know about developing and licensing your code within GitHub in the context of a BC Government project. 
 
-### [Rocket.Chat](/rocketchat/steps-to-join-rocketchat/)
+### [Rocket.Chat](./rocketchat/steps-to-join-rocketchat/)
 
 Learn how to join and navigate Rocket.Chat, our open group chat tool for technical discussions (think: Slack or Discord for the BC Government). 
 
-### [Design System](/design-system/about-the-design-system/)
+### [Design System](./design-system/about-the-design-system/)
 
 Learn what the BC Government Design System for Digital Services can do for your project.
 
