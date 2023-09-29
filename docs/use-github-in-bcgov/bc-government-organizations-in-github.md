@@ -20,7 +20,7 @@ sort_order: 1
 
 # BC Government organizations in GitHub
 
-BC Gov Private Cloud PaaS product teams use [GitHub](https://github.com) to host open code and repositories. Using GitHub you can:
+Many teams building software for the B.C. government use [GitHub](https://github.com) to host their code. Using GitHub you can:
 
 * Share and control code versions
 * Use tools for team and project management
@@ -28,7 +28,9 @@ BC Gov Private Cloud PaaS product teams use [GitHub](https://github.com) to host
 * Collaborate with the open-source community
 * Integrate automation tools
 
-The main organization the B.C. government owns in GitHub is [bcgov](https://github.com/bcgov) where we store all open-source code developed by B.C. government teams. The `bcgov` organization includes close to 1000 repositories maintained by the B.C. government developer community.
+The main organization the B.C. government owns in GitHub is [bcgov](https://github.com/bcgov) where we store all open-source code developed by B.C. government teams. The `bcgov` organization includes over 1000 repositories maintained by the B.C. government developer community.
+
+The Developer Experience Team manages the B.C. government's GitHub environments.
 
 ## On this page
 
@@ -38,7 +40,7 @@ The main organization the B.C. government owns in GitHub is [bcgov](https://gith
 
 ## Working in the open
 
-The [Digital Principles for the Government of B.C.](https://digital.gov.bc.ca/resources/digital-principles) urge product teams to work in the open as outlined in principle five. GitHub is the leading platform for open-source projects. It allows the Province to collaborate with the open-source community to build software, support innovation and save time and money.
+The [Digital Principles for the Government of B.C.](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5 urge product teams to work in the open as outlined in principle five. GitHub is the leading platform for open-source projects. It allows the Province to collaborate with the open-source community to build software, support innovation and save time and money.
 
 ## Organizations in GitHub
 
@@ -46,17 +48,18 @@ The Province owns several GitHub organizations, which are described below.
 
 ### `bcgov`
 
-The `bcgov` organization contains all public code repositories that hold open-source code or public documents for all B.C. government teams working on the platform, including Platform Services. This organization is **public**.
+The `bcgov` organization contains public repositories that hold open-source code or public documents developed by B.C. government teams. This organization is **public**.
 
-* Most product teams working in the BC Gov Private Cloud PaaS OpenShift platform should use this organization.
-* Any member of the `bcgov` organization can create repositories and any existing member can [invite other users](https://just-ask.developer.gov.bc.ca/) to join the organization.
+* Product teams working in the BC Gov Private Cloud PaaS OpenShift platform should use this organization unless they are given permission to work in [`bcgov-c`](#bcgov-c).
+* Any member of the `bcgov` organization can create repositories.
+* Existing members of the `bcgov` organization can invite new users to join the organization using the [Just Ask! tool](https://just-ask.developer.gov.bc.ca/). (***Users cannot request membership to `bcgov` for themselves***) 
 
 ### `bcgov-c`
 
 The `bcgov-c` organization stores temporary (up to 12 months), private repositories with closed-source code and private documents. Closed-source projects must be moved to the `bcgov` organization at the end of the 12 months. This repository is **private**.
 
 * Use this repository if you need a temporary location for code while you collect approvals to make the code public. You must commit to making the code public in the future in order to use this repository.
-* Only the Platform Services team can create repositories in this organization. You can ask them to create a repository by [submitting a request to Platform Services Team](%WORDPRESS_BASE_URL%/private-cloud/support-and-community/devops-requests-in-the-bc-gov-private-cloud-paas/#request-a-new-github-user-access-for-bcgovc-private-org-or-to-create-a-private-repository/).
+* Only the Developer Experience team can create repositories in this organization. You can request a repository by [submitting a request](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL&labels=github-repo%2C+pending&projects=&template=github_repo_request.md&title=).
 
 Your product team can only have a **permanent**, private repository in `bcgov-c` if it is a GitOps repository with ArgoCD manifests. We strongly discourage creating permanent, private repositories in this organization.
 
