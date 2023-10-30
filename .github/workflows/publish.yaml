@@ -26,7 +26,7 @@ jobs:
       AWS_ENDPOINT: ${{ secrets.TECHDOCS_AWS_ENDPOINT }}
       ENTITY_NAMESPACE: ${{ vars.TECHDOCS_ENTITY_NAMESPACE }}
       ENTITY_KIND: ${{ vars.TECHDOCS_ENTITY_KIND }}
-      ENTITY_NAME: 'bcdg'
+      ENTITY_NAME: 'bc-developer-guide'
 
     steps:
       - name: Checkout code
