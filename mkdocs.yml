@@ -1,5 +1,5 @@
-site_name: "bcdg"
-site_description: "A guide to application development for the Government of the Province of British Columbia"
+site_name: "BC Developer Guide"
+site_description: "A guide to application development for the B.C. government."
 
 nav:
   - Introduction: index.md
