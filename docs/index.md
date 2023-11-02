@@ -1,6 +1,6 @@
-## BC Developer's Guide
+## B.C. Developer Guide
 
-This document is a living guide to application development for the Government of the Province of British Columbia. It covers topics applicable across all Ministries and teams, with the aim of providing wayfinding and guidance to individuals and teams so they can make the best technical choices to achieve their project goals. 
+This document is a living guide to application development for the B.C government, updated regularly by the Developer Experience team. Written for all ministries, use it to guide your team's technical decisions and as a reference throughout the software lifecycle.
 
 ## Current Topics
 
