@@ -4,13 +4,15 @@ This document is a living guide to application development for the Government of
 
 ## Current Topics
 
-### [Use GitHub in BC Gov](./use-github-in-bcgov/bc-government-organizations-in-github/)
+### [GitHub in the B.C. government](./use-github-in-bcgov/bc-government-organizations-in-github/)
 
-GitHub is the preferred tool for storing and sharing code within the BC Government. Learn what you need to know about developing and licensing your code within GitHub in the context of a BC Government project. 
+GitHub is the preferred tool for B.C. government development team to store and share code. Learn about available options related to GitHub and how to license and manage code repositories.
 
 ### [Rocket.Chat](./rocketchat/steps-to-join-rocketchat/)
 
-Learn how to join and navigate Rocket.Chat, our open group chat tool for technical discussions (think: Slack or Discord for the BC Government). 
+We use Rocket.Chat for technical discussions. It’s similar to Slack or Discord. 
+
+Learn how to join and use Rocket.Chat and connect with other developers across the B.C. government. 
 
 ### [Design System](./design-system/about-the-design-system/)
 
@@ -18,12 +20,12 @@ Learn what the BC Government Design System for Digital Services can do for your 
 
 ## Future Topics
 
-In the spirit of #Agile and #WorkingInTheOpen, we're starting lean with what we know now and working iteratively to improve and enhance this content. 
+In the spirit of #Agile and #WorkingInTheOpen, we're taking an iterative approach to publishing new guidance. 
 
-Future potential topics for this document include:
+Potential topics for this guide include:
 
 - Digital Government 101
-- Ways of Working in the BC Government
+- Ways of working in the B.C. government
 - Supports for developers
 - Developer communities
 - Application lifecycle
@@ -45,5 +47,5 @@ Future potential topics for this document include:
 
 ## Contact us
 
-This guide is owned and maintained by the Developer Experience team as part of the Exchange Lab. Please reach out with questions or feedback to [developer.experience@gov.bc.ca](mailto:developer.experience@gov.bc.ca)
+This guide is owned and maintained by the Developer Experience team in the Digital Office. Reach out with questions or feedback to [developer.experience@gov.bc.ca](mailto:developer.experience@gov.bc.ca)
 
