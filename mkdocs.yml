@@ -6,7 +6,7 @@ nav:
   # - Digital Government: digital_government.md
   # - Ways of Working: ways_of_working.md
   # - Supports for developers: supports_for_developers.md
-  - Use GitHub in BC Gov:
+  - GitHub in the B.C. government:
     - BC Government organizations in GitHub: use-github-in-bcgov/bc-government-organizations-in-github.md
     - Remove a user's BCGov GitHub access: use-github-in-bcgov/remove-user-bcgov-github-access.md
     - GitHub Enterprise user licences in the BC government: use-github-in-bcgov/github-enterprise-user-licenses-bc-government.md
@@ -19,8 +19,8 @@ nav:
     - Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
     - Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
     - Get help in Rocket.Chat: rocketchat/get-help-in-rocketchat.md
-  - Design system:
-    - About the design system: design-system/about-the-design-system.md
+  - Design System:
+    - About the Design System: design-system/about-the-design-system.md
   # - Developer community: developer_community.md
   # - Application lifecycle: application_lifecycle.md
   # - Deploying applications: deploying_applications.md
