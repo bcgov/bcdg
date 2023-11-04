@@ -7,6 +7,7 @@
 
 
 ## Artifactory
+
 Artifactory is a package management tool that comes with all applications hosted within Open Shift. 
 
 ### Why Artifactory
@@ -26,7 +27,9 @@ Artifactory is a package management tool that comes with all applications hosted
 
 ## Github Packages
 
+Artifactory is a package management tool that is available within GitHub.
+
 ### Why Github Packages
 
-### Resources
+GitHub Packages is an alternative to Artifactory, without any limitations or connection to your code being in OpenShift. However, it may come with additional cost to your team to achieve the required storage. Contact the Developer Experience team to learn more. 
 

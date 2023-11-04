@@ -4,16 +4,27 @@ As part of the journey towards modern digital service delivery, the BC Governmen
 
 However, there are still processes and compliance required to do your due diligence.
 
-* Evaluate [Open Source ]() options
-* For non-Open Source options, follow proper [Procurement policies]()
-* Make sure to complete your [Privacy and Security Assessments]()
-* ??? 
+* Evaluate [Open Source](../evaluate-open-source-content) options
+* For non-Open Source options, follow proper [Procurement policies](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement)
+* Make sure to complete the obligatory [Privacy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy/privacy-impact-assessments) and [Security](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/security-threat-and-risk-assessment) Assessments.
+* Consult with your Ministry's ISB / IMB group to learn of any additional guidance or policies you may be required to follow. 
+
+## Hosting your Application
+
+There are three pathways for hosting your service. In line with the guidance above, it is up to your team or business unit to identify which path is appropriate for your use case. 
+
+|  Name | Description | Cost Model  | 
+|---|---|---|---|
+|  [*Managed Hosting Services*](https://www2.gov.bc.ca/gov/content/bc-procurement-resources/buy-for-government/goods-and-services-catalogue/managed-hosting-services/data-centre-services?keyword=data&keyword=centre) |  On-premise within one of the BC Government's data centers |  Supply arrangement |
+|  [*Private Cloud*](../docs/default/component/platform-developer-docs) |  Kubernetes Open Shift Containers hosted on premise | Covered by OCIO |
+|  [*Public Cloud*](https://digital.gov.bc.ca/cloud/services/public/) | Select from several public cloud hosting options, including AWS, Azure and Google |  Journal Vouchers |
+
 
 ## Reusable BC Government Services
 
-The BC Government's Open Source ecosystem has produced a number of shared tools that 
+The BC Government's Open Source ecosystem has produced a number of shared tools that are available to re-use. 
 
-[comment]: <> Need to work with Private Cloud to pluck this list out of their docs and move it up a level
+[comment]: <> TODO: Need to work with Private Cloud to pluck this list out of their docs so we aren't repeating things.
 
 ### Common Components
 
@@ -21,12 +32,13 @@ Common Components are Open Source tools developed by the BC Government that are 
 
 As part of the [Digital Investment Office priorities](https://digital.gov.bc.ca/topics/funding/intro/), teams are required to use these for projects receiving IM/IT capital funding from the OCIO. 
 
-* [BC Address Geocoder]()
-* [Common Document Generation Service]()
-* [Common Hosted Email Service]()
-* [Common Object Management Service]()
-* [Get Token]()
-* [Pathfinder Single Sign-On Keycloak]()
+* [BC Address Geocoder](https://digital.gov.bc.ca/bcgov-common-components/bc-address-geocoder/)
+* [Common Document Generation Service](https://digital.gov.bc.ca/bcgov-common-components/common-document-generation-service/)
+* [Common Hosted Forms Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-form-service/)
+* [Common Hosted Email Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-email-service/)
+* [Common Object Management Service](https://digital.gov.bc.ca/bcgov-common-components/common-object-management-service/)
+* [Get Token](https://github.com/bcgov/nr-get-token)
+* [Pathfinder Single Sign-On Keycloak](https://digital.gov.bc.ca/bcgov-common-components/pathfinder-sso/)
 
 
 ### Community-Contributed Tools
@@ -35,13 +47,14 @@ Open Source tools developed or modified to work within the BC Government Ecosyst
 
 The resources on this list are open for use, but may not have dedicate maintainers, and do not have funding. However, with more use and cross-team contributions these may mature to becoming official Common Components in future. 
 
-* [BCDevOps Repo]()
-* [Backup Container]()
-* [BC Design System (legacy Boostrap)]()
+Contributions to add to list are welcome!
+
+* [BCDevOps Repo](https://github.com/BCDevOps/)
+* [Backup Container](https://github.com/BCDevOps/backup-container)
+* [BC Design System (legacy Boostrap)](https://github.com/bcgov/design-system)
 * [FIDIR]()
-* [Matomo OpenShift]()
-* [OWASP ZAP Security Vulnerability Scanning]()
-* [WeasyPrint HTML to PDF/PNG Microservice]()
+* [Matomo OpenShift](https://github.com/BCDevOps/matomo-openshift/blob/master/README.md)
+* [SonarQube](https://github.com/BCDevOps/sonarqube)
 
 
 ## Commonly Adopted Tools
@@ -50,26 +63,19 @@ This list is not meant to prescribe tooling that is required to use, but to help
 
 Contributions to this list are welcome!
 
-### Application Monitoring
-
-[comment]: <> I had sysdig here, but if it's Open Shift specific that probably doesn't make sense? do we need this section? I suspect teams have other things they're using we could use contributions for here that they're hooking into GH Actions. OR is this just a synonym for quality?
-
-* ? 
-
 ### CI/CD Pipeline Automation
 
 Use automation triggers in your delivery process to improve your quality of life as a developer, and/or quality of your application. 
 
 * [ArgoCD](../ci-cd/#argo-cd)
-* [GitHub Actions](../)
-* [Tekton](../)
+* [GitHub Actions](../ci-cd/#github-actions)
+* [Tekton](../ci-cd/#tekton)
 
 ### Content Management Systems
 
-Working on an application where the main user needs to contribute content without writing code? A CMS might be for you, and we have a few we are standardizing on.
+Working on an application where the main user needs to contribute content without writing code? A CMS might be for you.
 
-* [CMS Lite]()
-* [Drupal]()
+* [CMS Lite](https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/cms-lite-manual/cms-lite-access)
 
 ### Databases
 
@@ -77,22 +83,21 @@ Store and retreive your data in a persistent, secure place.
 
 [comment]: <> are there restrictions within Open Shift we need to call out here? Also where do we draw the line betweeen "evangalizing modern things?" 
 
-* []()
-* [Patroni]()
+* [Patroni](../docs/default/component/platform-developer-docs/docs/database-and-api-management/postgres-how-to/)
 
 ### Front-end Frameworks
 
-Display the data from your database in a modern, user-friendly way for end-users. 
+Display the data from your database in a modern, user-friendly way for end-users. These are the most commonly used.
 
-* [ReactJS]()
-* [VueJS]()
+* [ReactJS](https://react.dev)
+* [VueJS](https://vuejs.org)
 
 ### Package Hosting and Management
 
 Manage and publish your code artifacts to share them between code collaborators easily.
 
-* [Artifactory](../)
-* [GitHub Packages](../)
+* [Artifactory](../package-hosting#artifactory)
+* [GitHub Packages](../package-hosting#github-packages)
 
 ### Security
 
@@ -101,18 +106,5 @@ Protect the data of the citizen of BC with the appropriate tooling to abstract a
 [comment]: <> same as above - do we need a landing page? Is this only within Open Shift? I know there are more things NRM is using. Renovate comes to mind? Is this how we convert Derek to an ally? Sounds like Nick worked with him a lot on this.
 
 * [Vault](../docs/default/component/platform-developer-docs/docs/security-and-privacy-compliance/vault-getting-started-guide/)
+# [ZAP](https://www.zaproxy.org)
 
-### Quality
-
-[comment]: <>  This probably needs an intermediary page, and maybe some of this moves up? The Open Shift stuff is definitely intertwined here...
-
-Monitoring the health of your application to support delivering high-quality applications to citizens. 
-
-Application Quality is the responsibility of individual teams, and not centralized under any other part of Government or any particular role. The Platform Services team has written some [Application Resiliency best practices](../docs/default/component/platform-developer-docs/docs/automation-and-resiliency/app-resiliency-guidelines/) that are largely useful for projects both inside and outside of Open Shift. 
-
-* [OCP4 Backup And Restore]()
-* [Persistent Storage Services]()
-* [SonarQube Best Practices]()
-* [SonarQube in the BC Gov Private Cloud]()
-* [SonarQube on OpenShift]()
-[comment]: <> why are there three pages here about sonarqube?
