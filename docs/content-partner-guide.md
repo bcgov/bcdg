@@ -24,7 +24,7 @@ Much of the publishing process is enabled through use of GitHub features. The di
 
 ![](images/devhub_publishing_process_simple.png)
 
-As a documentation writer, you edit or create files that will eventually be published in DevHub in your team's GitHub repository . When you want to preview your documentation, you can save your files to a preview branch (any branch other than a repo's default/main branch) in GitHub and after a few moments, it will then be available for review on the [preview instance of DevHub](https://dev.developer.gov.bc.ca). Once you're happy with your edits, you'll save your files into your repository's main branch. In this case, after a few moments, your latest documentation will be published and available on the [production DevHub instance](httsp://mvp.developer.gov.bc.ca). Each time you have changes or additions to make to your documentation, you iterate through this same process.
+As a documentation writer, you edit or create files that will eventually be published in DevHub in your team's GitHub repository . When you want to preview your documentation, you can save your files to a preview branch (any branch other than a repo's default/main branch) in GitHub and after a few moments, it will then be available for review on the [preview instance of DevHub](https://dev.developer.gov.bc.ca). Once you're happy with your edits, you'll save your files into your repository's main branch. In this case, after a few moments, your latest documentation will be published and available on the [production DevHub instance](https://mvp.developer.gov.bc.ca). Each time you have changes or additions to make to your documentation, you iterate through this same process.
 
 ## What format is used for DevHub documentation?
 
