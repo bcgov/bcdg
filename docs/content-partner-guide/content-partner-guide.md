@@ -67,7 +67,21 @@ We're working on a "self serve" way for teams to add their documentation to DevH
 1. Set up an overview meeting with [us](mailto:developer.experience@gov.bc.ca). From your team, we suggest including the Product Owner as well as anyone else involved in writing technical documentation for your product or service. It's also helpful to have a technical person from your team who understands the technical tools and processes you're already using. During this meeting, we'll provide an overview of DevHub, answer any questions you have, and talk about next steps (see below). Be prepared to discuss your existing technical documentation, related tools and processes, and what goals you have going forward.
 2.  Following the overview meeting, we will recommend a working session between ourselves and one or more  technical team members to adapt your existing documentation process to one that is compatible with DevHub. The goal of the working session is to get your team comfortable working in a DevHub-compatible workflow, as well as identifying any changes needed to your content in order for it to be publishable in DevHub.
 3. After the working session, your team may have some "homework" to adapt content or implement automated tools. The amount of work will depend on that is uncovered in the working session. You can complete these items on your own timeline.
-4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterwards. 
+4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterwards.
+
+## What kinds of modifications are needed to existing technical documentation in Markdown in order to work in DevHub?
+
+The answer is, again...it depends. In general there is minimal to moderate effort required to adapt content for compatibility with DevHub. Below is a list of some of the adaptations we've encountered so far. You may encounter some or these or none of them, depending on your current documentation.
+
+- May need to adjust link syntax as there are some differences across Markdown variants 
+- May need to replace absolute links to pages within same document with relative links
+- May need to align case of filenames and references links as DevHub is case-insensitive, unlike some other tools
+- May need to adjust some formatting/spacing as DevHub is more particular about use of whitespace than some other tools 
+- May need to check that HTML within Markdown is handled as expected and DevHub behaves differently than some other tools
+
+We have automated tools to fix or help with most of the items above and can support you and your team as you adapt your documentation for DevHub. We expect most of these items will surface during the working session discussed above.
+
+
 
 
 
