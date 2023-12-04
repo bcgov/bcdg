@@ -22,7 +22,7 @@ We work with several content partners who each work on their own timelines, inde
 
 Much of the publishing process is enabled through use of GitHub features. The diagram below provides a simple illustration of the overall process, and an explanation of each step follows.
 
-![](images/devhub_publishing_process_simple.png)
+![A diagram of the authoring and publishing process for DevHub. The process is described textually in the paragraph that follows the diagram.](images/devhub_publishing_process_simple.png)
 
 As a documentation writer, you edit or create files that will eventually be published in DevHub in your team's GitHub repository . When you want to preview your documentation, you can save your files to a preview branch (any branch other than a repo's default/main branch) in GitHub and after a few moments, it will then be available for review on the [preview instance of DevHub](https://dev.developer.gov.bc.ca). Once you're happy with your edits, you'll save your files into your repository's main branch. In this case, after a few moments, your latest documentation will be published and available on the [production DevHub instance](https://mvp.developer.gov.bc.ca). Each time you have changes or additions to make to your documentation, you iterate through this same process.
 
@@ -54,7 +54,7 @@ The appearance of your content is determined by the Markdown syntax you include 
 
 The images below provide an example of how a Markdown snippet in GitHub (first image) is displayed within DevHub (second image).
 
-![](images/markdown_source.png)
+![A screenshot of the Mardown source ](images/markdown_source.png)
 
 ![](images/devhub_appearance.png)
 
