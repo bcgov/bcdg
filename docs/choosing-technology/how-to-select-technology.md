@@ -24,8 +24,6 @@ There are three pathways for hosting your service. In line with the guidance abo
 
 The BC Government's Open Source ecosystem has produced a number of shared tools that are available to re-use. 
 
-[comment]: <> TODO: Need to work with Private Cloud to pluck this list out of their docs so we aren't repeating things.
-
 ### Common Components
 
 Common Components are Open Source tools developed by the BC Government that are owned and maintained by product teams. 
@@ -47,7 +45,13 @@ Open Source tools developed or modified to work within the BC Government Ecosyst
 
 The resources on this list are open for use, but may not have dedicate maintainers, and do not have funding. However, with more use and cross-team contributions these may mature to becoming official Common Components in future. 
 
-Contributions to add to list are welcome!
+<details>
+<summary>This content is open to contributions to improve it</summary>
+
+As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
+If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
+
+</details>
 
 * [BCDevOps Repo](https://github.com/BCDevOps/)
 * [Backup Container](https://github.com/BCDevOps/backup-container)
@@ -61,7 +65,13 @@ Contributions to add to list are welcome!
 
 This list is not meant to prescribe tooling that is required to use, but to help surface best practices and common patterns already found within the organization to smooth out your exploration, learning and adoption curves. 
 
-Contributions to this list are welcome!
+<details>
+<summary>This content is open to contributions to improve it</summary>
+
+As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
+If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
+
+</details>
 
 ### CI/CD Pipeline Automation
 
@@ -73,15 +83,13 @@ Use automation triggers in your delivery process to improve your quality of life
 
 ### Content Management Systems
 
-Working on an application where the main user needs to contribute content without writing code? A CMS might be for you.
+Working on an application where the main user needs to contribute content without writing code? A CMS might be for you. Unless you have successfully made a business case otherwise, CMS Lite is the compliant option. 
 
 * [CMS Lite](https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/web-content-development-guides/cms-lite-manual/cms-lite-access)
 
 ### Databases
 
 Store and retreive your data in a persistent, secure place.
-
-[comment]: <> are there restrictions within Open Shift we need to call out here? Also where do we draw the line betweeen "evangalizing modern things?" 
 
 * [Patroni](../docs/default/component/platform-developer-docs/docs/database-and-api-management/postgres-how-to/)
 
@@ -102,8 +110,6 @@ Manage and publish your code artifacts to share them between code collaborators 
 ### Security
 
 Protect the data of the citizen of BC with the appropriate tooling to abstract away secrets and access credentials. 
-
-[comment]: <> same as above - do we need a landing page? Is this only within Open Shift? I know there are more things NRM is using. Renovate comes to mind? Is this how we convert Derek to an ally? Sounds like Nick worked with him a lot on this.
 
 * [Vault](../docs/default/component/platform-developer-docs/docs/security-and-privacy-compliance/vault-getting-started-guide/)
 # [ZAP](https://www.zaproxy.org)

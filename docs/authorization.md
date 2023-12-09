@@ -1,6 +1,6 @@
 # Authorization
 
-(I feel like we need something somwehere here that explains IDIR vs azure IDIR vs BCeID etc and who the audience is for both and all the synonyms? Maybe it's just me who finds that confusing)
+We have several solutions for different parts of identity management and authorization to help you to integrate with BC Government tools. 
 
 ## Keycloack Pathfinder Pathfinder Single Sign On (SSO)
 

@@ -6,16 +6,19 @@
 |  *GitHub Actions*  |  GitOps continuous integration and delivery tool for Github |  Available for all GitHub repositories |
 |  *Tekton*  | GitOps continuous integration and delivery tool |  Available within OpenShift |
 
+<details>
+<summary>This content is open to contributions to improve it</summary>
+
+As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
+If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
+
+</details>
 
 ## Argo CD
-
-[comment]: <> This information is poached fro the Platform Services docs... probably want to edit it out there and link back?
 
 Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes (the foundation of OpenShift). You can use it to implement a GitOps-style deployment service. 
 
 ### Why Argo CD
-
-// poached from https://mvp.developer.gov.bc.ca/docs/default/component/platform-developer-docs/docs/automation-and-resiliency/cicd-pipeline-templates-for-private-cloud-teams/#choose-a-technology. Again maybe we need to work with them to move it up a level?
 
 ArgoCD provides more control over the success of the deployment and brings many other benefits of the infrastructure as code/GitOps approach, such as:
 
@@ -38,15 +41,26 @@ ArgoCD provides more control over the success of the deployment and brings many 
 
 ## Github Actions
 
+GitHub Actions is available within our BCGov and BCGov Enterprise GitHub organizations to assist with automation of your build and deployment pipelines
+
 ### Why Github Actions
 
-### Resources
+* Lots of community support
 
+* Easy to learn
+
+* Easy to integrate with your code already in GitHub
 
 
 ## Tekton
 
+Tekton is the RedHat flavour of GitOps, available within your OpenShift Private Cloud Environment.
+
 ### Why Tekton
+
+* No limitations on runners
+
+* Integration with our RedHat tooling
 
 ### Resources
 

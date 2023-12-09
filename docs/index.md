@@ -22,7 +22,6 @@ Learn what the BC Government Design System for Digital Services can do for your 
 In the spirit of #Agile and #WorkingInTheOpen, we're starting lean with what we know now and working iteratively to improve and enhance this content. 
 
 Future potential topics for this document include...
-  - Digital Government 101
   - Ways of Working in the BC Government
   - Supports for developers
   - Developer communities
@@ -32,14 +31,11 @@ Future potential topics for this document include...
   - Operating applications
   - Licensing and intellectual property
   - Code management
-  - Common code, components, and services
-  - Languages and frameworks
   - Design
   - Accessibility
   - Multilingual support
   - Architecture
   - Networking
-  - Security
   - Compliance
   - Data and APIs
 

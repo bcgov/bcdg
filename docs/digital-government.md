@@ -16,3 +16,11 @@ It up to teams and leadership within different areas to choose what flavour of A
 ### Supports for Agile Learning
 
 * [Agile Community of Practice](https://digital.gov.bc.ca/communities/agile/)
+
+<details>
+<summary>This content is open to contributions to improve it</summary>
+
+As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
+If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
+
+</details>

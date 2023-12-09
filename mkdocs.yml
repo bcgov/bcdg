@@ -3,7 +3,11 @@ site_description: "A guide to application development for the Government of the 
 
 nav:
   - Introduction: index.md
-  # - Digital Government: digital_government.md
+  - Digital Government: digital-government.md
+  - Security and Privacy: security-and-privacy.md
+  - Common components and tool choices: how-to-select-technology.md
+    - CI/CD: ci-cd.md
+    - Package Hosting: package-hosting.md
   # - Ways of Working: ways_of_working.md
   # - Supports for developers: supports_for_developers.md
   - Use GitHub in BC Gov:
@@ -28,14 +32,12 @@ nav:
   # - Operating applications: operating_applications.md
   # - Licensing and intellectual property: licensing_and_intellectual_property.md
   # - Code management: code_management.md
-  # - Common code, components, and services: common.md
   # - Languages and frameworks: languages_and_frameworks.md
   # - Design: design.md
   # - Accessibility: accessibility.md
   # - Multilingual support: multilingual_support.md
   # - Architecture: architecture.md
   # - Networking: networking.md
-  # - Security: security.md
   # - Compliance: compliance.md
   # - Data and APIs: data_and_apis.md
 
