@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "bcdg"
-  description: "A guide to application development for the Government of the Province of British Columbia"
+  name: "bc-developer-guide"
+  description: "A guide to application development for the B.C. government."
   annotations:
     github.com/project-slug: bcgov/bcdg
     backstage.io/techdocs-ref: dir:.
 spec:
   type: documentation
   lifecycle: experimental
-  owner: "citz"
+  owner: "developer-experience"

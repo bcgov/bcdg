@@ -16,3 +16,6 @@ logs
 
 # MkDocs build output
 site
+
+# Node libraries
+node_modules
