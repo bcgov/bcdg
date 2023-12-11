@@ -10,6 +10,7 @@ nav:
   - Security and Privacy: security-and-privacy.md
   - Common components and tool choices: how-to-select-technology.md
     - CI/CD: ci-cd.md
+    - Container Tooling: container-tooling.md
     - Package Hosting: package-hosting.md
   # - Ways of Working: ways_of_working.md
   # - Supports for developers: supports_for_developers.md
