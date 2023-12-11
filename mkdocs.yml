@@ -5,46 +5,47 @@ edit_uri: edit/main/docs/
 
 
 nav:
-  - Introduction: index.md
-  - Digital Government: digital-government.md
-  - Security and Privacy: security-and-privacy.md
-  - Common components and tool choices: how-to-select-technology.md
-    - CI/CD: ci-cd.md
-    - Container Tooling: container-tooling.md
-    - Package Hosting: package-hosting.md
-  # - Ways of Working: ways_of_working.md
-  # - Supports for developers: supports_for_developers.md
-  - GitHub in the B.C. government:
-    - BC Government organizations in GitHub: use-github-in-bcgov/bc-government-organizations-in-github.md
-    - Remove a user's BCGov GitHub access: use-github-in-bcgov/remove-user-bcgov-github-access.md
-    - GitHub Enterprise user licences in the BC government: use-github-in-bcgov/github-enterprise-user-licenses-bc-government.md
-    - Evaluate open-source content: use-github-in-bcgov/evaluate-open-source-content.md
-    - Required pages for a GitHub repository: use-github-in-bcgov/required-pages-for-github-repository.md
-    - Start working in the BCGov GitHub organization: use-github-in-bcgov/start-working-in-bcgov-github-organization.md
-    - License your GitHub repository: use-github-in-bcgov/license-your-github-repository.md
-  - Rocket.Chat:
-    - Join the B.C. Government Rocket.Chat: rocketchat/steps-to-join-rocketchat.md
-    - Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
-    - Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
-    - Get help in Rocket.Chat: rocketchat/get-help-in-rocketchat.md
-  - Design System:
-    - About the Design System: design-system/about-the-design-system.md
-  - DevHub Content Partner Guide: content-partner-guide.md
-  # - Developer community: developer_community.md
-  # - Application lifecycle: application_lifecycle.md
-  # - Deploying applications: deploying_applications.md
-  # - Testing applications: testing_applications.md
-  # - Operating applications: operating_applications.md
-  # - Licensing and intellectual property: licensing_and_intellectual_property.md
-  # - Code management: code_management.md
-  # - Languages and frameworks: languages_and_frameworks.md
-  # - Design: design.md
-  # - Accessibility: accessibility.md
-  # - Multilingual support: multilingual_support.md
-  # - Architecture: architecture.md
-  # - Networking: networking.md
-  # - Compliance: compliance.md
-  # - Data and APIs: data_and_apis.md
+    -   Introduction: index.md
+    -   Digital Government: digital-government.md
+    -   Security and Privacy: security-and-privacy.md
+    -   Common components and tool choices:
+            -   Selecting Technology: choosing-technology/how-to-select-technology.md
+            -   CI/CD: choosing-technology/ci-cd.md
+            -   Container Tooling: choosing-technology/container-tooling.md
+            -   Package Hosting: choosing-technology/package-hosting.md
+    # - Ways of Working: ways_of_working.md
+    # - Supports for developers: supports_for_developers.md
+    -   GitHub in the B.C. government:
+            -   BC Government organizations in GitHub: use-github-in-bcgov/bc-government-organizations-in-github.md
+            -   Remove a user's BCGov GitHub access: use-github-in-bcgov/remove-user-bcgov-github-access.md
+            -   GitHub Enterprise user licences in the BC government: use-github-in-bcgov/github-enterprise-user-licenses-bc-government.md
+            -   Evaluate open-source content: use-github-in-bcgov/evaluate-open-source-content.md
+            -   Required pages for a GitHub repository: use-github-in-bcgov/required-pages-for-github-repository.md
+            -   Start working in the BCGov GitHub organization: use-github-in-bcgov/start-working-in-bcgov-github-organization.md
+            -   License your GitHub repository: use-github-in-bcgov/license-your-github-repository.md
+    -   Rocket.Chat:
+            -   Join the B.C. Government Rocket.Chat: rocketchat/steps-to-join-rocketchat.md
+            -   Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
+            -   Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
+            -   Get help in Rocket.Chat: rocketchat/get-help-in-rocketchat.md
+    -   Design System:
+            -   About the Design System: design-system/about-the-design-system.md
+    -   DevHub Content Partner Guide: content-partner-guide.md
+    # - Developer community: developer_community.md
+    # - Application lifecycle: application_lifecycle.md
+    # - Deploying applications: deploying_applications.md
+    # - Testing applications: testing_applications.md
+    # - Operating applications: operating_applications.md
+    # - Licensing and intellectual property: licensing_and_intellectual_property.md
+    # - Code management: code_management.md
+    # - Languages and frameworks: languages_and_frameworks.md
+    # - Design: design.md
+    # - Accessibility: accessibility.md
+    # - Multilingual support: multilingual_support.md
+    # - Architecture: architecture.md
+    # - Networking: networking.md
+    # - Compliance: compliance.md
+    # - Data and APIs: data_and_apis.md
 
 plugins:
-  - techdocs-core
+    - techdocs-core
