@@ -50,6 +50,8 @@ When your private organization is linked to the GitHub Enterprise account certai
 
 ## Request GitHub Enterprise user licences
 
+![](images/github-e-process-map.png)
+
 Contact Software Central Management at SoftwareCentral.Management@gov.bc.ca and cc Dean Picton (Dean.Picton@gov.bc.ca). Use the subject line "GitHub Enterprise Request" and send the following information:  
 
 * Private GitHub organization name and whether you need a new organization created or are linking an existing private organization  
