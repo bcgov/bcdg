@@ -4,7 +4,7 @@ As part of the journey towards modern digital service delivery, the BC Governmen
 
 However, there are still processes and compliance required to do your due diligence.
 
-* Evaluate [Open Source](../evaluate-open-source-content) options
+* Evaluate Open Source](.docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) options
 * For non-Open Source options, follow proper [Procurement policies](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement)
 * Make sure to complete the obligatory [Privacy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy/privacy-impact-assessments) and [Security](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/security-threat-and-risk-assessment) Assessments.
 * Consult with your Ministry's ISB / IMB group to learn of any additional guidance or policies you may be required to follow. 
@@ -16,7 +16,7 @@ There are three pathways for hosting your service. In line with the guidance abo
 |  Name | Description | Cost Model  | 
 |---|---|---|
 |  [*Managed Hosting Services*](https://www2.gov.bc.ca/gov/content/bc-procurement-resources/buy-for-government/goods-and-services-catalogue/managed-hosting-services/data-centre-services?keyword=data&keyword=centre) |  On-premise within one of the BC Government's data centers |  Supply arrangement |
-|  [*Private Cloud*](../docs/default/component/platform-developer-docs) |  Kubernetes Open Shift Containers hosted on premise | Covered by OCIO |
+|  [*Private Cloud*](./docs/default/component/platform-developer-docs) |  Kubernetes Open Shift Containers hosted on premise | Covered by OCIO |
 |  [*Public Cloud*](https://digital.gov.bc.ca/cloud/services/public/) | Select from several public cloud hosting options, including AWS, Azure and Google |  Journal Vouchers |
 
 
@@ -45,14 +45,6 @@ Open Source tools developed or modified to work within the BC Government Ecosyst
 
 The resources on this list are open for use, but may not have dedicate maintainers, and do not have funding. However, with more use and cross-team contributions these may mature to becoming official Common Components in future. 
 
-<details>
-<summary>This content is open to contributions to improve it</summary>
-
-As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
-If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
-
-</details>
-
 * [BCDevOps Repo](https://github.com/BCDevOps/)
 * [Backup Container](https://github.com/BCDevOps/backup-container)
 * [BC Design System (legacy Boostrap)](https://github.com/bcgov/design-system)
@@ -64,14 +56,6 @@ If you know of another internal BC Government resource on this topic, please mak
 ## Commonly Adopted Tools
 
 This list is not meant to prescribe tooling that is required to use, but to help surface best practices and common patterns already found within the organization to smooth out your exploration, learning and adoption curves. 
-
-<details>
-<summary>This content is open to contributions to improve it</summary>
-
-As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
-If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
-
-</details>
 
 ### CI/CD Pipeline Automation
 
@@ -112,5 +96,12 @@ Manage and publish your code artifacts to share them between code collaborators 
 Protect the data of the citizen of BC with the appropriate tooling to abstract away secrets and access credentials. 
 
 * [Vault](../docs/default/component/platform-developer-docs/docs/security-and-privacy-compliance/vault-getting-started-guide/)
-# [ZAP](https://www.zaproxy.org)
+* [ZAP](https://www.zaproxy.org)
 
+<details>
+<summary>This content is open to contributions to improve it</summary>
+
+As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
+If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
+
+</details>
