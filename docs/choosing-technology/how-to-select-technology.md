@@ -22,36 +22,14 @@ There are three pathways for hosting your service. In line with the guidance abo
 
 ## Reusable BC Government Services
 
-The BC Government's Open Source ecosystem has produced a number of shared tools that are available to re-use. 
+The BC Government's Open Source ecosystem has produced a number of shared tools that are meant to be re-used across government projects to:
 
-### Common Components
+1. improve consistency for citizens 
+2. decrease the cost to developing new services
+3. increase the speed at which new services are delivered
 
-Common Components are Open Source tools developed by the BC Government that are owned and maintained by product teams. 
-
-As part of the [Digital Investment Office priorities](https://digital.gov.bc.ca/topics/funding/intro/), teams are required to use these for projects receiving IM/IT capital funding from the OCIO. 
-
-* [BC Address Geocoder](https://digital.gov.bc.ca/bcgov-common-components/bc-address-geocoder/)
-* [Common Document Generation Service](https://digital.gov.bc.ca/bcgov-common-components/common-document-generation-service/)
-* [Common Hosted Forms Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-form-service/)
-* [Common Hosted Email Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-email-service/)
-* [Common Object Management Service](https://digital.gov.bc.ca/bcgov-common-components/common-object-management-service/)
-* [Get Token](https://github.com/bcgov/nr-get-token)
-* [Pathfinder Single Sign-On Keycloak](https://digital.gov.bc.ca/bcgov-common-components/pathfinder-sso/)
-
-
-### Community-Contributed Tools
-
-Open Source tools developed or modified to work within the BC Government Ecosystem. 
-
-The resources on this list are open for use, but may not have dedicate maintainers, and do not have funding. However, with more use and cross-team contributions these may mature to becoming official Common Components in future. 
-
-* [BCDevOps Repo](https://github.com/BCDevOps/)
-* [Backup Container](https://github.com/BCDevOps/backup-container)
-* [BC Design System (legacy Boostrap)](https://github.com/bcgov/design-system)
-* [FIDIR]()
-* [Matomo OpenShift](https://github.com/BCDevOps/matomo-openshift/blob/master/README.md)
-* [SonarQube](https://github.com/BCDevOps/sonarqube)
-
+* [Common Components](../choosing-technology/common-componets/) 
+* [Community-Contributed Tools](../choosing-technology/community-contributed-tools/)
 
 ## Commonly Adopted Tools
 
@@ -64,6 +42,14 @@ Use automation triggers in your delivery process to improve your quality of life
 * [ArgoCD](../ci-cd/#argo-cd)
 * [GitHub Actions](../ci-cd/#github-actions)
 * [Tekton](../ci-cd/#tekton)
+
+### Container Tooling
+
+Improve your Docker workflow with orchestration tooling. 
+
+* [Docker Desktop](../container-tooling#docker-desktop)
+* [Podman](../container-tooling#podman)
+* [Rancher](../container-tooling#rancher)
 
 ### Content Management Systems
 
