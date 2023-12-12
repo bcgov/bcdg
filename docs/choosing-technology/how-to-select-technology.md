@@ -4,7 +4,7 @@ As part of the journey towards modern digital service delivery, the BC Governmen
 
 However, there are still processes and compliance required to do your due diligence.
 
-* Evaluate Open Source](.docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) options
+* Evaluate Open Source](./docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) options
 * For non-Open Source options, follow proper [Procurement policies](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement)
 * Make sure to complete the obligatory [Privacy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy/privacy-impact-assessments) and [Security](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/security-threat-and-risk-assessment) Assessments.
 * Consult with your Ministry's ISB / IMB group to learn of any additional guidance or policies you may be required to follow. 
