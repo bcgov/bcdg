@@ -15,7 +15,8 @@ logs
 .git
 
 # MkDocs build output
-site
+/site
 
 # Node libraries
 node_modules
+/test.sh
