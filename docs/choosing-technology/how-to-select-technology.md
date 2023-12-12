@@ -14,7 +14,7 @@ However, there are still processes and compliance required to do your due dilige
 There are three pathways for hosting your service. In line with the guidance above, it is up to your team or business unit to identify which path is appropriate for your use case. 
 
 |  Name | Description | Cost Model  | 
-|---|---|---|---|
+|---|---|---|
 |  [*Managed Hosting Services*](https://www2.gov.bc.ca/gov/content/bc-procurement-resources/buy-for-government/goods-and-services-catalogue/managed-hosting-services/data-centre-services?keyword=data&keyword=centre) |  On-premise within one of the BC Government's data centers |  Supply arrangement |
 |  [*Private Cloud*](../docs/default/component/platform-developer-docs) |  Kubernetes Open Shift Containers hosted on premise | Covered by OCIO |
 |  [*Public Cloud*](https://digital.gov.bc.ca/cloud/services/public/) | Select from several public cloud hosting options, including AWS, Azure and Google |  Journal Vouchers |

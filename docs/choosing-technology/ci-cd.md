@@ -1,18 +1,10 @@
 # Commonly Used CI/CD Tools
 
 |  Tool |  Purpose | Support  | 
-|---|---|---|---|---|
+|---|---|---|
 |  *Argo CD* |  GitOps continuous delivery tool for Kubernetes |  Availabe within OpenShift |
 |  *GitHub Actions*  |  GitOps continuous integration and delivery tool for Github |  Available for all GitHub repositories |
 |  *Tekton*  | GitOps continuous integration and delivery tool |  Available within OpenShift |
-
-<details>
-<summary>This content is open to contributions to improve it</summary>
-
-As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
-If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
-
-</details>
 
 ## Argo CD
 
@@ -65,3 +57,11 @@ Tekton is the RedHat flavour of GitOps, available within your OpenShift Private 
 ### Resources
 
 [Integrating Tekton with OpenShift](../docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/deploy-an-application/#1-integrating-the-deployment-process-into-a-cicd-pipeline)
+
+<details>
+<summary>This content is open to contributions to improve it</summary>
+
+As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
+If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
+
+</details>

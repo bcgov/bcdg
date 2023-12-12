@@ -1,10 +1,9 @@
 # Commonly Used Package Hosting Tools
 
 |  Tool |  Purpose | Support  | 
-|---|---|---|---|---|
+|---|---|---|
 |  *Artifactory* |  Package hosting and management |  Available within OpenShift |
 |  *GitHub Packages*  |  Package hosting and management |  Available for `bcgov-c` and `bcgov-ent` repositories ???? |
-
 
 ## Artifactory
 
@@ -17,14 +16,6 @@ Artifactory is a package management tool that comes with all applications hosted
 * Automatic inclsuion of the Xray add-on service for security scanning for all objects in Artifactory.
 
 ### Resources
-
-<details>
-<summary>This content is open to contributions to improve it</summary>
-
-As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
-If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
-
-</details>
 
 * [Image and artifact management in OpenShift](../docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/image-artifact-management-with-artifactory/)
 
@@ -41,3 +32,10 @@ Artifactory is a package management tool that is available within GitHub.
 
 GitHub Packages is an alternative to Artifactory, without any limitations or connection to your code being in OpenShift. However, it may come with additional cost to your team to achieve the required storage. Contact the Developer Experience team to learn more. 
 
+<details>
+<summary>This content is open to contributions to improve it</summary>
+
+As the Developer Experience Team, we know that our community knows of way more resources on this topic than we do!
+If you know of another internal BC Government resource on this topic, please make a pull request to add it to the list and share with everyone.
+
+</details>
