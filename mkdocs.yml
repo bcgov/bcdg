@@ -8,7 +8,7 @@ nav:
     -   Introduction: index.md
     -   Digital Government: digital-government.md
     -   Security and Privacy: security-and-privacy.md
-    -   Common components and tool choices:
+    -   Common technology choices:
             -   Selecting Technology: choosing-technology/how-to-select-technology.md
             -   CI/CD: choosing-technology/ci-cd.md
             -   Container Tooling: choosing-technology/container-tooling.md
