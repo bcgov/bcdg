@@ -1,5 +1,5 @@
 ---
-title: GitHub Enterprise user licences in the BC government
+title: B.C. government GitHub Enterprise 
 
 slug: github-enterprise-user-licenses-bc-government
 
@@ -18,11 +18,11 @@ content_owner: Olena Mitovska
 sort_order: 4
 ---
 
-# GitHub Enterprise user licences in the BC government
+# B.C. government GitHub Enterprise 
 
 >Note: This page is under review as of December 2023 and will be updated for clarity and accuracy early in 2024. 
 
-All code built for B.C. government for staff or contracted developers should be open source by default. If you have closed source code and still want to use GitHub, you can store your code in a private repository within the B.C. government's [GitHub Enterprise environment](https://github.com/enterprises/bcgov-ent/). This page contains details related to that environment and its use.
+All code built for B.C. government for staff or contracted developers should be open source by default and stored in the public [`bcgov` organization on GitHub.com](https://github.com/bcgoc). If you have closed source code and still want to use GitHub's functionality, you can store your code in a private repository within the B.C. government's [GitHub Enterprise environment](https://github.com/enterprises/bcgov-ent/). This page contains details related to that environment and its use.
 
 For more information about B.C. government GitHub organizations outside of GitHub Enterprise, see [B.C. government organizations in GitHub](../bc-government-organizations-in-github/).
 
