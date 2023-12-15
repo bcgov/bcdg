@@ -20,6 +20,8 @@ sort_order: 4
 
 # GitHub Enterprise user licences in the BC government
 
+>Note: This page is under review as of December 2023 and will be updated for clarity and accuracy early in 2024. 
+
 All code by B.C. government teams should be open source by default. If you have closed-source code and still want to use GitHub, you can work temporarily in a private repository under the GitHub Enterprise licence.
 
 For more information on our GitHub organizations and their uses, see [B.C. government organizations in GitHub](../bc-government-organizations-in-github/).
@@ -32,54 +34,52 @@ For more information on our GitHub organizations and their uses, see [B.C. gover
 - [Access the GitHub Enterprise account](#access-the-github-enterprise-account)
 - [Pay for the GitHub Enterprise user licences](#pay-for-the-github-enterprise-user-licences)
 
-## Benefits of a GitHub Enterprise user licence
+## B.C. government GitHub Enterprise Overview
 
-The enterprise user licence offers various features over the Free and Teams version. To find out more on the differences in features and pricing, see [Pricing](https://github.com/pricing).
+GitHub Enterprise offers various features beyond those of the Free and Teams tiers. To find out more about the features of GitHub Enterprise, you may wish to review [GitHub's product page](https://github.com/enterprise).
 
-## Enterprise account ownership
+There are certain notable differences between the [public facing `bcgov` GitHub organization](https://github.com/bcgov) and B.C. government's GitHub Enterprise environment. For example, the ability to create public repositories is disabled within GitHb Enterprise since with B.C. government public open source code should be in the [public `bcgov` organization](https://github.com/bcgov). 
 
-The GitHub Enterprise account is owned by OCIO and managed by the Platform Services team. Ministries own GitHub organizations linked to the B.C. government’s GitHub Enterprise accounts and the private repositories within their organizations.  
+Other details of GitHub Enterprise include the following:
 
-User licenses for accessing the private repositories come from a central pool under the GitHub Enterprise account and must be purchased for each user that needs access to the private repositories in the ministry’s private organizations.  Management of this pool of seats is done in partnership with each sector or ministry purchasing their own allocated seat count.
+* Single sign-on is provided via Azure AD (aka Entra ID)
+* Login uses government-issued IDIR identities
+* Users will be automatically assigned new GitHub IDs, distinct from public GitHub IDs 
+* GitHub Actions is enabled
+* Code Dependency Insights is enabled
 
-When your private organization is linked to the GitHub Enterprise account certain settings are automatically enabled or disabled. For example, the ability to create public repositories within this private organization is removed to fall in line with all Provincial open-source code remaining in `bcgov`. Other features include the following:
+## GitHub Enterprise account ownership
 
-* Two-factor authentication is mandatory
-* GitHub Actions is enabled for all
-* Code Dependency Insights is enabled for all organizations linked to the GitHub Enterprise account
+The B.C. government's GitHub Enterprise account is managed centrally by the Digital Office's [Developer Experience Team](mailto:developer.experience@gov.bc.ca). Ministries or sectors are provided with GitHub "organizations" within the central GitHub Enterprise account. Teams' private repositories are created within these organizations.  Management of ministry or sector organizations within GitHub Enterprise is delegated to staff within the corresponding IMB/ISB. 
 
-## Request GitHub Enterprise user licences
+Paid licenses are required to use GitHub Enterprise. Licenses must be purchased for each user that will use or administer to the B.C. government GitHub Enterprise organizations or repositories. Each ministry or sector is responsible for acquiring and paying for its own licenses. The process for acquiring licences is described below.
 
-![](images/github-e-process-map.png)
+If you don't know whether your ministry or sector is using GitHub Enterprise or who to contact within your IMB/ISB, please [contact the Developer Experience Team](developer.experience@gov.bc.ca) for assistance.
 
-Contact Software Central Management at SoftwareCentral.Management@gov.bc.ca and cc Dean Picton (Dean.Picton@gov.bc.ca). Use the subject line "GitHub Enterprise Request" and send the following information:  
+## Acquiring GitHub Enterprise user licences
 
-* Private GitHub organization name and whether you need a new organization created or are linking an existing private organization  
+> Note: the process outlined below may be slightly different for some sectors or ministries, but it will be generally similar for all. For example, in some areas, the responsibility for interacting with CSAM may be done by the ministry or sector IMB/ISB staff rather than end users in a business area.
 
-* GitHub IDs of the organization administrators
+Licenses for GitHub Enterprise must be purchased through OCIO Software Central Management. If you have determined that you or others in your area require licenses, the first step is to request a quote via email to  [SoftwareCentral.Management@gov.bc.ca](mailto:SoftwareCentral.Management@gov.bc.ca). Use the subject line "Request for Quotation for GitHub Enterprise"  and indicate in the body the number of users who need GitHub Enterprise licenses. For example, "Could I please get a quote for 10 GitHub Enterprises licenses (Standalone)?".
 
-* Number of user licenses needed. If you're transferring a GitHub organization to Enterprise, request as many user licenses as you have organization members.
+Once you have received a response from CSAM with a quote number and the cost, you or someone in your business area will need to  use this to create an iStore order referencing the quote number to initiate the purchase. The usual e-approval steps will take place, and CSAM will notify you by email once they have made the purchase on your behalf. 
 
-## Access the GitHub Enterprise account
+Once CSAM has purchased licenses on your behalf, billing back to your expense authority will commence. Billing occurs monthly until you notify CSAM to cancel the user licenses.
 
-Each ministry has GitHub administrators that manage user licences purchased by the ministry and assign individual users to the licences. All license management and licence-to-user assignment must go through ministry account administrators.   
+## Getting access to GitHub Enterprise
 
-1. Your ministry’s GitHub administrator creates a private organization for your ministry, if it doesn’t exist already, and links it to the GitHub Enterprise account.
+Once licenses have been acquired, you'll need to request access through your ministry or sector IMB to the corresponding organization within B.C. government's GitHub Enterprise environment. 
 
-2. Submit a request to Software Central Management to purchase the desired number of user licences.
+Once you've been granted access, you'll be able to log in to the B.C. government GitHub Enterprise at [https://github.com/enterprises/bcgov-ent/](https://github.com/enterprises/bcgov-ent/) using your IDIR and credentials begin working in private repositories within your ministry or sector's organization. 
 
-3. Once the order is processed and the user licenses have been added to the Province’s GitHub Enterprise account, your ministry’s GitHub administrator adds your users to the GitHub Enterprise account and to the ministry’s private organization.
+## Background: BC government GitHub Enterprise process map
 
-These users have access to all features available in GitHub Enterprise within their private organization.
+Our team has created the artifact below which captures the steps and teams involved in acquiring and mananaging GitHub Enterprise licenses. This version is intended for reference only, but we intend to create simplified, more focused versions for both end users and administrators.  
 
-## Pay for the GitHub Enterprise user licences
-
-Software Central Management handles your purchase order, with billing back to your expense authority. The ministry is billed monthly for the GitHub Enterprise user licenses until Software Central gets a request asking to cancel the user licenses.
-
+![A detailed diagram illustrating the process of acquiring and administering GitHub Enterprise licenses within the B.C. government. ](../images/github-e-process-map.png)
 ---
 Related links:
 
 * [BC Government Organizations in GitHub](../bc-government-organizations-in-github/)
-* [Pricing](https://github.com/pricing)
 
 ---
