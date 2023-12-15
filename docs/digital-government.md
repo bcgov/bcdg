@@ -2,20 +2,11 @@
 
 ## Digital Government 101
 
-As the modernization of delivering digital services to citizens has matured, so have the policies and governance around how we apply that within the organization. 
+As the practices of developing and delivering digital services within the B.C. government have evolved, so has corporate guidance. Three important examples are highlighted below.  
 
-1. [The Digital Plan](https://digital.gov.bc.ca/policies-standards/digital-plan/) desribes the four missions and calls to action for Ministries in supporting the digital services they provide to citizens.
-
+1. [The Digital Plan](https://digital.gov.bc.ca/policies-standards/digital-plan/) describes the four missions and calls to action for Ministries in supporting the digital services they provide to citizens.
 2. [The Digital Code of Practice](https://digital.gov.bc.ca/policies-standards/dcop/) expands on what good implementation of digital products and services looks like.
-
-
-## Agile Ways of Working
-
-It up to teams and leadership within different areas to choose what flavour of Agile works best, there is no one methodology or framework within the BC Government. 
-
-### Supports for Agile Learning
-
-* [Agile Community of Practice](https://digital.gov.bc.ca/communities/agile/)
+3. [Digital Government website](https://digital.gov.bc.ca) hosts the materials above as well as content about many other topics for digital practitioners and leaders within the B.C. government.
 
 <details>
 <summary>This content is open to contributions to improve it</summary>
