@@ -4,6 +4,18 @@ This document is a living guide to application development for the B.C governmen
 
 ## Current Topics
 
+### [Digital Government 101](./digital-government/)
+
+Learn the philosophy of how modern technology is approached in the Province.
+
+### [Security and Privacy](./security-and-privacy/)
+
+Learn about the policies and best practices you need to know as a team and individual contributor responsible for Security and Privacy.
+
+### [How To Select Technology](./choosing-technology/how-to-select-technology/)
+
+There are very few tools that are mandated or recommend by the Office of the Chief Information Office (OCIO). This guide shares some of the commonly adopted tooling to speed up your tool chain and stack choices for a new project.
+
 ### [GitHub in the B.C. government](./use-github-in-bcgov/bc-government-organizations-in-github/)
 
 GitHub is the preferred tool for B.C. government development team to store and share code. Learn about available options related to GitHub and how to license and manage code repositories.
@@ -24,8 +36,7 @@ In the spirit of #Agile and #WorkingInTheOpen, we're taking an iterative approac
 
 Potential topics for this guide include:
 
-- Digital Government 101
-- Ways of working in the B.C. government
+- Ways of Working in the BC Government
 - Supports for developers
 - Developer communities
 - Application lifecycle
@@ -34,14 +45,11 @@ Potential topics for this guide include:
 - Operating applications
 - Licensing and intellectual property
 - Code management
-- Common code, components, and services
-- Languages and frameworks
 - Design
 - Accessibility
 - Multilingual support
 - Architecture
 - Networking
-- Security
 - Compliance
 - Data and APIs
 
