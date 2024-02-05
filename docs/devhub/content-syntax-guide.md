@@ -210,8 +210,6 @@ Tabs are supported. Refer to the [offical documentation](https://facelessuser.gi
       C-->D;
 ```
 
-Note: mermaid diagrams do not show when the [devhub-techdocs-publish](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) tool is used to preview the documentation locally.
-
 ## Images
 
 Places your images in an `images` or `assets` folder. Link to them using markdown sytax. The text in the `[]` is the image's alt text.
