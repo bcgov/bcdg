@@ -6,15 +6,15 @@ There are a plethora of things to consider when developing apps for Government. 
 
 1. Bookmark this site! It aims to be the central hub for all things development.
 
-2. Get [access to the BCGov GitHub organization](./use-github-in-bcgov/bc-government-organizations-in-github/). This is the default place for code to be stored in the BC Gov. Learn more here. 
+2. Get [access to the BCGov GitHub organization](../use-github-in-bcgov/bc-government-organizations-in-github/). This is the default place for code to be stored in the BC Gov. Learn more here. 
 
-3. [Get access to Rocket.Chat](./rocketchat/steps-to-join-rocketchat/). This is the place that the developer community gathers to ask questions and support each other when they have issues, and is often the best place to get support for internal services like our Cloud services and Common Components. 
+3. [Get access to Rocket.Chat](../rocketchat/steps-to-join-rocketchat/). This is the place that the developer community gathers to ask questions and support each other when they have issues, and is often the best place to get support for internal services like our Cloud services and Common Components. 
 
 4. [Explore the internal services](https://digital.gov.bc.ca/common-components/) and [Saas Tools](https://digital.gov.bc.ca/cloud/services/saas/) you can re-use to supports your work.
 
 5. [Learn about what's happening in the BC Gov Digital Ecosystem](https://digital.gov.bc.ca/blog/).
 
-Beyond this, most things are up to your team to decide, and not standardized. Browse the [documentation](./docs/) on this site to understand some of the existing resources available to you. Your team may have more guidance specific to your Ministry and team processes. 
+Beyond this, most things are up to your team to decide, and not standardized. Browse the [documentation](../docs/) on this site to understand some of the existing resources available to you. Your team may have more guidance specific to your Ministry and team processes. 
 
 ## Where things are hosted
 
@@ -27,8 +27,8 @@ Beyond this, most things are up to your team to decide, and not standardized. Br
 ### Working in the Public Cloud
 
 * [Public Cloud Intro](https://digital.gov.bc.ca/cloud/services/public/intro/)
-* [Account access](./docs/default/component/public-cloud-techdocs/provision-a-project-set/#account-access)
-* [Training](.docs/default/component/platform-developer-docs/#training-and-learning)
+* [Account access](../docs/default/component/public-cloud-techdocs/provision-a-project-set/#account-access)
+* [Training](..docs/default/component/platform-developer-docs/#training-and-learning)
 
 ### On Premise Hosting
 

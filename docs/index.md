@@ -6,6 +6,8 @@ This document is a living guide to application development for the B.C governmen
 
 ### [Welcome to the B.C. government](./welcome-to-bc-gov/)
 
+Helpful links and context for folks new to development within the government of B.C.
+
 ### [GitHub in the B.C. government](./use-github-in-bcgov/bc-government-organizations-in-github/)
 
 GitHub is the preferred tool for B.C. government development team to store and share code. Learn about available options related to GitHub and how to license and manage code repositories.
