@@ -14,7 +14,7 @@ There are a plethora of things to consider when developing apps for Government. 
 
 5. [Learn about what's happening in the BC Gov Digital Ecosystem](https://digital.gov.bc.ca/blog/).
 
-Beyond this, most things are up to your team to decide, and not standardized. Browse the [documentation](../docs/) on this site to understand some of the existing resources available to you. Your team may have more guidance specific to your Ministry and team processes. 
+Beyond this, most things are up to your team to decide, and not standardized. Browse the [documentation](./docs/) on this site to understand some of the existing resources available to you. Your team may have more guidance specific to your Ministry and team processes. 
 
 ## Where things are hosted
 
@@ -22,13 +22,13 @@ Beyond this, most things are up to your team to decide, and not standardized. Br
 
 * [Open Shift Intro](https://digital.gov.bc.ca/cloud/services/private/intro/)
 * [Account access](./docs/default/component/platform-developer-docs/docs/openshift-projects-and-access/grant-user-access-openshift/)
-* [Training](.docs/default/component/platform-developer-docs/docs/training-and-learning/training-from-the-platform-services-team/)
+* [Training](..docs/default/component/platform-developer-docs/docs/training-and-learning/training-from-the-platform-services-team/)
 
 ### Working in the Public Cloud
 
 * [Public Cloud Intro](https://digital.gov.bc.ca/cloud/services/public/intro/)
-* [Account access](../docs/default/component/public-cloud-techdocs/provision-a-project-set/#account-access)
-* [Training](..docs/default/component/platform-developer-docs/#training-and-learning)
+* [Account access](./docs/default/component/public-cloud-techdocs/provision-a-project-set/#account-access)
+* [Training](.docs/default/component/platform-developer-docs/#training-and-learning)
 
 ### On Premise Hosting
 
