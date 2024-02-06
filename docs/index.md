@@ -4,6 +4,8 @@ This document is a living guide to application development for the B.C governmen
 
 ## Current Topics
 
+### [Welcome to the B.C. government](./welcome-to-bc-gov/)
+
 ### [GitHub in the B.C. government](./use-github-in-bcgov/bc-government-organizations-in-github/)
 
 GitHub is the preferred tool for B.C. government development team to store and share code. Learn about available options related to GitHub and how to license and manage code repositories.
@@ -17,6 +19,10 @@ Learn how to join and use Rocket.Chat and connect with other developers across t
 ### [Design System](./design-system/about-the-design-system/)
 
 Learn what the BC Government Design System for Digital Services can do for your project.
+
+## Working with Data
+
+Understand what B.C. Data Services support are available to support the success of technical projects. 
 
 ## Future Topics
 
