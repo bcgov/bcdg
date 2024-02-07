@@ -4,6 +4,9 @@ repo_url: https://github.com/bcgov/bcdg
 edit_uri: edit/main/docs/
 plugins:
   - techdocs-core
+markdown_extensions:
+  - markdown_inline_mermaid
+  - md_in_html
 
 nav:
   - Introduction: index.md

@@ -124,15 +124,13 @@ Use a single backtick for `inline code blocks`.
 
 ## Admonitions
 
-Admonitions, also known as call-outs, are supported. Refer to the [official documentation](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonitions) for the full list of features and syntax. Note: You do not need to add the list of extensions to your mkdocs.yml file as described in the documentation. The extensions are included by default.
-
 Include two tabs of whitespace at the start of the text block for it to be included in the admonition block.
 
 ```markdown
 !!! note
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus elit vehicula, auctor turpis eget, tempus ligula. Vestibulum at lectus pellentesque magna interdum elementum. Sed luctus erat eget mi accumsan, nec interdum nulla dictum. In commodo ligula a porttitor elementum.
 
-     Sed id dictum massa. Sed dolor libero, imperdiet hendrerit sollicitudin eu, euismod a arcu. Phasellus malesuada sagittis leo at fringilla. 
+    Sed id dictum massa. Sed dolor libero, imperdiet hendrerit sollicitudin eu, euismod a arcu. Phasellus malesuada sagittis leo at fringilla. 
 ```
 
 !!! note
@@ -153,7 +151,6 @@ Text blocks with no or 1 tab of whitspace will not be included in the admonition
 
 ## Tabs
 
-Tabs are supported. Refer to the [offical documentation](https://facelessuser.github.io/pymdown-extensions/extensions/tabbed/) for full details.
 
 ```markdown
 === "Tab 1"
@@ -193,15 +190,6 @@ Tabs are supported. Refer to the [offical documentation](https://facelessuser.gi
 
 ## Mermaid diagrams    
 
-````markdown
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-````
 ```mermaid
   graph TD;
       A-->B;
