@@ -38,7 +38,7 @@ Beyond this, most things are up to your team to decide, and not standardized. Br
 
 You don't need to memorize these, but having them as context is helpful for navigating the compliance and governance environment you're working within.
 
-* [Privacy And Personal Information In The BC Public Sector](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy)
+* [Privacy and personal information in the B.C. public sector](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy)
 * [FOIPPA Quick Reference](https://raw.githubusercontent.com/bcgov/devhub-resources/master/resources/privacy/foippa_quick_reference.pdf)
 * [BC Government OpenShift DevOps Security Considerations](https://docs.developer.gov.bc.ca/devops-security-considerations/)
 * [BC Gov Policy for GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/README.md)
