@@ -188,16 +188,6 @@ Text blocks with no or 1 tab of whitspace will not be included in the admonition
     git commit -m "Initial commit"
     ```
 
-## Mermaid diagrams    
-
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
 ## Images
 
 Places your images in an `images` or `assets` folder. Link to them using markdown sytax. The text in the `[]` is the image's alt text.
