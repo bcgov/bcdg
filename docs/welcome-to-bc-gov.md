@@ -34,7 +34,7 @@ Beyond this, most things are up to your team to decide, and not standardized. Br
 
 * [Hosting Services Intro](https://www2.gov.bc.ca/gov/content/bc-procurement-resources/buy-for-government/goods-and-services-catalogue/hosting-services)
 
-## Security & Compliance Guidance and Policies
+## Security and compliance guidance and policies
 
 You aren't expected to memorize these, but they are helpful to have as context for the compliance and governance environment you're working within.
 
