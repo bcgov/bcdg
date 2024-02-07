@@ -190,7 +190,13 @@ Text blocks with no or 1 tab of whitspace will not be included in the admonition
 
 ## Mermaid diagrams    
 
-
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 ## Images
 
