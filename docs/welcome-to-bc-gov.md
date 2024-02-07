@@ -6,7 +6,7 @@ There are a plethora of things to consider when developing apps for Government. 
 
 Bookmark this site! It serves as the central hub for all development-related matters
 
-2. Get [access to the BCGov GitHub organization](../use-github-in-bcgov/bc-government-organizations-in-github). This is the default place for code to be stored in the BC Gov. Learn more here. 
+2. Get [access to the BCGov GitHub organization](../use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). This is the default place for code to be stored in the BC Gov. Learn more about [the different B.C. Government GitHub organizations](../use-github-in-bcgov/bc-government-organizations-in-github/#organizations-in-github). 
 
 3. [Get access to Rocket.Chat](../rocketchat/steps-to-join-rocketchat). This is where the developer community gathers to ask questions, support each other with issues and is often the best source of support for internal services such as our cloud services and common components
 
