@@ -1,4 +1,4 @@
-# Welcome to the BC Government
+# Welcome to the B.C. government
 
 There are a plethora of things to consider when developing apps for Government. This list will hopefully get you started on the right foot. 
 
