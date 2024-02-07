@@ -42,4 +42,4 @@ You don't need to memorize these, but having them as context is helpful for navi
 * [FOIPPA Quick Reference](https://raw.githubusercontent.com/bcgov/devhub-resources/master/resources/privacy/foippa_quick_reference.pdf)
 * [B.C. government OpenShift DevOps security considerations](https://docs.developer.gov.bc.ca/devops-security-considerations/)
 * [BC Gov Policy for GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/README.md)
-* [IMIT Standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards)
+* [IMIT standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards)
