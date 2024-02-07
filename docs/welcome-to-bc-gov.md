@@ -36,7 +36,7 @@ Beyond this, most things are up to your team to decide, and not standardized. Br
 
 ## Security and compliance guidance and policies
 
-You aren't expected to memorize these, but they are helpful to have as context for the compliance and governance environment you're working within.
+You don't need to memorize these, but having them as context is helpful for navigating the compliance and governance environment you're working within.
 
 * [Privacy And Personal Information In The BC Public Sector](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy)
 * [FOIPPA Quick Reference](https://raw.githubusercontent.com/bcgov/devhub-resources/master/resources/privacy/foippa_quick_reference.pdf)
