@@ -8,6 +8,16 @@ This page gives an example of frequently used syntax. Refer to the above documen
 
 Each section below will list the markdown and the resulting text.
 
+## Mermaid
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 ## Links
 
 ```markdown
