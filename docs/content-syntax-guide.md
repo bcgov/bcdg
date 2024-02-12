@@ -18,6 +18,95 @@ Each section below will list the markdown and the resulting text.
       C-->D;
 ```
 
+more complex diagram
+
+```mermaid
+graph LR;
+
+   classDef openshift_era fill:#1C6758,stroke:#333,stroke-width:4px;
+   classDef openshift_util fill:#607EAA,stroke:#333,stroke-width:4px;
+   classDef bcgov fill:#839AA8,stroke:#333,stroke-width:4px,color:#000;
+
+   Responders([Responders])
+   Suppliers([Suppliers])
+   Registrants([Registrants])
+   ESS(ESS Backend)
+   SSO(BCeID SSO)
+   OAuth(OIDC)
+   Dynamics[(Dynamics)]
+   CAS[CAS]
+   BCSC[BCSC]
+
+   class Responders,Registrants,Suppliers,ESS,OAuth openshift_era
+   class SSO openshift_util
+   class BCSC,CAS,Dynamics bcgov
+
+   Responders-->SSO;
+   Responders-->ESS;
+   Suppliers-->ESS;
+   Registrants-->OAuth-->BCSC
+   Registrants-->ESS;
+   ESS-->Dynamics;
+   ESS-->CAS;
+```
+
+another diagram
+
+```mermaid
+flowchart TB
+
+    classDef manager fill:#ffff00,stroke:#333,stroke-width:4px,color:#000
+    classDef engine fill:#ffc000,stroke:#333,stroke-width:4px,color:#000
+    classDef ra fill:#c0c0c0,stroke:#333,stroke-width:4px,color:#000
+    classDef resource fill:#00ffff,stroke:#333,stroke-width:4px,color:#000
+    classDef layer fill:#fff,color:#000
+
+    subgraph Resources[Resources]
+        direction TB
+        Dynamics[(Dynamics)]
+        CAS([CAS AP])
+    end    
+
+    subgraph RAs[Resource Access]
+        direction TB
+        EvacuationsResource([Evacuations Resource])
+        EvacueesResource([Evacuees Resource])
+        SuppliersResource([Suppliers Resource])
+        SupportsResource([Supports Resource])
+        TeamsResource([Teams Resource])
+        TasksResource([Tasks Resource])
+        PaymentsResource([Payments Resource])
+        ReportsResource([Reports Resource])
+        PrintResource([Print Resource])
+        MetadataResource([Metadata Resource])    
+    end
+            
+    subgraph Engines[Engines]
+        direction TB
+        SearchEngine([Search Engine])
+        SupportingEngine([Supporting Engine])
+    end
+    
+    subgraph Managers[Managers]
+        direction TB
+        EventsManager([Events Manager])
+        TeamsManager([Teams Manager])
+        AdminManager([Admin Manager])
+        ReportsManager([Reports Manager])
+    end
+
+    Engines-->RAs
+    Managers-->Engines & RAs
+    RAs-->Resources
+
+    class Dynamics,CAS resource
+    class EvacuationsResource,EvacueesResource,SuppliersResource,SupportsResource,TeamsResource,TasksResource,PaymentsResource,PaymentsResource,ReportsResource,PrintResource,MetadataResource ra
+    class SearchEngine,SupportingEngine engine
+    class EventsManager,TeamsManager,AdminManager,ReportsManager manager
+    class RAs,Engines,Managers,Resources layer
+   
+```
+
 ## Links
 
 ```markdown
