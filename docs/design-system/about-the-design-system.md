@@ -23,13 +23,6 @@ The B.C. Design System provides components and resources to help developers and 
 
 As of February 2024, the design system is currently in active development. It will replace the [legacy design system](#the-legacy-design-system), previously hosted on DevHub. The legacy design system is no longer supported, and will eventually be deprecated and archived.
 
-## On this page
-- [How the design system works](#how-the-design-system-works)
-- [Releases](#releases)
-- [Design system management](#design-system-management)
-- [Contribute to the design system](#contribute-to-the-design-system)
-- [The legacy design system](#the-legacy-design-system)
-
 ## How the design system works
 The B.C. Design System will comprise 4 core elements:
 
