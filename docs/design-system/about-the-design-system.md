@@ -21,7 +21,7 @@ sort_order: 1
 # About the design system
 The B.C. Design System provides components and resources to help developers and designers build accessible user interfaces faster and more consistently.
 
-As of February 2024, design system is currently in active development. It will replace the [legacy design system](#the-legacy-design-system), previously hosted on DevHub. The legacy design system is no longer supported, and will eventually be deprecated and archived.
+As of February 2024, the design system is currently in active development. It will replace the [legacy design system](#the-legacy-design-system), previously hosted on DevHub. The legacy design system is no longer supported, and will eventually be deprecated and archived.
 
 ## On this page
 - [How the design system works](#how-the-design-system-works)
