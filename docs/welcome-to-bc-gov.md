@@ -12,7 +12,7 @@ There are a plethora of things to consider when developing apps for Government. 
 
 4. [Explore the internal services](https://digital.gov.bc.ca/common-components/) and [Saas Tools](https://digital.gov.bc.ca/cloud/services/saas/) you can re-use to supports your work.
 
-5. [Learn about what's happening in the BC Gov Digital Ecosystem](https://digital.gov.bc.ca/blog/).
+5. Learn about what's happening in the [BC Gov Digital Ecosystem](https://digital.gov.bc.ca/blog/)
 
 Beyond this, most things are up to your team to decide, and not standardized. Browse the [documentation](/docs/) on this site to understand some of the existing resources available to you. Your team may have more guidance specific to your Ministry and team processes. 
 
