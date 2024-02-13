@@ -3,7 +3,7 @@ title: About the design system
 
 slug: about-the-design-system
 
-description: Describes the design system for B.C. Government projects.
+description: Describes the design system for B.C. government projects.
 
 keywords: design, UI, components, interface components, open source, tools, resources
 
@@ -13,7 +13,7 @@ audience: developer
 
 author: Marcus Kernohan
 
-content_owner: Tyler Krys
+content_owner: Marcus Kernohan
 
 sort_order: 1
 ---
@@ -21,7 +21,7 @@ sort_order: 1
 # About the design system
 The B.C. Design System provides components and resources to help developers and designers build accessible user interfaces faster and more consistently.
 
-The design system is currently in active development. It will replace the legacy design system, hosted on DevHub. The legacy design system is no longer supported, and will eventually be deprecated and archived.
+As of February 2024, design system is currently in active development. It will replace the legacy design system, hosted on DevHub. The legacy design system is no longer supported, and will eventually be deprecated and archived.
 
 ## On this page
 - [How the design system works](#how-the-design-system-works)
