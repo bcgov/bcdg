@@ -33,7 +33,7 @@ As of February 2024, design system is currently in active development. It will r
 ## How the design system works
 The B.C. Design System will comprise 4 core elements:
 
-* [Design tokens](https://www.npmjs.com/package/@bcgov/design-tokens?activeTab=versions) (currently in beta, version 2.0.1)
+* [Design tokens](https://www.npmjs.com/package/@bcgov/design-tokens?activeTab=versions) (currently in beta)
 * React component library (in development)
 * Design library in Figma (in development)
 * Documentation hub (in development)
