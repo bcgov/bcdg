@@ -21,7 +21,7 @@ sort_order: 1
 # About the design system
 The B.C. Design System provides components and resources to help developers and designers build accessible user interfaces faster and more consistently.
 
-As of February 2024, design system is currently in active development. It will replace the legacy design system, hosted on DevHub. The legacy design system is no longer supported, and will eventually be deprecated and archived.
+As of February 2024, design system is currently in active development. It will replace the [legacy design system](#the-legacy-design-system), previously hosted on DevHub. The legacy design system is no longer supported, and will eventually be deprecated and archived.
 
 ## On this page
 - [How the design system works](#how-the-design-system-works)
@@ -76,5 +76,5 @@ The B.C. Design System is maintained by Government Digital Experience (GDX), a d
 The design system is an open-source project. Its source code is licensed under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## The legacy design system
-The previous B.C. government design system is not actively supported. Legacy documentation and components are available on [DevHub](https://developer.gov.bc.ca/components) and [GitHub](https://github.com/bcgov/design-system) for reference. These resources will be officially deprecated and archived after the new BCDS component library is released.
+The previous B.C. government design system is not actively supported. Legacy documentation and components are available on [Classic DevHub](https://classic.developer.gov.bc.ca/About-the-Design-System) for reference. These resources will be officially deprecated and archived after the new BCDS component library is released.
 
