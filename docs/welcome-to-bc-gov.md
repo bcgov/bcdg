@@ -4,7 +4,7 @@ There are a plethora of things to consider when developing apps for Government. 
 
 ## Five quick things to get you started
 
-Bookmark this site! It serves as the central hub for all development-related matters
+1. Bookmark this site! It serves as the central hub for all development-related matters
 
 2. Get [access to the BCGov GitHub organization](../use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). This is the default place for code to be stored in the BC Gov. Learn more about [the different B.C. Government GitHub organizations](../use-github-in-bcgov/bc-government-organizations-in-github/#organizations-in-github). 
 
