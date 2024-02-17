@@ -28,7 +28,7 @@ As a documentation writer, you edit or create files that will eventually be publ
 
 ## What format is used for DevHub documentation?
 
-DevHub documentation uses the popular Markdown format. Markdown is a simple, text based format that makes writing for the web much easier than using other more complicated formats like HTML. Even though it's simple, Markdown allows writers to use multi-level headings., different text styles, and add tables, images and diagrams. There are many excellent reference on the Internet for writing in Markdown, including this ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/).  
+DevHub documentation uses the popular Markdown format. Markdown is a simple, text based format that makes writing for the web much easier than using other more complicated formats like HTML. Even though it's simple, Markdown allows writers to use multi-level headings., different text styles, and add tables, images and diagrams. There are many excellent reference on the Internet for writing in Markdown, including  the [pages from Markdown's creator](https://daringfireball.net/projects/markdown/), the Markdown ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/), and [this tutorial](https://commonmark.org/help/tutorial/).
 
 Within DevHub, navigation is driven by a special configuration file called `mkdocs.yml` that is stored in the same GitHub repository as the Markdown files. This file uses the `yml` (pronounced "YAM-EL") format that is slightly more complicated than Markdown, but only infrequently updated. We can provide examples and support for working with this file if you need it. 
 
@@ -67,20 +67,11 @@ We're working on a "self serve" way for teams to add their documentation to DevH
 1. Set up an overview meeting with [us](mailto:developer.experience@gov.bc.ca). From your team, we suggest including the Product Owner as well as anyone else involved in writing technical documentation for your product or service. It's also helpful to have a technical person from your team who understands the technical tools and processes you're already using. During this meeting, we'll provide an overview of DevHub, answer any questions you have, and talk about next steps (see below). Be prepared to discuss your existing technical documentation, related tools and processes, and what goals you have going forward.
 2.  Following the overview meeting, we will recommend a working session between ourselves and one or more  technical team members to adapt your existing documentation process to one that is compatible with DevHub. The goal of the working session is to get your team comfortable working in a DevHub-compatible workflow, as well as identifying any changes needed to your content in order for it to be publishable in DevHub.
 3. After the working session, your team may have some "homework" to adapt content or implement automated tools. The amount of work will depend on that is uncovered in the working session. You can complete these items on your own timeline.
-4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterwards.
+4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterward.
 
 ## What kinds of modifications are needed to existing technical documentation in Markdown in order to work in DevHub?
 
-The answer is, again...it depends. In general there is minimal to moderate effort required to adapt content for compatibility with DevHub. Below is a list of some of the adaptations we've encountered so far. You may encounter some or these or none of them, depending on your current documentation.
-
-- May need to adjust link syntax as there are some differences across Markdown variants 
-- May need to replace absolute links to pages within same document with relative links
-- May need to align case of filenames and references links as DevHub is case-insensitive, unlike some other tools
-- May need to adjust some formatting/spacing as DevHub is more particular about use of whitespace than some other tools 
-- May need to check that HTML within Markdown is handled as expected and DevHub behaves differently than some other tools
-
-We have automated tools to fix or help with most of the items above and can support you and your team as you adapt your documentation for DevHub. We expect most of these items will surface during the working session discussed above.
-
+The answer is, again...it depends. In general there is minimal effort required to adapt content for compatibility with DevHub. The [DevHub Content Syntax Guide](content-syntax-guide.md) provides information about the syntax requirements for DevHub content.
 
 
 
