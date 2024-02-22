@@ -1,6 +1,6 @@
 # Welcome to the B.C. government
 
-There are a plethora of things to consider when developing apps for Government. This list will hopefully get you started on the right foot. 
+There are a plethora of things to consider when developing apps for [core government](https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries). This list will hopefully get you started on the right foot. 
 
 ## Five quick things to get you started
 
