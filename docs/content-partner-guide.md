@@ -77,6 +77,12 @@ In general, the process looks like this:
 3. After your team and content repo are set up - either using our self-serve tool or during a working session you'll have a GitHub repository containing starting points for your team to use as it creates documentation and other elements for publishing your content into DevHub, including the automated publishing Action mentioned previously. At this point, your team may have some remaining "homework" to adapt your content for DevHub. The amount of work will depend on the state of your documentation. See [below](#what-kinds-of-modifications-are-needed-to-existing-technical-documentation-in-markdown-in-order-to-work-in-devhub). You can complete these items on your own timeline.
 4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterward.
 
+## What license should my content have?
+
+Markdown documentation that is stored in GitHub and will be published in DevHub should have a Creative Commons license. Specifically, the "CC BY" license, which is described in detail on the corresponding ![](https://creativecommons.org/licenses/by/4.0/)Creative Commons page.  A file called "LICENSE.md" containing the license legal text![](https://creativecommons.org/licenses/by/4.0/legalcode.txt) should be stored in the root of your documentation repository alongside your documentation.  
+
+> Our self serve tool will automatically include a license file when you use it create a repository for your documentation. If your documentation is being added to an existing repository, you should ensure that a license file is added.  If your repository has both documentation and code, and they are under different licenses, you should have two license files (e.g. LICENSE.md for code and LICENSE_DOCS.md for documentation). You should indicate in your README.md file that the code and documentation are under separate licenses and which license file applies to each.
+
 ## What kinds of modifications are needed to existing technical documentation in Markdown in order to work in DevHub?
 
 The answer is, again...it depends. In general there is minimal effort required to adapt existing Markdown documentation for publishing in DevHub. Below is a list of some of the adaptations we've encountered so far. You may encounter some of these or none of them, depending on your current documentation.
