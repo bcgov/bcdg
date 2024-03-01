@@ -5,7 +5,6 @@ docs_dir: "docs"
 edit_uri: edit/main/docs/
 plugins:
     - techdocs-core
-    - ezlinks
 markdown_extensions:
     - md_in_html
 
