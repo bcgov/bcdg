@@ -26,6 +26,7 @@ nav:
   - Design System:
     - About the Design System: design-system/about-the-design-system.md
   - DevHub Content Partner Guide: content-partner-guide.md
+  - Working with data: working-with-data.md
   # - Developer community: developer_community.md
   # - Application lifecycle: application_lifecycle.md
   # - Deploying applications: deploying_applications.md
