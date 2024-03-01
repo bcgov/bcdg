@@ -42,7 +42,7 @@ Related links:
 
 * [DevOps-Requests Repo](https://github.com/BCDevOps/devops-requests)
 * [Just Ask! tool](https://just-ask.developer.gov.bc.ca/)
-* [BC Government organizations in GitHub](../bc-government-organizations-in-github/)
-* [Common platform requests in the BC Gov Private Cloud PaaS](%WORDPRESS_BASE_URL%/private-cloud/support-and-community/devops-requests-in-the-bc-gov-private-cloud-paas/)
+* [BC Government organizations in GitHub](bc-government-organizations-in-github.md)
+* [Common platform requests in the BC Gov Private Cloud PaaS](https://cloud.gov.bc.ca/private-cloud/support-and-community/devops-requests-in-the-bc-gov-private-cloud-paas/)
 
 ---
