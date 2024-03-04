@@ -18,7 +18,7 @@ Learn how to join and use Rocket.Chat and connect with other developers across t
 
 Learn what the BC Government Design System for Digital Services can do for your project.
 
-## [Working with Data](./working-with-data/)
+### [Working with Data](./working-with-data/)
 
 Understand what B.C. Data Services support are available to support the success of technical projects. 
 
