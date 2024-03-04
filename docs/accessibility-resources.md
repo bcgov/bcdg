@@ -1,6 +1,8 @@
 # Accessibility Resources 
 
-Accessibility. The B.C. Government is working towards WCAG 2.2 AA compliance
+Accessibility is an ongoing journey, and should be just part of how we design and build software. The B.C. Government is working towards WCAG 2.2 AA compliance for all internal and external web content. 
+
+These resources may be useful to build or build upon your accessibility practice. Please be mindful of protecting PII while using any web tools. 
  
 ## Learn about accessibility
 A11y Project checklist
