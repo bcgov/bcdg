@@ -1,6 +1,6 @@
 # Working with Data
 
-The BC Data Service (formerly known as Data BC) encourages and enables the strategic management and sharing of data across the government enterprise and with the public. 
+The BC Data Service encourages and enables the strategic management and sharing of data across the government enterprise and with the public. 
 
 Access to trusted, high quality data is essential for the success of British Columbia - expressed in effective government decision making, a robust economy, and improved well-being for all of its citizens. 
 
@@ -26,7 +26,7 @@ If you are a developer or part of a government team, you can administer and mana
 
 ### BC Data Catalogue
 
-[The BC Data Catalogue](https://www2.gov.bc.ca/gov/content/data/bc-data-catalogue) provides the easiest access to government's data holdings, as well as applications and web services. Thousands of the datasets discoverable in the Catalogue are available under the Open Government License - British Columbia.
+[The BC Data Catalogue](https://www2.gov.bc.ca/gov/content/data/bc-data-catalogue) provides the easiest access to government's data holdings, as well as their associated applications and web services. Thousands of the datasets discoverable in the Catalogue are available under the [Open Government License - British Columbia](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc).
 
 ### Geospatial Data
 
