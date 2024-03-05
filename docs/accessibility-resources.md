@@ -12,13 +12,11 @@ Below are resources to support and enhance your accessibility initiatives, inclu
 - [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 - [WebAim's Quick Reference list](https://webaim.org/resources/quickref/)
 - [Microsoft Inclusive Design](https://inclusive.microsoft.design/)
-<hr/>
 
 ## BC government accessibility resources 
 - [B.C.'s Simplified WCAG tool](https://digital.gov.bc.ca/wcag/home/)
 - [B.C.'s Accessibility and Inclusion Toolkit](https://www2.gov.bc.ca/gov/content/home/accessible-government/toolkit)
 - [GDX Website Accessibility testing and auditing](https://www2.gov.bc.ca/gov/content/home/accessible-government/toolkit/testing-and-auditing)
-<hr/>
 
 ## Automated testing
 - **Axe DevTools** - extension [ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) | [Chrome](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) ]
@@ -31,14 +29,12 @@ Below are resources to support and enhance your accessibility initiatives, inclu
 <small>The developer has disclosed that it will not collect or use your data.</small>
 - **WAVE Evaluation Tool** - extension [ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/) | [Chrome](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) ]
 <small>The developer has disclosed that it will not collect or use your data.</small>
-<hr/>
  
 ## Colour contrast
 - **WebAIM's [Contrast Checker](https://webaim.org/resources/contrastchecker/)** and **[Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/?fcolor=0000FF&bcolor=FFFFFF)**
 - **[A11y Contrast](https://github.com/darekkay/a11y-contrast) (CLI utility)**
 - **WCAG Color contrast checker** - extension [ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/) | [Chrome](https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf) ]
 <small>The developer has disclosed that it will not collect or use your data.</small>
-<hr/>
 
 ## Navigation & Structure
 - **NerdeFocus** - extension [ [Chrome](https://chromewebstore.google.com/detail/nerdefocus/lpfiljldhgjecfepfljnbjnbjfhennpd) ]
@@ -47,7 +43,6 @@ Below are resources to support and enhance your accessibility initiatives, inclu
 <small>The developer has disclosed that it will not collect or use your data.</small>
 - **Taba11y** - extension [ [Chrome](https://chromewebstore.google.com/detail/taba11y/aocppmckdocdjkphmofnklcjhdidgmga) ]
 <small>The developer has disclosed that it will not collect or use your data.</small>
-<hr/>
 
 ## Disability Simulators
 - **NoCoffee** - understand how various types of vision loss affect how - people see your site - extension [ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/) ]
