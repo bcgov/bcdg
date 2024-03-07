@@ -9,16 +9,21 @@ However, there are still processes and compliance required to do your due dilige
 * Make sure to complete the obligatory [Privacy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy/privacy-impact-assessments) and [Security](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/security-threat-and-risk-assessment) Assessments.
 * Consult with your Ministry's ISB / IMB group to learn of any additional guidance or policies you may be required to follow. 
 
-## Hosting your Application
-
-There are three pathways for hosting your service. In line with the guidance above, it is up to your team or business unit to identify which path is appropriate for your use case. 
-
-|  Name | Description | Cost Model  | 
-|---|---|---|
-|  [*Managed Hosting Services*](https://www2.gov.bc.ca/gov/content/bc-procurement-resources/buy-for-government/goods-and-services-catalogue/managed-hosting-services/data-centre-services?keyword=data&keyword=centre) |  On-premise within one of the BC Government's data centers |  Supply arrangement |
-|  [*Private Cloud*](/docs/default/component/platform-developer-docs) |  Kubernetes Open Shift Containers hosted on premise | Covered by OCIO |
-|  [*Public Cloud*](https://digital.gov.bc.ca/cloud/services/public/) | Select from several public cloud hosting options, including AWS, Azure and Google |  Journal Vouchers |
-
+|                        | Choices for your project  | Compliance Responsibility | 
+|------------------------|---------------------------|---------------------------|
+| <td colspan=3> ## Open choice                                                  |
+| ### Front-end frameworks    | ReactJS, VueJS, Angular                     | Team   | 
+| ### Back-end frameworks     | Django, Express, NodeJS                     | Team   |
+| <td colspan=3> ## Recommended                                                      | 
+| ### Common Components       | [CHEFS](/docs/default/component/chefs-techdocs), [Keycloak SSO](/docs/default/component/css-docs), Digital Trust, [BC Address Geocoder](https://digital.gov.bc.ca/bcgov-common-components/bc-address-geocoder/), [Common Document Generation Service](https://digital.gov.bc.ca/bcgov-common-components/common-document-generation-service/), [Common Hosted Forms Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-form-service/), [Common Hosted Email Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-email-service/), [Common Object Management Service](https://digital.gov.bc.ca/bcgov-common-components/common-object-management-service/), [Get Token](https://github.com/bcgov/nr-get-token) | Shared | 
+| ## Community tools         | [Backup Container](https://github.com/BCDevOps/backup-container), [Matomo OpenShift](https://github.com/BCDevOps/matomo-openshift/blob/master/README.md), [SonarQube](https://github.com/BCDevOps/sonarqube)  | Shared | 
+| ### Database infrastructure | Mongo, Postgres, MySQL                        | Team   | 
+| ### CI/CD                   |  GitHub Actions, ArgoCD, Tekton               | Team   | 
+| ### Container tooling       |  Docker, Rancher, Podman                      | Team   |
+| ### Package hosting         |  Artifactory, GitHub Packages                 | Team   | 
+| <td colspan=3> ## Closed choice                                                      |
+| ### Collaboration           | GitHub, Jira, Miro                            | OCIO   | 
+| ### Hosting infrastructure  | [Private Cloud](/docs/default/component/platform-developer-docs), [Public Cloud](https://digital.gov.bc.ca/cloud/services/public/), [Managed Hosting](https://www2.gov.bc.ca/gov/content/bc-procurement-resources/buy-for-government/goods-and-services-catalogue/managed-hosting-services/data-centre-services?keyword=data&keyword=centre)  | Shared | 
 
 ## Reusable BC Government Services
 
