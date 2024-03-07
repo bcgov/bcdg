@@ -4,19 +4,11 @@ This document is a living guide to application development for the B.C governmen
 
 ## Current Topics
 
-### [Digital Government 101](./digital-government/)
-
-Learn the philosophy of how modern technology is approached in the Province.
-
-### [Security and Privacy](./security-and-privacy/)
-
-Learn about the policies and best practices you need to know as a team and individual contributor responsible for Security and Privacy.
-
-### [How To Select Technology](./choosing-technology/how-to-select-technology/)
+### [How To Select Technology](choosing-technology/how-to-select-technology.md)
 
 There are very few tools that are mandated or recommend by the Office of the Chief Information Office (OCIO). This guide shares some of the commonly adopted tooling to speed up your tool chain and stack choices for a new project.
 
-### [GitHub in the B.C. government](./use-github-in-bcgov/bc-government-organizations-in-github/)
+### [GitHub in the B.C. government](use-github-in-bcgov/bc-government-organizations-in-github.md)
 
 GitHub is the preferred tool for B.C. government development team to store and share code. Learn about available options related to GitHub and how to license and manage code repositories.
 
@@ -34,24 +26,23 @@ Learn what the BC Government Design System for Digital Services can do for your 
 
 In the spirit of #Agile and #WorkingInTheOpen, we're taking an iterative approach to publishing new guidance. 
 
-Potential topics for this guide include:
-
-- Ways of Working in the BC Government
-- Supports for developers
-- Developer communities
-- Application lifecycle
-- Deploying applications
-- Testing applications
-- Operating applications
-- Licensing and intellectual property
-- Code management
-- Design
-- Accessibility
-- Multilingual support
-- Architecture
-- Networking
-- Compliance
-- Data and APIs
+Future potential topics for this document include...
+  - Ways of Working in the BC Government
+  - Supports for developers
+  - Developer communities
+  - Application lifecycle
+  - Deploying applications
+  - Testing applications
+  - Operating applications
+  - Licensing and intellectual property
+  - Code management
+  - Design
+  - Accessibility
+  - Multilingual support
+  - Architecture
+  - Networking
+  - Compliance
+  - Data and APIs
 
 ## Contact us
 

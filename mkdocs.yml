@@ -7,11 +7,10 @@ edit_uri: edit/main/docs/
 nav:
     -   Introduction: index.md
     -   Digital Government: digital-government.md
-    -   Security and Privacy: security-and-privacy.md
     -   Common technology choices:
             -   Selecting Technology: choosing-technology/how-to-select-technology.md
-            -   Common Components: common-componets.md
-            -   Community Contributed Tools: community-contribute-tools.md
+            -   Common Components: choosing-technology/common-components.md
+            -   Community Contributed Tools: choosing-technology/community-contributed-tools.md
             -   CI/CD: choosing-technology/ci-cd.md
             -   Container Tooling: choosing-technology/container-tooling.md
             -   Package Hosting: choosing-technology/package-hosting.md

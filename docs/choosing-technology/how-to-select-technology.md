@@ -1,10 +1,10 @@
 # How to Select Technology for your Stack
 
-As part of the journey towards modern digital service delivery, the BC Government has opted for much more open choice of technology than it had historically. 
+As part of the journey towards [modern digital service delivery](https://digital.gov.bc.ca/policies-standards/digital-plan/), the BC Government has opted for much more open choice of technology than it had historically. 
 
 However, there are still processes and compliance required to do your due diligence.
 
-* [Evaluate Open Source](./docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) options
+* [Evaluate Open Source](/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) options
 * For non-Open Source options, follow proper [Procurement policies](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement)
 * Make sure to complete the obligatory [Privacy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy/privacy-impact-assessments) and [Security](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/security-threat-and-risk-assessment) Assessments.
 * Consult with your Ministry's ISB / IMB group to learn of any additional guidance or policies you may be required to follow. 
@@ -16,7 +16,7 @@ There are three pathways for hosting your service. In line with the guidance abo
 |  Name | Description | Cost Model  | 
 |---|---|---|
 |  [*Managed Hosting Services*](https://www2.gov.bc.ca/gov/content/bc-procurement-resources/buy-for-government/goods-and-services-catalogue/managed-hosting-services/data-centre-services?keyword=data&keyword=centre) |  On-premise within one of the BC Government's data centers |  Supply arrangement |
-|  [*Private Cloud*](./docs/default/component/platform-developer-docs) |  Kubernetes Open Shift Containers hosted on premise | Covered by OCIO |
+|  [*Private Cloud*](/docs/default/component/platform-developer-docs) |  Kubernetes Open Shift Containers hosted on premise | Covered by OCIO |
 |  [*Public Cloud*](https://digital.gov.bc.ca/cloud/services/public/) | Select from several public cloud hosting options, including AWS, Azure and Google |  Journal Vouchers |
 
 
@@ -28,8 +28,8 @@ The BC Government's Open Source ecosystem has produced a number of shared tools 
 2. decrease the cost to developing new services
 3. increase the speed at which new services are delivered
 
-* [Common Components](../choosing-technology/common-componets/) 
-* [Community-Contributed Tools](../choosing-technology/community-contributed-tools/)
+* [Common Components](choosing-technology/common-components.md) 
+* [Community-Contributed Tools](choosing-technology/community-contributed-tools.md)
 
 ## Commonly Adopted Tools
 
@@ -61,7 +61,7 @@ Working on an application where the main user needs to contribute content withou
 
 Store and retreive your data in a persistent, secure place.
 
-* [Patroni](../docs/default/component/platform-developer-docs/docs/database-and-api-management/postgres-how-to/)
+* [Patroni](/docs/default/component/platform-developer-docs/docs/database-and-api-management/postgres-how-to/)
 
 ### Front-end Frameworks
 
@@ -81,7 +81,7 @@ Manage and publish your code artifacts to share them between code collaborators 
 
 Protect the data of the citizen of BC with the appropriate tooling to abstract away secrets and access credentials. 
 
-* [Vault](../docs/default/component/platform-developer-docs/docs/security-and-privacy-compliance/vault-getting-started-guide/)
+* [Vault](/docs/default/component/platform-developer-docs/docs/security-and-privacy-compliance/vault-getting-started-guide/)
 * [ZAP](https://www.zaproxy.org)
 
 <details>

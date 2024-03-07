@@ -1,4 +1,4 @@
-# Authorization
+# Authentication and Authorization
 
 We have several solutions for different parts of identity management and authorization to help you to integrate with BC Government tools. 
 
