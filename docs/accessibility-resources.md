@@ -1,8 +1,8 @@
 # Accessibility Resources 
 
-Ensuring accessibility is an ongoing process integral to software design and development. The B.C. Government is committed to achieving WCAG 2.2 AA compliance for both internal and external web content.
+Designing for accessibility is an ongoing process integral to software design and development. The B.C. government aims to achieve WCAG 2.2 AA compliance for both internal and external websites and web content.
 
-Below are resources to support and enhance your accessibility initiatives, including privacy information where available. Please exercise caution to safeguard personally identifiable information (PII) when utilizing web tools.
+We recommend the following resources to support and enhance your accessibility initiatives, including privacy information where available. When using web tools, remember to exercise caution to safeguard personally identifiable information (PII).
  
 ## Learn about accessibility
 - [A11y Project checklist](http://www.a11yproject.com/checklist)
@@ -34,7 +34,7 @@ Below are resources to support and enhance your accessibility initiatives, inclu
 - **Taba11y** - extension [ [Chrome](https://chromewebstore.google.com/detail/taba11y/aocppmckdocdjkphmofnklcjhdidgmga) ] <sup>1</sup>
 
 ## Disability Simulators
-- **NoCoffee** - understand how various types of vision loss affect how - people see your site - extension [ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/) ] <sup>4</sup>
+- **NoCoffee** - understand how various types of vision loss affect how people see your site - extension [ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/) ] <sup>4</sup>
 - **Web Disability Simulator** - extension [ [Chrome](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) ] <sup>3</sup>
 - **A11y color blindness empathy test** - extension [ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/a11y-color-blindness-test/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) | [Chrome](https://chromewebstore.google.com/detail/a11y-color-blindness-empa/idphhflanmeibmjgaciaadkmjebljhcc) ] <sup>3</sup>
 
@@ -42,13 +42,13 @@ Below are resources to support and enhance your accessibility initiatives, inclu
 
 ### General privacy notes ###
 
-<sup>1</sup> <small>The developer has disclosed that it will not collect or use your data.</small>
+<sup>1</sup> – <small>The developer has disclosed that it will not collect or use your data.</small>
 
 ### Privacy warning notes ###
 
-<sup>2</sup> <small>This extension collects **Location** information  (eg: region, IP address, GPS coordinates or information about things near the user’s device).</small>
+<sup>2</sup> – <small>This extension collects **Location** information  (eg: region, IP address, GPS coordinates or information about things near the user’s device).</small>
 
-<sup>3</sup> <small>The developer has not provided any information about the collection or usage of your data.</small>
+<sup>3</sup> – <small>The developer has not provided any information about the collection or usage of your data.</small>
 
-<sup>4</sup> <small>This Firefox add-on not actively monitored for security by Mozilla. Make sure you trust it before installing.</small>
+<sup>4</sup> – <small>This Firefox add-on not actively monitored for security by Mozilla. Make sure you trust it before installing.</small>
  
