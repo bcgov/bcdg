@@ -26,6 +26,7 @@ nav:
     - Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
     - Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
     - Get help in Rocket.Chat: rocketchat/get-help-in-rocketchat.md
+  - Accessibility: accessibility-resources.md
   - Design System:
     - About the Design System: design-system/about-the-design-system.md
   - DevHub Content Partner Guide: content-partner-guide.md
