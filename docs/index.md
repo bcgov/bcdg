@@ -20,7 +20,7 @@ Learn how to join and use Rocket.Chat and connect with other developers across t
 
 #### [Accessibility resources](accessibility-resources.md)
 
-Understand what resources are available to support the development of accessibile web applications. 
+Understand what resources are available to support the development of accessible web applications. 
 
 #### [Design System](design-system/about-the-design-system.md)
 
