@@ -5,6 +5,7 @@ docs_dir: "docs"
 edit_uri: edit/main/docs/
 plugins:
     - techdocs-core
+    - git-revision-date-localized
 markdown_extensions:
     - md_in_html
 
