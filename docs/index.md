@@ -54,5 +54,5 @@ Potential topics for this guide include:
 
 ## Contact us
 
-This guide is owned and maintained by the Developer Experience team in the Digital Office. Reach out with questions or feedback to [developer.experience@gov.bc.ca](mailto:developer.experience@gov.bc.ca)
+This guide is owned and maintained by the Developer Experience team within the Digital Office. Please reach out with questions or feedback to [developer.experience@gov.bc.ca](mailto:developer.experience@gov.bc.ca).
 
