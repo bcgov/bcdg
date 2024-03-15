@@ -19,12 +19,12 @@ documentation for details on using the extensions that aren't covered in this pa
 
 The sections below show example Markdown syntax and the resulting rendered content for a number of common scenarios.
 
-$## Links
+### Links
 
 !!! Note
 	If you are migrating content from other Markdown implementations into DevHub, you may need to adjust the syntax of links. See the examples below for syntax that is compatible with DevHub. Notably, links in DevHub  are case-sensitive, unlike GitHub Wiki syntax.
 	
-	You may also need to replace absolute links to pages within the same repository with relative links to reflect that content has moved to DevHub. For example, an absolute link to `https://bcgov.github.io/mysite/mypage.md` from https://bcgov.github.io/mysite/my_other_page.md` should be updated to be simply `mypage.md`. 
+	You may also need to replace absolute links to pages within the same repository with relative links to reflect that content has moved to DevHub. For example, an absolute link to `https://bcgov.github.io/mysite/mypage.md` from `my_other_page.md` should be updated to be simply `mypage.md`. 
 
 ```markdown
 This is a link to the [DevHub Content Partner Guide](content-partner-guide.md) page in the DevHub category.
@@ -53,6 +53,16 @@ in another guide on DevHub.
 
 This is also link to the [meetups](../../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
 in another guide on DevHub.
+
+### Download Links
+
+If you have content that you would like your users to download, you'll need to use the link format shown below.
+
+```markdown
+This is a [download link](images/example.drawio.svg){:download="devhub-image-download.svg} that will download a file to your computer.
+```
+
+This is a [download link](images/example.drawio.svg){:download="devhub-image-download.svg} that will download a file to your computer.
 
 ### Lists
 
@@ -269,3 +279,4 @@ YouTube videos can be embedded with the `iframe` command. Replace the `src` loca
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=-Tkqe0lRuE0" title="Introduction into GitOps and ArgoCD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
