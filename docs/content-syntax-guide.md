@@ -206,13 +206,15 @@ Tab 2 content.
 ```
 
 === "Tab 1"
-Tab 1 markdown content
+	
+	Tab 1 markdown content
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus elit vehicula, auctor turpis eget, tempus ligula. Vestibulum at lectus pellentesque magna interdum elementum. Sed luctus erat eget mi accumsan, nec interdum nulla dictum. In commodo ligula a porttitor elementum.
 
 === "Tab 2"
-Tab 2 content.
-
+	
+	Tab 2 content.
+	
     Lorem **ipsum** dolor sit amet, consectetur *adipiscing elit*.
 
     - item a
