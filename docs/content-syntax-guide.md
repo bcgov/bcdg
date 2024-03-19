@@ -35,10 +35,13 @@ This is a link to the [Get help in Rocket.Chat](rocketchat/get-help-in-rocketcha
 section.
 
 This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
-in another guide on DevHub.
+in another guide on DevHub and uses a "root relative" link.
 
 This is also link to the [meetups](../../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
-in another guide on DevHub.
+in another guide on DevHub and uses a relative link.
+
+This is also link to the [meetups](../../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page
+in another guide on DevHub and includes a tool tip.
 ```
 
 This is a link to the [DevHub Content Partner Guide](content-partner-guide.md) page in the DevHub category.
@@ -49,10 +52,14 @@ This is a link to the [Get help in Rocket.Chat](rocketchat/get-help-in-rocketcha
 section.
 
 This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
-in another guide on DevHub.
+in another guide on DevHub and uses a "root relative" link.
 
 This is also link to the [meetups](../../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
-in another guide on DevHub.
+in another guide on DevHub and uses a relative link.
+
+This is also link to the [meetups](../../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page
+in another guide on DevHub and includes a tool tip.
+
 
 ### Download Links
 
@@ -226,7 +233,7 @@ Tab 2 content.
 
 ### Images
 
-Generally, you should include your documentation's images in an `images` or `assets` folder in the same repo as your Markdown files. If you have images that are not stored in your documentation repo, elsewhere in GitHub, or on a host within the `gov.bc.ca` domain that you want to include in your documentation, please contact the [Developer Experience team](mailto:developer.experience@gov.bc.ca) to discuss your needs. 
+Generally, you should include your documentation's images in an `images` or `assets` folder in the same repo as your Markdown files. If you have images that are not stored in your documentation repo, elsewhere in GitHub, or on a host within the `gov.bc.ca` domain that you want to include in your documentation, please contact the [Developer Experience team](mailto:developer.experience@gov.bc.ca "Please Contact Us!") to discuss your needs. 
 
 Link to images in your documentation using standard Markdown syntax. Text in the `[]` provides the  image's alt text.
 
