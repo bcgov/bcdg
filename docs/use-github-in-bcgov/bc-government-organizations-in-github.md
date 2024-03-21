@@ -38,7 +38,7 @@ The `bcgov` organization contains public repositories that hold open-source code
 
 * Product teams working in the BC Gov Private Cloud PaaS OpenShift platform should use this organization unless they are given permission to work in [`bcgov-c`](#bcgov-c).
 * Any member of the `bcgov` organization can create repositories.
-* Existing members of the `bcgov` organization can invite new users to join the organization using the [Just Ask! tool](https://just-ask.developer.gov.bc.ca/). (***Users cannot request membership to `bcgov` for themselves***) 
+* Existing members of the `bcgov` organization can invite new users to join the organization using the [Just Ask! tool](https://just-ask.developer.gov.bc.ca/). (***Users requesting membership to `bcgov` for themselves will be reviewed and may be declined***) 
 
 ### `bcgov-c`
 
