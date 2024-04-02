@@ -1,9 +1,13 @@
 site_name: "BC Developer Guide"
 site_description: "A guide to application development for the B.C. government."
 repo_url: https://github.com/bcgov/bcdg
+docs_dir: "docs"
 edit_uri: edit/main/docs/
 plugins:
     - techdocs-core
+    - git-revision-date-localized
+markdown_extensions:
+    - md_in_html
 
 nav:
   - Introduction: index.md
@@ -24,6 +28,7 @@ nav:
     - Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
     - Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
     - Get help in Rocket.Chat: rocketchat/get-help-in-rocketchat.md
+  - Accessibility: accessibility-resources.md
   - Design System:
     - About the Design System: design-system/about-the-design-system.md
   - DevHub Content Partner Guide: content-partner-guide.md
@@ -44,5 +49,3 @@ nav:
   # - Security: security.md
   # - Compliance: compliance.md
   # - Data and APIs: data_and_apis.md
-
-
