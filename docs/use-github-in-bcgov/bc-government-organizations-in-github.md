@@ -72,6 +72,6 @@ Related links:
 * [Just Ask! tool](https://just-ask.developer.gov.bc.ca/)
 * [GitHub Enterprise user licences in the BC government](github-enterprise-user-licenses-bc-government.md)
 * [Remove a user's BCGov GitHub access](remove-user-bcgov-github-access.md)
-* [Common platform requests in the BC Gov Private Cloud PaaS](https://cloud.gov.bc.ca/private-cloud/support-and-community/devops-requests-in-the-bc-gov-private-cloud-paas/)
+* [Common platform requests in the BC Gov Private Cloud PaaS](https://digital.gov.bc.ca/cloud/services/private/support/#common)
 
 ---
