@@ -35,7 +35,7 @@ For those interested in the automated aspect of the process above, it is provide
 
 ## What format is used for DevHub documentation?
 
-DevHub documentation uses the popular Markdown format. Markdown is a simple, text based format that makes writing for the web much easier than using other more complicated formats like HTML. Even though it's simple, Markdown allows writers to use multi-level headings, different text styles, and add tables, images and diagrams. There are many excellent references on the Internet for writing in Markdown, including this ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/).  
+DevHub documentation uses the popular Markdown format. Markdown is a simple, text based format that makes writing for the web much easier than using other more complicated formats like HTML. Even though it's simple, Markdown allows writers to use multi-level headings., different text styles, and add tables, images and diagrams. There are many excellent reference on the Internet for writing in Markdown, including  the [pages from Markdown's creator](https://daringfireball.net/projects/markdown/), the Markdown ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/), and [this tutorial](https://commonmark.org/help/tutorial/).
 
 Within DevHub, navigation is driven by a special configuration file called `mkdocs.yml` that is stored in the same GitHub repository as the Markdown files. This file uses the `yml` (pronounced "YAM-EL") format that is slightly more complicated than Markdown, but only infrequently updated. We provide a starter for you and support for working with this file if you need it. 
 
@@ -71,32 +71,14 @@ The answer is...it depends. If you have existing technical documentation in Mark
 
 In general, the process looks like this:
 
-1. Set up an overview meeting with [us](mailto:developer.experience@gov.bc.ca). From your team, we suggest including your Product Owner as well as anyone else involved in writing technical documentation for your product or service. It's also helpful to have a technical person from your team who understands the technical tools and processes you're already using. During this meeting, we'll provide an overview of DevHub, answer any questions you have, and talk about next steps. Be prepared to discuss your existing technical documentation, related tools and processes, and what goals you have going forward. During the overview meeting, we will determine whether your team can make use of our "self serve" tooling for onboarding , or whether we recommend a working session between ourselves and one or more technical team members from your team. 
-2. If you can use our "self serve" tool, we'll provide directions to your team on how to get started. 
-3. If we suggest a "working session", we'll set this up and work with you to adapt your existing documentation process to one that is compatible with DevHub. The goal of the working session is to get your team comfortable working in a DevHub-compatible workflow, as well as identifying any changes needed to your content in order for it to be publishable in DevHub.
-3. After your team and content repo are set up - either using our self-serve tool or during a working session you'll have a GitHub repository containing starting points for your team to use as it creates documentation and other elements for publishing your content into DevHub, including the automated publishing Action mentioned previously. At this point, your team may have some remaining "homework" to adapt your content for DevHub. The amount of work will depend on the state of your documentation. See [below](#what-kinds-of-modifications-are-needed-to-existing-technical-documentation-in-markdown-in-order-to-work-in-devhub). You can complete these items on your own timeline.
+1. Set up an overview meeting with [us](mailto:developer.experience@gov.bc.ca). From your team, we suggest including the Product Owner as well as anyone else involved in writing technical documentation for your product or service. It's also helpful to have a technical person from your team who understands the technical tools and processes you're already using. During this meeting, we'll provide an overview of DevHub, answer any questions you have, and talk about next steps (see below). Be prepared to discuss your existing technical documentation, related tools and processes, and what goals you have going forward.
+2.  Following the overview meeting, we will recommend a working session between ourselves and one or more  technical team members to adapt your existing documentation process to one that is compatible with DevHub. The goal of the working session is to get your team comfortable working in a DevHub-compatible workflow, as well as identifying any changes needed to your content in order for it to be publishable in DevHub.
+3. After the working session, your team may have some "homework" to adapt content or implement automated tools. The amount of work will depend on that is uncovered in the working session. You can complete these items on your own timeline.
 4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterward.
-
-## What license should my content have?
-
-Markdown documentation that is stored in GitHub and will be published in DevHub should have a Creative Commons license. Specifically, the "CC BY" license, which is described in detail on the corresponding ![](https://creativecommons.org/licenses/by/4.0/)Creative Commons page.  A file called "LICENSE.md" containing the license legal text![](https://creativecommons.org/licenses/by/4.0/legalcode.txt) should be stored in the root of your documentation repository alongside your documentation.  
-
-> Our self serve tool will automatically include a license file when you use it create a repository for your documentation. If your documentation is being added to an existing repository, you should ensure that a license file is added.  If your repository has both documentation and code, and they are under different licenses, you should have two license files (e.g. LICENSE.md for code and LICENSE_DOCS.md for documentation). You should indicate in your README.md file that the code and documentation are under separate licenses and which license file applies to each.
 
 ## What kinds of modifications are needed to existing technical documentation in Markdown in order to work in DevHub?
 
-The answer is, again...it depends. In general there is minimal effort required to adapt existing Markdown documentation for publishing in DevHub. Below is a list of some of the adaptations we've encountered so far. You may encounter some of these or none of them, depending on your current documentation.
-
-- May need to adjust link syntax as there are some differences across Markdown variants 
-- May need to replace absolute links to pages within same document with relative links
-- May need to align case of filenames and references links as DevHub is case-insensitive, unlike some other tools
-- May need to adjust some formatting/spacing as DevHub is more particular about use of whitespace than some other tools 
-- May need to check that HTML within Markdown is handled as expected and DevHub behaves differently than some other tools
-
-We have automated tools to fix or help with most of the items above and can support you and your team as you adapt your documentation for DevHub. We expect most of these items will surface during the working session discussed above.
-
-In addition to any work involved with adapting Markdown files, you will likely want to explicitly define the navigation for your content. This involves editing part of your `mkdocs.yml` file. 
-
+The answer is, again...it depends. In general there is minimal effort required to adapt content for compatibility with DevHub. The [DevHub Content Syntax Guide](content-syntax-guide.md) provides information about the syntax requirements for DevHub content.
 
 
 
