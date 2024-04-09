@@ -5,9 +5,9 @@ docs_dir: "docs"
 edit_uri: edit/main/docs/
 plugins:
   - techdocs-core
+  - git-revision-date-localized
 markdown_extensions:
   - md_in_html
-  - git-revision-date-localized
 nav:
   - Introduction: index.md
   # - Digital Government: digital_government.md
