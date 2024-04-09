@@ -8,15 +8,12 @@ on:
             - "mkdocs.yml"
             - "catalog-info.yaml"
             - "docs/**"
-            - "catalog-info.yaml"
     pull_request:
         branches: [ main ]
         paths:
             - "mkdocs.yml"
             - "catalog-info.yaml"
             - "docs/**"
-            - "catalog-info.yaml"
-
 jobs:
     test_techdocs_build_job:
         runs-on: ubuntu-latest
