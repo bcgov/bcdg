@@ -37,10 +37,10 @@ section.
 This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and uses a "root relative" link.
 
-This is also link to the [meetups](../../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
+This is also link to the [meetups](../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and uses a relative link.
 
-This is also link to the [meetups](../../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page
+This is also link to the [meetups](../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and includes a tool tip.
 ```
 
@@ -54,10 +54,10 @@ section.
 This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and uses a "root relative" link.
 
-This is also link to the [meetups](../../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
+This is also link to the [meetups](../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and uses a relative link.
 
-This is also link to the [meetups](../../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page
+This is also link to the [meetups](../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and includes a tool tip.
 
 
