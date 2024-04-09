@@ -7,7 +7,7 @@ plugins:
   - techdocs-core
 markdown_extensions:
   - md_in_html
-    - git-revision-date-localized
+  - git-revision-date-localized
 markdown_extensions:
     - md_in_html
 
