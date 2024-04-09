@@ -7,7 +7,7 @@
 Although Markdown is fairly standardized, there can be minor syntax differences between Markdown implementations.
 Different Markdown implementations also allow extensions for more complex content such as diagrams or embedded content.
 This page is intended to help you write content for DevHub that displays the way you intended by providing examples of
-frequently used syntax. This page also aims help you make aware of the extensions provided with DevHub.
+frequently used syntax. This page also aims to help you become aware of the extensions provided with DevHub.
 
 DevHub's Markdown implementation is based on [Backstage.io's TechDocs](https://backstage.io/docs/features/techdocs/)
 feature. TechDocs includes
@@ -80,22 +80,22 @@ This is a numbered list. Using the `1.` for all items will automatically number 
 
 1. Item 1
 1. Item 2
-1. Item 2a
-1. Item 2b
-   1. Item 2bi
+  1. Item 2a
+  1. Item 2b
+    1. Item 2bi
 1. Item 3
-1. Item 3a
+  1. Item 3a
 ```
 
 This is a numbered list. Using the `1.` for all items will automatically number the list for you.
 
 1. Item 1
 1. Item 2
-1. Item 2a
-1. Item 2b
-   1. Item 2bi
+  1. Item 2a
+  1. Item 2b
+    1. Item 2bi
 1. Item 3
-1. Item 3a
+  1. Item 3a
 
 Unordered lists can use either the `*` or `-` characters.
 
@@ -105,8 +105,8 @@ This is an unordered list:
 - Item 1
 - Item 2
 - Item 3
-	- Item 3a
-	- Item 3b
+  - Item 3a
+  - Item 3b
 ```
 
 This is an unordered list:
@@ -114,27 +114,27 @@ This is an unordered list:
 - Item 1
 - Item 2
 - Item 3
-	- Item 3a
-	- Item 3b
+  - Item 3a
+  - Item 3b
 
 !!! note
-Whitespace at the start of the top level items will prevent the list from being generated.
+    Whitespace at the start of the top level items will prevent the list from being generated.
 
-This list will not display properly because it has whitespace in front of each top level item:
+    This list will not display properly because it has whitespace in front of each top level item:
 
-```markdown
-  - Item 1
-- Item 2
-	- Item 2a
-- Item 3
-```
+    ```markdown
+      - Item 1
+      - Item 2
+       - Item 2a
+      - Item 3
+    ```
 
-This list will not display properly because it has whitespace in front of each top level item:
+    This list will not display properly because it has whitespace in front of each top level item:
 
-- Item 1
-- Item 2
-	- Item 2a
-- Item 3
+      - Item 1
+      - Item 2
+       - Item 2a
+      - Item 3
 
 ### Code
 
