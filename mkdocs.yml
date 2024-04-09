@@ -8,9 +8,6 @@ plugins:
 markdown_extensions:
   - md_in_html
   - git-revision-date-localized
-markdown_extensions:
-    - md_in_html
-
 nav:
   - Introduction: index.md
   # - Digital Government: digital_government.md
@@ -33,7 +30,6 @@ nav:
   - Accessibility: accessibility-resources.md
   - Design System:
       - About the Design System: design-system/about-the-design-system.md
-
   - DevHub Content Partner Guide: content-partner-guide.md
   - DevHub Content Syntax Guide: content-syntax-guide.md
   # - Developer community: developer_community.md
