@@ -1,91 +1,96 @@
----
-title: Get help in Rocket.Chat 
-
-slug: get-help-in-rocketchat
-
-description: Describes how to obtain support in Rocket.Chat within the B.C. Government Rocket.Chat community and the different types of troubleshooting.
-
-keywords: Rocket.chat, help in rocket.chat, support, help, community, developers, help, cluster issue, tool issue, stack issue, problem solving, 
-
-page_purpose: Helps developer find the best way to troubleshoot issues with clusters,  tools, or stacks
-
-audience: technical lead, openshift 101 students, openshift 201 students,  developers
-
-author: Alex Lloyd
-
-editor: Pilar Solares
-
-content_owner: Olena Mitvoska
-
-sort_order: 4
----
-
-# Get help in Rocket.Chat
-Last updated: **July 10, 2023**
-
-To get support on Rocket.Chat, you need to ask questions. Including the right information in your questions can help you get a better answer more quickly. 
-Below, we outline the information you should include when asking for help or support from the platform community on Rocket.Chat.
+# Rocket.Chat help: developing stronger questions
+Last updated: **April 16, 2023**
 
 ## On this page
-* [**Where has the issue ocurred?**](#where-has-the-issue-ocurred)
-* [**What are you trying to do?**](#what-are-you-trying-to-do)
-* [**What is the problem?**](#what-is-the-problem)
-* [**What have you done to fix the problem?**](#what-have-you-done-to-fix-the-problem)
-* [**What kind of help do you want?**](#what-kind-of-help-do-you-want)
-* [**Posting a question**](#posting-a-question)
+* [**The 'how' and 'what'**](#the-'how'-and-'what')
+* [**How**](#how)
+* [**What**](#what)
+* [**The 'where'**](#the-'where')
+* [**The 'when'**](#the-'when')
+* [**Post the question**](#post-the-question)
 * [**Related pages**](#related-pages)
 <!-- ### End of "On this page" -->
-
 ---
-## Where has the issue ocurred?
 
-**If the problem is with a cluster**
+The best support on Rocket.Chat comes when users ask detailed questions. They help us, the platform community on Rocket.Chat, to respond quicker. An ideal user question looks like the example below:
 
-In what cluster and namespace are you experiencing the problem? Provide the namespace name, so the community knows exactly where to find the problem.
-
-**If the problem is with a tool**
-
-What tool are you trying to use? Let the community know which platform tool is causing the problem.
-
-**If the problem is with a stack**
-
-Tell us about your stack. What languages and libraries are you using, and which versions of these?
-
-**Additional information**
-
-Also explain what device you were using when you experienced the problem. Were you using a Windows machine, a Mac, an iPhone, an Android or something else? If you were using a web application, what browser were you using? Provide as much detail as possible, including version numbers.
-
----
-## What are you trying to do?
-
- Explain what task you were trying to accomplish.
- 
--  How you were doing it, and why it was important. The more detail you can provide the better. 
-- Let the community know what you were trying to do and what outcome you had expected.
-
----
-## What is the problem?
-
-Now that the community knows what was supposed to happen, tell them what went wrong. Include descriptions of
-
-- How the problem occurred
-- What the problem looks like and how it’s behaving. For example, if a screen is failing to load properly, explain how it looks and why it’s not correct. 
-- Provide as much detail as possible. If you received an error message, include a screenshot of the message with your question. 
-
-##  What have you done to fix the problem?
-
-The results of your initial troubleshooting efforts can be very useful to the community when they’re trying to determine the cause of your issue. Make sure you include any steps you’ve already taken to resolve the issue, and include as much detail as possible. 
-
-If you’ve been following instructions on a StackOverflow thread, provide a link to the thread. If you’ve been reading documentation about the problem, provide a link to the documentation. 
-
-## What kind of help do you want?
-What are you asking the community for? Do you want a solution to the problem? A link to documentation you can use? An alternative way to complete a task? Let the community know what kind of support you’re looking for.
-
-## Posting a question
-Send your message in the appropriate Rocket.Chat channel and check back often to see if you’ve gotten a reply. Read the [Rocket.Chat etiquette page](rocketchat-etiquette.md) for more information on how to use Rocket.Chat, and what to do if you don’t get a satisfactory answer.
+> I've setup a new caddy webserver on OpenShift. I've created a route for it. But when I go to the url in my web browser I get an error page with "Application is not available". I confirmed the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. Here is my route:
 
 
----
+> **route.yml YAML**
+
+    kind: Route
+    apiVersion: route.openshift.io/v1
+    metadata:
+     name: my-web-server
+     namespace: abcd12-dev
+     labels:
+      app: my-web-server
+      group: my-project
+    spec:
+     host: my-web-server-abcd12-dev.apps.silver.devops.gov.bc.ca
+     to:
+      kind: service
+      name: my-web-server
+      weight: 100
+     port:
+      targetPort: web
+     tls:
+      termination: edge
+      insecureEdgeTerminalPolicy: Redirect
+     wildcardPolicy: None
+
+The user tells us the where, when, what, and how of an issue. We want to know what you expected, what happened, and in what environment, the problem happened. Before connecting with the community, check [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) if you've done everything possible before posting to Rocket.Chat.
+
+Below, we offer more guidance to strengthen a question. Strong questions simplify the response time from a platform community member. 
+
+## The 'how' and 'what'
+
+### How
+
+Please tell us the problem, what you expected when doing a task, and the importance of it.
+
+If it’s a sensitive task, please specify confidentiality is necessary. Being forthcoming about confidentiality stops us from expecting more information.  
+
+**Please don’t include** sensitive artifacts, like passwords, tokens, API keys, etc.
+
+### What
+
+1. Tell us about the nature of the problem, what it looks like and how it’s behaving. For example, if a screen doesn’t load as you expected, give us a description of what it looks like, and what it should look like.
+
+    **Please note:** Screenshots, while helpful, won’t be accessible without alt text.  
+
+2. After detailing the problem, we want to know what troubleshooting you tried. Being proactive helps us narrow down solutions and stops repetition.  
+
+    Please give us a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem.
+
+3. Last, please tell us what type of help you’re looking for. A solution, link to resources, and/or another way to complete a task? Please be very clear so we don’t resort to guessing. 
+
+## The 'where'
+
+Tell us about the environment the problem happened in: 
+-	In a cluster, let us know the namespace and cluster name. 
+- With a stack, let us know what languages and libraries you used, including which versions.  
+- With a tool, please specify which platform tool. 
+- With a web application, please specify which browser, browser version, and device.
+     - A Mac, a Windows machine, an iPhone, an Android, or another device?
+
+ ## The 'when'
+
+ Timestamps help! Please consider letting us know: 
+- The date
+- The time, including time zone if different from P.S.T. 
+- If working on a legacy task, the timestamp of the original work. 
+
+
+## Post the question
+
+When you finish writing the detailed question, please revisit [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) to make sure you're being efficient. Then, post it in the best Rocket.Chat channel. 
+
+If you're not being proactive about your steps, then the community might miss the question in favour of responding to the ones specific for the channel. 
+
+If unsure of where to post or other questions and/or concerns, connect with us at developer.experience@gov.bc.ca.
+
 ---
 ## Related pages
 
