@@ -64,7 +64,7 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 
     Please give us a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem
 
-3. Last, please tell us what type of help you’re looking for. A solution, link to resources, and/or another way to complete a task? Please be very clear so we don’t resort to guessing. 
+3. Last, please tell us what type of help you’re looking for. A solution, link to resources, and/or another way to complete a task? Please be very clear so we don’t resort to guessing
 
 ## The 'where'
 
