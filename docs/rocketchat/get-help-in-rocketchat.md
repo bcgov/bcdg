@@ -1,5 +1,4 @@
 # Rocket.Chat help: developing stronger questions
-Last updated: **April 16, 2023**
 
 ## On this page
 * [**The 'how' and 'what'**](#the-'how'-and-'what')
@@ -12,7 +11,7 @@ Last updated: **April 16, 2023**
 <!-- ### End of "On this page" -->
 ---
 
-The best support on Rocket.Chat comes when users ask detailed questions. They help us, the platform community on Rocket.Chat, to respond quicker. An ideal user question looks like the example below:
+The best support on Rocket.Chat comes when users ask detailed questions. They help the community respond quicker. An ideal user question looks like the example below:
 
 > I've setup a new caddy webserver on OpenShift. I've created a route for it. But when I go to the url in my web browser I get an error page with "Application is not available". I confirmed the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. Here is my route:
 
@@ -40,9 +39,9 @@ The best support on Rocket.Chat comes when users ask detailed questions. They he
       insecureEdgeTerminalPolicy: Redirect
      wildcardPolicy: None
 
-The user tells us the where, when, what, and how of an issue. We want to know what you expected, what happened, and in what environment, the problem happened. Before connecting with the community, check [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) if you've done everything possible before posting to Rocket.Chat.
+The user tells us the where, when, what, and how of an issue. We want to know what you expected, what happened, and in what environment, the problem happened. Before connecting with us, check [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) if you've done everything possible before posting.
 
-Below, we offer more guidance to strengthen a question. Strong questions simplify the response time from a platform community member. 
+Below, we offer more guidance to strengthen a question. Strong questions simplify the response time from a community member. 
 
 ## The 'how' and 'what'
 
