@@ -80,7 +80,7 @@ Tell us about the environment the problem happened in:
  Timestamps help! Please consider letting us know: 
 - The date
 - The time, including time zone if different from P.S.T. 
-- If working on a legacy task, the timestamp of the original work. 
+- If working on a legacy task, the timestamp of the original work
 
 
 ## Post the question
