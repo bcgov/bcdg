@@ -60,7 +60,7 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 
     **Please note:** Screenshots, while helpful, won’t be accessible without alt text.  
 
-2. After detailing the problem, we want to know what troubleshooting you tried. Being proactive helps us narrow down solutions and stops repetition.  
+2. After detailing the problem, we want to know what troubleshooting you tried. Being proactive helps us narrow down solutions and stops repetition
 
     Please give us a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem.
 
