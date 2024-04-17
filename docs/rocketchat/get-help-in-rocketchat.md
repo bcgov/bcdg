@@ -1,19 +1,8 @@
 # Rocket.Chat help: developing stronger questions
 
-## On this page
-* [**The 'how' and 'what'**](#the-'how'-and-'what')
-* [**How**](#how)
-* [**What**](#what)
-* [**The 'where'**](#the-'where')
-* [**The 'when'**](#the-'when')
-* [**Post the question**](#post-the-question)
-* [**Related pages**](#related-pages)
-<!-- ### End of "On this page" -->
----
+The best support on Rocket.Chat comes when users ask detailed questions. They help the community respond quicker. Here's an example of what a clear and detailed user question:
 
-The best support on Rocket.Chat comes when users ask detailed questions. They help the community respond quicker. An ideal user question looks like the example below:
-
-> I've setup a new caddy webserver on OpenShift. I've created a route for it. But when I go to the url in my web browser I get an error page with "Application is not available". I confirmed the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. Here is my route:
+> I've set up a new caddy web server on OpenShift. I've created a Route for it. But when I go to the URL in my web browser I get an error page with "Application is not available". I confirmed the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. Here is my route:
 
 
 > **route.yml YAML**
@@ -74,7 +63,7 @@ Tell us about the environment the problem happened in:
 - With a web application, please specify which browser, browser version, and device
      - A Mac, a Windows machine, an iPhone, an Android, or another device?
 
- ## The 'when'
+ ##  The 'when'
 
  Timestamps help! Please consider letting us know: 
 - The date
@@ -84,11 +73,9 @@ Tell us about the environment the problem happened in:
 
 ## Post the question
 
-When you finish writing the detailed question, please revisit [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) to make sure you're being efficient. Then, post it in the best Rocket.Chat channel. 
+When you finish writing the detailed question, please revisit [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) to make sure you're being efficient. Then, post it in the [best Rocket.Chat channel](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/rocketchat/rocketchat-channel-descriptions/) for a quicker response.
 
-If you're not being proactive about your steps, then the community might miss the question in favour of responding to the ones specific for the channel. 
-
-If unsure of where to post or other questions and/or concerns, connect with us at developer.experience@gov.bc.ca.
+If unsure of where to post or other questions and/or concerns, check out the [Rocket.Chat channel descriptions](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/rocketchat/rocketchat-channel-descriptions/). If nothing there helps, then  connect with us at developer.experience@gov.bc.ca.
 
 ---
 ## Related pages
