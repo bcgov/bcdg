@@ -69,10 +69,10 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 ## The 'where'
 
 Tell us about the environment the problem happened in: 
--	In a cluster, let us know the namespace and cluster name. 
-- With a stack, let us know what languages and libraries you used, including which versions.  
-- With a tool, please specify which platform tool. 
-- With a web application, please specify which browser, browser version, and device.
+-	In a cluster, let us know the namespace and cluster name
+- With a stack, let us know what languages and libraries you used, including which versions
+- With a tool, please specify which platform tool
+- With a web application, please specify which browser, browser version, and device
      - A Mac, a Windows machine, an iPhone, an Android, or another device?
 
  ## The 'when'
