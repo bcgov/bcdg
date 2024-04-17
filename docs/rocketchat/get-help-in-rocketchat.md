@@ -62,7 +62,7 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 
 2. After detailing the problem, we want to know what troubleshooting you tried. Being proactive helps us narrow down solutions and stops repetition
 
-    Please give us a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem.
+    Please give us a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem
 
 3. Last, please tell us what type of help you’re looking for. A solution, link to resources, and/or another way to complete a task? Please be very clear so we don’t resort to guessing. 
 
