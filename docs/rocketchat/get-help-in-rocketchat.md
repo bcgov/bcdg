@@ -56,7 +56,7 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 
 ### What
 
-1. Tell us about the nature of the problem, what it looks like and how it’s behaving. For example, if a screen doesn’t load as you expected, give us a description of what it looks like, and what it should look like.
+1. Tell us about the nature of the problem, what it looks like and how it’s behaving. For example, if a screen doesn’t load as you expected, give us a description of what it looks like, and what it should look like
 
     **Please note:** Screenshots, while helpful, won’t be accessible without alt text.  
 
