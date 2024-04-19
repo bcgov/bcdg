@@ -28,7 +28,7 @@ The best support on Rocket.Chat comes when users ask detailed questions. They he
       insecureEdgeTerminalPolicy: Redirect
      wildcardPolicy: None
 
-The user tells us the where, when, what, and how of an issue. We want to know what you expected, what happened, and in what environment, the problem happened. Before connecting with us, check [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) if you've done everything possible before posting.
+The user tells us the where, when, what, and how of an issue. We want to know what you expected, what happened, and in what environment, the problem happened. Before connecting with us, check Jon Skeet's [Stack overflow question checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) if you've done everything possible before posting.
 
 Below, we offer more guidance to strengthen a question. Strong questions simplify the response time from a community member. 
 
@@ -73,7 +73,7 @@ Tell us about the environment the problem happened in:
 
 ## Post the question
 
-When you finish writing the detailed question, please revisit [Jon Skeet's checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) to make sure you're being efficient. Then, post it in the [best Rocket.Chat channel](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/rocketchat/rocketchat-channel-descriptions/) for a quicker response.
+When you finish writing the detailed question, please revisit [Stack overflow question checklist](https://codeblog.jonskeet.uk/2012/11/24/stack-overflow-question-checklist/) to make sure you're being efficient. Then, post it in the [best Rocket.Chat channel](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/rocketchat/rocketchat-channel-descriptions/) for a quicker response.
 
 If unsure of where to post or other questions and/or concerns, check out the [Rocket.Chat channel descriptions](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/rocketchat/rocketchat-channel-descriptions/). If nothing there helps, then  connect with us at developer.experience@gov.bc.ca.
 
