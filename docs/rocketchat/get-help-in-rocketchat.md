@@ -2,7 +2,7 @@
 
 The best support on Rocket.Chat comes when users ask detailed questions. They help the community respond quicker. Here's an example of what a clear and detailed user question:
 
-> I've set up a new caddy web server on OpenShift. I've created a Route for it. But when I go to the URL in my web browser I get an error page with "Application is not available". I confirmed the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. Here is my route:
+> I've set up a new caddy web server on OpenShift. I've created a Route for it. But when I go to the URL in my web browser I get an error page with "Application is not available". I confirmed the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. Here is my Route:
 
 
 > **route.yml YAML**
