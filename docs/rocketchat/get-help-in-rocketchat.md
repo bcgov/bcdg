@@ -55,6 +55,7 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 ## The 'where'
 
 Describe the environment the problem happened in: 
+
 - In a cluster, give the namespace and cluster name (Silver, Gold, Gold DR, Emerald, KLab, CLab)
 - With a stack or application code, what languages and libraries you used, including which versions
 - With a tool, please specify which platform tool
@@ -64,7 +65,8 @@ Describe the environment the problem happened in:
 
 ## The 'when'
 
- Timestamps help! Please consider letting the community know: 
+ Timestamps help! Please consider letting the community know:
+ 
 - The date
 - The time, including time zone if different from P.S.T. 
 - If working on a legacy task, the timestamp of the original work
