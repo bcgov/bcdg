@@ -58,8 +58,10 @@ Detail the environment the problem happened in:
 - In a cluster, give the namespace and cluster name
 - With a stack, what languages and libraries you used, including which versions
 - With a tool, please specify which platform tool
-- With a web application, please specify which browser, browser version, and device
-     - A Mac, a Windows machine, an iPhone, an Android, or another device?
+- With a web application or UI, please specify which browser, browser version, and device
+     - Are you using a Mac, a Windows machine, an iPhone, an Android, or another device?
+- If with a service by another team, give the service name and if possible, related URLs and environment
+     - e.g. DEV, TEST, PROD
 
 ## The 'when'
 
