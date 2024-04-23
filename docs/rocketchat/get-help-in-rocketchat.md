@@ -46,24 +46,24 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 
 1. Define the problem's nature, what it looks like and how it’s behaving. For example, if a screen doesn’t load as expected, give a description of what it looks like, and what it should look like. Add a screenshot but while helpful, screenshots aren't accessible without alt text.  
 
-2. After detailing the problem, we want to know what troubleshooting you tried. Being proactive helps us narrow down solutions and stops repetition
+2. After detailing the problem, the community wants to know what troubleshooting you tried. Being proactive helps narrow down solutions and stops repetition
 
-    Please give us a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem
+    Please give a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem
 
-3. Last, please tell us what type of help you’re looking for. Are you looking for a solution, link to resources, and/or another way to complete a task? Please be very clear so the community doesn't misinterpret what you need.
+3. Last, please say what type of help you’re looking for. Are you looking for a solution, link to resources, and/or another way to complete a task? Please be very clear so the question isn't misinterpreted.
    
 ## The 'where'
 
-Tell us about the environment the problem happened in: 
--	In a cluster, let us know the namespace and cluster name
-- With a stack, let us know what languages and libraries you used, including which versions
+Detail the environment the problem happened in: 
+- In a cluster, give the namespace and cluster name
+- With a stack, what languages and libraries you used, including which versions
 - With a tool, please specify which platform tool
 - With a web application, please specify which browser, browser version, and device
      - A Mac, a Windows machine, an iPhone, an Android, or another device?
 
 ## The 'when'
 
- Timestamps help! Please consider letting us know: 
+ Timestamps help! Please consider letting the community know: 
 - The date
 - The time, including time zone if different from P.S.T. 
 - If working on a legacy task, the timestamp of the original work
