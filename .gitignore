@@ -20,3 +20,5 @@ logs
 # Node libraries
 node_modules
 /test.sh
+patcher.py
+test_patcher.py

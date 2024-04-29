@@ -4,10 +4,11 @@ repo_url: https://github.com/bcgov/bcdg
 docs_dir: "docs"
 edit_uri: edit/main/docs/
 plugins:
-    - techdocs-core
-    - git-revision-date-localized
+  - techdocs-core
+  - git-revision-date-localized
 markdown_extensions:
     - md_in_html
+
 validation:
     omitted_files: warn
     absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
@@ -23,23 +24,25 @@ nav:
   # - Digital Government: digital_government.md
   # - Ways of Working: ways_of_working.md
   # - Supports for developers: supports_for_developers.md
+  - Welcome to the B.C. government: welcome-to-bc-gov.md
   - GitHub in the B.C. government:
-    - BC Government organizations in GitHub: use-github-in-bcgov/bc-government-organizations-in-github.md
-    - Remove a user's BCGov GitHub access: use-github-in-bcgov/remove-user-bcgov-github-access.md
-    - B.C. government GitHub Enterprise: use-github-in-bcgov/github-enterprise-user-licenses-bc-government.md
-    - Evaluate open-source content: use-github-in-bcgov/evaluate-open-source-content.md
-    - Required pages for a GitHub repository: use-github-in-bcgov/required-pages-for-github-repository.md
-    - Start working in the BCGov GitHub organization: use-github-in-bcgov/start-working-in-bcgov-github-organization.md
-    - License your GitHub repository: use-github-in-bcgov/license-your-github-repository.md
+      - BC Government organizations in GitHub: use-github-in-bcgov/bc-government-organizations-in-github.md
+      - Remove a user's BCGov GitHub access: use-github-in-bcgov/remove-user-bcgov-github-access.md
+      - B.C. government GitHub Enterprise: use-github-in-bcgov/github-enterprise-user-licenses-bc-government.md
+      - Evaluate open-source content: use-github-in-bcgov/evaluate-open-source-content.md
+      - Required pages for a GitHub repository: use-github-in-bcgov/required-pages-for-github-repository.md
+      - Start working in the BCGov GitHub organization: use-github-in-bcgov/start-working-in-bcgov-github-organization.md
+      - License your GitHub repository: use-github-in-bcgov/license-your-github-repository.md
   - Rocket.Chat:
     - Join the B.C. Government Rocket.Chat: rocketchat/steps-to-join-rocketchat.md
     - Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
     - Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
-    - Get help in Rocket.Chat: rocketchat/get-help-in-rocketchat.md
+    - Developing better questions: rocketchat/get-help-in-rocketchat.md
   - Accessibility: accessibility-resources.md
   - Design System:
-    - About the Design System: design-system/about-the-design-system.md
+      - About the Design System: design-system/about-the-design-system.md
   - DevHub Content Partner Guide: content-partner-guide.md
+  - DevHub Content Syntax Guide: content-syntax-guide.md
   # - Developer community: developer_community.md
   # - Application lifecycle: application_lifecycle.md
   # - Deploying applications: deploying_applications.md
