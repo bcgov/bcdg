@@ -8,7 +8,7 @@ We recommend the following resources to support and enhance your accessibility i
 - [A11y Project checklist](http://www.a11yproject.com/checklist)
 - [A11y Project](http://www.a11yproject.com/)
 - [DigitalA11y's definitive guide](https://www.digitala11y.com/a-definitive-guide-on-how-to-perform-a-web-accessibility-audit/)
-- [W3C's WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/evaluation/define-scope)
+- [W3C's WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool)
 - [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 - [WebAim's Quick Reference list](https://webaim.org/resources/quickref/)
 - [Microsoft Inclusive Design](https://inclusive.microsoft.design/)

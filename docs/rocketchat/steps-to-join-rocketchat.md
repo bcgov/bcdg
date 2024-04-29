@@ -20,19 +20,9 @@ content_owner: Olena Mitvoska
 sort_order: 1
 ---
 
-# Join the B.C. Government Rocket.Chat 
-Last updated: **July 10, 2023**
+# Join the B.C. Government Rocket.Chat
 
 Rocket.Chat will be your main communication channel for platform updates and support while you work in the B.C. Government Private Cloud PaaS. Learn how to set up accounts for you and your team.
-
-
-## On this page
-* [**Requirements to join Rocket.Chat**](#requirements-to-join-rocketchat)
-* [**Join  Rocket.Chat with IDIR**](#join-rocketchat-with-idir)
-* [**Join Rocket.Chat with a GitHub account**](#join-rocketchat-with-github-acount)
-* [**Trouble accessing Rocket.Chat**](#trouble-accessing-rocketchat)
-* [**Related pages**](#related-pages)
-<!-- ### End of "On this page" -->
 
 ---
 ## Requirements to join Rocket.Chat
