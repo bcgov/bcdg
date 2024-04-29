@@ -8,6 +8,15 @@ plugins:
     - git-revision-date-localized
 markdown_extensions:
     - md_in_html
+validation:
+    omitted_files: warn
+    absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
+    unrecognized_links: warn
+
+exclude_docs: |
+    digital_government.md
+    ways_of_working.md
+    supports_for_developers.md
 
 nav:
   - Introduction: index.md
