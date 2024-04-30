@@ -277,7 +277,7 @@ YouTube videos can be embedded with the `iframe` command. Replace the `src` loca
 !!! Note
 
 	- Videos do not show when the [devhub-techdocs-publish](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) tool is used to preview the documentation locally.
-	- DevHub will only display content within an `iframe` from domains that are explicitly allowed in the DevHub configuration. Currently, this is limited to YouTube. If you would like to include videos from sources other than YouTube or other content within an `iframe`, please contact the [Developer Experience team](mailto:developer.experience@gov.bc.ca) to discuss your needs.
+	- DevHub will only display content within an `iframe` from domains that are explicitly allowed in the DevHub configuration. Currently, this is limited to YouTube and Miro. If you would like to include videos from sources other than YouTube or other content within an `iframe`, please contact the [Developer Experience team](mailto:developer.experience@gov.bc.ca) to discuss your needs.
 
 ```html
 
@@ -285,4 +285,21 @@ YouTube videos can be embedded with the `iframe` command. Replace the `src` loca
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Tkqe0lRuE0?si=jixM-ye8j1ey1Lf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Miro
+
+Miro boards can be embedded with the `iframe` command. Click **Export** on your Miro board, and select **Embed**, then click **Copy embed code**, and paste the `iframe` snippet into your documentation.  
+The Miro docs have more information on [how to embed Miro boards](https://help.miro.com/hc/en-us/articles/360016335640-How-to-embed-Miro-boards#h_01HB8N4HRBB0W044NAZ6KFAQQG).
+
+!!! Note
+
+	- Miro boards do not show when the [devhub-techdocs-publish](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) tool is used to preview the documentation locally.
+	- DevHub will only display content within an `iframe` from domains that are explicitly allowed in the DevHub configuration. Currently, this is limited to YouTube and Miro. If you would like to embed boards and diagrams from sources other than Miro or other content within an `iframe`, please contact the [Developer Experience team](mailto:developer.experience@gov.bc.ca) to discuss your needs.
+
+```html
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKTK-fZc=/?moveToViewport=6405,-9035,21430,13071&embedId=415400999113" title="Miro - GitHub Enterprise map" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+```
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKTK-fZc=/?moveToViewport=6405,-9035,21430,13071&embedId=415400999113" title="Miro - GitHub Enterprise map" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
