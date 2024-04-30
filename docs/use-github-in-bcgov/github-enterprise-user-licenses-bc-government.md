@@ -54,7 +54,7 @@ Once the above steps are complete, you'll be able to log in (using your IDIR) to
 
 Our team has created the artifact below which captures the steps and teams involved in acquiring and mananaging GitHub Enterprise licenses. This version is intended for reference only, but we intend to create simplified, more focused versions for both end users and administrators.  
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKTK-fZc=/?moveToViewport=6405,-9035,21430,13071&embedId=415400999113" title="Miro - GitHub Enterprise map" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKTK-fZc=/?embedMode=view_only_without_ui&autoplay=true&moveToViewport=10032,-7336,14121,8957&embedId=841864704736" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 ---
 Related links:
 
