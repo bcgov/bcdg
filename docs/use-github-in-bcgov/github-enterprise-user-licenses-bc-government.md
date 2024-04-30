@@ -52,7 +52,7 @@ Once the above steps are complete, you'll be able to log in (using your IDIR) to
 
 ## Background: BC government GitHub Enterprise process map
 
-Our team has created the artifact below which captures the steps and teams involved in acquiring and mananaging GitHub Enterprise licenses. This version is intended for reference only, but we intend to create simplified, more focused versions for both end users and administrators.  
+Our team has created the artifact below which captures the steps and teams involved in acquiring and mananaging GitHub Enterprise licenses. This version is intended for reference only.
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKTK-fZc=/?embedMode=view_only_without_ui&autoplay=true&moveToViewport=10032,-7336,14121,8957&embedId=841864704736" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 ---
