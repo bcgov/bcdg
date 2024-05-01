@@ -26,7 +26,7 @@ The design system is currently in active development. It replaces the [legacy de
 
 ## How the design system works
 
-The B.C. Design System will comprise 4 core elements:
+The B.C. Design System comprises 4 core elements:
 
 - [Design tokens](#design-tokens)
 - [React component library](#component-library) (in development)
@@ -39,7 +39,7 @@ The goal of the design system is to provide a common set of resources for both d
 
 ### Design tokens
 
-The B.C. Design Tokens package provides a straightforward way for developers and designers to access and implement the basic visual language of the B.C. government's digital look and feel. Tokens provide flexible, standardised options for basic design decisions like:
+The B.C. Design System tokens library provides a straightforward way for developers and designers to access and implement the basic visual language of the B.C. government's digital look and feel. Tokens provide flexible, standardised options for basic design decisions like:
 
 - Colour
 - Typography
