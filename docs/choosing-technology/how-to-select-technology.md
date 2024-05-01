@@ -25,4 +25,4 @@ While there is a range of possible choices shown above, neither the categories n
 * [Open source considerations](../use-github-in-bcgov/evaluate-open-source-content/) 
 * [Considering procurement policies](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement) (for commercial options)
 * [Privacy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy/privacy-impact-assessments) and [Security](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/security-threat-and-risk-assessment) implications.
-* Requirements, guidance or policies from a team's ministry or sector central IT (ISB/IMB) 
+* Requirements, guidance or policies from a team's ministry or sector central IT group (ISB/IMB) 
