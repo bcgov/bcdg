@@ -1,23 +1,3 @@
----
-title: BC Government organizations in GitHub
-
-slug: bc-government-organizations-in-github
-
-description: Describes the different BC Government organizations in GitHub.
-
-keywords: github, github org, repo, open source, github enterprise, bcgov, github organization
-
-page_purpose: Describes the different BC Government organizations in GitHub, what they're used for, and who can use them.
-
-audience: developer, technical lead
-
-author: Jonathan Bond
-
-content_owner: Olena Mitovska
-
-sort_order: 1
----
-
 # BC Government organizations in GitHub
 
 Many teams building software for the B.C. government use [GitHub](https://github.com) to host their code. Using GitHub you can:
@@ -32,12 +12,6 @@ The main organization the B.C. government owns in GitHub is [bcgov](https://gith
 
 The Developer Experience Team manages the B.C. government's GitHub environments.
 
-## On this page
-
-- [Working in the open](#working-in-the-open)
-- [Organizations in GitHub](#organizations-in-github)
-- [Ministry-specific private organizations in GitHub Enterprise](#ministry-specific-private-organizations-in-github-enterprise)
-
 ## Working in the open
 
 The [Digital Principles for the Government of B.C.](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) urge product teams to work in the open as outlined in principle five. GitHub is the leading platform for open-source projects. It allows the Province to collaborate with the open-source community to build software, support innovation and save time and money.
@@ -46,13 +20,19 @@ The [Digital Principles for the Government of B.C.](https://www2.gov.bc.ca/gov/c
 
 The Province owns several GitHub organizations, which are described below.
 
+| Name | Use for... | User Access Requirements | Cost |
+| ---- | ----------- | ----------- | ----- |
+| [bcgov](#bcgov) | Repositories should be hosted in this open repo unless you have strong rationale from your MISO otherwise. | GitHub ID | Free |
+| [bcgov-c](#bcgov-c) | Code you would like to temporarily host in a closed repo, before moving into the bcgov org. | GitHub ID | Covered by OCIO for up to 12 months |
+| [bcgov-ent](#bcgov-ent) | Code that will remain private forever. | IDIR | Purchased by each team |
+
 ### `bcgov`
 
 The `bcgov` organization contains public repositories that hold open-source code or public documents developed by B.C. government teams. This organization is **public**.
 
 * Product teams working in the BC Gov Private Cloud PaaS OpenShift platform should use this organization unless they are given permission to work in [`bcgov-c`](#bcgov-c).
 * Any member of the `bcgov` organization can create repositories.
-* Existing members of the `bcgov` organization can invite new users to join the organization using the [Just Ask! tool](https://just-ask.developer.gov.bc.ca/). (***Users cannot request membership to `bcgov` for themselves***) 
+* Existing members of the `bcgov` organization can invite new users to join the organization using the [Just Ask! tool](https://just-ask.developer.gov.bc.ca/). (***Users requesting membership to `bcgov` for themselves will be reviewed and may be declined***) 
 
 ### `bcgov-c`
 
@@ -63,22 +43,15 @@ The `bcgov-c` organization stores temporary (up to 12 months), private repositor
 
 Your product team can only have a **permanent**, private repository in `bcgov-c` if it is a GitOps repository with ArgoCD manifests. We strongly discourage creating permanent, private repositories in this organization.
 
-### `bcgov-platform-services`
+### `bcgov-ent`
 
-* Only the Platform Services team can create repositories in this organization.
-* GitHub application integration (for example, SonarCloud testing) needs to be individually enabled for each repository. The Platform Services team approves all third-party application integration in all B.C. government organizations.
+We have an Enterprise-Managed User (EMU) tier of GitHub Enterprise procured within the BC Government. The Enterprise account acts as administrative umbrella above multiple Ministry IMB-managed GitHub Orgs. It is designed for Ministry-specific **private** organizations linked to the B.C. government's Enterprise account. These organizations permanently store teams' private repositories with closed-sourced code that is intended to remain closed forever. 
 
-## Ministry-specific private organizations in GitHub Enterprise
-
-Ministry-specific **private** organizations must be linked to the B.C. government's Enterprise account (user licenses are required for the members of these organizations).
-
-These organizations permanently store teams' private repositories with closed-sourced code that can't be transitioned to a public repository within 12 months. For more information on creating a private organization linked to the GitHub enterprise account, see [GitHub Enterprise user licences in the B.C. government](../github-enterprise-user-licenses-bc-government/).
+User licenses are required for the members of these organizations. For more information on creating a private organization linked to the GitHub enterprise account, see [GitHub Enterprise user licences in the B.C. government](github-enterprise-user-licenses-bc-government.md).
 
 * Product teams that need a permanent location for their closed-source code should use this repository.
-* Each ministry team must purchase their own [user licenses](../github-enterprise-user-licenses-bc-government/) to use the organization.
+* Each ministry team must purchase their own [user licenses](github-enterprise-user-licenses-bc-government.md#acquiring-github-enterprise-user-licences) to use the organization.
 * Only ministry GitHub administrators can create repositories in this organization. Consult with your ministry's Information Management Branch (IMB) to get in touch with the GitHub administrators.
-
-![Diagram of the BC Government GitHub organizations](../images/github-organization-chart.png)
 
 ### Security Insights for GitHub Enterprise-linked organizations
 
@@ -91,8 +64,8 @@ Related links:
 * [bcgov](https://github.com/bcgov)
 * [Digital Principles for BC Government](https://digital.gov.bc.ca/resources/digital-principles)
 * [Just Ask! tool](https://just-ask.developer.gov.bc.ca/)
-* [GitHub Enterprise user licences in the BC government](../github-enterprise-user-licenses-bc-government/)
-* [Remove a user's BCGov GitHub access](../remove-user-bcgov-github-access/)
-* [Common platform requests in the BC Gov Private Cloud PaaS](%WORDPRESS_BASE_URL%/private-cloud/support-and-community/devops-requests-in-the-bc-gov-private-cloud-paas/)
+* [GitHub Enterprise user licences in the BC government](github-enterprise-user-licenses-bc-government.md)
+* [Remove a user's BCGov GitHub access](remove-user-bcgov-github-access.md)
+* [Common platform requests in the BC Gov Private Cloud PaaS](https://digital.gov.bc.ca/cloud/services/private/support/#common)
 
 ---
