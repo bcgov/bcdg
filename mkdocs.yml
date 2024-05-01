@@ -7,7 +7,18 @@ plugins:
   - techdocs-core
   - git-revision-date-localized
 markdown_extensions:
-  - md_in_html
+    - md_in_html
+
+validation:
+    omitted_files: warn
+    absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
+    unrecognized_links: warn
+
+exclude_docs: |
+    digital_government.md
+    ways_of_working.md
+    supports_for_developers.md
+
 nav:
   - Introduction: index.md
   # - Digital Government: digital_government.md
@@ -26,7 +37,7 @@ nav:
     - Join the B.C. Government Rocket.Chat: rocketchat/steps-to-join-rocketchat.md
     - Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
     - Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
-    - Get help in Rocket.Chat: rocketchat/get-help-in-rocketchat.md
+    - Developing better questions: rocketchat/get-help-in-rocketchat.md
   - Accessibility: accessibility-resources.md
   - Design System:
       - About the Design System: design-system/about-the-design-system.md

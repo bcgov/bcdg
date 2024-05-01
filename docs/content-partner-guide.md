@@ -63,7 +63,7 @@ The images below provide an example of how a Markdown snippet in GitHub (first i
 
 ![A screenshot of the Mardown source ](images/markdown_source.png)
 
-![](images/devhub_appearance.png)
+!A screenshot of TechDocs-generated documentation displayed within DevHub.](images/devhub_appearance.png)
 
 ## How do we get set up to have our documentation published in DevHub?
 
@@ -75,6 +75,12 @@ In general, the process looks like this:
 2.  Following the overview meeting, we will recommend a working session between ourselves and one or more  technical team members to adapt your existing documentation process to one that is compatible with DevHub. The goal of the working session is to get your team comfortable working in a DevHub-compatible workflow, as well as identifying any changes needed to your content in order for it to be publishable in DevHub.
 3. After the working session, your team may have some "homework" to adapt content or implement automated tools. The amount of work will depend on that is uncovered in the working session. You can complete these items on your own timeline.
 4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterward.
+
+## What license should my content have?
+
+Markdown documentation that is stored in GitHub and will be published in DevHub should have a Creative Commons license. Specifically, the "CC BY" license, which is described in detail on the corresponding [Creative Commons page](https://creativecommons.org/licenses/by/4.0/).  A file called "LICENSE.md" containing the [license legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) should be stored in the root of your documentation repository alongside your documentation.  
+
+> Our self serve tool will automatically include a license file when you use it create a repository for your documentation. If your documentation is being added to an existing repository, you should ensure that a license file is added.  If your repository has both documentation and code, and they are under different licenses, you should have two license files (e.g. LICENSE.md for code and LICENSE_DOCS.md for documentation). You should indicate in your README.md file that the code and documentation are under separate licenses and which license file applies to each.
 
 ## What kinds of modifications are needed to existing technical documentation in Markdown in order to work in DevHub?
 
