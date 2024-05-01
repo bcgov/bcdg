@@ -18,7 +18,7 @@ content_owner: Marcus Kernohan
 sort_order: 1
 ---
 
-# About the design system
+# About the B.C. Design System
 
 The B.C. Design System provides components and resources to help developers and designers build accessible user interfaces faster and more consistently.
 
