@@ -6,14 +6,7 @@ edit_uri: edit/main/docs/
 
 nav:
     -   Introduction: index.md
-    -   Digital Government: digital-government.md
-    -   Common technology choices:
-            -   Selecting Technology: choosing-technology/how-to-select-technology.md
-            -   Common Components: choosing-technology/common-components.md
-            -   Community Contributed Tools: choosing-technology/community-contributed-tools.md
-            -   CI/CD: choosing-technology/ci-cd.md
-            -   Container Tooling: choosing-technology/container-tooling.md
-            -   Package Hosting: choosing-technology/package-hosting.md
+    -   Selecting Technology: choosing-technology/how-to-select-technology.md
     # - Ways of Working: ways_of_working.md
     # - Supports for developers: supports_for_developers.md
     -   GitHub in the B.C. government:
