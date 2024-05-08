@@ -2,7 +2,7 @@
 
 The best support on Rocket.Chat comes when users ask detailed questions. They help the community respond quicker. Here's an example of a clear and detailed user question:
 
-> I've set up a new caddy web server on OpenShift that serves static web pages. I've created a Route for it, but when I go to the URL in my web browser I get an error page with the error message "Application is not available". I confirmed that the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. I've include my Route definition below. Does anyone have suggestion on how I might get past this error and see the content I expect in my browser?
+> I've set up a new caddy web server on OpenShift that serves static web pages. I've created a Route for it, but when I go to the URL in my web browser I get an error page with the error message "Application is not available" instead of the static content I am expecting. I confirmed that the URL in the browser matches the route. I've tried with different browsers. I've checked the web server logs and the server is running with no errors. I've included my Route definition below. Does anyone have suggestion on how I might get past this error?
 
 
 > **route.yml YAML**
@@ -56,7 +56,7 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 
 Describe the environment the problem happened in: 
 
-- In an OpeShift cluster, give the namespace and cluster name (Silver, Gold, Gold DR, Emerald, KLab, CLab)
+- In an OpenShift cluster, give the namespace and cluster name (Silver, Gold, Gold DR, Emerald, KLab, CLab)
 - With  application code, what stack, languages and libraries you used, including which versions
 - With a tool, please specify the platform tool
 - With a web application or UI, please specify which browser, browser version, and device
