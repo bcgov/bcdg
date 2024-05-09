@@ -2,9 +2,9 @@
 
 >Note: This page is under review as of December 2023 and will be updated for clarity and accuracy early in 2024. 
 
-All code built for B.C. government for staff or contracted developers should be open source by default and stored in the public [`bcgov` organization on GitHub.com](https://github.com/bcgoc). If you have closed source code and still want to use GitHub's functionality, you can store your code in a private repository within the B.C. government's [GitHub Enterprise environment](https://github.com/enterprises/bcgov-ent/). This page contains details related to that environment and its use.
+All code built for B.C. government for staff or contracted developers should be open source by default and stored in the public [`bcgov` organization on GitHub.com](https://github.com/bcgov). If you have closed source code and still want to use GitHub's functionality, you can store your code in a private repository within the B.C. government's [GitHub Enterprise environment](https://github.com/enterprises/bcgov-ent/). This page contains details related to that environment and its use.
 
-For more information about B.C. government GitHub organizations outside of GitHub Enterprise, see [B.C. government organizations in GitHub](../bc-government-organizations-in-github/).
+For more information about B.C. government GitHub organizations outside of GitHub Enterprise, see [B.C. government organizations in GitHub](bc-government-organizations-in-github.md).
 
 ## B.C. government GitHub Enterprise Overview
 
@@ -35,7 +35,7 @@ This section outlines what is involved in acquiring the licenses required to use
 ### Pre-requisites:
 
 - Confirm that your intended use of GitHub Enterprise aligns with its purpose, which is exclusively for storing code that can't be, or isn't currently, open source.
-- Confirm whether your ministry or sector is using GitHub Enterprise and know who in your IMB/ISB is responsible for managing access. If you aren't sure who to contact within your IMB/ISB, please contact the [Developer Experience Team](developer.experience@gov.bc.ca) for assistance.
+- Confirm whether your ministry or sector is using GitHub Enterprise and know who in your IMB/ISB is responsible for managing access. If you aren't sure who to contact within your IMB/ISB, please contact the [Developer Experience Team](mailto:developer.experience@gov.bc.ca) for assistance.
 - Identify who is responsible within your business area for submitting iStore orders.
 
 ### Steps
@@ -52,12 +52,12 @@ Once the above steps are complete, you'll be able to log in (using your IDIR) to
 
 ## Background: BC government GitHub Enterprise process map
 
-Our team has created the artifact below which captures the steps and teams involved in acquiring and mananaging GitHub Enterprise licenses. This version is intended for reference only, but we intend to create simplified, more focused versions for both end users and administrators.  
+The [Developer Experience Team](mailto:developer.experience@gov.bc.ca) has created the artifact below which captures the steps and teams involved in acquiring and mananaging GitHub Enterprise licenses. This version is intended for reference only.
 
 ![A detailed diagram illustrating the process of acquiring and administering GitHub Enterprise licenses within the B.C. government. ](../images/github-e-process-map.png)
 ---
 Related links:
 
-* [BC Government Organizations in GitHub](../bc-government-organizations-in-github/)
+* [BC Government Organizations in GitHub](bc-government-organizations-in-github.md)
 
 ---
