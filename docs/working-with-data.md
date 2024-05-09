@@ -1,8 +1,8 @@
 # Working with Data
 
-The BC Data Service encourages and enables the strategic management and sharing of data across the government enterprise and with the public. 
+BC Data Service develops data solutions that help government better serve the people of B.C.
 
-Access to trusted, high quality data is essential for the success of British Columbia - expressed in effective government decision making, a robust economy, and improved well-being for all of its citizens. 
+The division is the trusted go-to leader for data analysis and statistics about people in B.C. It leads data policy development and management and also provides data analysis, tools, platforms, training and support.
 
 ## API Resources
 
@@ -30,7 +30,7 @@ If you are a developer or part of a government team, you can administer and mana
 
 ### Geospatial Data
 
-The province's area, varied topography and predominantly natural resource based economy has positioned B.C. as a leader in geographic information management and generates a wealth of geographic information that is discoverable in the BC Data Catalogue.  DataBC provides access to this information through a suite of unique applications and services that comprise [the B.C. Spatial Data Infrastructure](https://www2.gov.bc.ca/gov/content/data/geographic-data-services).
+The province's area, varied topography and predominantly natural resource based economy has positioned B.C. as a leader in geographic information management and generates a wealth of geographic information that is discoverable in the BC Data Catalogue.  BC Data Service provides access to this information through a suite of unique applications and services that comprise [the B.C. Spatial Data Infrastructure](https://www2.gov.bc.ca/gov/content/data/geographic-data-services).
 
 ## Standards
 
