@@ -30,6 +30,10 @@ Understand what resources are available to support the development of accessible
 
 Learn what the BC Government Design System for Digital Services can do for your project.
 
+### [Working with Data](working-with-data.md)
+
+Understand what B.C. Data Services support are available to support the success of technical projects. 
+
 ## Future Topics
 
 In the spirit of #Agile and #WorkingInTheOpen, we're taking an iterative approach to publishing new guidance. 
@@ -54,7 +58,6 @@ Potential topics for this guide include:
 - Networking
 - Security
 - Compliance
-- Data and APIs
 
 ## Contact us
 
