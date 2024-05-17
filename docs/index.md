@@ -8,11 +8,15 @@ This document is a living guide to application development for the B.C governmen
 
 Helpful links and context for folks new to development within the government of B.C.
 
+### [How To Select Technology](choosing-technology/how-to-select-technology.md)
+
+This section shares some of the commonly adopted technologies to help teams make technical decisions for their projects.
+
 ### [GitHub in the B.C. government](./use-github-in-bcgov/bc-government-organizations-in-github/)
 
-### Developer Community Tools
-
 GitHub is the preferred tool for B.C. government development team to store and share code. Learn about available options related to GitHub and how to license and manage code repositories.
+
+### Developer Community Tools
 
 #### [Rocket.Chat](rocketchat/steps-to-join-rocketchat.md)
 
