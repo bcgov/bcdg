@@ -24,6 +24,11 @@ If you are a developer or part of a government team, you can administer and mana
 
 ## Other Resources
 
+## Standards
+
+* [API Guidelines](https://classic.developer.gov.bc.ca/Data-and-APIs/BC-Government-API-Guidelines)
+* [OpenAPI specs](https://classic.developer.gov.bc.ca/Data-and-APIs/BC-Government-OpenAPI-Specifications)
+
 ### BC Data Catalogue
 
 [The BC Data Catalogue](https://www2.gov.bc.ca/gov/content/data/bc-data-catalogue) provides the easiest access to government's data holdings, as well as their associated applications and web services. Thousands of the datasets discoverable in the Catalogue are available under the [Open Government License - British Columbia](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc).
@@ -31,11 +36,6 @@ If you are a developer or part of a government team, you can administer and mana
 ### Geospatial Data
 
 The province's area, varied topography and predominantly natural resource based economy has positioned B.C. as a leader in geographic information management and generates a wealth of geographic information that is discoverable in the BC Data Catalogue.  BC Data Service provides access to this information through a suite of unique applications and services that comprise [the B.C. Spatial Data Infrastructure](https://www2.gov.bc.ca/gov/content/data/geographic-data-services).
-
-## Standards
-
-* [API Guidelines](https://classic.developer.gov.bc.ca/Data-and-APIs/BC-Government-API-Guidelines)
-* [OpenAPI specs](https://classic.developer.gov.bc.ca/Data-and-APIs/BC-Government-OpenAPI-Specifications)
 
 ## Support
 
