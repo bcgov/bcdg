@@ -62,6 +62,15 @@ In both cases, the basic steps to release the code are similar, while the implic
 
 If you are intending to maintain an active project, make sure to establish the appropriate processes and terms to manage contributions.
 
+## Integrating GitHub Apps
+
+We have large volumes of asks about adding GitHub Apps to our organization’s repository. To manage the asks, we created a request process through the devops-requests repository.
+If the existing applications, like SonarCloud, does not work for you or your team, please create an issue. We need: 
+
+1) Your contact information 
+2) Detailed information about the GitHub App
+
+
 ## Initiate new code or projects
 
 These are projects that you want to manage as an open-source, collaborative project.
