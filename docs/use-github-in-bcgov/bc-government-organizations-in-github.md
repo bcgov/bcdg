@@ -79,13 +79,10 @@ By July 30, 2024, users must follow prompts in GitHub to link their personal Git
 [Learn more about how linking works]().  
  
 Ministries won’t be charged for upgraded GitHub licenses.  However, contractors need IDIRs before they can enable SSO. Ministries may need to seek expense approvals to order [IDIRs for contracted resources without one](). 
+  
+### Directions to link your accounts before July 30th: 
  
- 
-### Timelines and user actions 
- 
-#### Directions to link your accounts before July 30th: 
- 
-##### For employees 
+#### For employees 
  
 [placeholder for video]()
  
@@ -95,7 +92,7 @@ Ministries won’t be charged for upgraded GitHub licenses.  However, contractor
  
 That’s it, your accounts are now linked.  
  
-##### For contractors 
+#### For contractors 
  
 If you don’t have an IDIR account, [we have guidance on ordering a compatible IDIR] ](faq link). It can take several days to complete depending on your ministry.We recommend doing with this step as soon as possible to avoid access disruptions.  
  
@@ -108,7 +105,7 @@ After getting an IDIR, follow the steps below:
  
 That’s it, your accounts are now linked.  
  
-#### Directions to link your account after July 30th 
+### Directions to link your account after July 30th 
 
 If you are a contractor without an IDIR, follow the steps in the [IDIR transition guide]() before proceeding. 
  
@@ -118,8 +115,7 @@ If you are a contractor without an IDIR, follow the steps in the [IDIR transitio
  
 3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](). 
  
- 
-#### Upgrading other GitHub organizations 
+### Upgrading other GitHub organizations 
  
 The bcgov-c, BCDevOps organizations will transition to SSO on different timelines. It will be the same process moving forward for any organization upgrade.  
  
