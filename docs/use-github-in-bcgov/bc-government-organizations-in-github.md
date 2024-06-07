@@ -81,7 +81,7 @@ By July 30, 2024, users must follow prompts in GitHub to link their personal Git
  
 Ministries won’t be charged for upgraded GitHub licenses.  However, contractors need IDIRs before they can enable SSO. Ministries may need to seek expense approvals to order [IDIRs for contracted resources without one](). 
   
-### Directions to link your accounts before July 30th: 
+### Directions to link your accounts before July 30th 
  
 #### For employees 
  
