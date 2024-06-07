@@ -1,4 +1,4 @@
-# BC Government organizations in GitHub
+# B.C. Government organizations in GitHub
 
 Many teams building software for the B.C. government use [GitHub](https://github.com) to host their code. Using GitHub you can:
 
@@ -29,7 +29,7 @@ The Province owns several GitHub organizations, which are described below.
 
 The `bcgov` organization contains public repositories that hold open-source code or public documents developed by B.C. government teams. This organization is **public**.
 
-* Product teams working in the BC Gov Private Cloud PaaS OpenShift platform should use this organization unless they are given permission to work in [`bcgov-c`](#bcgov-c).
+* Product teams working in the B.C. Gov Private Cloud PaaS OpenShift platform should use this organization unless they are given permission to work in [`bcgov-c`](#bcgov-c).
 * Any member of the `bcgov` organization can create repositories.
 * Existing members of the `bcgov` organization can invite new users to join the organization using the [Just Ask! tool](https://just-ask.developer.gov.bc.ca/). (***Users requesting membership to `bcgov` for themselves will be reviewed and may be declined***) 
 
@@ -47,7 +47,7 @@ Your product team can only have a **permanent**, private repository in `bcgov-c`
 
 We're enabling single sign-on (SSO) for GitHub. We’re starting with the bcgov GitHub organization. After we finish transitioning bcgov, we’ll enable other OCIO-managed GitHub organizations. 
   
-To keep access to the bcgov GitHub organization, all users must link their IDIRs to their GitHub IDs between **June 30th and July 30th, 2024**. If users don’t complete this by July  30th, 2024, they’ll be automatically removed from the bcgov GitHub organization, and by extension, all the code repositories connected to bcgov.   
+To keep access to the bcgov GitHub organization, all users must link their IDIRs to their GitHub IDs between **June 30 and July 30, 2024**. If users don’t complete this by July  30, 2024, they’ll be automatically removed from the bcgov GitHub organization, and by extension, all the code repositories connected to bcgov.   
 Contractors without IDIRs must get one to before they can enable SSO. [Learn how to order an IDIR](). 
  
 [Learn more about the timelines and instructions](bc-govermentorganizations-in-github.md#the-changes). 
@@ -81,14 +81,14 @@ By July 30, 2024, users must follow prompts in GitHub to link their personal Git
  
 Ministries won’t be charged for upgraded GitHub licenses.  However, contractors need IDIRs before they can enable SSO. Ministries may need to seek expense approvals to order [IDIRs for contracted resources without one](). 
   
-### Directions to link your accounts before July 30th 
+### Directions to link your accounts before July 30
  
 #### For employees 
  
 [placeholder for video to show what to expect]()
  
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready for linking 
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works]() 
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works](). 
 3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](). 
  
 That’s it, your accounts are now linked.  
@@ -102,13 +102,13 @@ After getting an IDIR, follow the steps below:
 [placeholder for video to show what to expect]()
 
 1. Have any two-factor device, and personal GitHub login and IDIR login ready for linking 
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works]() 
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works](). 
 3. If linking fails, your IDIR configuration is not compatible with our GitHub SSO. You must [request an upgrade to a P2 level IDIR account]().  
 4. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](). 
  
 That’s it, your accounts are now linked.  
  
-### Directions to link your account after July 30th 
+### Directions to link your account after July 30 
 
 If you are a contractor without an IDIR, follow the steps in the [IDIR transition guide]() before proceeding. 
  
@@ -122,7 +122,7 @@ The bcgov-c, BCDevOps organizations will transition to SSO on different timeline
  
 [Sign up to the DevX newsletter]() for updates on these changes. 
  
-For current [BC Government private Enterprise]() organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
+For current [B.C. Government private Enterprise]() organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
  
 ### Support 
  
@@ -139,10 +139,10 @@ Related links:
 
 * [GitHub](https://github.com)
 * [bcgov](https://github.com/bcgov)
-* [Digital Principles for BC Government](https://digital.gov.bc.ca/resources/digital-principles)
+* [Digital Principles for B.C. Government](https://digital.gov.bc.ca/resources/digital-principles)
 * [Just Ask! tool](https://just-ask.developer.gov.bc.ca/)
-* [GitHub Enterprise user licences in the BC government](github-enterprise-user-licenses-bc-government.md)
+* [GitHub Enterprise user licences in the B.C. government](github-enterprise-user-licenses-bc-government.md)
 * [Remove a user's BCGov GitHub access](remove-user-bcgov-github-access.md)
-* [Common platform requests in the BC Gov Private Cloud PaaS](https://digital.gov.bc.ca/cloud/services/private/support/#common)
+* [Common platform requests in the B.C. Gov Private Cloud PaaS](https://digital.gov.bc.ca/cloud/services/private/support/#common)
 
 ---
