@@ -50,11 +50,11 @@ We're enabling single sign-on (SSO) for GitHub. We’re starting with the bcgov 
 To keep access to the bcgov GitHub organization, all users must link their IDIRs to their GitHub IDs between **June 30th and July 30th, 2024**. If users don’t complete this by July  30th, 2024, they’ll be automatically removed from the bcgov GitHub organization, and by extension, all the code repositories connected to bcgov.   
 Contractors without IDIRs must get one to before they can enable SSO. [Learn how to order an IDIR](). 
  
-[Learn more about the timelines and instructions ](bc-govermentorganizations-in-github.md#the-changes). 
+[Learn more about the timelines and instructions](bc-govermentorganizations-in-github.md#the-changes). 
  
 ### User impacts 
  
-Users who have accounts attached to the [bcgov GitHub organization] (https://github.com/bcgov). 
+Users who have accounts attached to the [bcgov GitHub organization](https://github.com/bcgov). 
  
 Users who use GitHub as their authentication method to login to: 
 
@@ -67,9 +67,9 @@ Users who use GitHub as their authentication method to login to:
 Teams relying on integrations that need access to the bcgov org, for example: 
 
 - GitHub or OAuth apps 
-    - to automate the release or testing of your code, including 3rd party security tools 
+  - to automate the release or testing of your code, including 3rd party security tools 
 - Access tokens and/or SSH keys that your app or team may rely on that will be disconnected when user access is removed 
-    - IDE or command line tools and/or automation scripts 
+  - IDE or command line tools and/or automation scripts 
  
 ### The changes 
  
