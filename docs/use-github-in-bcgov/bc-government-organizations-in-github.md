@@ -1,6 +1,6 @@
 # B.C. Government organizations in GitHub
 
-Many teams building software for the B.C. government use [GitHub](https://github.com) to host their code. Using GitHub you can:
+Many teams building software for the B.C. government use [GitHub](https://github.com) to host their code. Using GitHub, users can:
 
 * Share and control code versions
 * Use tools for team and project management
@@ -48,7 +48,8 @@ Your product team can only have a **permanent**, private repository in `bcgov-c`
 We're enabling single sign-on (SSO) for GitHub. We’re starting with the bcgov GitHub organization. After we finish transitioning bcgov, we’ll enable other OCIO-managed GitHub organizations. 
   
 To keep access to the bcgov GitHub organization, all users must link their IDIRs to their GitHub IDs between **June 30 and July 30, 2024**. If users don’t complete this by July  30, 2024, they’ll be automatically removed from the bcgov GitHub organization, and by extension, all the code repositories connected to bcgov.   
-Contractors without IDIRs must get one to before they can enable SSO. [Learn how to order an IDIR](). 
+
+Contractors without IDIRs must get one to before they can enable SSO. [Learn how to order an IDIR](https://bcdevex.atlassian.net/wiki/spaces/DEVEXP/pages/1514274870/GitHub+Single+Sign-On+SSO+Transition+Guide). 
  
 [Learn more about the timelines and instructions](bc-govermentorganizations-in-github.md#the-changes). 
  
@@ -79,7 +80,7 @@ By July 30, 2024, users must follow prompts in GitHub to link their personal Git
  
 [Learn more about how linking works]().  
  
-Ministries won’t be charged for upgraded GitHub licenses.  However, contractors need IDIRs before they can enable SSO. Ministries may need to seek expense approvals to order [IDIRs for contracted resources without one](). 
+Ministries won’t be charged for upgraded GitHub licenses.  However, contractors need IDIRs before they can enable SSO. Ministries may need to seek expense approvals to order [IDIRs for contracted resources without one](https://bcdevex.atlassian.net/wiki/spaces/DEVEXP/pages/1514274870/GitHub+Single+Sign-On+SSO+Transition+Guide). 
   
 ### Directions to link your accounts before July 30
  
@@ -95,7 +96,7 @@ That’s it, your accounts are now linked.
  
 #### For contractors 
  
-If you don’t have an IDIR account, [we have guidance on ordering a compatible IDIR] ](faq link). It can take several days to complete depending on your ministry.We recommend doing with this step as soon as possible to avoid access disruptions.  
+If you don’t have an IDIR account, [we have guidance on ordering a compatible IDIR] ](https://bcdevex.atlassian.net/wiki/spaces/DEVEXP/pages/1514274870/GitHub+Single+Sign-On+SSO+Transition+Guide)). It can take several days to complete depending on your ministry.We recommend doing with this step as soon as possible to avoid access disruptions.  
  
 After getting an IDIR, follow the steps below: 
 
@@ -110,7 +111,7 @@ That’s it, your accounts are now linked.
  
 ### Directions to link your account after July 30 
 
-If you are a contractor without an IDIR, follow the steps in the [IDIR transition guide]() before proceeding. 
+If you are a contractor without an IDIR, follow the steps in the [IDIR transition guide](https://bcdevex.atlassian.net/wiki/spaces/DEVEXP/pages/1514274870/GitHub+Single+Sign-On+SSO+Transition+Guide) before proceeding. 
  
 1. If you have a valid IDIR, ask anyone with access to the organization to re-invite you. [Learn how to request access to the bcgov GitHub organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). 
 2. Once you have access again, your teammates with admin access may need to re-invite you to the repositories you had access to before.  
@@ -126,7 +127,7 @@ For current [B.C. Government private Enterprise]() organizations, we’ll work w
  
 ### Support 
  
-For more information, please see our [transition guide]().  
+For more information, please see our [transition guide](https://bcdevex.atlassian.net/wiki/spaces/DEVEXP/pages/1514274870/GitHub+Single+Sign-On+SSO+Transition+Guide).  
  
 For help with access, please [submit a support request]( https://citz-do.atlassian.net/servicedesk/customer/portal/2). 
 
