@@ -89,7 +89,7 @@ Ministries won’t be charged for upgraded GitHub licenses.  However, contractor
 #### For employees 
  
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready for linking 
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works](). 
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on). 
 3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](). 
  
 That’s it, your accounts are now linked.  
@@ -101,9 +101,9 @@ If you don’t have an IDIR account and need help, we have an [IDIR transition g
 After getting an IDIR, follow the steps below: 
 
 1. Have any two-factor device, and personal GitHub login and IDIR login ready for linking 
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works](). 
-3. If linking fails, your IDIR configuration is not compatible with our GitHub SSO. You must [request an upgrade to a P2 level IDIR account]().  
-4. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](). 
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. [Learn more about how this works](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on#linked-saml-identities). 
+3. If linking fails, your IDIR configuration isn't compatible with our GitHub SSO. You must [request an upgrade to a P2 level IDIR account](https://citz-do.atlassian.net/servicedesk/customer/portal/2/article/78053380).  
+4. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on#authorizing-personal-access-tokens-and-ssh-keys-with-saml-sso). 
  
 That’s it, your accounts are now linked.  
  
@@ -113,7 +113,7 @@ If you are a contractor without an IDIR, follow the steps in the [IDIR transitio
  
 1. If you have a valid IDIR, ask anyone with access to the organization to re-invite you. [Learn how to request access to the bcgov GitHub organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). 
 2. Once you have access again, your teammates with admin access may need to re-invite you to the repositories you had access to before.  
-3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](). 
+3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/about-authentication-with-saml-single-sign-on#authorizing-personal-access-tokens-and-ssh-keys-with-saml-sso).  
  
 ### Upgrading other GitHub organizations 
  
