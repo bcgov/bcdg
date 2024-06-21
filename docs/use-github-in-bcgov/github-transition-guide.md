@@ -1,8 +1,11 @@
 # GitHub upgrade transition guide
 
+This transition guide offers more detailed information about IDIRs and GitHub changes as they relate to the GitHub SSO upgrade. 
+
+[Learn about the transition to SSO](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations) 
+
 ## IDIRs
 
-Our transition guide offers more detailed information about IDIRs as they relate to the GitHub SSO upgrade. 
 We use [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2) (JSM) for user requests that cannot be completed on GitHub. If there’s a topic isn’t covered in the guide, please fill out a form to open a ticket.
 
 ### Compatible IDIRs for the GitHub SSO upgrade
