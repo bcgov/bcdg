@@ -10,4 +10,4 @@ metadata:
 spec:
   type: documentation
   lifecycle: experimental
-  owner: "developer-experience"
+  owner: "bcgov/developer-experience"
