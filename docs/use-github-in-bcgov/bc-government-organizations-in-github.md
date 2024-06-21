@@ -119,15 +119,15 @@ If you are a contractor without an IDIR, follow the steps in the [IDIR transitio
  
 The bcgov-c, BCDevOps organizations will transition to SSO on different timelines. It will be the same process moving forward for any organization upgrade.  
  
-[Sign up to the DevX newsletter]() for updates on these changes. 
+[Sign up to the DevX newsletter](http://eepurl.com/iOG5FM) for updates on these changes. 
  
-For current [B.C. Government private Enterprise]() organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
+For current [B.C. Government private Enterprise](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-enterprise-user-licenses-bc-government/) organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
  
 ### Resources 
  
 For IDIR related help, please see our [IDIR transition guide](https://citz-do.atlassian.net/servicedesk/customer/article/78413837).  
 
-For technical help, please see our [techinical transition guide]()
+For technical help, please see our [techinical transition guide](https://citz-do.atlassian.net/servicedesk/customer/portal/2/article/83361803)
  
 For access specific help, please send a request through [our Jira Service Manager]( https://citz-do.atlassian.net/servicedesk/customer/portal/2). 
 
