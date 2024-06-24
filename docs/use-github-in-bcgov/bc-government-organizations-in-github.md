@@ -53,7 +53,7 @@ Contractors without IDIRs must get one to before they can enable SSO.
 
 [Learn how to order an IDIR](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/). 
  
-[Learn more about the timelines and instructions](bc-govermentorganizations-in-github.md#the-changes). 
+[Learn more about the timelines and instructions](bc-goverment-organizations-in-github.md#the-changes). 
  
 ### User impacts 
  
@@ -96,7 +96,7 @@ That’s it, your accounts are now linked.
  
 #### For contractors 
  
-If you don’t have an IDIR account, [we have guidance on ordering a compatible IDIR] ](faq link). It can take several days to complete depending on your ministry.We recommend doing with this step as soon as possible to avoid access disruptions.  
+If you don’t have an IDIR account, [we have guidance on ordering a compatible IDIR] ](github-transition-guide.md#idirs). It can take several days to complete depending on your ministry.We recommend doing with this step as soon as possible to avoid access disruptions.  
  
 After getting an IDIR, follow the steps below: 
 
