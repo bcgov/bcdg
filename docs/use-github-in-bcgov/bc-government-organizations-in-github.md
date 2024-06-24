@@ -130,16 +130,3 @@ For help with access, please [submit a support request]( https://citz-do.atlassi
 ## Security Insights for GitHub Enterprise-linked organizations
 
 The Security Insight feature is available for all organizations linked to the corporate GitHub Enterprise accounts, as well as branch protection and code owners for private repositories. Branch protection only allows specific people to push to the protected branch. The code owners feature allows automated reviews. For example, if a specific user is a code owner of certain files they are automatically added as PR reviewers and their approval is required before the code can be merged.
-
----
-Related links:
-
-* [GitHub](https://github.com)
-* [bcgov](https://github.com/bcgov)
-* [Digital Principles for B.C. Government](https://digital.gov.bc.ca/resources/digital-principles)
-* [Just Ask! tool](https://just-ask.developer.gov.bc.ca/)
-* [GitHub Enterprise user licences in the B.C. government](github-enterprise-user-licenses-bc-government.md)
-* [Remove a user's BCGov GitHub access](remove-user-bcgov-github-access.md)
-* [Common platform requests in the B.C. Gov Private Cloud PaaS](https://digital.gov.bc.ca/cloud/services/private/support/#common)
-
----
