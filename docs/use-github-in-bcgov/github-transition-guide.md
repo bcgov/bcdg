@@ -2,7 +2,7 @@
 
 This transition guide offers more detailed information about IDIRs and GitHub changes as they relate to the GitHub SSO upgrade. 
 
-[Learn about the transition to SSO](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations) 
+We published more about [the SSO upgrade](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations) on DevHub. 
 
 ## IDIRs
 
@@ -21,7 +21,7 @@ As we upgrade GitHub. we focus on 2 types of IDIRs:
 - Contractor IDIRs
  
 ### Primary IDIRs for employees
-B.C. Government employees have the default configuration compatible with SSO. [DevHub has instructions on how to link your IDIR to GitHub](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations).
+B.C. Government employees have the default configuration compatible with SSO. [DevHub has instructions to link your IDIR to GitHub](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations).
  
 ### Compatible IDIRs for contractors
 If a user is a contracted worker, then the process may be more complex, depending on IDIR types. The table below offers an overview between P2 and E5, IDIRs compatible with the GitHub SSO upgrade.
@@ -37,15 +37,16 @@ Column 1 lists IDIR features, column 2 has P2 features, and column 3 has E5 feat
 | Office 365 license  | No            |  Yes          |
 | Expiry date         | Yes           |  Yes          |
 
-Please see [Service Bulletin 1350](https://ociomysc.service-now.com/sp?id=kb_article&sys_id=7a69f65fdbff9d10fa86193813961978&spa=1) for more information
+
+Please see [Service Bulletin 1350](https://ociomysc.service-now.com/sp?id=kb_article&sys_id=7a69f65fdbff9d10fa86193813961978&spa=1) for more information.
 
 Contract managers must keep expiry dates updated because our team doesn’t have the ability to submit orders on behalf of ministries. 
 
-It’s very likely contractors already with IDIRs have P2. To learn if contractors already have compatible IDIRs, please call 7-7000 or open a ticket to confirm through [MyService Centre](https://ociomysc.service-now.com/sp?id=ocio_sr_incident_management).
+It’s very likely contractors already with IDIRs have P2. If linking doesn't work, please call 7-7000 or open a ticket to confirm through [MyService Centre](https://ociomysc.service-now.com/sp?id=ocio_sr_incident_management).
  
 ### Contractors without IDIRs
 Each ministry has an authorized user who submits orders in [MyService Centre](https://ociomysc.service-now.com/sp?id=ocio_sr_incident_management). Please reach out to them as soon as possible to order an IDIR.
-Multiple IDIRs
+Multiple IDIRs.
 
 Developers with multiple IDIRs can link their most permanent IDIR to their GitHub ID. They can change IDIRs at any time. We tested and can confirm that users make changes on their own.
 
@@ -61,13 +62,30 @@ After July 30th, 2024, users cannot access bcgov if they didn’t link IDIRs and
 
 Our technical transition guide offers more details and helps GitHub users prepare for the upgrade.
 
-After July 30th, 2024, users cannot access bcgov if they didn’t link IDIRs and GitHub IDs. When SSO enablement happens, there are mechanisms in the system that force an IDIR login when you use your GitHub to login.
+### User impacts 
+ 
+The users impacted are: 
 
-Our technical transition guide offers more details and helps GitHub users prepare for the upgrade.
+- Users with accounts attached to the [bcgov GitHub organization](https://github.com/bcgov). 
+- Users who use GitHub as their authentication method to login to: 
+    - [Private Cloud](https://developer.gov.bc.ca/docs/default/component/platform-developer-docs),  
+    - [Public Cloud](https://developer.gov.bc.ca/docs/default/component/public-cloud-techdocs), 
+    - [Stack Overflow](https://stackoverflow.developer.gov.bc.ca/),  
+    - [Rocket.chat](https://chat.developer.gov.bc.ca/),  
+    - Any other custom apps owned by the province that use membership in the bcgov organization to authenticate and authorize users 
+ - Teams relying on integrations that need access to the bcgov org, for example: 
+    - GitHub or OAuth apps to automate the release or testing of your code, including 3rd party security tools 
+    - Access tokens and/or SSH keys that your app or team may rely on that will be disconnected when user access is removed, IDE or command line tools and/or automation scripts 
 
 ### Outside Collaborators
 
 We’re starting with enabling SSO for direct government workers and contractors. After completing the transition for them, we’ll focus on enabling SSO for [outside collaborators](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization).
+
+Moving forward, **bcgov** GitHub organization needs mandatory and full membership. An option won’t be available to add outside collaborators anymore. 
+
+#### Distinguishing between outside collaborators and contractors 
+
+Outside collaborators aren’t members of B.C. Government’s GitHub organizations.  If the GitHub banners reminding users to upgrade to SSO doesn’t come up for you, then you’re likely an outside collaborator. 
 
 ### IDIRs
 
