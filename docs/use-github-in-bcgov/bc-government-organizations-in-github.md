@@ -53,7 +53,7 @@ Contractors without IDIRs must have 1 ordered before SSO can be enabled.
 
 [Learn how to order an IDIR](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/). 
  
-[Learn more about the timelines and instructions](bc-govermentorganizations-in-github.md#the-changes). 
+[Learn more about the timelines and instructions](bc-government-organizations-in-github.md#the-changes). 
   
 ### The changes 
  
