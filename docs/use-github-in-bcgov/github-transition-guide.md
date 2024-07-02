@@ -11,12 +11,14 @@ We use [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer
 ### Compatible IDIRs for the GitHub SSO upgrade
 
 Our organization has many different types of IDIRs, such as:
+
 - Primary IDIRs for employees
 - Secondary IDIRs for testing
 - Generic IDIRs linked to shared inboxes
 - Contractor IDIRs
 
 As we upgrade GitHub. we focus on 2 types of IDIRs:
+
 - Primary IDIRs for employees
 - Contractor IDIRs
  
@@ -51,6 +53,7 @@ Multiple IDIRs.
 Developers with multiple IDIRs can link their most permanent IDIR to their GitHub ID. They can change IDIRs at any time. We tested and can confirm that users make changes on their own.
 
 The important things to keep in mind are:
+
 - The IDIR must not be expired
 - Our team cannot manage IDIR expiry dates
  
@@ -100,6 +103,7 @@ Our [transition guide about IDIRs](#idirs) has more relevant information.
 Developers with multiple IDIRs can link their most permanent IDIR to their GitHub ID. They can change IDIRs at any time. We tested and can confirm that users make changes on their own.
 
 The important things to keep in mind are:
+
 - The IDIR must not be expired
 - The Developer Experience team cannot manage IDIR expiry dates for teams
 
@@ -114,6 +118,7 @@ With the GitHub SSO upgrade, contractors and developers working in the bcgov Git
 ### Resetting GitHub Keys
 
 VS Code users get prompts automatically. If you don’t use VS Code, there are 3 GitHub guides that can help:
+
 - [About authentication with SAML SSO](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#about-authorization-of-ssh-keys)
 - [Authorizing a personal access token for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)
 - [Authorizing an SSH key for use with SAML single sign-on](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-an-ssh-key-for-use-with-saml-single-sign-on#authorizing-an-ssh-key)
