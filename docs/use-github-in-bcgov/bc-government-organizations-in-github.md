@@ -45,13 +45,13 @@ Your product team can only have a **permanent**, private repository in `bcgov-c`
 
 ## Single sign-on is coming to the B.C. government’s GitHub organizations
 
-We enabled single sign-on (SSO) for GitHub. We’re starting with the bcgov GitHub organization. After we finish transitioning bcgov, we’ll enable other OCIO-managed GitHub organizations. 
+We enabled single sign-on (SSO) for GitHub. We’re starting with the [bcgov GitHub organization](https://github.com/bcgov). After we finish transitioning [bcgov](#bcgov), we’ll enable other OCIO-managed GitHub organizations. 
   
-To keep access to the bcgov GitHub organization, all users must link their IDIRs to their GitHub IDs by **July 30, 2024**. If users don’t complete this by **July 30, 2024**, they’ll be automatically removed from the bcgov GitHub organization, and by extension, all the code repositories connected to bcgov.   
+To keep access to the bcgov GitHub organization, all users must link their IDIRs to their GitHub IDs by **July 30, 2024**. If users don’t complete this by the deadline, they’ll be automatically removed from the bcgov GitHub organization including all the code repositories connected to [bcgov](#bcgov).   
 
-Contractors without IDIRs must have 1 ordered before SSO can be enabled. 
+Contractors without IDIRs must order one before SSO can be enabled. 
 
-[Learn how to order an IDIR](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/). 
+[Learn more about IDIRs](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/). 
  
 [Learn more about the timelines and instructions](bc-government-organizations-in-github.md#the-changes). 
   
@@ -59,36 +59,41 @@ Contractors without IDIRs must have 1 ordered before SSO can be enabled.
  
 Before this upgrade, users only needed their personal GitHub IDs to access the bcgov GitHub organization as a member. 
  
-By July 30, 2024, users must follow prompts in GitHub to link their personal GitHub ID with their IDIR account.  If not, users will be automatically removed. 
+By **July 30, 2024**, users must follow prompts in GitHub to link their personal GitHub ID with their IDIR account.  If not, users will be automatically removed. 
 
-If this happens and help is needed, please submit a ticket at [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2)
+If the instructions to re-add users doesn't work, please submit a ticket at [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2)
  
 [Learn more about how linking works](github-transition-guide.md#technical-information).  
 
 ### Costs
  
-Ministries won’t be charged for upgraded GitHub licenses.  However, ordering IDIRs for contractors may need expense approvals. Some Ministries have internal processes for ordering [IDIRs for contracted resources without one](github-transition-guide.md#idirs). 
+Ministries won’t be charged for upgraded GitHub licenses.  However, ordering IDIRs for contractors may cost and need expense approvals. We have more information about IDIRS on our [IDIR transition guide](github-transition-guide.md#idirs). 
   
 ### Directions to link your accounts before July 30
  
 #### For employees 
- 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready for linking 
 2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
-3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
+3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
+
+    - [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
  
 That’s it, your accounts are now linked.  
  
 #### For contractors 
  
-If you don’t have an IDIR account, [we have guidance on ordering a compatible IDIR](github-transition-guide.md#idirs). It can take several days to complete depending on your ministry.We recommend doing with this step as soon as possible to avoid access disruptions.  
+Contractors without IDIRs can find more information on our [IDIR transition guide](github-transition-guide.md#idirs). It can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
  
 After getting an IDIR, follow the steps below: 
 
 1. Have any two-factor device, and personal GitHub login and IDIR login ready for linking 
 2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
 3. If linking fails, your IDIR configuration is not compatible with our GitHub SSO. You must [request an upgrade to a P2 level IDIR account](github-transition-guide.md#idirs).  
-4. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
+4. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
+    - [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
  
 That’s it, your accounts are now linked.  
  
@@ -96,13 +101,15 @@ That’s it, your accounts are now linked.
 
 Employees and contractors locked out after **July 30th, 2024** can follow the steps below to regain access. If you are a contractor without an IDIR, follow the steps in the [IDIR transition guide](github-transition-guide.md#idirs) before proceeding:
  
-1. If you have a valid IDIR, ask anyone with access to the organization to re-invite you. [Learn how to request access to the bcgov GitHub organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). 
+1. If you have a valid IDIR, ask anyone with access to the organization to re-invite you.
+    - [Learn how to request access to the bcgov GitHub organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). 
 2. Once you have access again, your teammates with admin access may need to re-invite you to the repositories you had access to before.  
-3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled. [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
+3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
+    - [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
  
 ### Upgrading other GitHub organizations 
  
-The bcgov-c, BCDevOps organizations will transition to SSO on different timelines. It will be the same process moving forward for any organization upgrade.  
+The [`bcgov-c`](#bcgov-c), BCDevOps organizations will transition to SSO on different timelines. It will be the same process moving forward for any organization upgrade.  
   
 For current B.C. Government private Enterprise organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
  
