@@ -70,10 +70,13 @@ If the instructions to re-add users doesn't work, please submit a ticket at [Jir
 Ministries won’t be charged for upgraded GitHub licenses.  However, ordering IDIRs for contractors may cost and need expense approvals. We have more information about IDIRS on our [IDIR transition guide](github-transition-guide.md#idirs). 
   
 ### Directions to link your accounts before July 30
- 
-#### For employees 
+
+Please watch the 13 second video for how the process works:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+#### For employees 
 
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready for linking 
 2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
