@@ -61,9 +61,13 @@ If you don’t see information that could be helpful on this guide, please let u
 
 ## Technical information 
 
-After July 30th, 2024, users cannot access bcgov if they didn’t link IDIRs and GitHub IDs. When SSO enablement happens, there are mechanisms in the system that force an IDIR login when you use your GitHub to login.
-
 Our technical transition guide offers more details and helps GitHub users prepare for the upgrade.
+
+The video shows the process, starting from the banner link on the bcgov GitHub organization, to the end:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link IDIRs and GitHub IDs. During here are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
 
 ### User impacts 
  
@@ -78,7 +82,9 @@ The users impacted are:
   - Any other custom apps owned by the province that use membership in the bcgov organization to authenticate and authorize users 
  - Teams relying on integrations that need access to the bcgov org, for example: 
   - GitHub or OAuth apps to automate the release or testing of your code, including 3rd party security tools 
-  - Access tokens and/or SSH keys that your app or team may rely on that will be disconnected when user access is removed, IDE or command line tools and/or automation scripts 
+  - Access tokens and/or SSH keys that your app or team may rely on that will be disconnected when user access is removed, IDE or command line tools and/or automation scripts
+
+### Process  
 
 ### Outside Collaborators
 
