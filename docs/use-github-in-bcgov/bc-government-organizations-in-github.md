@@ -71,7 +71,7 @@ Ministries won’t be charged for upgraded GitHub licenses.  However, ordering I
   
 ### Directions to link your accounts before July 30
 
-Please watch the 13 second video for how the process works:
+The video shows the process, starting from the banner link on the bcgov GitHub organization, to the end:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
