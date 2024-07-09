@@ -12,7 +12,7 @@ The [API Directory](https://api.gov.bc.ca/devportal/api-directory) provides a pl
 
 ### API Management Platform
 
-The BC Government [API Management Platform](docs/default/component/aps-infra-platform-docs) is a common component that serves as a central entry point for APIs, and acts as an intermediary between applications and backend services. 
+The BC Government [API Management Platform](/docs/default/component/aps-infra-platform-docs) is a common component that serves as a central entry point for APIs, and acts as an intermediary between applications and backend services. 
 
 ### API Registry
 
