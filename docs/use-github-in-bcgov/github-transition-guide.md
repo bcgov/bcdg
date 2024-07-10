@@ -1,4 +1,4 @@
-# IDIR Transition Guide
+# Transition Guides
 
 The IDIR transition guide offers more detailed information about IDIRs and how they relate to the GitHub SSO upgrade. Our [technical transition guide](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/#technical-information) helps preparation with with validating GitHub ID and IDIR linking.
 
@@ -6,7 +6,7 @@ We published an overview about [the SSO upgrade](bc-government-organizations-in-
 
 We use [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2) (JSM) for user requests that cannot be completed on GitHub. If there’s a topic isn’t covered in the guide, please submit a ticket.
 
-## IDIRs
+## IDIR Transition Guide
 
 ### Compatible IDIRs for the GitHub SSO upgrade
 
@@ -76,11 +76,11 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 
 2) Another way to validate linking: 
 
-    1) Go to your profile by clicking your avatar on the top right
-    2) Click "Settings"
-    3) Click "Enterprises"
-    4) Check if you're a member of "Government of British Columbia
-    5) If you are a member, then you've successfuly authenticated
+   1. Go to your profile by clicking your avatar on the top right
+   2. Click "Settings"
+   3. Click "Enterprises"
+   4. Check if you're a member of "Government of British Columbia
+   5. If you are a member, then you've successfuly authenticated
 
 
 ### User impacts 
@@ -112,13 +112,13 @@ Outside collaborators aren’t members of B.C. Government’s GitHub organizatio
 
 If you lost access to ZenHub during linking, please follow these directions to re-authenticate: 
 
-1) Log out of Zenhub
-2) Revoke the Zenhub application permissions in GitHub
-3) Log out of GitHub
-4) Clear browser cache and cookies
-5) Completely close and reopen your browser
-6) Log back into GitHub
-7) Log back into Zenhub using "Continue with Github"
+1. Log out of Zenhub
+2. Revoke the Zenhub application permissions in GitHub
+3. Log out of GitHub
+4. Clear browser cache and cookies
+5. Completely close and reopen your browser
+6. Log back into GitHub
+7. Log back into Zenhub using "Continue with Github"
 
 If needed, Zenhub has [more support](https://help.zenhub.com/support/solutions/articles/43000636925-re-authenticating-zenhub-if-your-team-is-using-saml) available.
 
