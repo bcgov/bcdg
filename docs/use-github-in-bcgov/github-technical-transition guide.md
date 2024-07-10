@@ -38,8 +38,6 @@ The users impacted are:
   - GitHub or OAuth apps to automate the release or testing of your code, including 3rd party security tools 
   - Access tokens and/or SSH keys that your app or team may rely on that will be disconnected when user access is removed, IDE or command line tools and/or automation scripts
 
-### Process  
-
 ### Outside Collaborators
 
 We’re starting with enabling SSO for direct government workers and contractors. After completing the transition for them, we’ll focus on enabling SSO for [outside collaborators](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization).
