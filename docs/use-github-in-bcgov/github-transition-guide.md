@@ -1,12 +1,12 @@
 # IDIR Transition Guide
 
-The IDIR transition guide offers more detailed information about IDIRs and GitHub changes as they relate to the GitHub SSO upgrade. Our technical transition guide helps GitHub users prepare for the upgrade, and confirms if users completed linking successfully
+The IDIR transition guide offers more detailed information about IDIRs and how they relate to the GitHub SSO upgrade. Our [technical transition guide](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/#technical-information) helps preparation with with validating GitHub ID and IDIR linking.
 
-We published more about [the SSO upgrade](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations) on DevHub. 
+We published an overview about [the SSO upgrade](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations) on DevHub. 
+
+We use [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2) (JSM) for user requests that cannot be completed on GitHub. If there’s a topic isn’t covered in the guide, please submit a ticket.
 
 ## IDIRs
-
-We use [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2) (JSM) for user requests that cannot be completed on GitHub. If there’s a topic isn’t covered in the guide, please fill out a form to open a ticket.
 
 ### Compatible IDIRs for the GitHub SSO upgrade
 
@@ -20,13 +20,13 @@ Our organization has many different types of IDIRs, such as:
 As we upgrade GitHub. we focus on 2 types of IDIRs:
 
 - Primary IDIRs for employees
-- Contractor IDIRs
+- Contractor IDIR
  
 ### Primary IDIRs for employees
 B.C. Government employees have the default configuration compatible with SSO. [DevHub has instructions to link your IDIR to GitHub](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations).
  
 ### Compatible IDIRs for contractors
-If a user is a contracted worker, then the process may be more complex, depending on IDIR types. The table below offers an overview between P2 and E5, IDIRs compatible with the GitHub SSO upgrade.
+If a user is a contracted worker, then the process may be more complex depending on IDIR types. The table below gives an overview between P2 and E5, IDIRs compatible with the GitHub SSO upgrade.
 We don’t foresee any technical issues with SSO if contractors have either IDIR type. If this isn’t the case, please fill out a form to open a ticket on [our Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
  
 P2 and E5 IDIR comparison
@@ -48,7 +48,8 @@ It’s very likely contractors already with IDIRs have P2. If linking doesn't wo
  
 ### Contractors without IDIRs
 Each ministry has an authorized user who submits orders in [MyService Centre](https://ociomysc.service-now.com/sp?id=ocio_sr_incident_management). Please reach out to them as soon as possible to order an IDIR.
-Multiple IDIRs.
+
+## Multiple IDIRs.
 
 Developers with multiple IDIRs can link their most permanent IDIR to their GitHub ID. They can change IDIRs at any time. We tested and can confirm that users make changes on their own.
 
@@ -59,15 +60,30 @@ The important things to keep in mind are:
  
 If you don’t see information that could be helpful on this guide, please let us know through [our Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
-## Technical information 
+## Technical Transition Guide
 
-Our technical transition guide offers more details and helps GitHub users prepare for the upgrade.
+Our technical transition guide helps GitHub users prepare for the upgrade, and confirms if users completed linking successfully. [Our IDIR transition guide](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/) offers more details about IDIRs. 
 
-The video shows the process, starting from the banner link on the bcgov GitHub organization, to the end:
+After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link their IDIR and GitHub ID. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
+
+### Validating authentication
+
+GitHub doesn't offer users a screen to confirm authentication. There are 3 alternative ways to validate linking GitHub IDs and IDIRS: 
+
+1) The video below shows the process from start to finish. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link IDIRs and GitHub IDs. During here are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
+2) If users **don't** have the "**Authenticate your account**" button on their dashboards, then authentication is complete.
+  
+3) Another way to validate linking: 
+
+    1) Go to your profile by clicking your avatar on the top right
+    2) Click "Settings"
+    3) Click "Enterprises"
+    4) Check if you're a member of "Government of British Columbia
+    5) If you are a member, then you've successfuly authenticated
+
 
 ### User impacts 
  
@@ -84,13 +100,11 @@ The users impacted are:
   - GitHub or OAuth apps to automate the release or testing of your code, including 3rd party security tools 
   - Access tokens and/or SSH keys that your app or team may rely on that will be disconnected when user access is removed, IDE or command line tools and/or automation scripts
 
-### Process  
-
 ### Outside Collaborators
 
 We’re starting with enabling SSO for direct government workers and contractors. After completing the transition for them, we’ll focus on enabling SSO for [outside collaborators](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization).
 
-Moving forward, **bcgov** GitHub organization needs mandatory and full membership. An option won’t be available to add outside collaborators anymore. 
+Moving forward, the **bcgov** GitHub organization needs mandatory and full membership. The option to add outsider collaborators won’t be available anymore. 
 
 #### Distinguishing between outside collaborators and contractors 
 
@@ -132,9 +146,8 @@ VS Code users get prompts automatically. If you don’t use VS Code, there are 3
 
 ### GitHub bcgov organization removal
 
-After July 30th, 2024, if a contractor IDIR expires, they won’t automatically be removed from the bcgov GitHub organization. This may change in the future.
+After **July 30, 2024**, if a contractor IDIR expires, they won’t automatically be removed from the bcgov GitHub organization. This may change in the future.
 
 Although contractors won’t be removed, they won’t have write access the bcgov GitHub organization.
 
 We continue to work towards connecting IDIR expiry to automatic account removal.
-
