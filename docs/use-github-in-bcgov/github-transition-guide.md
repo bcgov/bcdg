@@ -64,7 +64,7 @@ If you don’t see information that could be helpful on this guide, please let u
 
 Our technical transition guide helps GitHub users prepare for the upgrade, and confirms if users completed linking successfully. [Our IDIR transition guide](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/) offers more details about IDIRs. 
 
-After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link their IDIR and GitHub ID. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
+After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link their GitHub ID and IDIR. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
 
 ### Validating authentication
 
@@ -102,7 +102,7 @@ The users impacted are:
 
 We’re starting with enabling SSO for direct government workers and contractors. After completing the transition for them, we’ll focus on enabling SSO for [outside collaborators](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization).
 
-Moving forward, the **bcgov** GitHub organization needs mandatory and full membership. The option to add outsider collaborators won’t be available anymore. 
+Moving forward, the **bcgov** GitHub organization needs mandatory and full membership. If you want to be a full member, please submit a ticket to [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
 #### Distinguishing between outside collaborators and contractors 
 
