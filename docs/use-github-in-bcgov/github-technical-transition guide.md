@@ -4,23 +4,23 @@ Our technical transition guide helps GitHub users prepare for the upgrade, and c
 
 After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link IDIRs and GitHub IDs. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
 
-### Completing authentication
+### Validating authentication
 
-GitHub doesn't offer users a verification of completion yet. There are 3 alternative ways to confirm completion: 
+GitHub doesn't offer users a screen to confirm authentication. There are 3 alternative ways to validate linking GitHub IDs and IDIRS: 
 
-1) The video below shows the linking process from start to finish. 
+1) The video below shows the process from start to finish. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 2) If users **don't** have the "**Authenticate your account**" button on their dashboards, then authentication is complete.
   
-3) Another way to check is to: 
+3) Another way to validate linking: 
 
     1) Go to your profile by clicking your avatar on the top right
     2) Click "Settings"
     3) Click "Enterprises"
     4) Check if you're a member of "Government of British Columbia
-    5) If you are a member, then you've completed authentication
+    5) If you are a member, then you've successfuly authenticated
 
 
 ### User impacts 
