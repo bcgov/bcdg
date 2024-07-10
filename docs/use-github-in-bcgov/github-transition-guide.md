@@ -20,7 +20,7 @@ Our organization has many different types of IDIRs, such as:
 As we upgrade GitHub. we focus on 2 types of IDIRs:
 
 - Primary IDIRs for employees
-- Contractor IDIR
+- Contractor IDIRs
  
 ### Primary IDIRs for employees
 B.C. Government employees have the default configuration compatible with SSO. [DevHub has instructions to link your IDIR to GitHub](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations).
@@ -68,15 +68,13 @@ After **July 30th, 2024**, users cannot access the bcgov GitHub organization if 
 
 ### Validating authentication
 
-GitHub doesn't offer users a screen to confirm authentication. There are 3 alternative ways to validate linking GitHub IDs and IDIRS: 
+GitHub doesn't offer users a screen to confirm authentication. There are 2 alternative ways to validate linking GitHub IDs and IDIRS: 
 
 1) The video below shows the process from start to finish. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-2) If users **don't** have the "**Authenticate your account**" button on their dashboards, then authentication is complete.
-  
-3) Another way to validate linking: 
+2) Another way to validate linking: 
 
     1) Go to your profile by clicking your avatar on the top right
     2) Click "Settings"
@@ -109,6 +107,20 @@ Moving forward, the **bcgov** GitHub organization needs mandatory and full membe
 #### Distinguishing between outside collaborators and contractors 
 
 Outside collaborators aren’t members of B.C. Government’s GitHub organizations.  If the GitHub banners reminding users to upgrade to SSO doesn’t come up for you, then you’re likely an outside collaborator. 
+
+## ZenHub
+
+If you lost access to ZenHub during linking, please follow these directions to re-authenticate: 
+
+1) Log out of Zenhub
+2) Revoke the Zenhub application permissions in GitHub
+3) Log out of GitHub
+4) Clear browser cache and cookies
+5) Completely close and reopen your browser
+6) Log back into GitHub
+7) Log back into Zenhub using "Continue with Github"
+
+If needed, Zenhub has [more support](https://help.zenhub.com/support/solutions/articles/43000636925-re-authenticating-zenhub-if-your-team-is-using-saml) available.
 
 ### IDIRs
 
