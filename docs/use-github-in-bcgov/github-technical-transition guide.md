@@ -4,7 +4,7 @@ Our technical transition guide helps GitHub users prepare for the upgrade, and c
 
 After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link IDIRs and GitHub IDs. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
 
-## Completing authentication
+### Completing authentication
 
 GitHub doesn't offer users a verification of completion yet. There are 3 alternative ways to confirm completion: 
 
