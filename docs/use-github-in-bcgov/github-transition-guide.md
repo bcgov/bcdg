@@ -106,7 +106,7 @@ Moving forward, the **bcgov** GitHub organization needs mandatory and full membe
 
 #### Distinguishing between outside collaborators and contractors 
 
-Outside collaborators aren’t members of B.C. Government’s GitHub organizations.  If the GitHub banners reminding users to upgrade to SSO doesn’t come up for you, then you’re likely an outside collaborator. 
+Outside collaborators aren’t members of B.C. Government’s GitHub organizations. If the GitHub banners reminding users to upgrade to SSO doesn’t come up for you, then you’re likely an outside collaborator. 
 
 ## ZenHub
 
@@ -158,8 +158,8 @@ VS Code users get prompts automatically. If you don’t use VS Code, there are 3
 
 ### GitHub bcgov organization removal
 
-After **July 30, 2024**, if a contractor IDIR expires, they won’t automatically be removed from the bcgov GitHub organization. This may change in the future.
+After **July 30, 2024**, if an IDIR expires, users won’t automatically be removed from the bcgov GitHub organization. This may change in the future.
 
-Although contractors won’t be removed, they won’t have write access the bcgov GitHub organization.
+Although users won’t be removed, they won’t have write access the bcgov GitHub organization.
 
 We continue to work towards connecting IDIR expiry to automatic account removal.
