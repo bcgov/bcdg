@@ -1,6 +1,6 @@
-# GitHub upgrade transition guide
+# IDIR Transition Guide
 
-This transition guide offers more detailed information about IDIRs and GitHub changes as they relate to the GitHub SSO upgrade. 
+The IDIR transition guide offers more detailed information about IDIRs and GitHub changes as they relate to the GitHub SSO upgrade. Our technical transition guide helps GitHub users prepare for the upgrade, and confirms if users completed linking successfully
 
 We published more about [the SSO upgrade](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations) on DevHub. 
 
