@@ -76,11 +76,11 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 
 2) Another way to validate linking: 
 
-  1. Go to your profile by clicking your avatar on the top right
-  2. Click "Settings"
-  3. Click "Enterprises"
-  4. Check if you're a member of "Government of British Columbia
-  5. If you are a member, then you've successfuly authenticated
+1. Go to your profile by clicking your avatar on the top right
+2. Click "Settings"
+3. Click "Enterprises"
+4. Check if you're a member of "Government of British Columbia
+5. If you are a member, then you've successfuly authenticated
 
 
 ### User impacts 
