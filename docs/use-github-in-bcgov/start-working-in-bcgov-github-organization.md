@@ -64,7 +64,7 @@ If you are intending to maintain an active project, make sure to establish the a
 
 ## Integrating GitHub Apps
 
-We have large volumes of asks about adding GitHub Apps to our organization’s repository. To manage the asks, we created a request process through the devops-requests repository.
+We have large volumes of asks about adding GitHub Apps to our organization’s repository. Request a GitHub App to be installed from the BCDevOps Requests Issue: [Request for integrating a GitHub App](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL%2C+SHIHO-I&labels=github-app%2C+pending&projects=&template=github_integration_request.md&title=).
 If the existing applications don't work for you or your team, please create an issue. We need: 
 
 1) Your contact information 
