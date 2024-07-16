@@ -81,7 +81,7 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 > 3. Click "Settings"
 > 4. Click "[Sessions](https://github.com/settings/sessions)"
 > 5. Click "See more" button for the current web session
-> 6. If you're authenticated, GitHub will show details of your current session, inclusive of your device, your last login location, and when you last signed in. We've included a screenshot as an example:
+> 6. If you're authenticated, GitHub will show details of your current session, inclusive of your device, your last login location, and when you last signed in. Clicking on the three dots by the "Your session expires" section will display the NameID from the linked IDIR. We've included a screenshot as an example:
 
 ![Screenshot of a user's current session's SSO details on GitHub. It shows the user's device, their last location, and when they last signed in. At the bottom, it says "You signed in to bcgov via your SSO IdP. Your session expires tomorrow." The word "bcgov" links to the repo.](https://github.com/bcgov/bcdg/blob/main/docs/images/GitHub-Current-Session-SSO-Details.png)
 
