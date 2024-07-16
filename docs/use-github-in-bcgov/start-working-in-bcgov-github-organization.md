@@ -65,7 +65,7 @@ If you are intending to maintain an active project, make sure to establish the a
 ## Integrating GitHub Apps
 
 We have large volumes of asks about adding GitHub Apps to our organization’s repository. To manage the asks, we created a request process through the devops-requests repository.
-If the existing applications, like SonarCloud, does not work for you or your team, please create an issue. We need: 
+If the existing applications don't work for you or your team, please create an issue. We need: 
 
 1) Your contact information 
 2) Detailed information about the GitHub App
