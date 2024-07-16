@@ -64,7 +64,7 @@ If you don’t see information that could be helpful on this guide, please let u
 
 Our technical transition guide helps GitHub users prepare for the upgrade, and confirms if users completed linking successfully. [Our IDIR transition guide](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/) offers more details about IDIRs. 
 
-After **July 30th, 2024**, users cannot access the bcgov GitHub organization if they didn’t link their GitHub ID and IDIR. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
+After **July 30, 2024**, users cannot access the bcgov GitHub organization if they didn’t link their GitHub ID and IDIR. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
 
 ### Validating authentication
 
@@ -76,12 +76,14 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 
 2) Another way to validate linking: 
 
-> 1. Go to your profile by clicking your avatar on the top right
-> 2. Click "Settings"
-> 3. Click "Enterprises"
-> 4. Check if you're a member of "Government of British Columbia
-> 5. If you are a member, then you've successfuly authenticated
+> 1. (**Mandatory step**) Go to https://github.com/bcgov/ 
+> 2. Got to your profile by clicking your avatar on the top right
+> 3. Click "Settings"
+> 4. Click "[Sessions](https://github.com/settings/sessions)"
+> 5. Click "See more" button for the current web session
+> 6. If you're authenticated, the following SSO details will be displayed:
 
+![Screenshot of a user's SSO details on GitHub](https://github.com/bcgov/bcdg/blob/main/docs/images/SSO%20details.PNG)
 
 ### User impacts 
  
