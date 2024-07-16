@@ -83,7 +83,7 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 > 5. Click "See more" button for the current web session
 > 6. If you're authenticated, the following SSO details will be displayed:
 
-![Screenshot of a user's SSO details on GitHub](https://github.com/bcgov/bcdg/blob/main/docs/images/SSO%20details.PNG)
+![Screenshot of a user's current session's SSO details on GitHub. It shows the user's device, their last location, and when they last signed in. At the bottom, it says "You signed in to bcgov via your SSO IdP. Your session expires tomorrow." The word "bcgov" links to the repo.](https://github.com/bcgov/bcdg/blob/main/docs/images/SSO%20details.PNG)
 
 ### User impacts 
  
