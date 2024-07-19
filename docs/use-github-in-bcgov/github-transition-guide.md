@@ -83,7 +83,8 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 > 5. Click "See more" button for the current web session
 > 6. If you're authenticated, GitHub will show details of your current session, inclusive of your device, your last login location, and when you last signed in. Clicking on the three dots by the "Your session expires" section will display the NameID from the linked IDIR. We've included a screenshot as an example:
 
-![Screenshot of a user's current session's SSO details on GitHub. It shows the user's device, their last location, and when they last signed in. At the bottom, it says "You signed in to bcgov via your SSO IdP. Your session expires tomorrow." The word "bcgov" links to the organization](https://github.com/bcgov/bcdg/blob/main/docs/images/GitHub-Current-Session-SSO-Details.png)
+
+![Screenshot of a user's current session's SSO details on GitHub. It shows the user's device, their last location, and when they last signed in. At the bottom, it says "You signed in to bcgov via your SSO IdP. Your session expires tomorrow." The word "bcgov" links to the organization.](../images/GitHub-Current-Session-SSO-Details.png)
 
 ### User impacts 
  
@@ -115,12 +116,13 @@ Outside collaborators aren’t members of B.C. Government’s GitHub organizatio
 If you lost access to ZenHub during linking, please follow these directions to re-authenticate: 
 
 1. Log out of Zenhub
-2. Revoke  Zenhub application permissions in GitHub
-3. Log out of GitHub
-4. Clear browser cache and cookies
-5. Completely close and reopen your browser
-6. Log back into GitHub
-7. Log back into Zenhub using "Continue with Github"
+1. Revoke Zenhub as an authorized OAuth app from your GitHub account.
+  1. Refer to [GitHub's documentation for details on how to revoke an OAuth app](https://docs.github.com/en/apps/oauth-apps/using-oauth-apps/reviewing-your-authorized-oauth-apps).
+1. Log out of GitHub
+1. Clear browser cache and cookies
+1. Completely close and reopen your browser
+1. Log back into GitHub
+1. Log back into Zenhub using "Continue with Github"
 
 If needed, Zenhub has [more support](https://help.zenhub.com/support/solutions/articles/43000636925-re-authenticating-zenhub-if-your-team-is-using-saml) available.
 
