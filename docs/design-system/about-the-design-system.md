@@ -29,9 +29,8 @@ The design system is currently in active development. It replaces the [legacy de
 The B.C. Design System comprises 4 core elements:
 
 - [Design tokens](#design-tokens)
-- [React component library](#component-library) (in development)
+- [Figma and React component libraries](#component-library)
 - [Documentation hub](https://gov.bc.ca/designsystem)
-- Design library in Figma (in development)
 
 The goal of the design system is to provide a common set of resources for both developers and designers, to help enable more efficient collaboration.
 
@@ -50,25 +49,30 @@ For developers, tokens are exposed as CSS and JavaScript variables. Support for 
 
 To start using tokens:
 
-- [Install the B.C. Design Tokens package via npm](https://www.npmjs.com/package/@bcgov/design-tokens?activeTab=readme)
-- [Get the B.C. Design Tokens library via Figma Community](https://www.figma.com/community/file/1326994583954765832)
+- [Install the B.C. Design Tokens package via npm](https://www.npmjs.com/package/@bcgov/design-tokens)
+- [Get the B.C. Design System library in Figma](https://www2.gov.bc.ca/gov/content?id=8E36BE1D10E04A17B0CD4D913FA7AC43#designers)
 
 ### Component library
 
-The component library will provide an inventory of reusable user interface components, including:
+The library provides an inventory of user interface components, including:
 
-- Components in Figma
-- Reference implementations in React
+- [Reusable components in Figma](https://www2.gov.bc.ca/gov/content?id=8E36BE1D10E04A17B0CD4D913FA7AC43#designers)
+- [Reference implementations in React](https://designsystem.gov.bc.ca/react-components/)
+- [A Storybook UI workshop](https://designsystem.gov.bc.ca/react-components/)
 
-Support for other languages and frameworks is currently out-of-scope.
+Developers can [install and update the React component library via npm](https://www.npmjs.com/package/@bcgov/design-system-react-components).
 
-The component library is currently in active development.
+Support for other languages and frameworks is currently out-of-scope, but we are happy to support teams who may want to reimplement design system components using other technologies. [Reach out on GitHub](https://github.com/bcgov/design-system/issues) or email [designsystem@gov.bc.ca](mailto:designsystem@gov.bc.ca).
 
-A [developer preview of the React library](https://www.npmjs.com/package/@bcgov/design-system-react-components) is published on npm.
+The component library is in active development. New components will be added as they meet our definition of done, meaning that they have:
+
+- A modular and documented component in Figma
+- A reference implementation in React
+- Supporting best practice and technical documentation
 
 ## Design system management
 
-The B.C. Design System is maintained by Government Digital Experience (GDX), a division of the Ministry of Citizens' Services. You can contact the design system team at [designsystem@gov.bc.ca](mailto:designsystem@gov.bc.ca) or on [GitHub](https://github.com/bcgov/design-system).
+The B.C. Design System is maintained by Service BC and Government Digital Experience, part of the Ministry of Citizens' Services. You can contact the design system team at [designsystem@gov.bc.ca](mailto:designsystem@gov.bc.ca) or on [GitHub](https://github.com/bcgov/design-system).
 
 ## Contribute to the design system
 
@@ -76,4 +80,4 @@ The design system is an open-source project. Its source code is licensed under t
 
 ## The legacy design system
 
-The previous B.C. government design system is not actively supported. Legacy documentation and components are available on [Classic DevHub](https://classic.developer.gov.bc.ca/About-the-Design-System) for reference.
+The legacy B.C. government design system is no longer supported. Legacy documentation and components are archived on [Classic DevHub](https://classic.developer.gov.bc.ca/About-the-Design-System) for reference use only.
