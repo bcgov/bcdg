@@ -50,14 +50,15 @@ For developers, tokens are exposed as CSS and JavaScript variables. Support for 
 To start using tokens:
 
 - [Install the B.C. Design Tokens package via npm](https://www.npmjs.com/package/@bcgov/design-tokens)
-- [Get the B.C. Design System library via Figma Community](https://www.figma.com/community/file/1326994583954765832)
+- [Get the B.C. Design System library in Figma](https://www2.gov.bc.ca/gov/content?id=8E36BE1D10E04A17B0CD4D913FA7AC43#designers)
 
 ### Component library
 
 The library provides an inventory of user interface components, including:
 
-- [Reusable components in Figma](https://www.figma.com/community/file/1326994583954765832)
+- [Reusable components in Figma](https://www2.gov.bc.ca/gov/content?id=8E36BE1D10E04A17B0CD4D913FA7AC43#designers)
 - [Reference implementations in React](https://designsystem.gov.bc.ca/react-components/)
+- [A Storybook UI workshop](https://designsystem.gov.bc.ca/react-components/)
 
 Developers can [install and update the React component library via npm](https://www.npmjs.com/package/@bcgov/design-system-react-components).
 
