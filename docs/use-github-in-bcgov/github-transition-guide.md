@@ -130,7 +130,7 @@ If needed, Zenhub has [more support](https://help.zenhub.com/support/solutions/a
 
 ### P2 IDIR login 
 
-Vendors using both **P2 IDIRs** and external emails must log in with **\<IDIR\>@gov.bc.ca**. WS_LIC_M365_P2/OCIO_LIC_M365_P2 is the Microsoft license for Government contractors without an E5 IDIR, and need MFA and VPN **only**.
+Vendors using both **P2 IDIRs** and external emails must log in with **\<IDIR\>@gov.bc.ca**.
 
 #### IDIR expiry
 
