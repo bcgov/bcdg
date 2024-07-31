@@ -130,7 +130,7 @@ If needed, Zenhub has [more support](https://help.zenhub.com/support/solutions/a
 
 ### P2 IDIR login 
 
-Vendors using both **P2 IDIRs** and external emails must log in with **\<IDIR\>@gov.bc.ca**.
+Vendors using both **P2 IDIRs** and external emails (e.g. ggg123@gmail.com) must log in with **\<IDIR\>@gov.bc.ca**.
 
 #### IDIR expiry
 
