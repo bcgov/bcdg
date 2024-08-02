@@ -51,7 +51,7 @@ To keep access to the bcgov GitHub organization, all users must link their IDIRs
 
 Contractors without IDIRs must order one before SSO can be enabled. 
 
-[Learn more about IDIRs](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/). 
+[Learn more about IDIRs](github-transition-guide.md). 
  
 [Learn more about the timelines and instructions](bc-government-organizations-in-github.md#the-changes). 
   
