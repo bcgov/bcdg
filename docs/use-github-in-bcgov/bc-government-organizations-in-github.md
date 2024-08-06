@@ -18,7 +18,12 @@ The [Digital Principles for the Government of B.C.](https://www2.gov.bc.ca/gov/c
 
 ## Organizations in GitHub
 
+We use Enterprise GitHub, and Enterprise hosts 'bcgov' and 'bcgov-c' organizations" 
+
+![image](https://github.com/bcgov/bcdg/blob/Shivanganii-patch-1/docs/images/Diagram%20-%20GitHub%20enterprise%20and%20bcgov%20and%20bcgov-c%20organization%20hierarchy.png)
+
 The Province owns several GitHub organizations, which are described below.
+
 
 | Name | Use for... | User Access Requirements | Cost |
 | ---- | ----------- | ----------- | ----- |
@@ -34,12 +39,13 @@ The `bcgov` organization contains public repositories that hold open-source code
 
 ### `bcgov-c`
 
-The `bcgov-c` organization stores temporary (up to 12 months), private repositories with closed-source code and private documents. Closed-source projects must be moved to the `bcgov` organization at the end of the 12 months. This repository is **private**.
+Following a policy change, the `bcgov-c` organization stores permanent, private repositories with confidential source code and documents. This repository is **private**.
 
-* Use this repository if you need a temporary location for code while you collect approvals to make the code public. You must commit to making the code public in the future in order to use this repository.
-* Only the Developer Experience team can create repositories in this organization. You can request a repository by [submitting a request](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL&labels=github-repo%2C+pending&projects=&template=github_repo_request.md&title=).
+* Use this repository if you need a permanent location for code, or if you're collecting approvals to make the code public.
+* Only the Developer Experience team can create repositories in this organization.
+    * Request a repository by [submitting a request](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL&labels=github-repo%2C+pending&projects=&template=github_repo_request.md&title=).
 
-Your product team can only have a **permanent**, private repository in `bcgov-c` if it is a GitOps repository with ArgoCD manifests. 
+Your product team can only have a **permanent**, private repository in `bcgov-c` if it's a GitOps repository with ArgoCD manifests. 
 
 
 ## Single sign-on 
@@ -57,18 +63,20 @@ If you are a contractor without an IDIR, follow the steps in the [IDIR transitio
 2. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
     - [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
  
-### Upgrading other GitHub organizations 
- 
-The [`bcgov-c`](#bcgov-c), BCDevOps organizations will transition to SSO on different timelines. It will be the same process moving forward for any organization upgrade.  
+### Upgrading bcgov-c 
+
+
+We begin transition of [`bcgov-c`](#bcgov-c) into Enterprise GitHub on **August 7, 2024**. After migration completes, we'll enable SSO for [`bcgov-c`](#bcgov-c) on **August 21, 2024**, using the same enablement process as `the SSO enablement of bcgov`.
   
 For current B.C. Government private Enterprise organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
+
+#### Directions to link IDIRs to GitHub IDs
 
 The video shows the process, starting from the banner link on the bcgov GitHub organization, to the end:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-#### For employees 
+##### For employees 
 
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready for linking 
 2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
@@ -78,7 +86,7 @@ The video shows the process, starting from the banner link on the bcgov GitHub o
 
 That’s it, your accounts are now linked.  
 
-#### For contractors 
+##### For contractors 
 
 Contractors without IDIRs can find more information on our [IDIR transition guide](github-transition-guide.md#idirs). It can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
 
