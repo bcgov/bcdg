@@ -53,10 +53,8 @@ To keep access to the bcgov GitHub organization, all users must be authenticated
 
 If you are a contractor without an IDIR, follow the steps in the [IDIR transition guide](github-transition-guide.md#idirs) before proceeding:
  
-1. If you have a valid IDIR, follow the instructions at (https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov) to join the bcgov organization.
-    - [Learn how to request access to the bcgov GitHub organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). 
-2. Once you have access again, your teammates with admin access may need to re-invite you to the repositories you had access to before.  
-3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
+1. Once you have access again, your teammates with admin access may need to re-invite you to the repositories you had access to before.  
+2. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
     - [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
  
 ### Upgrading other GitHub organizations 
@@ -64,6 +62,35 @@ If you are a contractor without an IDIR, follow the steps in the [IDIR transitio
 The [`bcgov-c`](#bcgov-c), BCDevOps organizations will transition to SSO on different timelines. It will be the same process moving forward for any organization upgrade.  
   
 For current B.C. Government private Enterprise organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
+
+The video shows the process, starting from the banner link on the bcgov GitHub organization, to the end:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+#### For employees 
+
+1. Have any two-factor devices, and personal GitHub login and IDIR login ready for linking 
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
+3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
+
+    - [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
+
+That’s it, your accounts are now linked.  
+
+#### For contractors 
+
+Contractors without IDIRs can find more information on our [IDIR transition guide](github-transition-guide.md#idirs). It can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
+
+After getting an IDIR, follow the steps below: 
+
+1. Have any two-factor device, and personal GitHub login and IDIR login ready for linking 
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
+3. If linking fails, your IDIR configuration is not compatible with our GitHub SSO. You must [request an upgrade to a P2 level IDIR account](github-transition-guide.md#idirs).  
+4. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
+    - [Learn more about how to do this](github-transition-guide.md#resetting-github-keys). 
+
+That’s it, your accounts are now linked. 
  
 ### Resources 
  
