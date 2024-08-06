@@ -1,54 +1,46 @@
 # B.C. Government organizations in GitHub
 
-Many teams building software for the B.C. government use [GitHub](https://github.com) to host their code. Using GitHub you can:
+The [Digital Principles for the Government of B.C.](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) urge product teams to work in the open. GitHub is the leading platform for open-source projects. It allows our organization to collaborate with the open-source community to build software, support innovation and save time and money. Using GitHub, teams can:
 
+* Collaborate with the open-source community
 * Share and control code versions
 * Use tools for team and project management
-* Track issues
-* Collaborate with the open-source community
 * Integrate automation tools
+* Track issues
 
-The main organization the B.C. government owns in GitHub is [bcgov](https://github.com/bcgov) where we store all open-source code developed by B.C. government teams. The `bcgov` organization includes over 1000 repositories maintained by the B.C. government developer community.
+B.C. Government's main organization is [bcgov](https://github.com/bcgov), where we store all open-source code developed by government teams. The `bcgov` organization includes over 1000 repositories. We also have the `bcgov-c`organization, where developers can either permanently or temporarily store confidential code. 
 
-The Developer Experience Team manages the B.C. government's GitHub environments.
-
-## Working in the open
-
-The [Digital Principles for the Government of B.C.](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) urge product teams to work in the open as outlined in principle five. GitHub is the leading platform for open-source projects. It allows the Province to collaborate with the open-source community to build software, support innovation and save time and money.
+On behalf of the B.C. Government, the Developer Experience Team manages government GitHub environments.
 
 ## Organizations in GitHub
 
-We use Enterprise GitHub, and Enterprise hosts 'bcgov' and 'bcgov-c' organizations" 
+We use GitHub Enterprise Cloud, and it hosts the `bcgov` and `bcgov-c` GitHub organizations: 
 
-![image](https://github.com/bcgov/bcdg/blob/Shivanganii-patch-1/docs/images/Diagram%20-%20GitHub%20enterprise%20and%20bcgov%20and%20bcgov-c%20organization%20hierarchy.png)
+```mermaid
+  graph TD;
+A[GitHub Enterprise Cloud] --> B[bcgov]
+A --> C[bcgov-c]
+```
 
-The Province owns several GitHub organizations, which are described below.
-
-
-| Name | Use for... | User Access Requirements | Cost |
-| ---- | ----------- | ----------- | ----- |
-| [bcgov](#bcgov) | Repositories should be hosted in this open repo unless you have strong rationale from your MISO otherwise. | GitHub ID | Free |
-| [bcgov-c](#bcgov-c) | Code you would like to temporarily host in a closed repo, before moving into the bcgov org. | GitHub ID | Covered by OCIO for up to 12 months |
+Both organizations require users to enable [Single Sign-on](## Single sign-on).
 
 ### `bcgov`
 
-The `bcgov` organization contains public repositories that hold open-source code or public documents developed by B.C. government teams. This organization is **public**.
+The `bcgov` organization contains public repositories that hold open-source code or public documents developed by B.C. government teams. This organization is **public**.  To align with our Digital Principles, repositories should be hosted in this open repo, unless you have strong rationale from your Ministry Security Information Officer. 
 
-* Product teams working in the B.C. Gov Private Cloud PaaS OpenShift platform should use this organization unless they are given permission to work in [`bcgov-c`](#bcgov-c).
-* Any member of the `bcgov` organization can create repositories.
+* Product teams working in the B.C. Government Private Cloud PaaS OpenShift platform should use this organization, unless they are given permission to work in [`bcgov-c`](#bcgov-c)
+* Any member of the `bcgov` organization can create repositories
 
 ### `bcgov-c`
 
-Following a policy change, the `bcgov-c` organization stores permanent, private repositories with confidential source code and documents. This repository is **private**.
+The `bcgov-c` organization stores permanent, private repositories with confidential source code and documents. This repository is **private**.
 
 * Use this repository if you need a permanent location for code, or if you're collecting approvals to make the code public.
 * Only the Developer Experience team can create repositories in this organization.
     * Request a repository by [submitting a request](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL&labels=github-repo%2C+pending&projects=&template=github_repo_request.md&title=).
 
-Your product team can only have a **permanent**, private repository in `bcgov-c` if it's a GitOps repository with ArgoCD manifests. 
 
-
-## Single sign-on 
+## Single Sign-On 
 
 To keep access to the bcgov GitHub organization, all users must be authenticated. Contractors without IDIRs must order one before SSO can be enabled. 
 
@@ -66,7 +58,7 @@ If you are a contractor without an IDIR, follow the steps in the [IDIR transitio
 ### Upgrading bcgov-c 
 
 
-We begin transition of [`bcgov-c`](#bcgov-c) into Enterprise GitHub on **August 7, 2024**. After migration completes, we'll enable SSO for [`bcgov-c`](#bcgov-c) on **August 21, 2024**, using the same enablement process as `the SSO enablement of bcgov`.
+We begin transition of [`bcgov-c`](#bcgov-c) into Enterprise GitHub on **August 7, 2024**. After migration completes, we'll enable SSO for [`bcgov-c`](#bcgov-c) on **August 21, 2024**, using the same process as the SSO enablement for `bcgov`.
   
 For current B.C. Government private Enterprise organizations, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps  
 
