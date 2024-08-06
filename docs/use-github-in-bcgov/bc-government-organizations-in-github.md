@@ -53,7 +53,7 @@ To keep access to the bcgov GitHub organization, all users must be authenticated
 
 If you are a contractor without an IDIR, follow the steps in the [IDIR transition guide](github-transition-guide.md#idirs) before proceeding:
  
-1. If you have a valid IDIR, ask anyone with access to the organization to re-invite you.
+1. If you have a valid IDIR, follow the instructions at (https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov) to join the bcgov organization.
     - [Learn how to request access to the bcgov GitHub organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov). 
 2. Once you have access again, your teammates with admin access may need to re-invite you to the repositories you had access to before.  
 3. Reauthorize your personal access tokens and/or SSH keys so they continue to work with SSO enabled.
