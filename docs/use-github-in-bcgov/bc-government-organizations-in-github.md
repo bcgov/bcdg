@@ -1,6 +1,6 @@
 # B.C. Government organizations in GitHub
 
-The [Digital Principles for B.C. Government](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) urge product teams to work in the open. GitHub is the leading platform for open-source projects. It lets our organization to work with the open-source community to build software, support innovation and save time and money. 
+The [Digital Principles for B.C. Government](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) urge product teams to work in the open. GitHub is the leading platform for open-source projects. It lets our organization work with the open-source community to build software, support innovation and save time and money. 
 
 Using GitHub, teams can:
 
@@ -61,7 +61,7 @@ If you are a contractor without an IDIR, follow the steps in the [IDIR transitio
 
 If any technical errors happen, try to [re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys) so they continue to work with SSO enabled. 
  
-### SSO timelines for `bcgov-c` 
+### SSO timelines for `bcgov-c` and 'bcgov-ent'
 
 
 We begin transition of [`bcgov-c`](#bcgov-c) into Enterprise GitHub on **August 7, 2024**. After migration completes, we'll enable SSO for [`bcgov-c`](#bcgov-c) on **August 21, 2024**, using the same process as the SSO enablement for `bcgov`.
