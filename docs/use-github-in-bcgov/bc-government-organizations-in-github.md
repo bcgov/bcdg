@@ -32,7 +32,6 @@ A --> C[bcgov-c]
 
 The `bcgov` organization contains public repositories that hold open-source code or public documents developed by B.C. government teams. This organization is **public**.  To align with our Digital Principles, repositories should be hosted in this open repo. The only exception is strong rationale from your Ministry Security Information Officer.
 
-* Product teams working in the B.C. Government Private Cloud PaaS OpenShift platform should use this organization. The exception is permission to work in [`bcgov-c`](#bcgov-c)
 * Any member of the `bcgov` organization can create repositories
 
 ### `bcgov-c`
