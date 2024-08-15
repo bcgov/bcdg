@@ -28,7 +28,7 @@ The steps captured in the diagram are as follows:
 
 - As a documentation writer, you edit or create files that will eventually be published in DevHub in your team's GitHub repository . 
 - When you want to preview your documentation, you can save your files to a preview branch (any branch other than a repo's default/main branch) in GitHub and after a few moments, it will then be available for review on the [preview instance of DevHub](https://dev.developer.gov.bc.ca). 
-- Once you're happy with your edits, you'll save your files into your repository's main branch. In this case, after a few moments, your latest documentation will be published and available on the [production DevHub instance](https://mvp.developer.gov.bc.ca). 
+- Once you're happy with your edits, you'll save your files into your repository's main branch. In this case, after a few moments, your latest documentation will be published and available on the [production DevHub instance](https://developer.gov.bc.ca). 
 - Each time you have changes or additions to make to your documentation, you iterate through this same process.
 
 For those interested in the automated aspect of the process above, it is provided by a purpose-built GitHub "Action" that we have create to simplify things for our content partners, and maintain consistency in the publishing process. It takes care of converting your Markdown content into an HTML format that is compatible with DevHub, packaging it up, and transferring it to a location that DevHub can access it. Your team will be provided with access to the Action as part of the setup steps described [below](#how-do-we-get-set-up-to-have-our-documentation-published-in-devhub).  

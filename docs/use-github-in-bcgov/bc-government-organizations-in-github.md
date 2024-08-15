@@ -63,7 +63,7 @@ By **July 30, 2024**, users must follow prompts in GitHub to link their personal
 
 If the instructions to re-add users doesn't work, please submit a ticket at [Jira Service Manager](https://citz-do.atlassian.net/servicedesk/customer/portal/2)
  
-[Learn more about how linking works](github-transition-guide.md#technical-information).  
+[Learn more about how linking works](github-transition-guide.md#technical-transition-guide).  
 
 ### Costs
  

@@ -1,6 +1,6 @@
 # Transition Guides
 
-The IDIR transition guide offers more detailed information about IDIRs and how they relate to the GitHub SSO upgrade. Our [technical transition guide](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/#technical-information) helps preparation with with validating GitHub ID and IDIR linking.
+The IDIR transition guide offers more detailed information about IDIRs and how they relate to the GitHub SSO upgrade. Our [technical transition guide](#technical-transition-guide) helps preparation with with validating GitHub ID and IDIR linking.
 
 We published an overview about [the SSO upgrade](bc-government-organizations-in-github.md#single-sign-on-is-coming-to-the-bc-governments-github-organizations) on DevHub. 
 
@@ -62,7 +62,7 @@ If you don’t see information that could be helpful on this guide, please let u
 
 ## Technical Transition Guide
 
-Our technical transition guide helps GitHub users prepare for the upgrade, and confirms if users completed linking successfully. [Our IDIR transition guide](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/) offers more details about IDIRs. 
+Our technical transition guide helps GitHub users prepare for the upgrade, and confirms if users completed linking successfully. [Our IDIR transition guide](#idir-transition-guide) offers more details about IDIRs. 
 
 After **July 30, 2024**, users cannot access the bcgov GitHub organization if they didn’t link their GitHub ID and IDIR. There are mechanisms in the system that force an IDIR login when you use your GitHub to login. 
 
