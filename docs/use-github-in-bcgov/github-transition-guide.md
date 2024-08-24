@@ -88,6 +88,8 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 
 Government employees and contractors can be outside collaborators. We're ending the option to add [outside collaborators](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization). GitHub will send invitations to current outside collaborators to become full members on 'bcgov', and IDIRs are needed. If you need an IDIR, please follow the instructions on [our IDIR guide](#idir-transition-guide).
 
+Accessess will stay the same. 
+
 ## ZenHub
 
 If you lost access to ZenHub during linking, please follow these directions to re-authenticate: 
