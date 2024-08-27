@@ -51,12 +51,14 @@ Learn more about IDIRs and post-authentication steps in [our guide](https://dev.
   
 ### Directions to link your account
 
-If you are a contractor without an IDIR, follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding:
+If you are a contractor without an IDIR, follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding.
 
 1. [Authenticate your IDIR](https://github.com/orgs/bcgov/sso)
 2. You'll get an email with an invitation to join the **bcgov** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
 3. Your teammates can add you to your team's repositories.
 4. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
+
+[Learn more about IDIRs](github-transition-guide.md). 
  
 ### SSO timelines for `bcgov-c`
 
