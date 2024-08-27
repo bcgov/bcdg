@@ -60,7 +60,7 @@ If you are a contractor without an IDIR, follow the steps in the [our guide](git
  
 ### SSO timelines for `bcgov-c`
 
-We began transition of [`bcgov-c`](#bcgov-c) into Enterprise GitHub on **August 7, 2024**. After migration completes, we'll enable SSO for [`bcgov-c`](#bcgov-c) on **August 21, 2024**, using the same process as the SSO enablement for `bcgov`.
+We began transition of [`bcgov-c`](#bcgov-c) into Enterprise GitHub on **August 27, 2024**. After migration completes, we'll enable SSO for [`bcgov-c`](#bcgov-c) on **August 21, 2024**, using the same process as the SSO enablement for `bcgov`.
 
 ### SSO timelines for 'bcgov-ent'
 
