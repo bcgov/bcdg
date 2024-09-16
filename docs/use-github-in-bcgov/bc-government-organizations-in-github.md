@@ -68,7 +68,7 @@ That’s it, your accounts are now joined.
 
 A similar process applies for 'bcgov-c'.
 
-1. Have any two Have any two-factor devices, and personal GitHub login and IDIR login ready.
+1. Have any two-factor devices, and personal GitHub login and IDIR login ready.
 2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
 3. [Authenticate your IDIR](https://github.com/orgs/bcgov-c/sso)
 4. You'll get an email with an invitation to join the **bcgov-c** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
