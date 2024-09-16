@@ -18,7 +18,7 @@ On behalf of the B.C. Government, the Developer Experience Team manages governme
 
 ## Organizations in GitHub
 
-Recently, we enabled [Single Sign-On (SSO)](#single-sign-on) for `bcgov` and on **August 27, 2024**, we'll enable SSO for `bcgov-c`. The transition helped us understand user needs better, and streamline services.  
+In July 2024, we enabled [Single Sign-On (SSO)](#single-sign-on) for `bcgov` and in August 2024, `bcgov-c`. The transition helped us understand user needs better, and streamline services.  
 
 Now, we use GitHub Enterprise Cloud, and it hosts the `bcgov` and `bcgov-c` GitHub organizations: 
 
@@ -45,55 +45,49 @@ The `bcgov-c` organization stores private repositories with confidential source 
 
 ## Single Sign-On 
 
-To keep access to repositories in the `bcgov` and 'bcgov-c' organizations, all users must be authenticated with IDIRs. Contractors and employees without IDIRs must order one before SSO can be enabled. 
+To keep access to repositories in the `bcgov` and `bcgov-c` organizations, all users must be authenticated with IDIRs. Contractors and employees without IDIRs must order one before SSO can be enabled. 
 
 Learn more about IDIRs and post-authentication steps in [our guide](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/). 
   
-### Directions to link your account
+### Directions to link your account for 'bcgov'
 
-If you are a contractor without an IDIR, follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding.
+If you are a contractor without an IDIR, follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** it can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
 
-1. [Authenticate your IDIR](https://github.com/orgs/bcgov/sso)
-2. You'll get an email with an invitation to join the **bcgov** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
-3. Your teammates can add you to your team's repositories.
-4. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
+1. Have any two Have any two-factor devices, and personal GitHub login and IDIR login ready.
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
+3. [Authenticate your IDIR](https://github.com/orgs/bcgov/sso)
+4. You'll get an email with an invitation to join the **bcgov** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
+5. Your teammates can add you to your team's repositories.
+6. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
+
+That’s it, your accounts are now joined. 
 
 [Learn more about IDIRs](github-transition-guide.md). 
  
-### SSO timelines for `bcgov-c`
+### Directions to link your account for 'bcgov-c' 
 
-We began transition of [`bcgov-c`](#bcgov-c) into Enterprise GitHub on **August 27, 2024**. After migration completes, we'll enable SSO for [`bcgov-c`](#bcgov-c) on **August 21, 2024**, using the same process as the SSO enablement for `bcgov`.
+A similar process applies for 'bcgov-c'.
+
+1. Have any two Have any two-factor devices, and personal GitHub login and IDIR login ready.
+2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
+3. [Authenticate your IDIR](https://github.com/orgs/bcgov-c/sso)
+4. You'll get an email with an invitation to join the **bcgov-c** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
+5. Your teammates can add you to your team's repositories.
+6. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
+
+That’s it, your accounts are now joined.  
+
+[Learn more about IDIRs](github-transition-guide.md)
+
+#### Video demo'ing joining GitHub ID and IDIR
+
+The video shows the process, starting from the banner link on the `bcgov` GitHub organization, to the end:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### SSO timelines for 'bcgov-ent'
 
 For current B.C. Government private organizations part of the legacy `bcgov-ent` Enterprise implementation, we’ll work with your respective Information Management Branches and Information Systems Branches to identify next steps.
-
-#### Directions to link IDIRs to GitHub IDs
-
-The video shows the process, starting from the banner link on the bcgov GitHub organization, to the end:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-cfhUY_or8s?si=q0pjaxYd4FBhNZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-##### For employees 
-
-1. Have any two-factor devices, and personal GitHub login and IDIR login ready. 
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
-3. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
-
-That’s it, your accounts are now joined.  
-
-##### For contractors 
-
-Contractors without IDIRs can find more information on our [IDIR transition guide](github-transition-guide.md#idirs). It can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
-
-After getting an IDIR, follow the steps below: 
-
-1. Have any two-factor device, and personal GitHub login and IDIR login ready.
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
-3. If joining fails, your IDIR configuration is not compatible with our GitHub SSO. You must [request an upgrade to a P2 level IDIR account](github-transition-guide.md#idirs).  
-4. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
-
-That’s it, your accounts are now joined. 
  
 ### Resources 
  
