@@ -53,7 +53,7 @@ Learn more about IDIRs and post-authentication steps in [our guide](https://dev.
 
 If you are a contractor without an IDIR, follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** it can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
 
-1. Have any two Have any two-factor devices, and personal GitHub login and IDIR login ready.
+1. Have any two-factor devices, and personal GitHub login and IDIR login ready.
 2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
 3. [Authenticate your IDIR](https://github.com/orgs/bcgov/sso)
 4. You'll get an email with an invitation to join the **bcgov** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
