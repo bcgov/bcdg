@@ -196,7 +196,7 @@ APIs will change over time as corresponding source systems evolve.  To provide a
   - Message size limit (e.g., <1Mb per request)
 - **_API Publishing_** – all APIs should be published to the API Registry for the purposes of discovery and lifecycle management.  APIs must be tagged with the appropriate metadata to indicate their desired audience (security classification) and appropriate usage patterns
    - Publishing a metadata record to the [BC Government API Registry](https://catalogue.data.gov.bc.ca/group/bc-government-api-registry) helps people discover your API and promote its use
-   - If the API is an Open Data API, publish a terms of use, such as the example found [here](https://www2.gov.bc.ca/gov/content/data/open-data/api-terms-of-use-for-ogl-information)
+   - If the API is an Open Data API, publish a terms of use, such as the example found [here](https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/api-terms-of-use-for-ogl-information)
 
 # API Performance Management
 
@@ -206,4 +206,4 @@ API performance should be benchmarked periodically to ensure the performance and
 - **_Publish Performance Data_** – performance summaries (e.g., average response time) should be included in the metadata record for the API as well as the SLO
 - **_Performance Monitoring_** – performance should be monitored and reported on routinely, particularly as part of major releases
 - **_API Throttling_** – throttling mechanisms should be implemented to control throughput against the stated SLO (e.g. number of requests per second).  This is typically handled by the API Gateway:
-  - Information on the primary BC Government API Gateway can be found [here](https://developer.gov.bc.ca/Developer-Tools/API-Gateway-(powered-by-Kong-CE))
+  - Information on the primary BC Government API Gateway can be found [here](https://developer.gov.bc.ca/docs/default/component/aps-infra-platform-docs/)
