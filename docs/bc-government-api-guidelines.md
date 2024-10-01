@@ -12,7 +12,7 @@ Published by the [Technical Assets Working Group](mailto:jeff.card@gov.bc.ca) un
 
 - **When to use the API Guidelines?** – most real time data integration requirements are best satisfied through APIs.   In general, data sharing and integration also encourage the use of APIs to promote platform independence and loosely coupled service design.
 
-## API Design
+## Design
 
 ### Design Principles
 
@@ -90,7 +90,7 @@ Published by the [Technical Assets Working Group](mailto:jeff.card@gov.bc.ca) un
     - _trigger API_ – An API may be implemented as a trigger to initiate an out-of-band interface such as a managed file transfer
     - _search and link API_ – If the dataset is published on file servers already available to the consumer, an API could be implemented to return a link to a specific file based on specific request parameters
 
-## API Security
+## Security
 
 The following practices must be followed for any API which provides access to protected or privileged data and are strongly recommended as part of a &quot;security by design&quot; philosophy for all API development.  Outside of this baseline set of security controls, additional controls (e.g., message-level encryption, mutual authentication, and digital signatures) may be required based on the sensitivity of the data:
 
@@ -115,7 +115,7 @@ The following practices must be followed for any API which provides access to pr
   - When usage limits are exceeded, by default, a 1-hour timeout (block) will be used
   - X-RATELIMIT-LIMIT and X-RATELIMIT-REMAINING can be inspected in the HTTP response to view current usage
 
-## API Encoding and Metadata
+## Encoding and Metadata
 
 Consistent metadata and encoding ensures that APIs are interoperable across organizations and helps to maintain data consistency. The following practices should be followed when defining your API:
 
@@ -124,9 +124,9 @@ Consistent metadata and encoding ensures that APIs are interoperable across orga
 - **_Support Official Languages_** – ensure the API can return responses in both English and French.   External facing APIs must reply with content in the requested language if the backend data support it. APIs must interpret the ACCEPT-LANGUAGE HTTP header and return the appropriate content. If the header is not set, then content in both languages should be returned
 
 
-## API Documentation
+## Documentation
 
-BC Government APIs must be published to the [BC Government API Registry](https://catalogue.data.gov.bc.ca/group/bc-government-api-registry) to be discoverable.  The documentation MVP for BC Government APIs includes everything the API does, including resources, endpoints and methods, parameters, error codes, and example requests and responses:
+BC Government APIs should be published to the [BC Government API Directory](https://api.gov.bc.ca/devportal/api-directory) to be discoverable. The [Share an API](/docs/default/component/aps-infra-platform-docs/how-to/api-discovery/) page has instructions on how to add your API to the directory.  The documentation MVP for BC Government APIs includes everything the API does, including resources, endpoints and methods, parameters, error codes, and example requests and responses:
 
 - **_Publish OpenAPI Specification_** – OpenAPI is a machine-readable interface specification for RESTful APIs. There are open source tools (e.g., [Swagger](https://swagger.io/solutions/api-documentation/)) which can then generate human-readable documentation from this specification which avoids the need to create and maintain separate documentation
   - Sample BC Government API Specifications can be found [here](https://catalogue.data.gov.bc.ca/dataset/bc-data-catalogue-api/resource/0b9e7d31-91ff-4146-a473-106a3b301964)
@@ -143,14 +143,14 @@ BC Government APIs must be published to the [BC Government API Registry](https:/
 [https://github.com/bcgov/api-specs](https://github.com/bcgov/api-specs)
   - Provide a point of contact in the API documentation such that consumers can seek assistance if required
 
-## API Consumption
+## Consumption
 
 The best way to validate your API design is to consume it with a production application within your organization.  Ideally, once the data layer is built, the next step is to build the application on top of an API:
 
 - **_Build once for Multiple Channels_** – APIs should be designed in such a way that they can be consumed by systems internal to BC Government, external agencies and the broader public. Design should accommodate for all levels of access to encourage reuse
 - **_Consume what you Build_** – build your application on top of an API layer that connects to the data layer rather than creating hard dependencies.  This ensures the API is production ready for consumers outside of the line of business
 
-## API Lifecycle Management
+## Lifecycle Management
 
 APIs will change over time as corresponding source systems evolve.  To provide a robust and durable interface to applications, API lifecycle management must include a standard versioning scheme such that any changes to an API do not break the contract with existing consumers:
 
@@ -198,7 +198,7 @@ APIs will change over time as corresponding source systems evolve.  To provide a
    - Publishing a metadata record to the [BC Government API Registry](https://catalogue.data.gov.bc.ca/group/bc-government-api-registry) helps people discover your API and promote its use
    - If the API is an Open Data API, publish a terms of use, such as the example found [here](https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/api-terms-of-use-for-ogl-information)
 
-## API Performance Management
+## Performance Management
 
 API performance should be benchmarked periodically to ensure the performance and capacity meets the expectations of the SLO. This may include:
 
