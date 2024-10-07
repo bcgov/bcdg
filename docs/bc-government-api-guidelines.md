@@ -129,7 +129,7 @@ Consistent metadata and encoding ensures that APIs are interoperable across orga
 BC Government APIs should be published to the [BC Government API Directory](https://api.gov.bc.ca/devportal/api-directory) to be discoverable. The [Share an API](/docs/default/component/aps-infra-platform-docs/how-to/api-discovery/) page has instructions on how to add your API to the directory.  The documentation MVP for BC Government APIs includes everything the API does, including resources, endpoints and methods, parameters, error codes, and example requests and responses:
 
 - **_Publish OpenAPI Specification_** – OpenAPI is a machine-readable interface specification for RESTful APIs. There are open source tools (e.g., [Swagger](https://swagger.io/solutions/api-documentation/)) which can then generate human-readable documentation from this specification which avoids the need to create and maintain separate documentation
-  - Sample BC Government API Specifications can be found [here](https://catalogue.data.gov.bc.ca/dataset/bc-data-catalogue-api/resource/0b9e7d31-91ff-4146-a473-106a3b301964)
+  - API specifications can be hosted alongside code or added to the BC Government API Specifications GitHub repo [bcgov/api-specs](https://github.com/bcgov/api-specs)
 - **_Publish code samples and test data_** – the most effective way to document the scope and functionality of an API is to publish the code and data examples used to validate it alongside the API contract
   - Be sure to include standard and custom error response codes and interpret their specific meaning
 - **_Maintain concise documentation_** – if there is a need to extend the API documentation beyond the OpenAPI specification, this is an indication that the API is too large and/or too complex
