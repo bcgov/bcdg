@@ -136,11 +136,6 @@ BC Government APIs should be published to the [BC Government API Directory](http
   - Be sure to document differences between versions of the API
   - Include documentation on any consumption constraints such as availability, authorization and rate limiting
 - **_Gather Feedback_** – provide a clear mechanism to allow consumers to provide feedback, issue identification and enhancement requests
-
-  - The BC Government API Registry can be found here:
-[https://catalogue.data.gov.bc.ca/group/bc-government-api-registry](https://catalogue.data.gov.bc.ca/group/bc-government-api-registry)
-  - The BC Government API Github Repo can be found here:
-[https://github.com/bcgov/api-specs](https://github.com/bcgov/api-specs)
   - Provide a point of contact in the API documentation such that consumers can seek assistance if required
 
 ## Consumption
