@@ -18,9 +18,11 @@ On behalf of the B.C. Government, the Developer Experience Team manages governme
 
 ## Organizations in GitHub
 
-In July 2024, we enabled [Single Sign-On (SSO)](#single-sign-on) for `bcgov` and in August 2024, `bcgov-c`. The transition helped us understand user needs better, and streamline services.  
+!!! Note
 
-Now, we use GitHub Enterprise Cloud, and it hosts the `bcgov` and `bcgov-c` GitHub organizations: 
+  In July 2024, we enabled [Single Sign-On (SSO)](#single-sign-on) for `bcgov` and in August 2024, `bcgov-c`. To keep access to repositories in the `bcgov` and `bcgov-c` organizations, all users must be authenticated with IDIRs. Contractors and employees without IDIRs must order one before SSO can be enabled. 
+
+We use GitHub Enterprise Cloud, and it hosts the `bcgov` and `bcgov-c` GitHub organizations: 
 
 ```mermaid
   graph TD;
@@ -34,6 +36,8 @@ The `bcgov` organization contains public repositories that hold open-source code
 
 * Any member of the `bcgov` organization can create repositories.
 
+* To join this organization, follow [these instructions](#directions-to-sign-up-and-link-your-account-for-bcgov).
+
 ### `bcgov-c`
 
 The `bcgov-c` organization stores private repositories with confidential source code and documents. This repository is **private**.
@@ -41,38 +45,38 @@ The `bcgov-c` organization stores private repositories with confidential source 
 * Use this repository if you need a location for private code, or if you're working towards making the code public.
 * Only the Developer Experience team can create repositories in this organization.
     * Request a repository by [submitting a request](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL&labels=github-repo%2C+pending&projects=&template=github_repo_request.md&title=).
+* To join this organization, follow [these instructions](#directions-to-sign-up-and-link-your-account-for-bcgov-c).
 
 
 ## Single Sign-On 
 
-To keep access to repositories in the `bcgov` and `bcgov-c` organizations, all users must be authenticated with IDIRs. Contractors and employees without IDIRs must order one before SSO can be enabled. 
+!!! Warning
+  Contractors without an IDIR must follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** this can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
 
-Learn more about IDIRs and post-authentication steps in [our guide](https://dev.developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/). 
+Learn more about IDIRs and post-authentication steps in [our guide](github-transition-guide.md). 
   
-### Directions to link your account for 'bcgov'
-
-If you are a contractor without an IDIR, follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** it can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
+### Directions to sign up and link your account for 'bcgov'
 
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready.
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
+2. Log into GitHub with your personal login. 
 3. [Authenticate your IDIR](https://github.com/orgs/bcgov/sso)
 4. You'll get an email with an invitation to join the **bcgov** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
-5. Your teammates can add you to your team's repositories.
-6. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
+5. Your teammates can add you to your team's repositories. We recommend teams use [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) to manage access.
+6. [Authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
 
 That’s it, your accounts are now joined. 
 
 [Learn more about IDIRs](github-transition-guide.md). 
  
-### Directions to link your account for 'bcgov-c' 
+### Directions to sign up and link your account for 'bcgov-c' 
 
 A similar process applies for 'bcgov-c'.
 
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready.
-2. Log into GitHub and follow the prompts on the pop up to connect your GitHub and IDIR accounts together. 
+2. Log into GitHub with your personal login. 
 3. [Authenticate your IDIR](https://github.com/orgs/bcgov-c/sso)
 4. You'll get an email with an invitation to join the **bcgov-c** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
-5. Your teammates can add you to your team's repositories.
+5. Your teammates can add you to your team's repositories. We recommend teams use [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) to manage access.
 6. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
 
 That’s it, your accounts are now joined.  
