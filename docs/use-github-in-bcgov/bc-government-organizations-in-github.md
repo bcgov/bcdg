@@ -20,7 +20,7 @@ On behalf of the B.C. Government, the Developer Experience Team manages governme
 
 !!! Note
 
-  In July 2024, we enabled [Single Sign-On (SSO)](#single-sign-on) for `bcgov` and in August 2024, `bcgov-c`. To keep access to repositories in the `bcgov` and `bcgov-c` organizations, all users must be authenticated with IDIRs. Contractors and employees without IDIRs must order one before SSO can be enabled. 
+    In July 2024, we enabled [Single Sign-On (SSO)](#single-sign-on) for `bcgov` and in August 2024, `bcgov-c`. To keep access to repositories in the `bcgov` and `bcgov-c` organizations, all users must be authenticated with IDIRs. Contractors and employees without IDIRs must order one before SSO can be enabled. 
 
 We use GitHub Enterprise Cloud, and it hosts the `bcgov` and `bcgov-c` GitHub organizations: 
 
@@ -51,7 +51,7 @@ The `bcgov-c` organization stores private repositories with confidential source 
 ## Single Sign-On 
 
 !!! Warning
-  Contractors without an IDIR must follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** this can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
+    Contractors without an IDIR must follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** this can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
 
 Learn more about IDIRs and post-authentication steps in [our guide](github-transition-guide.md). 
   
