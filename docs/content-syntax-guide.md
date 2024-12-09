@@ -296,4 +296,4 @@ The Miro docs have more information on [how to embed Miro boards](https://help.m
 !!! Note
 
 	- Miro boards do not show when the [devhub-techdocs-publish](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) tool is used to preview the documentation locally.
-	- DevHub only displays content within an iframe from domains that are explicitly allowed in the DevHub configuration. Currently, this is limited to YouTube and Miro. If you'd like to embed boards and diagrams from sources other than Miro or other content within an `iframe`, please contact the [Developer Experience team](mailto:developer.experience@gov.bc.ca) to discuss needs.
+	- DevHub only displays content within an `iframe` from domains that are explicitly allowed in the DevHub configuration. Currently, this is limited to YouTube and Miro. If you'd like to embed boards and diagrams from sources other than Miro or other content within an `iframe`, please contact the [Developer Experience team](mailto:developer.experience@gov.bc.ca) to discuss needs.
