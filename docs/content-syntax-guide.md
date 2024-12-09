@@ -191,6 +191,8 @@ This text will not be in the admonition block. It will be below it.
 !!! info
 This text will not be in the admonition block. It will be below it.
 
+Here is the [list of supported admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types).
+
 ### Tabs
 
 ```markdown
