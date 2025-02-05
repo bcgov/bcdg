@@ -2,7 +2,7 @@
 
 The BC Government strives to reach [Web Content Accessibility Guidelines 2.2 AA](https://www.w3.org/TR/WCAG22/) (WCAG) for all digital products and services. WCAG sets the basis for web content. The Developer Exchange team designs for Accessibility using an ecosystem approach.
 
-Let’s consider an example: multi-lingual website accessibility and screen readers. The mind map shows a user’s Work in Progress (WIP) as they design a website. They want it compatible with screen readers:
+Let’s consider multi-lingual website accessibility and screen readers. The mind map shows a user’s Work in Progress (WIP) as they design a website. They want it compatible with screen readers:
 <br>
 ```mermaid
 %%{
