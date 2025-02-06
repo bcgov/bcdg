@@ -41,7 +41,7 @@ mindmap
               
 ````
 
-BC Sans Typeface supports special characters and syllabics of Indigenous languages. The technical document Indigenous Languages in Systems shows how to support graphemes. They change written content, but screen readers don’t support Indigenous languages. Software bias creates a culture bias for marginalized communities. Now, Indigenous language only speakers who use screen readers can't access the website.
+BC Sans Typeface supports special characters and syllabics of Indigenous languages. The technical document [Indigenous Languages in Systems](https://developer.gov.bc.ca/docs/default/component/indigenous-languages-in-systems) shows how to support graphemes. They change written content, but screen readers don’t support Indigenous languages. Software bias creates a culture bias for marginalized communities. Now, Indigenous language only speakers who use screen readers can't access the website.
 
 Building with accessibility goes beyond guidelines. It's about understanding and breaking barriers that impact people's daily lives.
 
