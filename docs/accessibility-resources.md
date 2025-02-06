@@ -5,19 +5,6 @@ The BC Government strives to reach [Web Content Accessibility Guidelines 2.2 AA]
 Let’s consider multi-lingual website accessibility and screen readers. The mind map shows a user’s Work in Progress (WIP) as they design a website. They want it compatible with screen readers:
 <br>
 ```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#3467FE',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#000000',
-      'secondaryColor': '#002AFA',
-      'tertiaryColor': '#1C4D5A'
-    }
-  }
-}%%
 
 mindmap
   root((Multi-lingual Accessiblity: <br> Screen readers))
