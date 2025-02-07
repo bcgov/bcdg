@@ -6,6 +6,20 @@ Let’s consider multi-lingual website accessibility and screen readers. The min
 <br>
 ```mermaid
 
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#3333ff',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#3399ff',
+      'tertiaryColor': '#6699ff'
+    }
+  }
+}%%
+
 mindmap
   root((Multi-lingual Accessiblity: <br> Screen readers))
     Indigenous Languages
