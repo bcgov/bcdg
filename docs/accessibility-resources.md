@@ -1,17 +1,63 @@
 # Accessibility Resources 
 
-Designing for accessibility is an ongoing process integral to software design and development. The B.C. government aims to achieve WCAG 2.2 AA compliance for both internal and external websites and web content.
+The BC Government strives to reach [Web Content Accessibility Guidelines 2.2 AA](https://www.w3.org/TR/WCAG22/) (WCAG) for all digital products and services. WCAG sets the basis for web content. The Developer Exchange team designs for Accessibility using an ecosystem approach.
 
-We recommend the following resources to support and enhance your accessibility initiatives, including privacy information where available. When using web tools, remember to exercise caution to safeguard personally identifiable information (PII).
+Let’s consider multi-lingual website accessibility and screen readers. The mind map shows a user’s Work in Progress (WIP) as they design a website. They want it compatible with screen readers:
+<br>
+```mermaid
+
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#3333ff',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#3399ff',
+      'tertiaryColor': '#6699ff'
+    }
+  }
+}%%
+
+mindmap
+  root((Multi-lingual Accessiblity: <br> Screen readers))
+    Indigenous Languages
+            Unsupported by<br> screen readers
+            BC Sans Typeface
+            Techdocs: Indigenous<br> Languages in Systems
+              
+    Plain language
+        Formatting
+            Headings
+            Descriptive Links
+        Grade 8 <br> readability
+        Translation<br> Services
+
+    Development
+        Primary<br> language
+            Language<br> codes
+            Language<br> direction
+        Character<br> encoding
+              
+````
+
+BC Sans Typeface supports special characters and syllabics of Indigenous languages. The technical document [Indigenous Languages in Systems](https://developer.gov.bc.ca/docs/default/component/indigenous-languages-in-systems) shows how to support graphemes. They change written content, but screen readers don’t support Indigenous languages. Software bias creates a culture bias for marginalized communities. Now, Indigenous language only speakers who use screen readers can't access the website.
+
+Building with accessibility goes beyond guidelines. It's about understanding and breaking barriers that impact people's daily lives.
+
+The resources below can help teams design and build products for Accessibility. When using the tools, please safeguard personal information (PI).
  
 ## Learn about accessibility
+- [Toward automatic speech recognition in audio recordings of Indigenous languages](https://nrc.canada.ca/en/research-development/research-collaboration/programs/project-segment-index-audio-recordings-indigenous-languages)
 - [A11y Project checklist](http://www.a11yproject.com/checklist)
 - [A11y Project](http://www.a11yproject.com/)
 - [DigitalA11y's definitive guide](https://www.digitala11y.com/a-definitive-guide-on-how-to-perform-a-web-accessibility-audit/)
+- [Microsoft Inclusive Design](https://inclusive.microsoft.design/)
 - [W3C's WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool)
 - [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 - [WebAim's Quick Reference list](https://webaim.org/resources/quickref/)
-- [Microsoft Inclusive Design](https://inclusive.microsoft.design/)
+
 
 ## BC government accessibility resources 
 - [B.C.'s Simplified WCAG tool](https://digital.gov.bc.ca/wcag/home/)
