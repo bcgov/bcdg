@@ -256,20 +256,20 @@ edited in the VSCode editor while displayed as an svg on the documentation page.
 
 ````
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  stateDiagram-v2
+      A-->B
+      A-->C
+      B-->D
+      C-->D
 ```
 ````
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  stateDiagram-v2
+      A-->B
+      A-->C
+      B-->D
+      C-->D
 ```
 
 ### Videos
