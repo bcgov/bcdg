@@ -264,7 +264,6 @@ edited in the VSCode editor while displayed as an svg on the documentation page.
       C-->D;
 ```
 ````
->Note: The backticks (`) were removed from the above code block to prevent the diagram from rendering on this page. Add 3 backticks before "mermaid" and 3 backticks at the end of the code block in your diagram.
 
 ```mermaid
   graph TD;
