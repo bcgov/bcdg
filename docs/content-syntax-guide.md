@@ -254,7 +254,8 @@ edited in the VSCode editor while displayed as an svg on the documentation page.
 !!! Note
 	Mermaid diagrams won't show when the [devhub-techdocs-publish](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) tool is used to preview the documentation locally. They will show up when published to DevHub's preview or production sites.
 
-````
+
+````markdown
 ```mermaid
   graph TD;
       A-->B;
