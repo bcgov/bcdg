@@ -4,19 +4,42 @@ The BC Government strives to reach [Web Content Accessibility Guidelines 2.2 AA]
 
 Let’s consider multi-lingual website accessibility and screen readers. The mind map shows a user’s Work in Progress (WIP) as they design a website. They want it compatible with screen readers:
 
-
 ```mermaid
+
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#3333ff',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#3399ff',
+      'tertiaryColor': '#6699ff'
+    }
+  }
+}%%
+
 mindmap
-  root((mindmap))
-    Tools
-```
+  root((Multi-lingual Accessiblity: <br> Screen readers))
+    Indigenous Languages
+            Unsupported by<br> screen readers
+            BC Sans Typeface
+            Techdocs: Indigenous<br> Languages in Systems
+              
+    Plain language
+        Formatting
+            Headings
+            Descriptive Links
+        Grade 8 <br> readability
+        Translation<br> Services
 
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
+    Development
+        Primary<br> language
+            Language<br> codes
+            Language<br> direction
+        Character<br> encoding
+              
 ```
 
 BC Sans Typeface supports special characters and syllabics of Indigenous languages. The technical document [Indigenous Languages in Systems](https://developer.gov.bc.ca/docs/default/component/indigenous-languages-in-systems) shows how to support graphemes. They change written content, but screen readers don’t support Indigenous languages. Software bias creates a culture bias for marginalized communities. Now, Indigenous language only speakers who use screen readers can't access the website.
