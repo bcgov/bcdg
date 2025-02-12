@@ -256,20 +256,18 @@ edited in the VSCode editor while displayed as an svg on the documentation page.
 
 ````
 ```mermaid
-  stateDiagram-v2
-      A-->B
-      A-->C
-      B-->D
-      C-->D
+sequenceDiagram
+    A->>B: Request
+    B-->>A: Response
+    A-)B: Acknowledge
 ```
 ````
 
 ```mermaid
-  stateDiagram-v2
-      A-->B
-      A-->C
-      B-->D
-      C-->D
+sequenceDiagram
+    A->>B: Request
+    B-->>A: Response
+    A-)B: Acknowledge
 ```
 
 ### Videos
