@@ -256,13 +256,13 @@ edited in the VSCode editor while displayed as an svg on the documentation page.
 
 
 ```markdown
-mermaid
+\`\`\`mermaid
   graph TD;
       A-->B;
       A-->C;
       B-->D;
       C-->D;
-
+\'\'\'
 ```
 
 ```mermaid
