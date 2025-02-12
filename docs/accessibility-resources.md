@@ -7,24 +7,24 @@ Let’s consider multi-lingual website accessibility and screen readers. The min
 
 ```mermaid
   mindmap
-    root((Multi-lingual Accessiblity: <br> Screen readers))
+    root((Multi-lingual Accessiblity: <br/> Screen readers))
       Indigenous Languages
-              Unsupported by<br> screen readers
+              Unsupported by<br/> screen readers
               BC Sans Typeface
-              Techdocs: Indigenous<br> Languages in Systems
+              Techdocs: Indigenous<br/> Languages in Systems
                 
       Plain language
           Formatting
               Headings
               Descriptive Links
-          Grade 8 <br> readability
-          Translation<br> Services
+          Grade 8 <br/> readability
+          Translation<br/> Services
 
       Development
-          Primary<br> language
-              Language<br> codes
-              Language<br> direction
-          Character<br> encoding
+          Primary<br/> language
+              Language<br/> codes
+              Language<br/> direction
+          Character<br/> encoding
 ```
 
 BC Sans Typeface supports special characters and syllabics of Indigenous languages. The technical document [Indigenous Languages in Systems](https://developer.gov.bc.ca/docs/default/component/indigenous-languages-in-systems) shows how to support graphemes. They change written content, but screen readers don’t support Indigenous languages. Software bias creates a culture bias for marginalized communities. Now, Indigenous language only speakers who use screen readers can't access the website.
