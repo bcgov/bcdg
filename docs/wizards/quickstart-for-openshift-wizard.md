@@ -9,6 +9,8 @@ Aside from generated namespaces, we don’t have standardized naming conventions
 
 We created both a video and a step-by-step walkthrough below, so users feel prepared beforehand. 
 
+## Video demo of DevHub Wizards
+
 <iframe width="560" height="315" src="https://youtu.be/9IiLW1864hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Walkthrough
