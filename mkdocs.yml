@@ -42,6 +42,8 @@ nav:
   - Accessibility: accessibility-resources.md
   - Design System:
       - About the Design System: design-system/about-the-design-system.md
+  - Quickstart Wizards:
+      - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
   - DevHub Content Partner Guide: content-partner-guide.md
   - DevHub Content Syntax Guide: content-syntax-guide.md
   - Working with data: working-with-data.md
