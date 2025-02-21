@@ -2,7 +2,7 @@
 
 The BC Government strives to reach [Web Content Accessibility Guidelines 2.2 AA](https://www.w3.org/TR/WCAG22/) (WCAG) for all digital products and services. WCAG sets the basis for web content. The Developer Exchange team designs for Accessibility using an ecosystem approach.
 
-Let’s consider multi-lingual website accessibility and screen readers. The mind map shows a user’s Work in Progress (WIP) as they design a website. They want it compatible with screen readers and have three main categories in their mind map below: Indigenous languages, plain language, and development.  
+Let’s consider multi-lingual website accessibility and screen readers. The mind map shows a user’s Work in Progress (WIP) as they design a website. They want it compatible with screen readers and have three main categories in their mind map below: development, Indigenous languages, and plain language.  
 <br>
 ```mermaid
 
@@ -22,6 +22,12 @@ Let’s consider multi-lingual website accessibility and screen readers. The min
 
 mindmap
   root((Multi-lingual Accessiblity: <br> Screen readers))
+    Development
+        Primary<br> language
+            Language<br> codes
+            Language<br> direction
+        Character<br> encoding
+
     Indigenous Languages
             Unsupported by<br> screen readers
             BC Sans Typeface
@@ -34,11 +40,7 @@ mindmap
         Grade 8 <br> readability
         Translation<br> Services
 
-    Development
-        Primary<br> language
-            Language<br> codes
-            Language<br> direction
-        Character<br> encoding
+   
               
 ```
 
