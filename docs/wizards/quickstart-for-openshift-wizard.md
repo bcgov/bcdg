@@ -11,7 +11,7 @@ We created both a video and a step-by-step walkthrough below, so users feel prep
 
 ## Video demo of DevHub Wizards
 
-<iframe width="560" height="315" src="https://youtu.be/9IiLW1864hs" title="DevHub Wizards Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9IiLW1864hs?si=xhcQyxv9yRJUJMf3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Walkthrough
 
