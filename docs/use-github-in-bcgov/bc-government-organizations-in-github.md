@@ -58,11 +58,12 @@ Learn more about IDIRs and post-authentication steps in [our guide](github-trans
 ### Directions to sign up and link your account for 'bcgov'
 
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready.
-2. Log into GitHub with your personal login. 
-3. [Authenticate your IDIR](https://github.com/orgs/bcgov/sso)
-4. You'll get an email with an invitation to join the **bcgov** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
-5. Your teammates can add you to your team's repositories. We recommend teams use [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) to manage access.
-6. [Authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
+1. Log into GitHub with your personal login. 
+1. [Authenticate your IDIR](https://github.com/orgs/bcgov/sso)
+1. You'll get an email with an invitation to join the **bcgov** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
+  1. Refer to the [troubleshooting](#troubleshooting) section if you didn't receive an email.
+1. Your teammates can add you to your team's repositories. We recommend teams use [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) to manage access.
+1. [Authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
 
 That’s it, your accounts are now joined. 
 
@@ -73,11 +74,12 @@ That’s it, your accounts are now joined.
 A similar process applies for 'bcgov-c'.
 
 1. Have any two-factor devices, and personal GitHub login and IDIR login ready.
-2. Log into GitHub with your personal login. 
-3. [Authenticate your IDIR](https://github.com/orgs/bcgov-c/sso)
-4. You'll get an email with an invitation to join the **bcgov-c** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
-5. Your teammates can add you to your team's repositories. We recommend teams use [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) to manage access.
-6. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
+1. Log into GitHub with your personal login. 
+1. [Authenticate your IDIR](https://github.com/orgs/bcgov-c/sso)
+1. You'll get an email with an invitation to join the **bcgov-c** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
+  1. Refer to the [troubleshooting](#troubleshooting) section if you didn't receive an email.
+1. Your teammates can add you to your team's repositories. We recommend teams use [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) to manage access.
+1. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
 
 That’s it, your accounts are now joined.  
 
@@ -102,3 +104,18 @@ For help with access, please [submit a support request]( https://citz-do.atlassi
 ## Security Insights for GitHub Enterprise-linked organizations
 
 The Security Insight feature is available for all organizations linked to the corporate GitHub Enterprise accounts, as well as branch protection and code owners for private repositories. Branch protection only allows specific people to push to the protected branch. The code owners feature allows automated reviews. For example, if a specific user is a code owner of certain files they are automatically added as PR reviewers and their approval is required before the code can be merged.
+
+## Troubleshooting
+
+### I didn't receive an email invitation to join the bcgov or bcgov-c organization
+
+You can check your organization status and invites:
+
+1. Go to [https://github.com](https://github.com)
+1. Sign in with the account used to join the [bcgov](#directions-to-sign-up-and-link-your-account-for-bcgov) or [bcgov-c](#directions-to-sign-up-and-link-your-account-for-bcgov-c) organization
+1. Click on your profile picture
+1. Choose the "Your organizations" option from the menu
+1. Confirm the bcgov and/or bcgov-c organization is listed under the "Organizations" page
+1. Click the "Accept" button next to the organization
+
+![Screenshot of a user's organizations. The screen displays the bcgov-c organization with "Member" beside it. Next to it is "Invitation expires in 7 days" with Accept and Decline buttons.](../images/invitation.png)
