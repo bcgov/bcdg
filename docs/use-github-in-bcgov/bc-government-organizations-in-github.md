@@ -77,7 +77,7 @@ A similar process applies for 'bcgov-c'.
 1. Log into GitHub with your personal login. 
 1. [Authenticate your IDIR](https://github.com/orgs/bcgov-c/sso)
 1. You'll get an email with an invitation to join the **bcgov-c** GitHub organization. The invitation will be sent to the email address associated with your GitHub account.
-     - Refer to the [troubleshooting](#troubleshooting) section if you didn't receive an email.
+    - Refer to the [troubleshooting](#troubleshooting) section if you didn't receive an email.
 1. Your teammates can add you to your team's repositories. We recommend teams use [GitHub teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) to manage access.
 1. [Re-authorize your personal access tokens and/or SSH keys](github-transition-guide.md#resetting-github-keys).
 
