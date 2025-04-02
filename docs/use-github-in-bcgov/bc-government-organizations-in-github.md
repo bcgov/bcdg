@@ -44,7 +44,7 @@ The `bcgov-c` organization stores private repositories with confidential source 
 
 * Use this repository if you need a location for private code, or if you're working towards making the code public.
 * Only the Developer Experience team can create repositories in this organization.
-    * Request a repository by [submitting a request](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL&labels=github-repo%2C+pending&projects=&template=github_repo_request.md&title=).
+    * Request a repository by [submitting a request](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/60).
 * To join this organization, follow [these instructions](#directions-to-sign-up-and-link-your-account-for-bcgov-c).
 
 
