@@ -2,6 +2,44 @@
 
 Selecting suitable technology is an important step in developing a system for the B.C. government and the teams and individuals involved in building new systems have the latitude to make choices about the technologies their systems will use. There is a wide range of technology currently in use within the systems built for and by the B.C government.  The section below contains a cross-section of some of the technology options used within the B.C. government's growing portfolio of modern digital services, with links to relevant resources. 
 
+## Application hosting services options
+
+As a technical team, you can use this guide to help you and your team choose the best hosting platform for your product.
+
+Each service has unique capabilities and features that create a secure and compliant environment for digital service hosting.
+
+- The Data centre classic on-prem hosting offers traditional managed hosting services for virtual and physical systems. It supports various operating systems and technologies
+- The Private cloud OpenShift platform combines on-premise and cloud benefits. It offers managed services on dedicated hardware for control and flexibility
+- The Public cloud Amazon Web Services (AWS) Landing Zone uses AWS hardware. It provides scalable, on-demand computing services accessed through the internet with a secure, pre-configured environment
+
+*Notes:* 
+- Only services that are managed by OCIO are listed
+- If you’re considering the adoption of ready-to-use, subscription-based software, visit Software as a Service (SaaS)
+- Contact the OCIO Enterprise Architecture team at citzas@gov.bc.ca if you need guidance
+
+### Cloud hosting technical considerations
+
+For more information on Cloud hosting options available to you, please see the [Cloud Smart]() documentation.
+
+|   | Data centre classic on-prem hosting  |  Private cloud OpenShift platform | Public cloud AWS Landing Zone  |
+|---|---|---|---|
+| *Is this an OCIO managed hosting service?*  |   |   |   |
+| *Is this service recommended for business mission critical applications?* **  |  Yes | Yes  | No |
+| *What geographic region is this service provided from?*  |   |   |   |
+| *What type of hosting environment does this service offer?*  | Virtual machines and physical hardware  | Containerized |  Containerized and serverless |
+| *What’s the highest data classification this platform can host?*  |   |   |   |
+| *How can you provision hosting space?*  |   |   |   |
+| *What level of infrastructure support and monitoring is available for the hosting service? Review the responsibility model for more details*  |   |   |   |
+| *How elastic is this service? Can it scale up to meet increased demand?*  | Low <br> Computer resource must be pre-purchased to be available  | Medium / High <br> Elasticity ensures that a project can scale its resource usage up to the maximum allowed by the project resource quota <br> Learn more about OpenShift project resource quotas  | High <br>Elasticity can scale as needed, limited only by the product budget <br> Learn more about AWS Landing Zone  |
+| *What technical training is available?*  | The vendor offers both complimentary and paid training, not specific to the B.C. government’s implementation  | B.C. government’s internal training specific to the B.C. government’s implementation  | The vendor offers both complimentary and paid training, not specific to the B.C. government’s implementation  |
+| *What additional services are available?*  |  - Software Defined Network <br> - S3 Object Store | - Software Defined Network <br> - S3 Object Store <br> - AI/ML <br> - Security tools  |  - Checkpoint CSPM <br> - All AWS IaaS/PaaS services available in Canada central region (ca-central-1) and United States east coast (us-east-1). Does not include Marketplace services |
+| *What is the process for procuring third-party software licences for additional software that ministries may want to install in a hosting environment?*  |   |   |   |
+| *Internal and external expertise availability*  |  High <br> Extensive expertise within OCIO |  High <br> Extensive expertise within OCIO | Medium <br> OCIO is developing expertise to support clients  |
+| *Recommended technical skillset*  | - Server administration <br> -Security operations <br> -Technical architecture <br> -Application development <br> -Database administration  |  - DevOps <br> -Full-stack development <br> -Site reliability engineering <br> -Security operations <br> -Database administration | -DevOps <br> -Full-stack development <br> -Site reliability engineering <br> -Security operations <br> -Technical architecture <br> -Network and infrastructure operations <br> -Database administration  |
+| *What amount of support is assigned to a product team?*  |  Review shared responsibility model |
+
+** Hosting service’s ability to meet security, compliance, reliability and support needs of ministry business mission critical applications.
+
 ## Technologies in use within B.C. government's modern systems 
 
 | Technology type                        | Examples or choices                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
