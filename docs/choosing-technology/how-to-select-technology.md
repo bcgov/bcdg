@@ -23,19 +23,19 @@ Each service has unique capabilities and features that create a secure and compl
 For more information on Cloud hosting options available to you, please see the [Cloud Smart]() documentation.
 
 |   | Data centre classic on-prem hosting  |  Private cloud OpenShift platform | Public cloud AWS Landing Zone  |
-|---|---|---|---|
+|---|--------------------------------------|-----------------------------------|--------------------------------|
 | **Is this an OCIO managed hosting service?**  |   |   |   |
 | **Is this service recommended for business mission critical applications?** **  |  Yes | Yes  | No |
 | **What geographic region is this service provided from?**  |   |   |   |
 | **What type of hosting environment does this service offer?**  | Virtual machines and physical hardware  | Containerized |  Containerized and serverless |
 | **What’s the highest data classification this platform can host?**  |   |   |   |
 | **How can you provision hosting space?**  |   |   |   |
-| **What level of infrastructure support and monitoring is available for the hosting service? Review the responsibility model for more details*  |   |   |   |
+| **What level of infrastructure support and monitoring is available for the hosting service? Review the responsibility model for more details**  |   |   |   |
 | **How elastic is this service? Can it scale up to meet increased demand?**  | Low <br> Computer resource must be pre-purchased to be available  | Medium / High <br> Elasticity ensures that a project can scale its resource usage up to the maximum allowed by the project resource quota <br> Learn more about OpenShift project resource quotas  | High <br>Elasticity can scale as needed, limited only by the product budget <br> Learn more about AWS Landing Zone  |
 | **What technical training is available?**  | The vendor offers both complimentary and paid training, not specific to the B.C. government’s implementation  | B.C. government’s internal training specific to the B.C. government’s implementation  | The vendor offers both complimentary and paid training, not specific to the B.C. government’s implementation  |
 | **What additional services are available?**  |  - Software Defined Network <br> - S3 Object Store | - Software Defined Network <br> - S3 Object Store <br> - AI/ML <br> - Security tools  |  - Checkpoint CSPM <br> - All AWS IaaS/PaaS services available in Canada central region (ca-central-1) and United States east coast (us-east-1). Does not include Marketplace services |
 | **What is the process for procuring third-party software licences for additional software that ministries may want to install in a hosting environment?**  |   |   |   |
-| **Internal and external expertise availability*  |  High <br> Extensive expertise within OCIO |  High <br> Extensive expertise within OCIO | Medium <br> OCIO is developing expertise to support clients  |
+| **Internal and external expertise availability**  |  High <br> Extensive expertise within OCIO |  High <br> Extensive expertise within OCIO | Medium <br> OCIO is developing expertise to support clients  |
 | **Recommended technical skillset**  | - Server administration <br> - Security operations <br> - Technical architecture <br> - Application development <br> - Database administration  |  - DevOps <br> - Full-stack development <br> - Site reliability engineering <br> - Security operations <br> - Database administration | - DevOps <br> - Full-stack development <br> - Site reliability engineering <br> - Security operations <br> - Technical architecture <br> - Network and infrastructure operations <br> - Database administration  |
 | **What amount of support is assigned to a product team?**  |  Review shared responsibility model |||
 
