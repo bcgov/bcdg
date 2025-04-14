@@ -22,7 +22,7 @@ Each service has unique capabilities and features that create a secure and compl
 
 For more information on Cloud hosting options available to you, please see the [Cloud Smart]() documentation.
 
-|   | Data centre classic on-prem hosting  |  Private cloud OpenShift platform | Public cloud AWS Landing Zone  |
+|   | Data centre classic on-prem hosting  |  Private cloud OpenShift platform | Public cloud Landing Zone  |
 |---|--------------------------------------|-----------------------------------|--------------------------------|
 | **Is this an OCIO managed hosting service?**  |   |   |   |
 | **Is this service recommended for business mission critical applications?** **  |  Yes | Yes  | No |
@@ -37,7 +37,7 @@ For more information on Cloud hosting options available to you, please see the [
 | **What is the process for procuring third-party software licences for additional software that ministries may want to install in a hosting environment?**  |   |   |   |
 | **Internal and external expertise availability**  |  High <br> Extensive expertise within OCIO |  High <br> Extensive expertise within OCIO | Medium <br> OCIO is developing expertise to support clients  |
 | **Recommended technical skillset**  | - Server administration <br> - Security operations <br> - Technical architecture <br> - Application development <br> - Database administration  |  - DevOps <br> - Full-stack development <br> - Site reliability engineering <br> - Security operations <br> - Database administration | - DevOps <br> - Full-stack development <br> - Site reliability engineering <br> - Security operations <br> - Technical architecture <br> - Network and infrastructure operations <br> - Database administration  |
-| **What amount of support is assigned to a product team?**  |  Review shared responsibility model |||
+| **What amount of support is assigned to a product team?**  |  [Review shared responsibility model](https://digital.gov.bc.ca/technology/cloud/hosting-services/#shared) |||
 
 ** Hosting service’s ability to meet security, compliance, reliability and support needs of ministry business mission critical applications.
 
