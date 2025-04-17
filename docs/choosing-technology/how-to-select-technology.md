@@ -45,9 +45,9 @@ Each service has unique capabilities and features that create a secure and compl
 
 ### Hosting technical considerations
 
-For more information on Cloud hosting options available to you, please see the [Cloud Smart]() documentation.
+For more information on Cloud hosting options available to you, please see the [Cloud Smart](https://digital.gov.bc.ca/policies-standards/cloud-smart/) documentation.
 
-|   | Data centre traditional hosting  |  Private cloud OpenShift platform | Public cloud Landing Zones  |
+|   | Data centre traditional hosting  |  [Private cloud OpenShift platform](docs/default/component/platform-developer-docs) | [Public cloud Azure & AWS Landing Zones](docs/default/component/public-cloud-techdocs)  |
 |---|--------------------------------------|-----------------------------------|--------------------------------|
 | **Is this service recommended for business mission critical applications?**  |  Yes | Yes  | No |
 | **What type of hosting environment does this service offer?**  | Virtual machines and physical hardware  | Containerized |  Containerized and serverless |
