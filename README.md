@@ -6,7 +6,9 @@
 
 # Introduction
 
-This is the GitHub repository for the BC Developer's Guide, which provides guidance for technologists working on software applications for the Province of British Columbia. Devlopment of the guide is being lead by the Developer Experience Team within the Ministry of Citizens' Services Exchange Lab, in collaboration with other teams and members of the developer community.
+This is the GitHub repository for the BC Developer's Guide (BCDG), which provides guidance for technologists working on software applications for the Province of British Columbia. Development of the guide is being lead by the Developer Experience Team within the Ministry of Citizens' Services, in collaboration with other teams and members of the developer community.
+
+The latest published version of the BCDG is published as part of DevHub, B.C. government's internal developer portal and can be found at [https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/).
 
 ## Copyright
 
