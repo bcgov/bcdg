@@ -1,8 +1,8 @@
 # Transferring repositories
 
-This page describes how to transfer repositories from a team or ministry's GitHub organization to either the `bcgov` or `bcgov-c` GitHub organization.
+This page describes how to transfer repositories from a team or ministry's GitHub organization to either the [bcgov](https://github.com/bcgov) or [bcgov-c](https://github.com/bcgov-c) GitHub organization.
 
-Learn more about the `bcgov` and `bcgov-c` organizations in the [B.C. Government organizations in GitHub](bc-government-organizations-in-github.md) guide.
+Learn more about the [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) organizations in the [B.C. Government organizations in GitHub](bc-government-organizations-in-github.md) guide.
 
 # Will it be hard?
 
@@ -30,10 +30,10 @@ Review GitHub's [Transferring a repository](https://docs.github.com/en/repositor
 * Ensure all team members have joined the destination organization:
   * [How to join the bcgov organization](bc-government-organizations-in-github.md/#directions-to-sign-up-and-link-your-account-for-bcgov)
   * [How to join the bcgov-c organization](bc-government-organizations-in-github.md/#directions-to-sign-up-and-link-your-account-for-bcgov-c)
-* Note: Outside collaborators aren't allowed in the `bcgov` and `bcgov-c` organizations.
+* Note: Outside collaborators aren't allowed in the [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) organizations.
 * Users with individual access will retain the same level of access, provided they are members of the destination organization.
-  * For transfers to `bcgov`, ensure at least one individual with 'admin' access on your repository is a member of the `bcgov` organization. This will prevent loss of admin access after the transfer.
-* Recreate teams in either the `bcgov` or `bcgov-c` organization.
+  * For transfers to [bcgov](https://github.com/bcgov), ensure at least one individual with 'admin' access on your repository is a member of the [bcgov](https://github.com/bcgov) organization. This will prevent loss of admin access after the transfer.
+* Recreate teams in either the [bcgov](https://github.com/bcgov) or [bcgov-c](https://github.com/bcgov-c) organization.
   * Teams from other GitHub organizations will not transfer.
   * Users who only have access through a team in the source organization will lose access unless that team is recreated in the destination organization.
 * Review GitHub's [Transferring a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) documentation.
@@ -46,7 +46,7 @@ Use the GitHub 'transfer' function on your repository. If you have many reposito
 
 ### Transfer to the bcgov-c organization
 
-Only the Developer Experience team has permission to transfer repositories into the `bcgov-c` organization. Coordinate the transfer by [opening a service request ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/294).
+Only the Developer Experience team has permission to transfer repositories into the [bcgov-c](https://github.com/bcgov-c) organization. Coordinate the transfer by [opening a service request ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/294).
 
 ### Reverting
 
@@ -56,7 +56,7 @@ You can transfer back to the original organization if needed. If your pipelines 
 
 * You need to [configure SSO for any Personal Access Tokens (PATs) and SSH keys](github-transition-guide.md#resetting-github-keys) used to interact with the repository or its packages.
 * Assign the recreated team(s) to the repository.
-  * Teams assigned access through the GitHub transfer wizard will have 'read' access by default. Assign them the appropriate level of access as needed.
+  * Teams assigned access through the GitHub transfer process will have 'read' access by default. Assign them the appropriate level of access as needed.
 
 ## Package management
 
@@ -66,7 +66,7 @@ You can transfer back to the original organization if needed. If your pipelines 
 * Publishing packages: If you want to [publish to GitHub Packages](https://docs.github.com/en/actions/use-cases-and-examples/publishing-packages/publishing-docker-images#publishing-images-to-github-packages), use `ghcr.io` over `docker.pkg.github.com`.
 * Migrating packages: If you want to migrate images between organizations on a container registry like GHCR, you can do so.
   * This might be necessary if you aren’t able to rebuild the images.
-  * You can opt to rebuild all packages anew in either `bcgov` or `bcgov-c`.
+  * You can opt to rebuild all packages anew in either [bcgov](https://github.com/bcgov) or [bcgov-c](https://github.com/bcgov-c).
 
 ## GitHub Actions
 
@@ -91,7 +91,7 @@ Here are some actions you should consider – not all will apply to everyone.
 
 ## Transfer
 
-* Arrange for transfer with the Developer Experience team, if necessary
+* Arrange for [transfer with the Developer Experience team](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/294), if necessary
 
 ## After migration
 
