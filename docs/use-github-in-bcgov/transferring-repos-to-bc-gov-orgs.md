@@ -1,25 +1,23 @@
 # Transferring repositories
 
-This page describes how to transfer repositories from a team or ministry's GitHub organization to either the [bcgov](https://github.com/bcgov) or [bcgov-c](https://github.com/bcgov-c) GitHub organization.
+This page explains the process to move repositories from a team or ministry's GitHub organization to either [bcgov](https://github.com/bcgov) or [bcgov-c](https://github.com/bcgov-c) GitHub organization.
 
 Learn more about the [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) organizations in the [B.C. Government organizations in GitHub](bc-government-organizations-in-github.md) guide.
 
-# Will it be hard?
+# The simplified process
 
-Short answer – no! 🎉
+GitHub keeps repository transfers simple. There are a few details you’ll need to take care of for most repositories (e.g. authorizing PATs, updating team access) and some other considerations that won’t apply to everyone (e.g., packages).
 
-For transfers from another GitHub organization, GitHub fortunately makes repository transfers very easy. There are a few details you’ll need to take care of for most repositories (e.g., authorizing PATs, updating team access) and some other considerations that won’t apply to everyone (e.g., packages).
-
-The bulk of the work will revolve around updating and validating any deployment pipelines that reference your repositories.
+The bulk of the work revolves around updating and validating any deployment pipelines that reference your repositories.
 
 Regardless of your repository source, take care to isolate changes to your development/test deployment environment and validate before promoting to production.
 
-# Recommendations (read before you begin)
+# Recommendations before you begin
 
 The GitHub transfer function will:
 
 * Transfer issues, pull requests, wiki, stars, and watchers
-* Maintain associations for webhooks, services, secrets, forks, and deploy keys
+* Keep associations for webhooks, services, secrets, forks, and deploy keys
 * Automatically redirect links and Git commands from the old repository to the new one
 * **Exception:** Packages aren't transferred – see [Package management](#package-management) below
 
@@ -27,14 +25,14 @@ Review GitHub's [Transferring a repository](https://docs.github.com/en/repositor
 
 ## Setup
 
-* Ensure all team members have joined the destination organization:
+* Make sure all team members have joined the destination organization:
   * [How to join the bcgov organization](bc-government-organizations-in-github.md/#directions-to-sign-up-and-link-your-account-for-bcgov)
   * [How to join the bcgov-c organization](bc-government-organizations-in-github.md/#directions-to-sign-up-and-link-your-account-for-bcgov-c)
 * Note: Outside collaborators aren't allowed in the [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) organizations.
 * Users with individual access will retain the same level of access, provided they are members of the destination organization.
-  * For transfers to [bcgov](https://github.com/bcgov), ensure at least one individual with 'admin' access on your repository is a member of the [bcgov](https://github.com/bcgov) organization. This will prevent loss of admin access after the transfer.
+  * For transfers to [bcgov](https://github.com/bcgov), make sure at least one individual with 'admin' access on your repository is a member of the [bcgov](https://github.com/bcgov) organization. The access prevents loss of admin access after the transfer.
 * Recreate teams in either the [bcgov](https://github.com/bcgov) or [bcgov-c](https://github.com/bcgov-c) organization.
-  * Teams from other GitHub organizations will not transfer.
+  * Teams from other GitHub organizations won't transfer.
   * Users who only have access through a team in the source organization will lose access unless that team is recreated in the destination organization.
 * Review GitHub's [Transferring a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) documentation.
 
@@ -60,7 +58,7 @@ You can transfer back to the original organization if needed. If your pipelines 
 
 ## Package management
 
-* GitHub Packages are not transferred between organizations.
+* GitHub Packages aren't transferred between organizations.
   * Packages in the previous organization will become unlinked from their repository (if they were linked), and users will no longer inherit access from the repository.
   * Any users (or teams) who were inheriting access prior to de-linking will retain access after the transfer.
 * Publishing packages: If you want to [publish to GitHub Packages](https://docs.github.com/en/actions/use-cases-and-examples/publishing-packages/publishing-docker-images#publishing-images-to-github-packages), use `ghcr.io` over `docker.pkg.github.com`.
@@ -86,7 +84,7 @@ Here are some actions you should consider – not all will apply to everyone.
 ## Before migration
 
 * Capture repository access
-* Ensure team members have joined the destination organization
+* Make sure team members have joined the destination organization
 * Create teams in the destination organization
 
 ## Transfer
