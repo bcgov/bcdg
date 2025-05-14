@@ -1,48 +1,37 @@
----
-title: Remove a user's BCGov GitHub access
-
-slug: remove-user-bcgov-github-access
-
-description: Describes how to remove a user from BC Government organizations in GitHub.
-
-keywords: github, github org, repo, open source, devops, private cloud, openshift, github enterprise, access removal, remove access, user access
-
-page_purpose: Describes the process for removing a user from BC government organizations in GitHub using the Just Ask! tool.
-
-audience: developer, technical lead
-
-author: Jonathan Bond
-
-content_owner: Olena Mitovska
-
-sort_order: 2
----
 
 # Remove a user's BCGov GitHub access
 
-When a user no longer needs access to a repository, the product owner or administrator of the repository must remove the user. They also have to request removal of their access from the organization by using the [DevOps-Requests Repo](https://github.com/BCDevOps/devops-requests).
+There are two steps to remove a user:
 
-Include the following in the request:
+1. Remove their access to your repositories 
+1. Remove their membership in the [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) GitHub organizations
 
-* User's full name
-* User's GitHub ID
-* The GitHub repository you are removing the user from
+## Remove access to repositories
 
-Use the following example as a reference when you submit a request:
+A user may access your repositories by GitHub team membership or direct access.  
 
-```markdown
-GitHub User Access Removal Request:
-- Full name: Govvie McGovster
-- GitHub ID: govviemcgovster
-- GitHub Repo: https://github.com/bcgov/govvie-gov, https://github.com/bcgov/govviest-gov
-```
+Remove their access by:
 
----
-Related links:
+- [removing them from your GitHub team(s)](https://docs.github.com/en/organizations/organizing-members-into-teams/removing-organization-members-from-a-team) 
+- [removing them in your repository's "Collaborators & teams" setting](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository#removing-access-for-a-team-or-person)
 
-* [DevOps-Requests Repo](https://github.com/BCDevOps/devops-requests)
-* [Just Ask! tool](https://just-ask.developer.gov.bc.ca/)
-* [BC Government organizations in GitHub](bc-government-organizations-in-github.md)
-* [Common platform requests in the BC Gov Private Cloud PaaS](https://cloud.gov.bc.ca/private-cloud/support-and-community/devops-requests-in-the-bc-gov-private-cloud-paas/)
 
----
+## Remove membership in GitHub organizations
+
+
+!!! warning
+    Only do this step if the user is no longer an employee or contractor with the government.
+
+Membership in the [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) GitHub organizations is [controlled by IDIRs](github-transition-guide.md).
+
+A team's manager must [cancel a user's IDIR account](https://ociomysc.service-now.com/sp?id=kb_article&sys_id=5f3fab83db1a5690fa86193813961933) to remove them from the [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) GitHub organizations.
+
+IDIR cancellation may take a few days to complete. So, make sure to remove the user's access to your repositories ASAP.
+
+# Related Links
+
+* [GitHub - Removing organization members from a team](https://docs.github.com/en/organizations/organizing-members-into-teams/removing-organization-members-from-a-team) 
+* [GitHub - Managing teams and people with access to your repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository)
+* [My Service Centre - Manage IDIR Access](https://ociomysc.service-now.com/sp?id=kb_article&sys_id=5f3fab83db1a5690fa86193813961933)
+
+

@@ -16,6 +16,7 @@ logs
 
 # MkDocs build output
 /site
+/tmp
 
 # Node libraries
 node_modules
