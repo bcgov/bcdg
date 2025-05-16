@@ -10,7 +10,7 @@ Using GitHub, teams can:
 * Integrate automation tools
 * Track issues
 
-!!! info
+!!! Info
 	This document aims to provide detailed information about accessing B.C. government's GitHub organizations. If you are looking for quick access to common topics related to using GitHub in the B.C. government, you may wish to consult our [quick reference](quick-reference.md) instead. 
 
 B.C. Government's main organization is [bcgov](https://github.com/bcgov), where we store open code developed by government teams. It includes projects that have open-source and inner-source contribution models. `bcgov` has over 1000 repositories. 

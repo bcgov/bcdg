@@ -18,8 +18,8 @@ All BC Government employees working in B.C. government GitHub organizations ('bc
 
 ## Creating a Repository (aka "repo")
 
-!!! note
-	If you are creating a repository to host code for an app that will run on OpenShift, you may want to use our [QuickStart for OpenShift Wizard](../../wizards/quickstart-for-openshift-wizard/#devhub-wizards), which will save you some steps.
+!!! Note
+	If you are creating a repository to host code that will run on OpenShift, you may want to use our [QuickStart for OpenShift Wizard](../../wizards/quickstart-for-openshift-wizard/#devhub-wizards), which will save you some steps.
  
 -  Choose a path based on whether you are [publishing existing code, initiating a new repository or contributing to an outside repository](start-working-in-bcgov-github-organization.md)
 -  If you are publishing **existing code**, [evaluate the content to ensure there are no restrictions](start-working-in-bcgov-github-organization.md/#post-existing-code-or-projects) (e.g., Privacy, Copyright, Legal contractual or policy, Security) and confirm [authority to publish](license-your-github-repository.md/#authority-to-license)
@@ -35,7 +35,7 @@ All BC Government employees working in B.C. government GitHub organizations ('bc
   - README.md
   - CONTRIBUTING.md
   - CODE_OF_CONDUCT.md
-- [Sample templates](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/README.md) are available for all of these 'must have' files
+- Samples templates are available for all of these 'must have' files below
 
 ### Samples of mandatory files
 
