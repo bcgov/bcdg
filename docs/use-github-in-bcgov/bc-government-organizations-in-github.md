@@ -10,6 +10,9 @@ Using GitHub, teams can:
 * Integrate automation tools
 * Track issues
 
+!!! Info
+	This document aims to provide detailed information about accessing B.C. government's GitHub organizations. If you are looking for quick access to common topics related to using GitHub in the B.C. government, you may wish to consult our [quick reference](quick-reference.md) instead. 
+
 B.C. Government's main organization is [bcgov](https://github.com/bcgov), where we store open code developed by government teams. It includes projects that have open-source and inner-source contribution models. `bcgov` has over 1000 repositories. 
 
 We also have the `bcgov-c` organization, where developers can store confidential code.
@@ -51,7 +54,7 @@ The `bcgov-c` organization stores private repositories with confidential source 
 ## Single Sign-On 
 
 !!! Warning
-    Contractors without an IDIR must follow the steps in the [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** this can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
+    Contractors without an IDIR must follow the steps in [our guide](github-transition-guide.md#idirs) before proceeding. **Please note** this can take several days to complete depending on your ministry. We recommend doing with this step as soon as possible to avoid access disruptions.  
 
 Learn more about IDIRs and post-authentication steps in [our guide](github-transition-guide.md). 
   
