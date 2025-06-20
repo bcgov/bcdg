@@ -23,19 +23,29 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Function to handle copy button activation
+  let outerTimeoutId = null;
+  let innerTimeoutId = null;
   function handleCopyAction() {
     // First clear both regions to ensure fresh announcement
     assertiveRegion.textContent = '';
     politeRegion.textContent = '';
     
+    // Clear any existing timeouts
+    if (outerTimeoutId !== null) {
+      clearTimeout(outerTimeoutId);
+    }
+    if (innerTimeoutId !== null) {
+      clearTimeout(innerTimeoutId);
+    }
+    
     // Use setTimeout to ensure the announcement happens after the copy
-    setTimeout(function() {
+    outerTimeoutId = setTimeout(function() {
       // Use both regions to maximize compatibility
       assertiveRegion.textContent = 'Copied to clipboard';
       politeRegion.textContent = 'Copied to clipboard';
       
       // Clear after a delay
-      setTimeout(function() {
+      innerTimeoutId = setTimeout(function() {
         assertiveRegion.textContent = '';
         politeRegion.textContent = '';
       }, 3000);
