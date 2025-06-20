@@ -49,53 +49,19 @@ document.addEventListener('DOMContentLoaded', function() {
     if (target.classList.contains('md-clipboard') || 
         target.closest('.md-clipboard') || 
         (target.tagName === 'BUTTON' && target.getAttribute('title')?.includes('Copy'))) {
+      
+      // Use the handleCopyAction function for consistent behavior
       handleCopyAction();
     }
   });
   
-  // Find and enhance all copy buttons
-  function setupCopyButtons() {
-    const copyButtons = document.querySelectorAll('.md-clipboard, button[title*="Copy"]');
-    copyButtons.forEach(button => {
-      // Skip if already processed
-      if (button.dataset.a11yEnhanced) return;
-      
-      if (!button.hasAttribute('aria-label')) {
-        button.setAttribute('aria-label', 'Copy to clipboard');
-      }
-      if (!button.hasAttribute('tabindex')) {
-        button.setAttribute('tabindex', '0');
-      }
-      // Add role for clarity
-      button.setAttribute('role', 'button');
-      
-      // Add explicit keyboard support for copy buttons
-      button.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          this.click();
-          handleCopyAction();
-        }
-      });
-      
-      // Mark as enhanced
-      button.dataset.a11yEnhanced = 'true';
-    });
-  }
-  
-  // Initial setup
-  setupCopyButtons();
-  
-  // MkDocs might load syntax highlighting asynchronously, so check again after a delay
-  setTimeout(setupCopyButtons, 1000);
-  
-  // Also handle dynamically added content
-  const observer = new MutationObserver(function(mutations) {
-    setupCopyButtons();
-  });
-  
-  observer.observe(document.body, { 
-    childList: true, 
-    subtree: true 
+  // Add ARIA attributes to copy buttons
+  document.querySelectorAll('.md-clipboard').forEach(button => {
+    if (!button.hasAttribute('aria-label')) {
+      button.setAttribute('aria-label', 'Copy to clipboard');
+    }
+    if (!button.hasAttribute('tabindex')) {
+      button.setAttribute('tabindex', '0');
+    }
   });
 });
