@@ -1,4 +1,4 @@
-/* Visually hide the live region but keep it accessible to screen readers */
+/* Screen reader only class - visually hidden but accessible to screen readers */
 .sr-announce {
   position: absolute;
   width: 1px;
@@ -11,8 +11,29 @@
   border: 0;
 }
 
-/* Improve focus visibility for keyboard navigation */
-.md-clipboard:focus {
-  outline: 2px solid #0066cc;
-  outline-offset: 2px;
+/* Improve focus visibility for keyboard users */
+.md-clipboard:focus,
+button[title*="Copy"]:focus {
+  outline: 2px solid #0066cc !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.5) !important;
+}
+
+/* Ensure copy buttons are clearly visible with good contrast */
+.md-clipboard,
+button[title*="Copy"] {
+  color: #333333;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease;
+}
+
+/* Add visual feedback on hover and active states */
+.md-clipboard:hover,
+button[title*="Copy"]:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.md-clipboard:active,
+button[title*="Copy"]:active {
+  background-color: rgba(0, 0, 0, 0.2);
 }
