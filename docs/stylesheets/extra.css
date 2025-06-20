@@ -14,9 +14,9 @@
 /* Improve focus visibility for keyboard users */
 .md-clipboard:focus,
 button[title*="Copy"]:focus {
-  outline: 2px solid #0066cc !important;
-  outline-offset: 2px !important;
-  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.5) !important;
+  outline: 2px solid var(--focus-outline-color, #0066cc);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px var(--focus-box-shadow-color, rgba(0, 102, 204, 0.5));
 }
 
 /* Ensure copy buttons are clearly visible with good contrast */
