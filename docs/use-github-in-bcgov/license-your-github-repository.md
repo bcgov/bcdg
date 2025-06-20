@@ -105,6 +105,9 @@ The code for the Creative Commons 4.0 footer looks like this:
     xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">the Province of British Columbia
     </span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
     Creative Commons Attribution 4.0 International License</a>.
+
+<!-- Place this at the end of your <body> -->
+<div id="copy-live-region" aria-live="polite" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;"></div>
 ---
 Related links:
 
