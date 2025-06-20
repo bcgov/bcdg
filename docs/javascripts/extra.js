@@ -19,13 +19,18 @@ document.addEventListener('DOMContentLoaded', function() {
         (target.tagName === 'BUTTON' && target.getAttribute('title')?.includes('Copy'))) {
       
       // Announce to screen readers
-      setTimeout(function() {
-        liveRegion.textContent = 'Copied to clipboard';
-        // Clear after a delay
-        setTimeout(function() {
-          liveRegion.textContent = '';
-        }, 3000);
-      }, 100);
+      liveRegion.textContent = 'Copied to clipboard';
+      
+      // Clear any pending timeout before scheduling a new one
+      if (clearTimeoutId) {
+        clearTimeout(clearTimeoutId);
+      }
+      
+      // Schedule clearing the live region text after a delay
+      clearTimeoutId = setTimeout(function() {
+        liveRegion.textContent = '';
+        clearTimeoutId = null; // Reset the timeout ID
+      }, 3000);
     }
   });
   
