@@ -7,89 +7,19 @@ plugins:
   - techdocs-core
   - git-revision-date-localized
 markdown_extensions:
-    - md_in_html
-
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - attr_list
 validation:
-    omitted_files: warn    site_name: "BC Developer Guide"
-    site_description: "A guide to application development for the B.C. government."
-    repo_url: https://github.com/bcgov/bcdg
-    docs_dir: "docs"
-    edit_uri: edit/main/docs/
-    plugins:
-      - techdocs-core
-      - git-revision-date-localized
-    markdown_extensions:
-        - md_in_html
-        - pymdownx.superfences
-        - pymdownx.highlight
-        - attr_list
-    
-    validation:
-        omitted_files: warn
-        absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
-        unrecognized_links: warn
-    # ...existing code...    site_name: "BC Developer Guide"
-    site_description: "A guide to application development for the B.C. government."
-    repo_url: https://github.com/bcgov/bcdg
-    docs_dir: "docs"
-    edit_uri: edit/main/docs/
-    plugins:
-      - techdocs-core
-      - git-revision-date-localized
-    markdown_extensions:
-        - md_in_html
-        - pymdownx.superfences
-        - pymdownx.highlight
-        - attr_list
-    
-    validation:
-        omitted_files: warn
-        absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
-        unrecognized_links: warn
-    # ...existing code...    site_name: "BC Developer Guide"
-    site_description: "A guide to application development for the B.C. government."
-    repo_url: https://github.com/bcgov/bcdg
-    docs_dir: "docs"
-    edit_uri: edit/main/docs/
-    plugins:
-      - techdocs-core
-      - git-revision-date-localized
-    markdown_extensions:
-        - md_in_html
-        - pymdownx.superfences
-        - pymdownx.highlight
-        - attr_list
-    
-    validation:
-        omitted_files: warn
-        absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
-        unrecognized_links: warn
-    # ...existing code...    site_name: "BC Developer Guide"
-    site_description: "A guide to application development for the B.C. government."
-    repo_url: https://github.com/bcgov/bcdg
-    docs_dir: "docs"
-    edit_uri: edit/main/docs/
-    plugins:
-      - techdocs-core
-      - git-revision-date-localized
-    markdown_extensions:
-        - md_in_html
-        - pymdownx.superfences
-        - pymdownx.highlight
-        - attr_list
-    
-    validation:
-        omitted_files: warn
-        absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
-        unrecognized_links: warn
-    # ...existing code...
-    absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
-    unrecognized_links: warn
+  omitted_files: warn
+  absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
+  unrecognized_links: warn
 
 exclude_docs: |
-    digital_government.md
-    ways_of_working.md
-    supports_for_developers.md
+  digital_government.md
+  ways_of_working.md
+  supports_for_developers.md
 
 nav:
   - Introduction: index.md
