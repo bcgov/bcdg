@@ -19,10 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
         (target.tagName === 'BUTTON' && target.getAttribute('title')?.includes('Copy'))) {
       
       // Announce to screen readers
-      setTimeout(function() {
+      if (window.announceTimeout) {
+        clearTimeout(window.announceTimeout);
+      }
+      if (window.clearTimeout) {
+        clearTimeout(window.clearTimeout);
+      }
+      window.announceTimeout = setTimeout(function() {
         liveRegion.textContent = 'Copied to clipboard';
         // Clear after a delay
-        setTimeout(function() {
+        window.clearTimeout = setTimeout(function() {
           liveRegion.textContent = '';
         }, 3000);
       }, 100);
