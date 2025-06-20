@@ -138,3 +138,8 @@ nav:
   # - Security: security.md
   # - Compliance: compliance.md
   # - Data and APIs: data_and_apis.md
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
