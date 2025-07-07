@@ -26,7 +26,7 @@ nav:
   # - Supports for developers: supports_for_developers.md
   - Welcome to the B.C. government: welcome-to-bc-gov.md
   - Selecting Technology: choosing-technology/how-to-select-technology.md
-  Security and Privacy: 
+ - Security and Privacy: 
        - Security and Privacy Guidance: security/security-and-privacy-compliance-and-guidance.md 
        - Security best practices for apps: security/best-practices-for-apps.md
    - GitHub in the B.C. government:
