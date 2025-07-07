@@ -56,5 +56,5 @@ We also provide a large collection of design patterns on the platform that follo
 ## Related pages
 
 * [B.C. Government OpenShift DevOps security compliance](../security-and-privacy-compliance/platform-security-compliance.md)
-* [Security best practices for apps](../security-and-privacy-compliance/security-best-practices-for-apps.md)
+* [Security best practices for apps](../security/best-practices-for-apps.md)
 * [Platform security tools](../security-and-privacy-compliance/platform-security-tools.md)
