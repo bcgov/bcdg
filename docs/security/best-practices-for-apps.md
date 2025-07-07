@@ -1,21 +1,3 @@
----
-title: Security best practices for apps
-
-slug: security-best-practices-for-apps
-
-description: 
-
-keywords: 
-
-page_purpose: 
-
-audience: developer, technical lead
-
-author: Matt Spencer 
-
-sort_order: 4
----
-
 # Security best practices for apps
 
 When working in open environments like GitHub, you must meet all security and privacy requirements. The Office of the Chief Information Officer (OCIO) sets IM/IT Standards you are required to follow. Ensure any content you manage on GitHub meets the OCIO’s criteria for “Public” classification under the Information Security Classification Framework. 
