@@ -1,23 +1,4 @@
----
-title: Privacy compliance and guidance
-
-slug: privacy-compliance-and-guidance
-
-description: Learn about DevOps privacy considerations and tools on the B.C. Government OpenShift Private Cloud Platform as a Service.
-
-keywords: security, privacy, private, personal, information, pia
-
-page_purpose: This page describes the various privacy practices for platform development teams
-
-audience: developer, technical lead
-
-author: Blake Speers
-
-sort_order: 1
----
-
 # Privacy compliance and guidance
-Last updated: **February 20, 2024**
 
 Privacy compliance involves adhering to legislative requirements and our privacy policy. However, privacy protections extend beyond mere compliance and are essential for establishing trust with employees, contractors, and clients.
 
