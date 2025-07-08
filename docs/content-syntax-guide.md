@@ -71,6 +71,34 @@ This is a [download link](images/example.drawio.svg){:download="devhub-image-dow
 
 This is a [download link](images/example.drawio.svg){:download="devhub-image-download.svg} that will download a file to your computer.
 
+
+### Redirects
+
+DevHub uses the [mkdocs-redirects](https://backstage.io/docs/features/techdocs/how-to-guides/#how-to-resolve-broken-links-from-moved-or-renamed-pages-in-your-documentation-site) plugin to redirect links. When you move or rename pages, you can create redirects so old links still work.
+
+To set up redirects, update your `mkdocs.yml` file. In the `plugins` section, add a `redirects` section that maps old file names to new ones:
+
+```yaml
+plugins:
+  - redirects:
+      redirect_maps:
+        'old.md': 'new.md'
+        'old/file.md': 'new/file.md'
+        'some_page.md': 'https://developer.gov.bc.ca/docs/default/component/some-other-guide/some-page/'
+```
+
+**Examples:**
+
+- `'old.md': 'new.md'` - Redirects a renamed page
+- `'old/file.md': 'new/file.md'` - Redirects a page moved to a different folder
+- `'some_page.md': 'https://developer.gov.bc.ca/docs/default/component/some-other-guide/some-page/'` - Redirects to a page in a different DevHub guide
+
+**Important limitations:**
+
+- External redirects don't work (like `https://external-site.com/page`)
+- Cross-environment redirects don't work (from `dev.developer.gov.bc.ca` to `developer.gov.bc.ca`)
+- To test redirects in dev, use the full dev URL in your redirect, then remove the `dev` part before deploying to production
+
 ### Lists
 
 There must be a line break between the sentence and the start of the list. Use indents for nested lists.
