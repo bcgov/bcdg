@@ -1,23 +1,3 @@
----
-title: Start working in the BCGov GitHub organization
-
-slug: start-working-in-bcgov-github-organization
-
-description: Learn more about operating, and possibly maintaining, a GitHub Repository in Gov.
-
-keywords: open source, GitHub, GitHub management, repository, repository management
-
-page_purpose: Describes the different ways a user might want to use or maintain and GitHub project and the requirements
-
-audience: developer
-
-author: Jonathan Bond
-
-content_owner: Shelly Han
-
-sort_order: 8
----
-
 # Start working in the BCGov GitHub organization
 
 If you plan to share code developed by or for the B.C. government, [evaluate the content](evaluate-open-source-content.md) and get approval from your deputy minister. Deputy ministers may choose to delegate this authority to ministry chief information officers (CIOs).
@@ -64,11 +44,11 @@ If you are intending to maintain an active project, make sure to establish the a
 
 ## Integrating GitHub Apps
 
-We have large volumes of asks about adding GitHub Apps to our organization’s repository. Request a GitHub App to be installed from the BCDevOps Requests Issue: [Request for integrating a GitHub App](https://github.com/BCDevOps/devops-requests/issues/new?assignees=MonicaG%2C+oomIRL%2C+SHIHO-I&labels=github-app%2C+pending&projects=&template=github_integration_request.md&title=).
+We have large volumes of asks about adding GitHub Apps to our organization’s repository. Request a GitHub App to be installed from the BCDevOps Requests Issue: [Request for integrating a GitHub App](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10).
 If the existing applications don't work for you or your team, please create an issue. We need: 
 
-1) Your contact information 
-2) Detailed information about the GitHub App
+1. Your contact information 
+1. Detailed information about the GitHub App
 
 
 ## Initiate new code or projects
