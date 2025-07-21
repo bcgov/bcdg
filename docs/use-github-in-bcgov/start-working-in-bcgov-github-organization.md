@@ -47,8 +47,8 @@ If you are intending to maintain an active project, make sure to establish the a
 We have large volumes of asks about adding GitHub Apps to our organization’s repository. Request a GitHub App to be installed from the BCDevOps Requests Issue: [Request for integrating a GitHub App](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10).
 If the existing applications don't work for you or your team, please create an issue. We need: 
 
-1) Your contact information 
-2) Detailed information about the GitHub App
+1. Your contact information 
+1. Detailed information about the GitHub App
 
 
 ## Initiate new code or projects
