@@ -2,7 +2,7 @@
 
 Welcome to the DevHub Wizard!
 
-Based on the starter application of NRS’ QuickStart for OpenShift , DevHub Wizard reduces time to get an application deployed to OpenShift. After filling the form, users can create a new GitHub repo within ten seconds. 
+Based on the starter application of NRS’ QuickStart for OpenShift, [DevHub Wizard](https://developer.gov.bc.ca/create/templates/default/quickstart-openshift) reduces time to get an application deployed to OpenShift. After filling the form, users can create a new GitHub repo within ten seconds. 
 
 It works in tandem with Platform Services’ Product Registry. Before deploying a product, users must create an entry in the product registry. The process gives the namespace in OpenShift. Then, users can create an app wireframe that deploys into that name space. Namespaces follow the same convention as the Product Registry, such as your product set licence plate followed by "-dev", "-test", "-prod", or "-tools.
 Aside from generated namespaces, we don’t have standardized naming conventions for GitHub repositories.     
@@ -14,6 +14,8 @@ We created both a video and a step-by-step walkthrough below, so users feel prep
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9IiLW1864hs?si=xhcQyxv9yRJUJMf3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Walkthrough
+
+Visit the [QuickStart for OpenShift's wizard](https://developer.gov.bc.ca/create/templates/default/quickstart-openshift).  It and other startup resources are available from the `[+]` in the sidebar.
 
 ### Step 1
 
