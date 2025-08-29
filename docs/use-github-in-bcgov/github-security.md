@@ -25,7 +25,7 @@ Application and code security are a complex topics, and the features described a
 - Keep the features enabled in your repositories. Even if some features can be reconfigured at the repository level, they are there to help you and your team secure your code.
 - Use the Security Overview page for your repositories to see any issues detected by GitHub's security features. The Security Overview page is available in the repository under the "Security" tab.
 - If you work on multiple repositories within `bcgov` or `bcgov-c`, you can use the [Security Overview for the organization](https://github.com/orgs/bcgov/security/overview) to see a summary of all security issues across multiple repositories in the organization.
-- Take action on any issue surfaced by GitHub security features as soon as possible. The sooner you address issues - even they are false positives that you dismiss without changes - the less likely they are to become a problem or become "noise" that you ignore.
+- Take action on any issue surfaced by GitHub security features as soon as possible. The sooner you address issues - even if they are false positives that you dismiss without changes - the less likely they are to become a problem or become "noise" that you ignore.
 
 
 
