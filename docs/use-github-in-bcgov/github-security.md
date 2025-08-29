@@ -8,7 +8,9 @@ The features described here are available and enabled in both `bcgov` and `bcgov
 
 ## Cost
 
-In `bcgov` there is no cost to the organization for these security features as all repositories are public, and GitHub makes them available for free for public repositories. In `bcgov-c` there is a cost associated with the use of the features since the repositories are private, for which GitHub charges a fee; however the cost in `bcgov-c` is currently covered by the Developer Experience Team, so there is no cost to individual teams or ministries.
+In the `bcgov` organization, there is no cost for these security features because all repositories are public, and GitHub provides them for free for public repositories. 
+
+In the `bcgov-c` organization, there is a cost for these features since the repositories are private, and GitHub charges a fee for private repositories. However, this cost is currently covered by the Developer Experience Team, so individual teams or ministries do not need to pay.
 
 ## Features
 
