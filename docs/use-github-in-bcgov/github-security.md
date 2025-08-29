@@ -16,7 +16,7 @@ The following features are some of the major security features available in the 
  
 - [Code scanning](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning): This feature scans code for security vulnerabilities and coding errors.
 - [Secret scanning](https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning): This feature scans repositories and commits for sensitive information such as API keys, passwords, and other secrets. 
-- [DependaBot](https://docs.github.com/en/code-security/dependabot): This feature scans repositories for outdated or vulnerable dependencies and provides recommendations for fixing problems, including via automated pull requests.
+- [Dependabot](https://docs.github.com/en/code-security/dependabot): This feature scans repositories for outdated or vulnerable dependencies and provides recommendations for fixing problems, including via automated pull requests.
 
 ## Recommendations
 
