@@ -20,7 +20,7 @@ The following features are some of the major security features available in the 
 
 ## Recommendations
 
-Application and code security are a complex topics, and the features described above are just a few of the many tools available to help teams secure their code. The Developer Experience Team has the following recommendations specifig to these features provided within GitHub:
+Application and code security are a complex topics, and the features described above are just a few of the many tools available to help teams secure their code. The Developer Experience Team has the following recommendations specific to these features provided within GitHub:
 
 - Keep the features enabled in your repositories. Even is some features can be reconfigured at the repository level, they are there to help you and your team secure your code.
 - Use the Security Overview page for your repositories to see any issues detected by GitHub's security features. The Security Overview page is available in the repository under the "Security" tab.
