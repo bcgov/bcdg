@@ -31,7 +31,6 @@ The users impacted are:
 - Users who use GitHub as their authentication method to login to: 
   - [Private Cloud](https://developer.gov.bc.ca/docs/default/component/platform-developer-docs),  
   - [Public Cloud](https://developer.gov.bc.ca/docs/default/component/public-cloud-techdocs), 
-  - [Stack Overflow](https://stackoverflow.developer.gov.bc.ca/),  
   - [Rocket.chat](https://chat.developer.gov.bc.ca/),  
   - Any other custom apps owned by the province that use membership in the bcgov organization to authenticate and authorize users 
  - Teams relying on integrations that need access to the bcgov org, for example: 
