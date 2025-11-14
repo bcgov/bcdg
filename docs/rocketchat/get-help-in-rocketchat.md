@@ -48,7 +48,7 @@ If it’s a sensitive task, please specify confidentiality is necessary. Being f
 
 2. After detailing the problem, the community wants to know what troubleshooting you tried. Being proactive helps narrow down solutions and stops repetition
 
-    Please give a link to the source if you followed steps on a StackOverflow thread or read documentation about the problem
+    Please give a link to the source if you followed steps on a StackOverflow/Discussions thread or read documentation about the problem
 
 3. Last, please say what type of help you’re looking for. Are you looking for a solution, link to resources, and/or another way to complete a task? Please be very clear so the question isn't misinterpreted.
    
