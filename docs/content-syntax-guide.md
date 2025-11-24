@@ -287,7 +287,7 @@ YouTube videos can be embedded with the `iframe` command. Replace the `src` loca
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Tkqe0lRuE0?si=jixM-ye8j1ey1Lf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Tkqe0lRuE0?si=jixM-ye8j1ey1Lf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Tkqe0lRuE0?si=jixM-ye8j1ey1Lf6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Miro
 
