@@ -1,80 +1,50 @@
----
-title: Required pages for a GitHub repository
+# Mandatory GitHub repo files
 
-slug: required-pages-for-github-repository
+The following markdown files are required in every `bcgov` repos:
 
-description: Describes the pages that must be added to a project in the BC Government organization
+* License file **(LICENSE.md)**
+* README file **(README.md)**
+* Code of Conduct file **(CODE_OF_CONDUCT.md)**
+* Contributing guidelines file **(CONTRIBUTING.md)**
 
-keywords: readme, contributor, code of conduct, best practices, repository, repository management, GitHub, working in GitHub, open source, working in the open
+## License file 
 
-page_purpose: Discusses the pages that users should include in their repositories and gives guidelines on what those pages should provide
+All repos need a license. Choose the best fit for the team repo. Important information about license types can be found on the [Li](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/license-your-github-repository/) 
 
-audience: technical lead, developer
+## README file
 
-author: Jonathan Bond
+Please follow [GH README guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) and [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/) for guidance to create good README files. Teams can find extensive documentation on GH about README files for repos.
 
-content_owner: Olena Mitovska
+Aside from GH documentation, please include:
 
-sort_order: 7
----
+* A brief project description.
 
-# Required pages for a GitHub repository
+* An overview of how to contribute to the team repo, and a link to repo contribution guidelines.
 
-When you create a repository in the `bcgov` organization, add the following markdown files:
+* Dependent on licence, boilerplate text. [Li]() offers more information about the topic. 
 
-- License
-- README
-- Code of conduct
-- Contribution guidelines
+* A link to team Code of Conduct file.
 
-## On this page
+Here's a [sample README file](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-README.md ).
 
-- [Licence](#licence)
-- [ReadMe](#readme)
-- [Code of conduct](#code-of-conduct)
-- [Contribution guidelines](#contribution-guidelines)
+## Code of Conduct file
 
-## Licence
-Choose a licence and place a licence file in your repository before you do anything else. For important information on licences, see [License your GitHub repository](license-your-github-repository.md).
+Code of Conducts fosters an open and welcoming environment, if written with clarity. 
 
-Depending on the licence you choose, add boilerplate text for the applicable licence to your README file.
+Two starting points for creating a strong Code of Coduct:
+* [Contributor Covenant](https://www.contributor-covenant.org/): common Code of Conduct for open source projects.
 
-## ReadMe
-GitHub has extensive documentation on how to create a good README file for your repository. Follow these guidelines when you create your README.
+* [GitHub's guidelines on healthy contributions](https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors): guidance on setting up a code of conduct for healthy contributions.
 
-For more information, see [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+Here's a [sample Code of Conduct file](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-CODE_OF_CONDUCT.md).
 
-Make sure to include the following:
+## Contributing guidelines file
 
-- A brief description of your project
-- An overview on how to contribute to the repository with a link to your contribution guidelines
-- Depending on your licence, boilerplate text for the applicable licence. For more information, see [License your GitHub repository](license-your-github-repository.md)
-- A link to your code of conduct file
+Always make sure contribution guidelines offer clarity and accurate methods of contributing to team repos.
 
-See a [sample README file](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-README.md).
+For example, if the repo needs contributors to fork the repo and submit pull requests, make sure it's included. Also, add links to the applicable documentation.
 
-## Code of conduct
-Write a clear code of conduct to ensure contributors to your project foster an open and welcoming environment.
+Contributors should be aware of the repo license and relevant documentation. 
 
-Two good starting points to create a code of conduct for your project are the [Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct/) and GitHub's guidelines on [healthy contributions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions).
+Here's a [sample  contributing guildelines file.](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-CONTRIBUTING.md)
 
-See a [sample code of conduct file](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-CODE_OF_CONDUCT.md).
-
-## Contribution guidelines
-Write concise and clear contribution guidelines. Let potential contributors know how you prefer they work on projects and give them the correct information to do so.
-
-For example, if you prefer contributors fork repositories and [submit pull requests](https://help.github.com/articles/using-pull-requests/), provide links to the applicable documentation.
-
-Make sure you're clear on the licence that applies to your repository and provide a link to relevant documentation.
-
-See a [sample contributing file](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/SAMPLE-CONTRIBUTING.md).
-
----
-Related links:
-
-* [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-* [License your GitHub repository](license-your-github-repository.md)
-* [Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
-* [Healthy contributions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions)
-* [Using pull requests](https://help.github.com/articles/using-pull-requests/)
----
