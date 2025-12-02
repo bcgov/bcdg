@@ -1,69 +1,34 @@
-## B.C. Developer Guide
+# Welcome to B.C. Government
 
-This document is a living guide to application development for the B.C government, updated regularly by the Developer Experience team. Written for all ministries, use it to guide your team's technical decisions and as a reference throughout the software lifecycle.
+The B.C. Developer Guide **(BCDG)** offers B.C. Government developers a living guide to application development within the public service. Please use it as a reference throughout the software lifecycle, and technical decisions. 
 
-## Current Topics
+The Developer Experience Team updates the BCDG. For any questions, concerns or feedback, we can be reached at developer.experience@gov.bc.ca. 
 
-### [Welcome to the B.C. government](./welcome-to-bc-gov/)
+## 6 quick steps to get started
+<ol>
+    <li>Bookmark this site because it serves as the central hub for development matters.</li>
+    <li><a href="https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov">Get access to the <code>bcgov</code> GitHub Organization</a>.</li>
+        <ul>This organization is B.C. Government's default storage for code.</ul>
+        <ul>More information about <code>bcgov</code> and <code>bcgov-c</code> is available under <a href="https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#organizations-in-github">"Organizations in GitHub"</a> on the same page.</ul>
+    <li> Get access to <a href="https://github.com/bcgov/bcgov-community-discussions">GitHub Discussions</a>. 
+        <ul>The developer community gathers here to ask questions, support each other with issues, and  finds it the best source of support for internal serivces, such as cloud services and common components.</ul> 
+    <li> Explore <a href="https://digital.gov.bc.ca/technology/common-components/">internal services</a> and <a href="https://digital.gov.bc.ca/technology/cloud/saas/">Software-as-a-Service</a> <b>(SaaS)</b> tools to support development. </li>
+    <li> Learn about what's happening in the <a href="https://digital.gov.bc.ca/blog/">BC Gov Digital Ecosystem</a>.</li>
+    <li> Bookmark the <a href="https://developer.gov.bc.ca/docs/default/component/mobile-developer-guide/mobile-developer-guide-introduction/">Mobile Developer's Guide</a> for guidance on building mobile applications.</li>
+</ol>
 
-Helpful links and context for folks new to development within the government of B.C.
+### Security and compliance guidance and policies
 
-### [How To Select Technology](choosing-technology/how-to-select-technology.md)
+Although we don't expect developers to memorize the guidance and policies below, we do expect developers to be aware of them:
 
-This section shares some of the commonly adopted technologies to help teams make technical decisions for their projects.
+- [B.C. government OpenShift DevOps security considerations](https://developer.gov.bc.ca/docs/default/component/platform-developer-docs/docs/security-and-privacy-compliance/platform-security-compliance/)
+- [BC Gov Policy for GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/README.md)
+- [FOIPPA Quick Reference](https://raw.githubusercontent.com/bcgov/devhub-resources/master/resources/privacy/foippa_quick_reference.pdf)
+- [IMIT standards](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/im-it-standards)
+- [Privacy and personal information in the B.C. public sector](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy)
 
-### [GitHub in the B.C. government](./use-github-in-bcgov/bc-government-organizations-in-github/)
+#### Cloud Technology
+We offer two options for cloud services: **private** and **public**. [Cloud Services](https://digital.gov.bc.ca/technology/cloud/) offers more information about both services.
 
-GitHub is the preferred tool for B.C. government development team to store and share code. Learn about available options related to GitHub and how to license and manage code repositories.
 
-### Developer Community Tools
-
-#### [Rocket.Chat](rocketchat/steps-to-join-rocketchat.md)
-
-We use Rocket.Chat for technical discussions. It’s similar to Slack or Discord. 
-
-Learn how to join and use Rocket.Chat and connect with other developers across the B.C. government. 
-
-### Front End Development
-
-#### [Accessibility resources](accessibility-resources.md)
-
-Understand what resources are available to support the development of accessible web applications. 
-
-#### [Design System](design-system/about-the-design-system.md)
-
-Learn what the BC Government Design System for Digital Services can do for your project.
-
-#### [Working with Data](working-with-data.md)
-
-Understand what B.C. Data Services support are available to support the success of technical projects. 
-
-## Future Topics
-
-In the spirit of #Agile and #WorkingInTheOpen, we're taking an iterative approach to publishing new guidance. 
-
-Potential topics for this guide include:
-
-- Digital Government 101
-- Ways of working in the B.C. government
-- Supports for developers
-- Developer communities
-- Application lifecycle
-- Deploying applications
-- Testing applications
-- Operating applications
-- Licensing and intellectual property
-- Code management
-- Common code, components, and services
-- Languages and frameworks
-- Design
-- Multilingual support
-- Architecture
-- Networking
-- Security
-- Compliance
-
-## Contact us
-
-This guide is owned and maintained by the Developer Experience team within the Digital Office. Please reach out with questions or feedback to [developer.experience@gov.bc.ca](mailto:developer.experience@gov.bc.ca).
 
