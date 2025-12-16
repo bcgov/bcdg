@@ -1,85 +1,73 @@
-# Start working in the BCGov GitHub organization
+# First steps working in GitHub
 
-If you plan to share code developed by or for the B.C. government, [evaluate the content](evaluate-open-source-content.md) and get approval from your deputy minister. Deputy ministers may choose to delegate this authority to ministry chief information officers (CIOs).
+Teams planning to share code need to evaluate the content, and get approval from their Deputy Minister **(DM)**. A DM may delegate approval to a Ministry Chief Information Officer **(MCIO)**.
 
-## On this page
+The B.C. Government works in the open, using [open development practices](https://digital.gov.bc.ca/policies-standards/dcop/open/) which includes:
 
-- [Post existing code or projects](#post-existing-code-or-projects)
-- [Initiate new code or projects](#initiate-new-code-or-projects)
-- [Contribute to outside code or projects](#contribute-to-outside-code-or-projects)
+* **[Mandatory GitHub repo files](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/required-pages-for-github-repository/)** 
+    - README file
+    - Contributing file
+    - Code of Conduct file
+    - License file.
 
-The B.C. government follows the Open Development Standard, which outlines the following:
-
-* [Minimum content requirements](required-pages-for-github-repository.md): README, contributing file, code of conduct and license
 * Roles and responsibilities
+
 * Basic mechanics of working in GitHub
 
-Generally, GitHub projects fall under one of the three following categories, with different key considerations depending on the type.
+## Three common ways to start working in GitHub
 
-## Post existing code or projects
+### Post existing code or projects 
 
-Projects like this follow two basic approaches, but can vary.
+There are two common approaches a team can take: 
 
-* **Throw it over the wall**: You have code that you want to make available because it might be useful to others. However, you don't want to make an open-ended commitment to maintain an active open-source project.
+* **Throw it over the wall:** code that can be made availabe to others, but teams shouldn't make an open-ended committement to keep an active open-source project.
 
-* **Create and run a sustainable project**: You have code that you want to make available and then run as an active project: accepting patches, soliciting code contributions, adding new maintainers, participating in user and developer forums, doing regular releases and more.
+* **Create and run a sustainable project:** code that can be made available, then run as an active project, inclusive of accepting patches, soliciting code contributions, adding new maintainers, participating in user and developer forums, doing regular releases and more.
 
-In both cases, the basic steps to release the code are similar, while the implications for project management and resourcing are not. Key requirements in these scenarios include the following:
+Both methods use similar ways to release the code. They differ in project management and resourcing. Key requirements in these scenarios include:
 
-- Confirm your [authority to license](license-your-github-repository.md)
+* Confirming team authority to license.
 
-	Choose an open-source license and consult with the Intellectual Property Program (IPP) to make sure government has the right to release the code.
+* Choosing an open-source license, and consult with the Intellectual Property Program **(IPP)** to make sure government has the right to release the code.
+    * If using code from another open-source project, follow to the existing licensing provisions, and make sure the licences are compatiable. Per the [evaluate open-source content doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/), don't infringe on intellectual property rights. These can include, patent rights, trademarks in the code or documentation. 
 
-	If any of the code is from another open-source project, make sure you adhere to the existing licensing provisions and make sure the licence is compatible when you select a licence to apply to your project.
+* Confirming that there are no restrictions on releasing the code or documentation imposed by legislation, policy or contracts.
 
-- Make sure there are no other intellectual property considerations
+* Checking for any dependencies
+    - Check library dependencies, sample or configuration data to make sure it's appropriate for release, or is separated.
 
-	These can include patent rights or trademarks in the code or documentation. Confirm that there are no restrictions on releasing the code or documentation imposed by legislation, policy or contracts.
+Active project needs appropriate processes and terms to manage contributions.
 
-- Assess any dependencies
+### Integrating GitHub Apps
 
-	Check library dependencies, sample or configuration data to make sure it's appropriate for release or is separated out, if needed.
+We get large volumes of asks about adding GitHub Apps to our org's repos. Request a GitHub App to be installed from the **BCDevOps Requests Issue: Request for integrating a GitHub App**. 
 
-If you are intending to maintain an active project, make sure to establish the appropriate processes and terms to manage contributions.
+If the available applications don't work for the team, please create an issue. We need:
 
-## Integrating GitHub Apps
+* Contact information
 
-We have large volumes of asks about adding GitHub Apps to our organization’s repository. Request a GitHub App to be installed from the BCDevOps Requests Issue: [Request for integrating a GitHub App](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10).
-If the existing applications don't work for you or your team, please create an issue. We need: 
+* Detailed information about the GitHub App
 
-1. Your contact information 
-1. Detailed information about the GitHub App
+### Initiate new code or projects
 
+These types of projects fall under open-source and collaboration:
 
-## Initiate new code or projects
+* Choose an open-source licence and confirm team authority to license.
 
-These are projects that you want to manage as an open-source, collaborative project.
+* Use the [mandatory GitHub repo files doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/required-pages-for-github-repository/) to create the specified pages.
 
-- Choose an open-source licence and confirm your [authority to license](license-your-github-repository.md)
-- Determine how contributions are made and managed and include this information in the contributor file in the repository.
-- [Create the minimum required content](required-pages-for-github-repository.md).
-- Add a [Contributor Code of Conduct](http://contributor-covenant.org/) to your repository. This document lets people know that all are welcome to contribute, and that all who contribute pledge to make participation in the project a harassment-free experience for everyone. Include a code of conduct and provide a contact method (in the placeholder) so that people know how to report violations. Introduce the code of conduct in your `readme.md`.
+## Contribute to external code or projects
 
-## Contribute to outside code or projects
+Sometimes, it's useful and appropriate for employees to contribute to non-B.C. Government repos as part of their workflow. In these cases, consider the following:
 
-There may be circumstances where it's useful and appropriate for employees to contribute to non-B.C. government repositories as a part of their work. In these cases, consider the following:
+* Any contribution, size, and scope is relevant. Team leads should confirm this. 
 
-- Make sure contributions are relevant, and the size and scope are consistent with your priorities. This may involve checking with your supervisor.
-- Make sure the licensing provisions of the project you are contributing to are appropriate. For example, it's licensed under an OSI approved license and you aren't required to assign copyright to the project.
+* Licensing provisions of the project must be appropriate. For example, it's licensed under an OSI approved license and no requirement to assign copyright to the project.
 
-	If the project requires you to sign a contributor agreement, get advice from Legal Services as to whether the terms are appropriate.
+* If the project requires a contributor agreement to be signed, get advice from Legal Services if terms are appropriate.
 
-	If the project uses a reciprocal or "copyleft" license, such as GPL or Mozilla, make sure you understand the requirements for publishing any modifications you make to the code.
+* If the project uses a reciprocal or "copyleft" license, such as GPL or Mozilla, understand the requirements for publishing any modifications to the code. 
 
-- Confirm your [authority to license](license-your-github-repository.md)
+* Confirm team authority to license.
 
 Employees can also contribute to non-B.C. government owned intellectual property rights outside their professional roles by using their personal email linked to their GitHub account.
-
----
-Related links:
-
-* [Evaluate the content](evaluate-open-source-content.md)
-* [Required pages for a GitHub repository](required-pages-for-github-repository.md)
-* [License your GitHub repository](license-your-github-repository.md)
-
----
