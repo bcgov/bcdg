@@ -69,7 +69,7 @@ Technical teams can use the table below for comparing Data centres, Private and 
 
 **Application hosting services comparison table**
 
-Column 1 lists features, column 2 has Data centre traditional hosting features, column 3 has Private cloud OpenShift platform features, and column 4 has Public cloud Azure and AWS Landing Zones features.
+Column 1 lists features, column 2 lists Data centre traditional hosting features, column 3 lists Private cloud OpenShift platform features, and column 4 lists Public cloud Azure and AWS Landing Zones features.
 
 |   | Data centre traditional hosting  |  [Private cloud OpenShift platform](docs/default/component/platform-developer-docs) | [Public cloud Azure and AWS Landing Zones](docs/default/component/public-cloud-techdocs)  |
 |---|--------------------------------------|-----------------------------------|--------------------------------|
