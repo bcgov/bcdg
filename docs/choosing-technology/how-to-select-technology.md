@@ -2,21 +2,22 @@
 
 Every team and ministry has different needs. Choosing the suitable technology builds the foundation of excellent user experience. 
 
-We offer a wide range of options within B.C. Government systems. The tables below show a cross-section of some technology that developers can use. Each option links to more information about it. 
+We offer many options within B.C. Government systems. The tables below show a cross-section of some technology that developers can use. Users can click each option to get more information about it.  
 
 
 ## Current technology options
 
-Although there's numerous choices displayed, the table below isn't exhaustive, nor represents an endorsement of any particular option. Every team should do its own research before deciding which technology best suits their needs and context.
+Although there's numerous choices, the options in the table below isn't exhaustive, nor represents an endorsement of any particular choice. Every team should do its own research before deciding which technology best suits their needs and context.
 
-Please note the following important considerations that can impact choices: 
+Please note the following important considerations: 
 
-- [Core Policy and Procedures Manual **(CPPM)**  Chapter 6: Procurement](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement)
+- The [Core Policy and Procedures Manual **(CPPM)**  Chapter 6: Procurement](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/procurement)
 - Information Management Branch **(IMB)** and/or Security Information Branch **(SIB)** requirements, policies or guidance.
 - [Privacy and Security compliance](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/security/security-and-privacy-compliance-and-guidance/)
-- [Open-source content evaluation](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) 
+- Our [open-source content evaluation doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) 
 
 ### Development Frameworks
+Column 1 lists the technology type. Column 2 lists the choices under that type.
 
 |Type| Choice|
 |----| ------|
@@ -27,6 +28,8 @@ Please note the following important considerations that can impact choices:
 |Automation tools| [GitHub Actions](https://github.com/features/actions), [ArgoCD](https://argoproj.github.io/argo-cd/), [Terraform](https://www.terraform.io/), [Tekton/OpenShift Pipelines](https://tekton.dev/) 
 
 ### Hosting and operations
+Column 1 lists the technology type. Column 2 lists the choices under that type.
+
 |Type| Choice|
 |----| ------|
 |Operations support and security| Sysdig, StatusCake, Loki, Splunk, [Vault](https://www.vaultproject.io)          
@@ -34,6 +37,8 @@ Please note the following important considerations that can impact choices:
 
 
 ### Collaboration
+Column 1 lists the technology type. Column 2 lists the choices under that type.
+
 |Type| Choice|
 |----| ------|
 |Collaboration tools| [JIRA](https://www.atlassian.com/software/jira), [GitHub Discussions](https://github.com/features/discussions), [GitHub Issues](https://github.com/features/issues), [MS Teams](https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software),  [Loop](https://www.microsoft.com/en-us/microsoft-365/loop)
@@ -41,10 +46,13 @@ Please note the following important considerations that can impact choices:
 
 
 ### Integration and data
+Column 1 lists the technology type. Column 2 lists the choices under that type.
+
 |Type| Choice|
 |----| ------|
 |API and data services| [API Gateway](https://digital.gov.bc.ca/bcgov-common-components/api-program-services/), [BC Data Catalogue](https://catalogue.data.gov.bc.ca)
 |Middleware and databases| PostgreSQL, MySQL, MongoDB, Kafka, Redis, NATS                                                                          
+
 ## Application hosting services options
 
 Each service offers unique features and capabilities that creates a secure and compliant environment for digital service hosting. Only services supported by Connected Services B.C. **(CSBC)** are listed:
@@ -57,7 +65,7 @@ Each service offers unique features and capabilities that creates a secure and c
 
 - **Software as a Service (SaaS)**: offers ready-to-use software applications, hosted and managed by third-party providers. 
 
-Technical teams can use the table below compares the three to help choose the best hosting platform for their product. 
+Technical teams can use the table below for comparing Data centres, Private and Public cloud platforms.  
 
 **Application hosting services comparison table**
 
@@ -65,12 +73,12 @@ Column 1 lists features, column 2 has Data centre traditional hosting features, 
 
 |   | Data centre traditional hosting  |  [Private cloud OpenShift platform](docs/default/component/platform-developer-docs) | [Public cloud Azure and AWS Landing Zones](docs/default/component/public-cloud-techdocs)  |
 |---|--------------------------------------|-----------------------------------|--------------------------------|
-|Recommended for mission critical applications |Yes|Yes|No|
-|Recommended technical skillset| <li> Server administration <br><li> Security operations <br><li> Technical architecture <br><li> Application development <br><li> Database administration |  <li> DevOps <br><li> Full-stack development <br><li> Site reliability engineering <br><li> Security operations <br><li> Database administration | <li> DevOps <br><li> Full-stack development <br><li> Site reliability engineering <br><li> Security operations <br><li> Technical architecture <br><li> Network and infrastructure operations <br><li> Database administration |
-|Hosting environment|Virtual machines and physical hardware| Containerized|Containerized and serverless|
-|Highest [data classification](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/618_information_security_classification_standard.pdf)  | Protected C|Protected B and C|Protected B|
-| Procurement | [iStore order](https://ssbc-client.gov.bc.ca/order/istore.htm) | [Self-serve online](https://registry.developer.gov.bc.ca/login)  | [Self-serve online](https://registry.developer.gov.bc.ca/login)  |
-| Elasticity and scalability | <li>Low<br><li>Resource must be pre-purchased | <li>Medium - High<br><li> Maximum allowed by project resource quota | <li>High<br><li> Scale as needed, limited only by product budget|
-|Additional services|  <li> Software Defined Network <br><li> S3 Object Store | <li> Software Defined Network <br><li> S3 Object Store <br><li> AI/ML <br><li> Security tools  |  <li> Checkpoint CSPM <br><li> All AWS IaaS/PaaS services available in Canada central region (ca-central-1) and United States east coast (us-east-1). <li>Does not include Marketplace services |
-|Expertise available|  <li>High <br><li> Extensive expertise within CSBC | <li> High <br><li> Extensive expertise within CSBC | <li>Medium <br><li> CSBC is developing expertise to support clients  |
-| Support assigned to product team|  [Review shared responsibility model](https://digital.gov.bc.ca/technology/cloud/hosting-services/#shared) |[Review shared responsibility model](https://digital.gov.bc.ca/technology/cloud/hosting-services/#shared)|[Review shared responsibility model](https://digital.gov.bc.ca/technology/cloud/hosting-services/#shared)|
+|Plaform recommended for mission critical applications? |Yes|Yes|No|
+|The recommended technical skillsets| <li> Server administration <br><li> Security operations <br><li> Technical architecture <br><li> Application development <br><li> Database administration |  <li> DevOps <br><li> Full-stack development <br><li> Site reliability engineering <br><li> Security operations <br><li> Database administration | <li> DevOps <br><li> Full-stack development <br><li> Site reliability engineering <br><li> Security operations <br><li> Technical architecture <br><li> Network and infrastructure operations <br><li> Database administration |
+|The hosting environment|Virtual machines and physical hardware| Containerized|Containerized and serverless|
+|The highest [data classification](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/618_information_security_classification_standard.pdf)  | Protected C|Protected B and C|Protected B|
+| The procurement process | [iStore order](https://ssbc-client.gov.bc.ca/order/istore.htm) | [Registry (a self-serve system](https://registry.developer.gov.bc.ca/login)  | [Registry (a self-serve system)](https://registry.developer.gov.bc.ca/login)  |
+| The elasticity and scalability potential | <li>Low<br><li>Resource must be pre-purchased | <li>Medium - High<br><li> Maximum allowed by project resource quota | <li>High<br><li> Scale as needed, limited only by product budget|
+|Additional services offered |  <li> Software Defined Network <br><li> S3 Object Store | <li> Software Defined Network <br><li> S3 Object Store <br><li> AI/ML <br><li> Security tools  |  <li> Checkpoint CSPM <br><li> All AWS IaaS/PaaS services available in Canada central region (ca-central-1) and United States east coast (us-east-1). <li>Does not include Marketplace services |
+|The expertise available|  <li>High <br><li> Extensive expertise within CSBC | <li> High <br><li> Extensive expertise within CSBC | <li>Medium <br><li> CSBC is developing expertise to support clients  |
+| The support assigned to product team|  [Review shared responsibility model](https://digital.gov.bc.ca/technology/cloud/hosting-services/#shared) |[Review shared responsibility model](https://digital.gov.bc.ca/technology/cloud/hosting-services/#shared)|[Review shared responsibility model](https://digital.gov.bc.ca/technology/cloud/hosting-services/#shared)|
