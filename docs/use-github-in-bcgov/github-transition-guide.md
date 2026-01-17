@@ -1,4 +1,4 @@
-# Transition Guides for GitHub Single Sign-On
+# IDIR and technical guide for SSO
 
 The [B.C. Government organizations in GitHub doc](bc-government-organizations-in-github.md#single-sign-on) has an overview of Single Sign-On (SSO). Please read that section before reading these transition guides because the guides are supplementary material. 
 
