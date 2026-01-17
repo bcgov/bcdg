@@ -13,15 +13,15 @@ All repos need a license. Choose the best fit for the team repo. Important infor
 
 ## README file
 
-Please read and adapt the [GH README guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) and [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/) for guidance to create good README files. Teams can find extensive documentation on GH about README files for repos.
+Please read and adapt the [GitHub README guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) and [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/) for guidance to create good README files. Teams can find extensive documentation on GH about README files for repos.
 
-Aside from GH documentation, please include:
+Aside from GitHub documentation, please include:
 
 * A brief project description.
 
 * An overview of how to contribute to the team repo, and a link to repo contribution guidelines.
 
-* Dependent on licence, boilerplate text. [Licenses for GitHub repos doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/license-your-github-repository/) offers more information about the topic. 
+* Dependent on licence, boilerplate text. The [Licenses for GitHub repos doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/license-your-github-repository/) offers more information about the topic. 
 
 * A link to team Code of Conduct file.
 
