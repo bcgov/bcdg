@@ -29,7 +29,7 @@ Both methods use similar ways to release the code. They differ in project manage
 * Confirming team authority to license.
 
 * Choosing an open-source license, and consult with the Intellectual Property Program **(IPP)** to make sure government has the right to release the code.
-    * If using code from another open-source project, follow to the existing licensing provisions, and make sure the licences are compatiable. Per the [evaluate open-source content doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/), don't infringe on intellectual property rights. These can include, patent rights, trademarks in the code or documentation. 
+    * If using code from another open-source project, follow to the existing licensing provisions, and make sure the licences are compatiable. Per [the evaluate open-source content doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/), don't infringe on intellectual property rights. These can include, patent rights, trademarks in the code or documentation. 
 
 * Confirming that there are no restrictions on releasing the code or documentation imposed by legislation, policy or contracts.
 
@@ -70,4 +70,4 @@ Sometimes, it's useful and appropriate for employees to contribute to non-B.C. G
 
 * Confirm team authority to license.
 
-Employees can also contribute to non-B.C. government owned intellectual property rights outside their professional roles by using their personal email linked to their GitHub account.
+Employees can also contribute to non-B.C. Government owned intellectual property rights outside their professional roles by using their personal email linked to their GitHub account.
