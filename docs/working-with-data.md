@@ -39,5 +39,5 @@ The province's area, varied topography and predominantly natural resource based 
 
 ## Support
 
-If you're working on a project that will hold citizen or buisness data, or needs to connect to an existing resource, the [Data Services Client Hub](https://dpdd.atlassian.net/servicedesk/customer/portal/1) can help connect you to the right place for support.
+If you're working on a project that will hold citizen or business data, or needs to connect to an existing resource, the [Data Services Client Hub](https://dpdd.atlassian.net/servicedesk/customer/portal/1) can help connect you to the right place for support.
 
