@@ -1,16 +1,14 @@
-# Transition Guides for GitHub SSO
+# Transition Guides for GitHub Single Sign-On
 
-The [B.C. Government organizations in GitHub doc](bc-government-organizations-in-github.md#single-sign-on) has an overview of SSO. Please read that section before reading these transition guides because the guides are supplementary material. 
+The [B.C. Government organizations in GitHub doc](bc-government-organizations-in-github.md#single-sign-on) has an overview of Single Sign-On (SSO). Please read that section before reading these transition guides because the guides are supplementary material. 
 
 The transition guide doc hosts two guides:
 
-- [**IDIR Guide**](#idir-guide): more detailed information about IDIRs and how they relate to the mandatory SSO feature on `bcgov` and `bcgov`.
+- [**IDIR Guide**](#idir-guide): has more detailed information about IDIRs and how they relate to the mandatory SSO feature on `bcgov` and `bcgov`.
 
 - [**Technical Guide**](#technical-guide): helps GitHub users prepare for the SSO feature, and confirms if users completed joining successfully
 
- If there’s a topic isn’t covered in the guide, please [submit a support request on JSM](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
-
-
+ If there’s a topic isn’t covered in the guide, please [submit a support request on our Jira Service Manager system](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
 ## IDIR Guide
 
@@ -33,11 +31,11 @@ B.C. Government employees have the default configuration compatible with SSO. Th
  
 ### Compatible IDIRs for contractors
 If a user is a contracted worker,  the process may be more complex depending on IDIR types. The table below gives an overview between P2 and E5 IDIRs.
-We don’t foresee any technical issues with SSO if contractors have either IDIR type. If this isn’t the case, please [submit a support request on JSM](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
+We don’t expect any technical issues with SSO if contractors have either IDIR type. If this isn’t the case, please [submit a support request on our Jira Service Manager system](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
  
 #### P2 and E5 IDIR comparison table
 
-Column 1 lists IDIR features, column 2 has P2 features, and column 3 has E5 features.
+Column 1 lists IDIR features, column 2 lists P2 features, and column 3 lists E5 features.
  
 
 |                     | P2 IDIR       | E5 IDIR       |
@@ -49,7 +47,7 @@ Column 1 lists IDIR features, column 2 has P2 features, and column 3 has E5 feat
 
 Please see [Service Bulletin 1350](https://ociomysc.service-now.com/sp?id=kb_article&sys_id=7a69f65fdbff9d10fa86193813961978&spa=1) for more information.
 
-It’s very likely contractors already with IDIRs have P2. If linking doesn't work, please call 7-7000 or open a ticket to confirm through [MyService Centre](https://ociomysc.service-now.com/sp?id=ocio_sr_incident_management).
+It’s very likely contractors already with IDIRs have P2. If linking doesn't work, please call 7-7000 or [open a ticket to confirm on MyService Centre](https://ociomysc.service-now.com/sp?id=ocio_sr_incident_management).
 
 #### IDIR expiry
 
@@ -63,18 +61,18 @@ Each ministry has an authorized user who submits orders in [MyService Centre](ht
 
 ## Multiple IDIRs
 
-Developers with multiple IDIRs can join their most permanent IDIR to their GitHub ID. They can change IDIRs at any time. We tested and can confirm that users make changes on their own.
+Developers with multiple IDIRs can join their most permanent IDIR to their GitHub ID. They can change IDIRs at any time. We tested and can confirm that users can make changes on their own.
 
 The important things to keep in mind are:
 
 - The IDIR must not be expired
 - Our team cannot manage IDIR expiry dates
  
-If you don’t see information that could be helpful on this guide, please let us know through [submit a support request on JSM](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
+If you don’t see information that could be helpful on this guide, please let us know through [submit a support request on our Jira Service Manager system](https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
 #### P2 IDIR login 
 
-Vendors using both **P2 IDIRs** and external emails (e.g. ggg123@gmail.com) must log in with **\<IDIR\>@gov.bc.ca**.
+Vendors using both **P2 IDIRs** and external emails (e.g. ggg123@gmail.com) must log in with **<IDIR>@gov.bc.ca**.
 
 ## Technical Guide
 
@@ -94,7 +92,7 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 > 2. Go to your profile by clicking your avatar on the top right.
 > 3. Click "Settings".
 > 4. Click "[Sessions](https://github.com/settings/sessions)".
-> 5. Click "See more" button for the current web session
+> 5. Click "See more" button for the current web session.
 > 6. If you're authenticated, GitHub will show details of your current session, inclusive of your device, your last login location, and when you last signed in. Clicking on the three dots by the "Your session expires" section will display the NameID from the linked IDIR. We've included a screenshot as an example:
 
 
@@ -102,11 +100,11 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 
 ### Outside Collaborators
 
-We discontinued the option to add [outside collaborators](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization). GitHub will send invitations to current outside collaborators to become full members on `bcgov`, and IDIRs are needed. 
+We discontinued the option to add outside collaborators. GitHub explains [more about outside collaborators on their doc](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization). GitHub will send invitations to current outside collaborators to become full members on `bcgov`, and IDIRs are needed. 
 
-To create IDIRs or have more information, please read [the IDIR guide](#idir-transition-guide).
+To create IDIRs or have more information, please read [the IDIR guide section](#idir-transition-guide) of this doc
 
-Accessess will stay the same. 
+All accesses will stay the same. 
 
 ### No new GitHub ID needed
 
@@ -114,7 +112,7 @@ GitHub differs from other tools that use IDIR as the user account to access serv
 
 The reason is due to GitHub’s open source code community ecosystem. A part of our commitment to open government is the `bcgov` GitHub org. We set up GitHub accounts to be associated with many different repos and orgs because throughout their careers, developers contribute to many different open projects and organizations.
 
-With the GitHub SSO upgrade, contractors and developers working in the `bcgov` GitHub org will continue to use their GitHub to login to access GitHub. The extra step is the prompt to login to IDIR to comply with security policies. 
+With the GitHub SSO upgrade, contractors and developers working in the `bcgov` GitHub org will continue to use their GitHub to login to access GitHub. The extra step is the prompt to login to IDIR so we comply with security policies. 
 
 ### Resetting GitHub Keys
 
