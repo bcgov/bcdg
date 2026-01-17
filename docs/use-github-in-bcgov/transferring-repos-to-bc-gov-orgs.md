@@ -1,4 +1,4 @@
-# Transferring repositories
+# Transferring repos to bcgov or bcgov-c
 
 This page explains the process to move repositories from a team or ministry's GitHub organization to either [bcgov](https://github.com/bcgov) or [bcgov-c](https://github.com/bcgov-c) GitHub organization.
 
