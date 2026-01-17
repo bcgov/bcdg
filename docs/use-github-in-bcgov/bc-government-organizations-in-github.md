@@ -1,4 +1,4 @@
-# B.C. Government organizations in GitHub
+# bcgov, bcgov-c, and SSO
 
 The [Digital Principles for B.C. Government](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) supports and encourages product teams to work in the open. GitHub is the leading platform for open-source projects and collaboration. 
 
