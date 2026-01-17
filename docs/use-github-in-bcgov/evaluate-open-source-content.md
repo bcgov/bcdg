@@ -16,9 +16,7 @@ The [First steps working in GitHub doc](https://developer.gov.bc.ca/docs/default
 
 ## Privacy
 
-Personal information **(PI)**, like name, phone number, photo, address, driver's license numbers, etc., must not be posted in public repos.
-
-Teams should contact their privacy analyst for help in privacy assessments. 
+Personal information **(P.I.)**, like name, phone number, photo, address, driver's license numbers, etc., must not be posted in public repos. Teams should contact their privacy analyst for help in privacy assessments. 
 
 ## Security
 
@@ -28,11 +26,11 @@ Anything labelled **'public'** must meet the [Information Security Classificatio
 
 ## Copyright
 
-The requirements below are mandatory before posting on GH: 
+The requirements below are mandatory before posting on GitHub: 
 
-* Content is created only by B.C. government employees
+* Content is created only by B.C. Government employees
 
-* Content is owned by the B.C. government and doesn't have third-party content. Collect copies of contracts related to the content for review with the [Intellectual Property Program](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/intellectual-property/intellectual-property-program) **(IPP)**.
+* Content is owned by the B.C. Government and doesn't have third-party content. Collect copies of contracts related to the content for review with the [Intellectual Property Program](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/intellectual-property/intellectual-property-program) **(IPP)**.
 
 * Content doesn't have terms of use or exclusive licences that prohibit the Province from licensing the content on GitHub. Collect information about any terms of use or licences related to the content for review with the IPP.
 
