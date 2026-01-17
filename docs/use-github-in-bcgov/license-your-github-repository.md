@@ -2,16 +2,15 @@
 
 Licences manage and share intellectual property for code and materials on GitHub. Any consumpation, shares, or contributions to a repo needs to be matched with the relevant licence. 
 
-
-The Intellectual Property Program **(IPP)** must approve licences of B.C. government owned intellectual property. The only **exception** is if a ministry has either specific legislative authority or Treasury Board approval that lets them license the intellectual property rights of the Province to third parties. 
+The Intellectual Property Program **(IPP)** must approve licences of B.C. Government owned intellectual property. The only **exception** is if a ministry has either specific legislative authority or Treasury Board approval that lets them license the intellectual property rights of the Province to third parties. 
 
 When IPP is the authority for the licensing, teams must work with IPP to find the best fit to meet the licensing needs of the project.
 
 IPP examines the development history of the content, somtetimes in the form of a conversation. Initial questions include the following:
 
-- Is the content created solely by B.C. government employees?
+- Is the content created solely by B.C. Government employees?
 
-- Does the content contain only content owned by the B.C. government? Have you made sure that it doesn't contain any third-party content?
+- Does the content contain only content owned by the B.C. Government? Have you made sure that it doesn't contain any third-party content?
 - Can you confirm that there are no terms of use or exclusive licensing arrangements that prohibit the Province from posting and licensing the content on GitHub?
 
 ## Guidance for choosing a licence
