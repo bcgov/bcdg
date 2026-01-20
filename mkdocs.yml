@@ -48,11 +48,11 @@ nav:
     - Developing better questions: rocketchat/get-help-in-rocketchat.md 
 
   - Quickstart Wizards:
-      - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
+    - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
   - DevHub Content Partner Guide: content-partner-guide.md
   - DevHub Content Syntax Guide: content-syntax-guide.md
   - Working with data: working-with-data.md
-      - BC Government API Guidelines: bc-government-api-guidelines.md
+  - BC Government API Guidelines: bc-government-api-guidelines.md
 
   # - Developer community: developer_community.md
   # - Application lifecycle: application_lifecycle.md
