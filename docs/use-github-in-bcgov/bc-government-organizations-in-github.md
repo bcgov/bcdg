@@ -26,7 +26,7 @@ graph TD;
     A[GitHub Enterprise Cloud] --> B[bcgov];
     A --> C[bcgov-c];
 ```
-On July 2024, we enabled Single-Sign On **(SSO)** for `bcgov`. We enabled SSO for `bcgov-c` on August 2024. All members must be authenticated with IDIRs, including contractors. The [GitHub Single Sign-On (SSO) section](#single-sign-on) has more information about the transition.
+In July 2024, we enabled Single-Sign On **(SSO)** for `bcgov`. We enabled SSO for `bcgov-c` in August 2024. All members must be authenticated with IDIRs, including contractors. The [GitHub Single Sign-On (SSO) section](#single-sign-on) has more information about the transition.
 
 To link GH accounts and IDIRs, [follow our SSO enablement instructions](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#directions-to-sign-up-and-link-your-account-for-bcgov).
 
