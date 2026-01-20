@@ -7,7 +7,7 @@ The Developer Experience Team updates the BCDG. We've embedded links into our co
 ## 7 quick steps to get started
 
 1. Bookmark the Developer Guide because it serves as the central hub for development matters.
-2. [Bookmark the Mobile Developer's Guide](https://developer.gov.bc.ca/docs/default/component/mobile-developer-guide/mobile-developer-guide-introduction/) for guidance on building mobile applications.
+2. Bookmark the [DevHub documentation page](https://developer.gov.bc.ca/docs?filters%5Buser%5D=all&limit=20) for a list of developer guides.
 3. [Get access to the <code>bcgov</code> GitHub Organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov)
    - This organization is B.C. Government's default storage for code.
    - More information about `bcgov` and `bcgov-c` is available under [Organizations in GitHub](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#organizations-in-github) on the same page.
