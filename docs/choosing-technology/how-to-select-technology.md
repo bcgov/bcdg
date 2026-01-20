@@ -7,7 +7,7 @@ We offer many options within B.C. Government systems. The tables below show a cr
 
 ## Current technology options
 
-Although there's numerous choices, the options in the table below isn't exhaustive, nor represents an endorsement of any particular choice. Every team should do its own research before deciding which technology best suits their needs and context.
+Although there's numerous choices, the options in the table below aren't exhaustive, nor represents an endorsement of any particular choice. Every team should do its own research before deciding which technology best suits their needs and context.
 
 Please note the following important considerations: 
 
