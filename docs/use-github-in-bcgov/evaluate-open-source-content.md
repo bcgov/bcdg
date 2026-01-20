@@ -16,7 +16,7 @@ The [First steps working in GitHub doc](https://developer.gov.bc.ca/docs/default
 
 ## Privacy
 
-Personal information **(P.I.)**, like name, phone number, photo, address, driver's license numbers, etc., must not be posted in public repos. Teams should contact their privacy analyst for help in privacy assessments. 
+Data shouldn't be posted into repos, only code. Personal information **(P.I.)**, like name, phone number, photo, address, driver's license numbers, etc., is data. Teams should contact their privacy analyst for help with privacy assessments. 
 
 ## Security
 
