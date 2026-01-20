@@ -12,7 +12,7 @@ With GiHub Enterprise Cloud, we can:
 
 The **Developer Experience team** manages B.C. Government's GitHub environments. For questions, concerns, or feedback, please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
-For users who need quick access to common topics related to using GitHub in B.C. Government, please see the [GitHub for B.C. Government quick reference guide](docs/sample-govorginGH-quickref.md) instead of this doc. 
+For users who need quick access to common topics related to using GitHub in B.C. Government, please see the [GitHub for B.C. Government quick reference guide](quick-reference.md) instead of this doc. 
 
 ## Organizations in GitHub
 
