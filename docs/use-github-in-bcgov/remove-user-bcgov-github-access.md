@@ -12,7 +12,7 @@ We have two steps to remove access:
 
 A GitHub user can access a team repo via GitHub team membership, or direct repo access. The GitHub help pages below offers guidance on how to complete removal: 
 
-1. [removing members from GitHub team(s)](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository#removing-access-for-a-team-or-person)
+1. [removing members from GitHub team(s)](https://docs.github.com/en/organizations/organizing-members-into-teams/removing-organization-members-from-a-team)
 2. [removing members from repo "Collaborators & teams" setting](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository#removing-access-for-a-team-or-person)
 
 ## Step 2: Remove membership in `bcgov` and/or `bcgov-c` orgs
