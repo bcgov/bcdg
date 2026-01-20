@@ -25,7 +25,7 @@ Column 1 lists the technology type. Column 2 lists the choices under that type.
 |Back-end| [Express](https://expressjs.com/), [NestJS](https://nestjs.com/), [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/2.2.x/), [.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet), [Laravel](https://laravel.com/)
 |Front-end| [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/)|
 |Code and artifact management| [GitHub](https://github.com/bcgov), [Artifactory](http://artifacts.developer.gov.bc.ca/), [GitHub Packages](https://docs.github.com/en/packages)
-|Automation tools| [GitHub Actions](https://github.com/features/actions), [ArgoCD](https://argoproj.github.io/argo-cd/), [Terraform](https://www.terraform.io/), [Tekton/OpenShift Pipelines](https://tekton.dev/) 
+|Automation tools| [GitHub Actions](https://github.com/features/actions), [ArgoCD](/docs/default/component/platform-developer-docs/docs/automation-and-resiliency/argo-cd-usage/), [Terraform](https://www.terraform.io/), [Tekton/OpenShift Pipelines](/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/deploy-an-application/#1-integrate-deployment-into-a-cicd-pipeline) 
 
 ### Hosting and operations
 Column 1 lists the technology type. Column 2 lists the choices under that type.
