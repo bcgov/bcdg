@@ -112,7 +112,7 @@ GitHub differs from other tools that use IDIR as the user account to access serv
 
 The reason is due to GitHub’s open source code community ecosystem. A part of our commitment to open government is the `bcgov` GitHub org. We set up GitHub accounts to be associated with many different repos and orgs because throughout their careers, developers contribute to many different open projects and organizations.
 
-With the GitHub SSO upgrade, contractors and developers working in the `bcgov` GitHub org will continue to use their GitHub to login to access GitHub. The extra step is the prompt to login to IDIR so we comply with security policies. 
+Contractors and developers working in the `bcgov` GitHub org use their GitHub account to login to access GitHub. The extra step is the prompt to login to IDIR so we comply with security policies. 
 
 ### Resetting GitHub Keys
 
