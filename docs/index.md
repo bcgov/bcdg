@@ -8,12 +8,12 @@ The Developer Experience Team updates the BCDG. We've embedded links into our co
 
 1. Bookmark the Developer Guide because it serves as the central hub for development matters.
 2. Bookmark the [DevHub documentation page](https://developer.gov.bc.ca/docs?filters%5Buser%5D=all&limit=20) for a list of developer guides.
-3. [Get access to the <code>bcgov</code> GitHub Organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov)
-   - This organization is B.C. Government's default storage for code.
+3. [Get access to the <code>bcgov</code> GitHub Organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov) and 
    - More information about `bcgov` and `bcgov-c` is available under [Organizations in GitHub](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#organizations-in-github) on the same page.
 4. [Bookmark the Developer Experience Jira Service Management](https://citz-do.atlassian.net/servicedesk/customer/portal/2) system, which is shortened to JSM. Users can submit support tickets
-5. [Get access to GitHub Discussions](https://github.com/bcgov/bcgov-community-discussions).
-   - The developer community gathers here to ask questions, support each other with issues, and  finds it the best source of support for internal serivces, such as cloud services and common components.
+5. [Get access to GitHub Discussions](https://github.com/bcgov/bcgov-community-discussions) and [internal Rocket.Chat](https://chat.developer.gov.bc.ca/)
+   - Rocket.Chat is undergoing a migration and will become inactive soon.
+   - The developer community gathers on GitHub Discussion to ask questions, support each other with issues, and  finds it the best source of support for internal serivces, such as cloud services and common components.
 6. Explore [our internal services](https://digital.gov.bc.ca/technology/common-components/) and [Software-as-a-Service **(SaaS)** tools](https://digital.gov.bc.ca/technology/cloud/saas/) to support development.
 7. Learn about what's happening in the [BC Gov Digital Ecosystem](https://digital.gov.bc.ca/blog/).
 
