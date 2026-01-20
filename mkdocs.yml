@@ -28,8 +28,9 @@ nav:
   - Security and Privacy: 
       - Security and Privacy guidance: security/security-and-privacy-compliance-and-guidance.md 
       - Security best practices for apps: security/best-practices-for-apps.md
-  - Accessibility: accessibility-resources.md
-      - The design system: design-system/about-the-design-system.md
+  - Accessibility: 
+    - Accessibility: accessibility-resources.md
+    - The design system: design-system/about-the-design-system.md
   - GitHub in the B.C. government:
       - B.C. Government GitHub Quick Reference: use-github-in-bcgov/quick-reference.md
       - bcgov, bcgov-c, and SSO: use-github-in-bcgov/bc-government-organizations-in-github.md
