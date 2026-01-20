@@ -21,7 +21,7 @@ Column 1 lists the technology type. Column 2 lists the choices under that type.
 
 |Type| Choice|
 |----| ------|
-|Programming languages|[Python](https://github.com/bcgov?q=&type=all&language=python&sort=), [Javascript](https://github.com/bcgov?q=&type=all&language=javascript&sort=), [TypeScript](https://github.com/bcgov?q=&type=all&language=typescript&sort=), [Spring Boot](https://spring.io/projects/spring-boot), [R](https://github.com/bcgov?q=&type=all&language=r&sort=), [C#](https://github.com/bcgov?q=&type=all&language=c%23&sort=), [PHP](https://github.com/bcgov?q=&type=all&language=php&sort=)
+|Programming languages|[Python](https://github.com/bcgov?q=&type=all&language=python&sort=), [Javascript](https://github.com/bcgov?q=&type=all&language=javascript&sort=), [TypeScript](https://github.com/bcgov?q=&type=all&language=typescript&sort=), [Java](https://github.com/bcgov?q=&type=all&language=java&sort=), [R](https://github.com/bcgov?q=&type=all&language=r&sort=), [C#](https://github.com/bcgov?q=&type=all&language=c%23&sort=), [PHP](https://github.com/bcgov?q=&type=all&language=php&sort=)
 |Back-end| [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/2.2.x/), [Express](https://expressjs.com/), [NestJS](https://nestjs.com/), [Spring Boot](https://spring.io/projects/spring-boot)[.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet), [Laravel](https://laravel.com/)
 |Front-end| [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/)|
 |Code and artifact management| [GitHub](https://github.com/bcgov), [Artifactory](http://artifacts.developer.gov.bc.ca/), [GitHub Packages](https://docs.github.com/en/packages)
