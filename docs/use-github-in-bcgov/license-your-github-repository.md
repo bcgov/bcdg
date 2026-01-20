@@ -6,7 +6,7 @@ The Intellectual Property Program **(IPP)** must approve licences of B.C. Govern
 
 When IPP is the authority for the licensing, teams must work with IPP to find the best fit to meet the licensing needs of the project.
 
-IPP examines the development history of the content, somtetimes in the form of a conversation. Initial questions include the following:
+IPP examines the development history of the content, sometimes in the form of a conversation. Initial questions include the following:
 
 - Is the content created solely by B.C. Government employees?
 
