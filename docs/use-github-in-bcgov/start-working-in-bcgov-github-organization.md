@@ -40,9 +40,7 @@ Active project needs appropriate processes and terms to manage contributions.
 
 ### Integrating GitHub Apps
 
-We get large volumes of asks about adding GitHub Apps to our org's repos. Request a GitHub App to be installed from the **BCDevOps Requests Issue: Request for integrating a GitHub App**. 
-
-If the available applications don't work for the team, please create an issue. We need:
+We get large volumes of asks about adding GitHub Apps to our org's repos. [Submit a support request on our Jira Service Manager system] to request a GitHub App to be installed. We need to know:
 
 * Contact information
 
