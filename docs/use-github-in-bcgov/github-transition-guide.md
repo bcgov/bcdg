@@ -102,9 +102,7 @@ GitHub doesn't offer users a screen to confirm authentication. There are 2 alter
 
 We discontinued the option to add outside collaborators. GitHub explains [more about outside collaborators on their doc](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization). 
 
-To create IDIRs or have more information, please read [the IDIR guide section](#idir-transition-guide) of this doc
-
-All accesses will stay the same. 
+To create IDIRs or have more information, please read [the IDIR guide section](#idir-transition-guide) of this doc. 
 
 ### No new GitHub ID needed
 
