@@ -32,7 +32,7 @@ Column 1 lists the technology type. Column 2 lists the choices under that type.
 
 |Type| Choice|
 |----| ------|
-|Operations support and security| Sysdig, StatusCake, Loki, Splunk, [Vault](https://www.vaultproject.io)          
+|Operations support and security| [Sysdig](/docs/default/component/platform-developer-docs/docs/app-monitoring/sysdig-monitor-setup-team/), StatusCake, [Loki](/docs/default/component/platform-developer-docs/docs/app-monitoring/best-practices-for-application-logging-in-openshift/#console-logs-in-loki), Splunk, [Vault](/docs/default/component/platform-developer-docs/docs/secrets-management/vault-getting-started-guide/)          
 |Application hosting| [Learn about application hosting options](#application-hosting-services-options)    
 
 
