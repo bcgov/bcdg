@@ -5,7 +5,7 @@ Removing a member's access should only occur when members don't work for the gov
 We have two steps to remove access:
 1. [Remove their access to team repos](https://docs.github.com/en/organizations/organizing-members-into-teams/removing-organization-members-from-a-team). 
 
-2. [Remove membership in `bcgov` and/or `bcgov-c` orgs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository#removing-access-for-a-team-or-person).
+2. Remove membership in `bcgov` and/or `bcgov-c` orgs
 
 
 ## Step 1: Remove access to team repos
