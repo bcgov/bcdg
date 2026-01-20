@@ -81,7 +81,7 @@ If the instructions and troubleshooting help below doesn't resolve any issues, p
 
 All orgs linked to the corporate GitHub Enterprise accounts have access to the [Security Insight feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), inclusive of branch protection and code owners for private repos.
 
-Branch protection allows specified members to push to the protected branch. The code owners feature allows automated reviews. For example, if a member is a code owner of certain files, they'll automatically be added as a PR reviewer. A PR needs their approval before the code can be merged.
+[Branch protection](https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches) allows specified members to push to the protected branch. The [code owners feature](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) allows automated reviews. For example, if a member is a code owner of certain files, they'll automatically be added as a PR reviewer. A PR needs their approval before the code can be merged.
 
 ### Directions to sign up and link your account for `bcgov`
 
