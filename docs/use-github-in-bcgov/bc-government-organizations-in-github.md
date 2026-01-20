@@ -79,7 +79,7 @@ If the instructions and troubleshooting help below doesn't resolve any issues, p
 
 ### Security Insights for GitHub Enterprise-linked organizations
 
-All orgs linked to the corporate GitHub Enterprise accounts have access to the Security Insight feature, inclusive of branch protection and code owners for private repos.
+All orgs linked to the corporate GitHub Enterprise accounts have access to the [Security Insight feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), inclusive of branch protection and code owners for private repos.
 
 Branch protection allows specified members to push to the protected branch. The code owners feature allows automated reviews. For example, if a member is a code owner of certain files, they'll automatically be added as a PR reviewer. A PR needs their approval before the code can be merged.
 
