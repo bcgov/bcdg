@@ -1,79 +1,43 @@
----
-title: Evaluate open-source content
+# Evaluate open-source content 
 
-slug: evaluate-open-source-content
+To prepare for open-source development, all teams must undergo an evaluation process of their content before posting anything onto `bcgov` or `bcgov-c` GitHub organizations.
 
-description: Describes guidelines to evaluate open-source content and whether you can use it on GitHub.
+We wrote guidelines below to help teams in four areas that can restrict open-source: 
 
-keywords: privacy, copyright, legal, contracts, policy, security, open-source, licence, license, GitHub, repository
+* Privacy
 
-page_purpose: Outlines the types of issues that could prevent a developer from using open-source content in their project and gives information on how to evaluate the content.
+* Security
 
-audience: technical lead, developer
+* Copyright
 
-author: Jonathan Bond
+* Legal, contractual, and policy requirements
 
-content_owner: Olena Mitovska/Nick Corcoran
-
-sort_order: 5
----
-
-# Evaluate open-source content
-
-Use the following guidelines to make sure that you are able to use existing, open-source content on GitHub.
-
-For more information on approval requirements, see [Start working in the BC Gov GitHub organization](start-working-in-bcgov-github-organization.md).
-
-## On this page
-- [Privacy](#privacy)
-- [Copyright](#copyright)
-- [Legal, contractual, or policy](#legal-contractual-or-policy-constraints)
-- [Security](#security)
-
-These guidelines help you make sure that there are no restrictions to using the material publicly. Restrictions may be due to one of the following concerns:
-
-- Privacy
-- Copyright
-- Legal, contractual or policy
-- Security
-
-Evaluate the content you wish to use before posting the material in a GitHub repository.
+The [First steps working in GitHub doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/start-working-in-bcgov-github-organization/) may also be of help because it has more information on conditions for approval. 
 
 ## Privacy
 
-Make sure that the content is free of personal information that may directly identify an individual (for example, name, phone number, photo, address, driver's licence number or any similar identification number).
-
-Ministries may contact Knowledge and Information Services to assist in privacy assessments.
-
-## Copyright
-Make sure to meet the following requirements:
-
-- Content is created solely by B.C. government employees
-- Content is fully owned by the B.C. government and doesn't contain any third-party content. Collect copies of any contracts related to the content for review with the [Intellectual Property Program (IPP)](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/intellectual-property/intellectual-property-program)
-- Content has no terms of use or exclusive licences that prohibit the Province from licensing the content on GitHub. Collect information concerning any terms of use or licences related to the content for review with the IPP
-- You have [authority to license the content](license-your-github-repository.md)
-
-Ministries  **must**  contact the IPP to assist in this assessment. Any legal review or legal advice is provided by the Legal Services Branch.
-
-## Legal, contractual or policy constraints
-
-Make sure that the public release and use of the content is permitted under law, contract or policy. For example, make sure that there are no relevant legal, contractual or policy restrictions or limitations.
-
-If there are legal, contractual or policy restrictions or limitations on the content, you must address them before you can use the content.
+Data shouldn't be posted into repos, only code. Personal information **(P.I.)**, like name, phone number, photo, address, driver's license numbers, etc., is data. Teams should contact their privacy analyst for help with privacy assessments. 
 
 ## Security
 
-Contact your [Ministry Information Security Officer (MISO)](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/information-security-policy-and-guidelines/role-of-miso) to make sure that all necessary security controls have been implemented.
+Contact the Ministry Chief Information Security Officer **(MISO)** to make sure all mandatory security controls are implemented.
 
-Make sure that the material has been labelled **Public**, using the [Information Security Classification Framework](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/information-security-classification).
+Anything labelled **'public'** must meet the [Information Security Classification Framework](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/information-security-classification). 
 
----
-Related links:
+## Copyright
 
-- [Start working in the BCGov GitHub organization](start-working-in-bcgov-github-organization.md)
-- [Intellectual Property Program (IPP)](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/intellectual-property/intellectual-property-program)
-- [License your GitHub repository](license-your-github-repository.md)
-- [Ministry Information Security Officer (MISO)](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/information-security-policy-and-guidelines/role-of-miso)
-- [Information Security Classification Framework](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/information-security/information-security-classification)
+The requirements below are mandatory before posting on GitHub: 
 
----
+* Content is created only by B.C. Government employees
+
+* Content is owned by the B.C. Government and doesn't have third-party content. Collect copies of contracts related to the content for review with the [Intellectual Property Program](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/intellectual-property/intellectual-property-program) **(IPP)**.
+
+* Content doesn't have terms of use or exclusive licences that prohibit the Province from licensing the content on GitHub. Collect information about any terms of use or licences related to the content for review with the IPP.
+
+* The team has authority to license the content. More information can be found on the [Licenses for GitHub repos doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/license-your-github-repository/).
+
+Ministries must contact the IPP to assist in this assessment. The Legal Services branch offers legal review or advice.
+
+## Legal, contractual, and policy requirements
+
+The public release and use of content must be permitted under law, contract, or policy. Any and all ramifications of the content must be addressed beforehand.
