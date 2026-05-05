@@ -63,7 +63,7 @@ The images below provide an example of how a Markdown snippet in GitHub (first i
 
 ![A screenshot of the Mardown source ](images/markdown_source.png)
 
-!A screenshot of TechDocs-generated documentation displayed within DevHub.](images/devhub_appearance.png)
+![A screenshot of TechDocs-generated documentation displayed within DevHub.](images/devhub_appearance.png)
 
 ## How do we get set up to have our documentation published in DevHub?
 
