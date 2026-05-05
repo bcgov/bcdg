@@ -68,17 +68,15 @@ DevX provides a self-service request process for creating new public channels in
 
 ### Step 1: Review existing channels
 
-Before requesting a new channel, review the [Developer Community Channel Directory](https://bcgov.sharepoint.com/teams/Developercommunity) to avoid duplication.
-
-**Developer community channel directory**
-If a suitable channel already exists, join it instead of creating a new one.
+Before requesting a new channel, review the [Developer Community Channel Directory](https://bcgov.sharepoint.com/teams/Developercommunity) to avoid duplication. If a suitable channel already exist, join it instead of creating a new one.
 
 ### Step2: Submit a request in JSM
 
 All new public channels must be requested through Jira Service Management JSM form.
 
-**Request a new Developer Community Teams channel**
-[Jira Service Management JSM form](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/528)
+#### Request a new Developer Community Teams channel
+
+Use this [Jira Service Management JSM form](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/528)
 
 In the form, you will be asked to provide:
 
@@ -103,7 +101,7 @@ Once approved, DevX creates the channel and assigns the channel owners. You will
 ## Channel naming guide
 
 This guide explains when creating a new channel: 
-<ServiceOrProduct>-<purpose>-<optional specialized topic >
+```ServiceOrProduct>-<purpose>-<optional specialized topic >```
 
 ### Service or Product (required)
 
@@ -115,13 +113,14 @@ In most cases, this will be a single service, product or platform name like Open
 
 #### Readability exception
 
-In some cases, strict adherence to <ServiceOrProduct><purpose> can reduce readability, especially when long or compound names are involved.
+In some cases, strict adherence to ```<ServiceOrProduct><purpose>``` can reduce readability, especially when long or compound names are involved.
 
 For example, ProgramServicesAPI is difficult to scan and understand at a glance. In this case reversing the service name order improves clarity and discoverability as API-ProgramServices.
 
 If readability is not improved, follow the standard naming structure.
 
 Examples:
+
 * Cloud AWS to CloudAWS
 * Platform Product Registry to PlatformProductRegistry
 
@@ -131,12 +130,12 @@ Describe the main use of the channel with a clear, short purpose.
 
 Common purposes include:
 
-* howto - Supports questions and guidance
-* operations - Operational and administration discussions related to running and maintaining a service
-* alerts - Notices, maintenance updates and planned outages
-* emergencyhelp - Urgent issues only
-* training - Training related support
-* communitychat - Usually only used for non-service channels like General-communitychat-kudos
+* **howto** - Supports questions and guidance
+* **operations** - Operational and administration discussions related to running and maintaining a service
+* **alerts** - Notices, maintenance updates and planned outages
+* **emergencyhelp** - Urgent issues only
+* **training** - Training related support
+* **communitychat** - Usually only used for non-service channels like General-communitychat-kudos
 
 For self-paced training, use hyphenated purposes such as training-selfpaced.
 
@@ -156,9 +155,9 @@ If the channel covers the service broadly, do not add a specialized topic.
 
 Channel names sort automatically alphabetically in Microsoft Teams, so related channels naturally group together. Order always matters.
 
-<Service or product>-<purpose>-<specialized topic>
+```<Service or product>-<purpose>-<specialized topic>```
 
-This makes it easier for members to scan the channel list and find what they need. 
+This makes it easier for members to scan the channel list and find what they need.
 
 ### Accessibility guidelines
 
@@ -183,13 +182,13 @@ Every channel must include a description. Your description should explain:
 ## Channel description template
 
 **Purpose:**
-This channel is for <description goes here>
+This channel is for (description goes here)
 
 **Post here when:**
 
-* <Appropriate use case>
-* <Another use case >
-*.<Another use case >
+* Appropriate use case
+* Another use case
+* Another use case
 
 **Do not use this channel for:**
 
