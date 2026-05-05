@@ -42,11 +42,8 @@ nav:
       - Transferring repos to bcgov or bcgov-c: use-github-in-bcgov/transferring-repos-to-bc-gov-orgs.md
       - Removing member access: use-github-in-bcgov/remove-user-bcgov-github-access.md     
       
-  - Rocket.Chat:
-    - Join the B.C. Government Rocket.Chat: rocketchat/steps-to-join-rocketchat.md
-    - Rocket.Chat etiquette: rocketchat/rocketchat-etiquette.md
-    - Rocket.Chat channel descriptions: rocketchat/rocketchat-channel-descriptions.md
-    - Developing better questions: rocketchat/get-help-in-rocketchat.md 
+  - Developer Community in Microsoft Teams:
+    - Developer Community Microsoft Teams guide: developer-community/developer-community-ms-teams-guide.md
 
   - Quickstart Wizards:
     - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
