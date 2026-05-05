@@ -113,7 +113,7 @@ In most cases, this will be a single service, product or platform name like Open
 
 #### Readability exception
 
-In some cases, strict adherence to ```<ServiceOrProduct><purpose>``` can reduce readability, especially when long or compound names are involved.
+In some cases, strict adherence to ```<ServiceOrProduct>-<purpose>``` can reduce readability, especially when long or compound names are involved.
 
 For example, ProgramServicesAPI is difficult to scan and understand at a glance. In this case reversing the service name order improves clarity and discoverability as API-ProgramServices.
 
@@ -126,7 +126,7 @@ Examples:
 
 ### Defined purpose (required)
 
-Describe the main use of the channel with a clear, short purpose. 
+Describe the main use of the channel with a clear, short purpose.
 
 Common purposes include:
 
@@ -199,11 +199,21 @@ This channel is for (description goes here)
 
 * This is a public channel
 
+## Channel description example
 
+**Purpose:**
 
+This channel is for support questions and guidance for the **service name**.
 
+**Post here when:**
 
+* You need help using the platform
+* You have questions about features or workflows
 
+**Do not use this channel for:**
 
+* Production incidents
+* Confidential or sensitive information
 
-
+**Notes:**
+Submit a production incident request by following the tab: Report production incident in the channel.
