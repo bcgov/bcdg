@@ -14,8 +14,9 @@ The Developer Experience Team updates the BCDG. We've embedded links into our co
 5. [Get access to GitHub Discussions](https://github.com/bcgov/bcgov-community-discussions) and [internal Rocket.Chat](https://chat.developer.gov.bc.ca/)
    - Rocket.Chat is undergoing a migration and will become inactive soon.
    - The developer community gathers on GitHub Discussion to ask questions, support each other with issues, and  finds it the best source of support for internal serivces, such as cloud services and common components.
-6. Explore [our internal services](https://digital.gov.bc.ca/technology/common-components/) and [Software-as-a-Service **(SaaS)** tools](https://digital.gov.bc.ca/technology/cloud/saas/) to support development.
-7. Learn about what's happening in the [BC Gov Digital Ecosystem](https://digital.gov.bc.ca/blog/).
+6. Explore [our internal services](https://digital.gov.bc.ca/technology/common-components/)
+7. Learn about what's happening in the [BC Gov Digital Ecosystem](https://digital.gov.bc.ca/blog/)
+8. Join the [Developer Community](https://teams.microsoft.com/l/team/19%3A6bffce0ac7aa47a1ba9f6d9a7e898db9%40thread.tacv2/conversations?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) on Microsoft Teams
 
 ### Security and compliance guidance and policies
 
