@@ -31,7 +31,7 @@ This is a link to the [DevHub Content Partner Guide](content-partner-guide.md) p
 
 This is a link to the [mermaid diagrams](#diagrams-with-mermaid) section within this page.
 
-This is a link to the [Choosing project technology ](choosing-technology/how-to-select-technology.md) page in the `choosing-technology` section.
+This is a link to the [Security best practices for apps](security/best-practices-for-apps.md) page in the `Security and Privacy` section. The file is in the `security` directory of the repo. 
 
 This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and uses a "root relative" link.
