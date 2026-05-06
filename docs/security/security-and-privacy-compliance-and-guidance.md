@@ -51,7 +51,7 @@ OpenShift code is open by default, but there is an option to request a private r
 
 You are responsible for ensuring that your application meets security and privacy standards. There are several [tools available in OpenShift](https://digital.gov.bc.ca/cloud/private/products-tools/#tools) that you can use to identify vulnerabilities and keep your applications secure.
 
-We also provide a large collection of design patterns on the platform that follow security best practices. You can use these patterns to build secure integrations between your OpenShift applications and external systems. To learn more about design patterns, post a question in the [OpenShift-operations-security](https://teams.microsoft.com/l/channel/19:6616986006c24f95aec5224e335cb2b0%40thread.tacv2/OpenShift-operations-security?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc).
+We also provide a large collection of design patterns on the platform that follow security best practices. You can use these patterns to build secure integrations between your OpenShift applications and external systems. To learn more about design patterns, post a question in the [OpenShift-operations-security](https://teams.microsoft.com/l/channel/19:6616986006c24f95aec5224e335cb2b0%40thread.tacv2/OpenShift-operations-security?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel in the Developer Community Microsoft Teams team.
 
 ## Related pages
 
