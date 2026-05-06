@@ -47,7 +47,7 @@ This is a link to the [DevHub Content Partner Guide](content-partner-guide.md) p
 
 This is a link to the [Diagrams with Mermaid](#diagrams-with-mermaid) section within this page.
 
-This is a link to the [Join the Developer Community in Microsoft Teams](https://teams.microsoft.com/l/team/19%3A6bffce0ac7aa47a1ba9f6d9a7e898db9%40thread.tacv2/conversations?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+This is a link to the [Choosing project technology ](choosing-technology/how-to-select-technology.md) page in the `choosing-technology` section.
 
 This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page in another guide on DevHub and uses a "root relative" link.
 
