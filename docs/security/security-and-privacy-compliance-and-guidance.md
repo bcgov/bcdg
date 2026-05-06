@@ -27,7 +27,7 @@ Depending on what you want to do on OpenShift, you may need a full PIA, or just 
 
 It is up to your Ministry Privacy team (through the [Ministry Privacy Officer (MPO)](https://www2.gov.bc.ca/gov/content/governments/services-for-government/information-management-technology/privacy/resources/privacy-officers)) to work with you and decide what kinds of assessments you need, whether a PIA is needed, and what that PIA should focus on for your individual project. 
 
-It is also recommended that you contact the [Digital Office’s privacy and security office](mailto:cloud.securityprivacy@gov.bc.ca?subject=Cloud%20services%20privacy%20question:) for advice as they may have time-saving resources, up-to-date guidance, and contact information that can help you on your privacy compliance journey. 
+It is also recommended that you contact the [Digital Office’s privacy and security office](mailto:cloud.securityprivacy@gov.bc.ca?subject=Cloud%20services%20privacy%20question:) for advice as they may have time-saving resources, up-to-date guidance, and contact information that can help you on your privacy compliance journey.
 
 Check in on privacy **early**, as your MPO and the Digital Office privacy analyst can help avoid common privacy pitfalls, help reduce the work needed on any PIAs, and help determine if there is even personal information in your initiative in the first place!
 
@@ -51,7 +51,7 @@ OpenShift code is open by default, but there is an option to request a private r
 
 You are responsible for ensuring that your application meets security and privacy standards. There are several [tools available in OpenShift](https://digital.gov.bc.ca/cloud/private/products-tools/#tools) that you can use to identify vulnerabilities and keep your applications secure.
 
-We also provide a large collection of design patterns on the platform that follow security best practices. You can use these patterns to build secure integrations between your OpenShift applications and external systems. To learn more about design patterns, post a question in the #devops-how-to Rocket.Chat channel.
+We also provide a large collection of design patterns on the platform that follow security best practices. You can use these patterns to build secure integrations between your OpenShift applications and external systems. To learn more about design patterns, post a question in the [OpenShift-operations-security](https://teams.microsoft.com/l/channel/19:6616986006c24f95aec5224e335cb2b0%40thread.tacv2/OpenShift-operations-security?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc).
 
 ## Related pages
 
