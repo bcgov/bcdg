@@ -31,8 +31,7 @@ This is a link to the [DevHub Content Partner Guide](content-partner-guide.md) p
 
 This is a link to the [mermaid diagrams](#diagrams-with-mermaid) section within this page.
 
-This is a link to the [Get help in Rocket.Chat](rocketchat/get-help-in-rocketchat.md) page in the Rocket.Chat
-section.
+This is a link to the [Security best practices for apps](security/best-practices-for-apps.md) page in the `Security and Privacy` section. The file is in the `security` directory of the repo. 
 
 This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
 in another guide on DevHub and uses a "root relative" link.
@@ -48,17 +47,13 @@ This is a link to the [DevHub Content Partner Guide](content-partner-guide.md) p
 
 This is a link to the [Diagrams with Mermaid](#diagrams-with-mermaid) section within this page.
 
-This is a link to the [Get help in Rocket.Chat](rocketchat/get-help-in-rocketchat.md) page in the Rocket.Chat
-section.
+This is a link to the [Security best practices for apps](security/best-practices-for-apps.md) page in the `Security and Privacy` section. The file is in the `security` directory of the repo. 
 
-This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
-in another guide on DevHub and uses a "root relative" link.
+This is a link to the [meetups](/docs/default/component/mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page in another guide on DevHub and uses a "root relative" link.
 
-This is also link to the [meetups](../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page
-in another guide on DevHub and uses a relative link.
+This is also link to the [meetups](../../mobile-developer-guide/meetups/) page in the Mobile Developer Guide. It is a page in another guide on DevHub and uses a relative link.
 
-This is also link to the [meetups](../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page
-in another guide on DevHub and includes a tool tip.
+This is also link to the [meetups](../../mobile-developer-guide/meetups/ "Check out the meetups page!") page in the Mobile Developer Guide. It is a page in another guide on DevHub and includes a tool tip.
 
 
 ### Download Links
