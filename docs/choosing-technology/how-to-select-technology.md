@@ -1,13 +1,14 @@
 # Choosing project technology 
 
-Every team and ministry has different needs. Choosing the suitable technology builds the foundation of excellent user experience. 
+Every team and ministry has different needs, but in CSBC we are working towards finding, supporting and improving standard tools to be widely adopted across our technology ecosystem. Choosing the widely adopted technology makes it easier for us to build the foundation of excellent user experience, and support applications in the long term. 
 
-We offer many options within B.C. Government systems. The tables below show a cross-section of some technology that developers can use. Users can click each option to get more information about it.  
+We offer many options within B.C. Government systems. The tables below show a cross-section of some technology that developers should try to use. Users can click each option to get more information about it.  
 
+``` Pull requests to improve this documentation are welcome. Click the "edit" button at the top right, fork the repo and make a pull request back into the base branch. ```
 
 ## Current technology options
 
-Although there's numerous choices, the options in the table below aren't exhaustive, nor represents an endorsement of any particular choice. Every team should do its own research before deciding which technology best suits their needs and context.
+Although there's numerous choices, the options in the table below aren't exhaustive. Every team should do its own research before deciding which technology best suits their needs and context.
 
 Please note the following important considerations: 
 
@@ -17,41 +18,84 @@ Please note the following important considerations:
 - Our [open-source content evaluation doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) 
 
 ### Development Frameworks
-Column 1 lists the technology type. Column 2 lists the choices under that type.
+Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. 
 
-|Type| Choice|
+|Type| Documentation |
 |----| ------|
 |Programming languages|[Python](https://github.com/bcgov?q=&type=all&language=python&sort=), [Javascript](https://github.com/bcgov?q=&type=all&language=javascript&sort=), [TypeScript](https://github.com/bcgov?q=&type=all&language=typescript&sort=), [Java](https://github.com/bcgov?q=&type=all&language=java&sort=), [R](https://github.com/bcgov?q=&type=all&language=r&sort=), [C#](https://github.com/bcgov?q=&type=all&language=c%23&sort=), [PHP](https://github.com/bcgov?q=&type=all&language=php&sort=)
 |Back-end| [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/en/2.2.x/), [Express](https://expressjs.com/), [NestJS](https://nestjs.com/), [Spring Boot](https://spring.io/projects/spring-boot)[.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet), [Laravel](https://laravel.com/)
-|Front-end| [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/)|
-|Code and artifact management| [GitHub](https://github.com/bcgov), [Artifactory](http://artifacts.developer.gov.bc.ca/), [GitHub Packages](https://docs.github.com/en/packages)
-|Automation tools| [GitHub Actions](https://github.com/features/actions), [ArgoCD](/docs/default/component/platform-developer-docs/docs/automation-and-resiliency/argo-cd-usage/), [Terraform](https://www.terraform.io/), [Tekton/OpenShift Pipelines](/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/deploy-an-application/#1-integrate-deployment-into-a-cicd-pipeline) 
-
-### Hosting and operations
-Column 1 lists the technology type. Column 2 lists the choices under that type.
-
-|Type| Choice|
-|----| ------|
-|Operations support and security| [Sysdig](/docs/default/component/platform-developer-docs/docs/app-monitoring/sysdig-monitor-setup-team/), StatusCake, [Loki](/docs/default/component/platform-developer-docs/docs/app-monitoring/best-practices-for-application-logging-in-openshift/#console-logs-in-loki), Splunk, [Vault](/docs/default/component/platform-developer-docs/docs/secrets-management/vault-getting-started-guide/)          
-|Application hosting| [Learn about application hosting options](#application-hosting-services-options)    
+|Front-end| [React](https://reactjs.org/), [Vue](https://vuejs.org/)|
 
 
-### Collaboration
-Column 1 lists the technology type. Column 2 lists the choices under that type.
+### Application Development Tooling
+Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for BC Government related support channels, if applicable.
 
-|Type| Choice|
-|----| ------|
-|Collaboration tools| [JIRA](https://www.atlassian.com/software/jira), [GitHub Discussions](https://github.com/features/discussions), [GitHub Issues](https://github.com/features/issues), [MS Teams](https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software),  [Loop](https://www.microsoft.com/en-us/microsoft-365/loop)
-|Common Components| [Digital Trust](https://digital.gov.bc.ca/digital-trust/home/), [Keycloak SSO](docs/default/component/css-docs),[Design System](https://digital.gov.bc.ca/bcgov-common-components/design-system/), [Common Document Generation Service](https://digital.gov.bc.ca/bcgov-common-components/common-document-generation-service/), [Common Hosted Forms Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-form-service/), [Common Hosted Email Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-email-service/), [Common Object Management Service](https://digital.gov.bc.ca/bcgov-common-components/common-object-management-service/), [BC Address Geocoder](https://digital.gov.bc.ca/bcgov-common-components/bc-address-geocoder/), [BC Route Planner](https://digital.gov.bc.ca/bcgov-common-components/bc-route-planner/), [Simple Map Kit](https://digital.gov.bc.ca/bcgov-common-components/simple-map-kit/)
+|Type| Documentation | Support |
+|----| ------|------|
+| Artifact & Package Management | [Artifactory*](https://developer.gov.bc.ca/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/setup-artifactory-project-repository/), [GitHub Packages](https://docs.github.com/en/packages) | [OpenShift-howto-artifactory](https://teams.microsoft.com/l/channel/19%3A81e5eb5e92254e47badf383502bd3447%40thread.tacv2/OpenShift-howto-artifactory?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| CI/CD (Continuous Integration / Continuous Delivery) & Gitops | [GitHub Actions](https://github.com/features/actions), [ArgoCD*](/docs/default/component/platform-developer-docs/docs/automation-and-resiliency/argo-cd-usage/), [Tekton/OpenShift Pipelines](/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/deploy-an-application/#1-integrate-deployment-into-a-cicd-pipeline) | [DevX Team Support Requests](https://citz-do.atlassian.net/servicedesk/customer/portal/2), [GitHub-howto](https://teams.microsoft.com/l/channel/19%3Aae5f84cbecd3430793841f3944632767%40thread.tacv2/GitHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) [OpenShift-howto-argocd](https://teams.microsoft.com/l/channel/19%3A5d971c5af20d4c6dbab8f7213671aaaf%40thread.tacv2/OpenShift-howto-argocd?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| Infrastructure as Code (IaC) | [Terraform](https://www.terraform.io/) | 
+| Logging & Observability | [Loki](/docs/default/component/platform-developer-docs/docs/app-monitoring/best-practices-for-application-logging-in-openshift/#console-logs-in-loki)| 
+| Performance Monitoring |[Sysdig*](/docs/default/component/platform-developer-docs/docs/app-monitoring/sysdig-monitor-setup-team/) | [OpenShift-howto-sysdig](https://teams.microsoft.com/l/channel/19%3A93dff023d40c4440b26cf9c0b236a93f%40thread.tacv2/OpenShift-howto-sysdig?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) | [OpenShift-howto-sysdig](https://teams.microsoft.com/l/channel/19%3A93dff023d40c4440b26cf9c0b236a93f%40thread.tacv2/OpenShift-howto-sysdig?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| Secrets Management |[Vault*](/docs/default/component/platform-developer-docs/docs/secrets-management/vault-getting-started-guide/)| [OpenShift-howto-vault](https://teams.microsoft.com/l/channel/19%3A0ed86e1a6dd74b62a7d965f1a6954c56%40thread.tacv2/OpenShift-howto-vault?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| Status & Alerts | Known gap
+| Source Control & Collaboration | [GitHub](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/quick-reference/) | [DevX Team Support Requests](https://citz-do.atlassian.net/servicedesk/customer/portal/2), [GitHub-howto](https://teams.microsoft.com/l/channel/19%3Aae5f84cbecd3430793841f3944632767%40thread.tacv2/GitHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 
+
+\* these tools are currently only corporately available only within the Private Cloud ecosystem
+
+### Collaboration & Knowledge Sharing
+Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for BC Government related support channels, if applicable.
+
+|Type| Documentation | Support |
+|----| ------|------|
+| Chat & Video | [MS Teams](https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software)
+| Design & mockups | Figma
+| Technical Documentation | [DevHub Techdocs](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/content-partner-guide/) 
+| Technical Q&A | [GitHub Discussions](https://github.com/features/discussions), 
+|Ticketing and backlog| [JIRA](https://www.atlassian.com/software/jira) 
+
+
+### Common Components
+Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for BC Government related support channels, if applicable.
+
+|Type| Documentation | Support |
+|----| ------|------|
+|Address Geocoding| [BC Address Geocoder](https://digital.gov.bc.ca/bcgov-common-components/bc-address-geocoder/)
+| Analytics| BC Gov Managed Snowplow
+| Design System | [Design System](https://digital.gov.bc.ca/bcgov-common-components/design-system/)
+| Document Generation| [Common Document Generation Service](https://digital.gov.bc.ca/bcgov-common-components/common-document-generation-service/)
+|Email generation| [Common Hosted Email Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-email-service/)
+|Forms | [Common Hosted Forms Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-form-service/)
+| Grants | Unity
+| Identity verification | [Digital Trust](https://digital.gov.bc.ca/digital-trust/home/)
+|Maps | [Simple Map Kit](https://digital.gov.bc.ca/bcgov-common-components/simple-map-kit/)
+| Notifications | Notifications Team
+| Object Management | [Common Object Management Service](https://digital.gov.bc.ca/bcgov-common-components/common-object-management-service/)
+| Pay Authorizization | Pay Auth
+| Permitting | Permit Connect Navigator Service (PCNS)
+|Route planning | [BC Route Planner](https://digital.gov.bc.ca/bcgov-common-components/bc-route-planner/)
+| Single sign on | [Keycloak SSO](docs/default/component/css-docs)
+| Workflow | BC Gov managed n8n
 
 ### Integration and data
-Column 1 lists the technology type. Column 2 lists the choices under that type.
+Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for BC Government related support channels, if applicable.
 
-|Type| Choice|
-|----| ------|
-|API and data services| [API Gateway](https://digital.gov.bc.ca/bcgov-common-components/api-program-services/), [BC Data Catalogue](https://catalogue.data.gov.bc.ca)
+|Type| Documentation | Support |
+|----| ------|------|
+|API Gateway & Secure Data Exchange| [API Gateway](https://digital.gov.bc.ca/bcgov-common-components/api-program-services/)
+| Data Catalogue | [BC Data Catalogue](https://catalogue.data.gov.bc.ca)
+| Data & Analytics Platform | [Microsoft Fabric](https://developer.gov.bc.ca/docs/default/component/public-cloud-techdocs/azure/azure-services/external-fabric/) | 
 |Middleware and databases| PostgreSQL, MySQL, MongoDB, Kafka, Redis, NATS                                                                          
+
+### AI Services
+Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for BC Government related support channels, if applicable.
+
+|Type| Documentation | Support |
+|----| ------|------|
+| Secure AI Models as a service | AI Services Hub
+| Forms validation | AI Forms Assist
+| Chatbot | AI Chatbot
 
 ## Application hosting services options
 
