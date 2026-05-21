@@ -2,7 +2,7 @@
 
 Every team and ministry has different needs, but in CSBC we are working towards finding, supporting and improving standard tools to be widely adopted across our technology ecosystem. Choosing the widely adopted technology makes it easier for us to build the foundation of excellent user experience, and support applications in the long term. 
 
-We offer many options within B.C. Government systems. The tables below show a cross-section of some technology that developers should try to use. Users can click each option to get more information about it.  
+We offer many options within B.C. government systems. The tables below show a cross-section of some technology that developers should try to use. Users can click each option to get more information about it.  
 
 ``` Pull requests to improve this documentation are welcome. Click the "edit" button at the top right, fork the repo and make a pull request back into the base branch. ```
 
