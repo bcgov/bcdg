@@ -266,7 +266,7 @@ Link to images in your documentation using standard Markdown syntax. Text in the
 ![Simple svg image](../images/example.drawio.svg)
 ```
 
-![Simple svg iage](../images/example.drawio.svg)
+![Simple svg image](../images/example.drawio.svg)
 
 In this example the `example.drawio.svg` file was created with
 the [draw.io plugin for VSCode](https://www.drawio.com/blog/embed-diagrams-vscode). The format allows for image to be

@@ -50,6 +50,9 @@ nav:
       
   - Developer Community in Microsoft Teams:
     - Developer Community Microsoft Teams guide: developer-community/developer-community-ms-teams-guide.md
+  - Alerts and notifications: 
+    - Microsoft Teams Webhook Integration: webhooks/msteams-webhooks.md
+    - FAQ Microsoft Teams Webhook Integration: webhooks/faq-msteams-webhooks.md
 
   - Quickstart Wizards:
     - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
