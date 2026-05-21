@@ -15,9 +15,9 @@ graph LR
 Core components:
 
 * n8n workflow 
-    * Handles routing, transformation, and logic 
+  * Handles routing, transformation, and logic 
 * Relay app (MS Teams) 
-    * Receives messages from n8n and posts them to the MS Teams channel
+  * Receives messages from n8n and posts them to the MS Teams channel
 * MS Teams channel 
 
 ### n8n Workflow Ownership Model 
@@ -38,11 +38,11 @@ The recommended pattern is to have team-based ownership by using a team mailbox 
 Requirements:
 
 * The person with access to the Relay app **must** be an owner of the MS Teams team where the app will be installed.
-    * Access to the Relay app can take up to 24 hours.
+  * Access to the Relay app can take up to 24 hours.
 * The channel where notifications are sent must be either a `Standard` or `Shared` channel, **not** a `Private` channel.
 * The people with access to n8n will be responsible for setting up the n8n workflows.
-    * A shared team email that is associated with an IDIR can be used to create and manage workflows instead. 
-    * This will associate the workflow with the shared user rather than an individual user.
+  * A shared team email that is associated with an IDIR can be used to create and manage workflows instead. 
+  * This will associate the workflow with the shared user rather than an individual user.
 
 ## Creating Your First Workflow
 
@@ -51,6 +51,7 @@ This walkthrough will guide you through the process to post a webhook notificati
 You will need to complete the [Access Requirements](#access-requirements) steps before starting this walkthrough.
 
 In this walkthrough you will:
+
 1. Install the Relay app in a MS Teams channel
 1. Set up a workflow to accept a generic webhook
 1. Send a generic webhook to your workflow

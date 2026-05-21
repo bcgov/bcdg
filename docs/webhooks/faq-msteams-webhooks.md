@@ -7,16 +7,19 @@
 
 
 **Important:**
+
 - You may need to log in once to [https://n8n.developer.gov.bc.ca](https://n8n.developer.gov.bc.ca/) before roles can be assigned
 
 ## 2. How are n8n workflows and webhooks managed across a team?
 
 **Current limitation:**
+
 - n8n is running on the Community (free) edition
 - Each workflow is owned by one individual and tied to their personal workspace
 - Workflows cannot be shared
 
 **Workarounds:**
+
 - Export the workflow as a JSON file
 - Import it into another user's workspace
 - After import:
@@ -25,9 +28,11 @@
 - Admins can export and recreate workflows for another user in urgent situations
 
 **Is this long-term?**
+
 - No decision yet on an Enterprise license
 
 **How was this handled in Rocket.Chat?**
+
 - Rocket.Chat webhooks were generally only manageable by the creator
 - In some cases, multiple channel admins could manage them, but this was considered an edge case
 
@@ -36,11 +41,13 @@
 Yes
 
 **Setup:**
+
 1. DevX or Workflow team will add the team mailbox IDIR email to the n8n workspace
 2. Export workflows from personal accounts
 3. Import them into the team mailbox account
 
 **Things to watch out for:**
+
 - Webhook paths can conflict and must be reviewed
 - Old workflows need to be unpublished and the new workflows published. Simply deleting old workflows does not remove them.
 - Credentials must be recreated
@@ -62,6 +69,7 @@ Yes. Documentation is available, and common patterns are supported.
 - The target Teams channel is configured via the DevX Message Connector credentials by pasting the full Teams channel URL.
 
 **Official documentation:**
+
 https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instructions/devx-teams-message.md
 
 ## 5. How do I install the Relay app on a MS Teams channel?
@@ -87,6 +95,7 @@ https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instruct
 - It may take up to ~24 hours after being added to appear
 
 **If still not visible:**
+
 - Restart Teams
 - Clear Teams cache
 
@@ -103,6 +112,7 @@ https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instruct
 ## 9. What is the difference between the Test URL and Production URL for webhooks?
 
 **Test URL**
+
 - Active when:
   - Clicking "Listen for test events"
   - Clicking "Execute workflow"
@@ -110,16 +120,19 @@ https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instruct
 - Execution is visible in the editor
 
 **Production URL**
+
 - Only active after publishing
 - Runs as a background job
 - Intended for real integrations
 
 **Preview Mode**
+
 - Used to review generated message payload
 - Does not send messages to Teams
 - Only used for testing
 
 **Best practice:**
+
 - Use Preview Mode and Test URL during development
 - Use Production URL once the workflow is finalized
 
@@ -128,6 +141,7 @@ https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instruct
 Not directly—but separation is still possible and recommended.
 
 **Best practice:**
+
 - Create separate Teams channels for:
   - Production alerts
   - Non-production alerts
@@ -152,21 +166,25 @@ Short answer: Partially.
 ## 13. Why am I seeing payload or JSON errors?
 
 **Examples seen during testing:**
+
 - "Converting circular structure to JSON"
 - "Cannot read properties of undefined (reading 'severity')"
 
 **Common causes:**
+
 - Payload format not matching expected schema
 - Missing fields
 - Empty payloads from test integrations
 
 **Recommended approach:**
+
 - Inspect payload in n8n Executions tab
 - Use Code node to transform payload
 
 ## 14. Why does my workflow work in test mode but fail in production?
 
 **Possible causes:**
+
 - Payload differences between test and real events
 - Workflow not published
 - Relay app not installed in target channel
@@ -195,15 +213,18 @@ curl -X POST https://n8n.developer.gov.bc.ca/webhook/<your-id> \
 ## 17. Why are integrations like Sysdig or StatusCake failing?
 
 **Common issues:**
+
 - Empty or non-standard payloads
 - Different formats between test payload and real payload
 - Timestamp formatting issues
 
 **Examples:**
+
 - Sysdig may send blank payloads by default
 - Test payloads may differ from real alerts
 
 **Solutions:**
+
 - Use standard payload templates where available
 - Use Code node to map payloads to expected structure
 
@@ -213,5 +234,6 @@ curl -X POST https://n8n.developer.gov.bc.ca/webhook/<your-id> \
 - It only shows the formatted payload
 
 **To send messages:**
+
 - Switch to Send mode
 - Ensure workflow is published
