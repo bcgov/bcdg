@@ -42,7 +42,7 @@ Column 1 lists the technology type. Column 2 lists the documentation for the cho
 | Source Control & Collaboration | [GitHub](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/quick-reference/) | [DevX Team Support Requests](https://citz-do.atlassian.net/servicedesk/customer/portal/2), [GitHub-howto](https://teams.microsoft.com/l/channel/19%3Aae5f84cbecd3430793841f3944632767%40thread.tacv2/GitHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 
 
-\* these tools are currently only corporately available only within the Private Cloud ecosystem
+\* these tools are currently only available within the Private Cloud ecosystem
 
 ### Collaboration and knowledge sharing
 Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for B.C. government related support channels, if applicable.
