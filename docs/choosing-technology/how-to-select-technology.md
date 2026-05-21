@@ -45,7 +45,7 @@ Column 1 lists the technology type. Column 2 lists the documentation for the cho
 \* these tools are currently only corporately available only within the Private Cloud ecosystem
 
 ### Collaboration and knowledge sharing
-Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for BC Government related support channels, if applicable.
+Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for B.C. government related support channels, if applicable.
 
 |Type| Documentation | Support |
 |----| ------|------|
