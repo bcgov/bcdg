@@ -1,6 +1,6 @@
 # Choosing project technology 
 
-Every team and ministry has different needs, but in CSBC we are working towards finding, supporting and improving standard tools to be widely adopted across our technology ecosystem. Choosing the widely adopted technology makes it easier for us to build the foundation of excellent user experience, and support applications in the long term. 
+Every team and ministry has different needs, but in Connected Services B.C. (CSBC) we are working towards finding, supporting and improving standard tools to be widely adopted across our technology ecosystem. Choosing the widely adopted technology makes it easier for us to build the foundation of excellent user experience, and support applications in the long term. 
 
 We offer many options within B.C. government systems. The tables below show a cross-section of some technology that developers should try to use. Users can click each option to get more information about it.  
 
