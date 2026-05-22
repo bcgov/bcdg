@@ -99,7 +99,7 @@ Set up the DevX Message Connector node:
 1. Search for "DevX Message Connector"
 1. Set the "Credential" dropdown to "+ Create new credential"
 1. In the "Teams Channel Link" field, paste the link to your team's channel
-    1. The link can be found in MS Teams by clicking on the three dots next to the channel name and selecting "Copy link" 
+  1. The link can be found in MS Teams by clicking on the three dots next to the channel name and selecting "Copy link" 
 1. Rename the Connector by clicking on the name in the top left side of the editor
 1. Click Save
 1. Set the "Type" dropdown to "Template"
@@ -119,10 +119,10 @@ The workflow has two modes, test and production. We will use the test mode for t
 1. Copy the `Test URL`
 1. Close the window
 1. Click the "Execute workflow" button 
-    1. This will put your workflow into listen mode
-    1. It will listen for **ONE** event and then exit listen mode
+  1. This will put your workflow into listen mode
+  1. It will listen for **ONE** event and then exit listen mode
 1. Use the curl command below to send a message to your workflow.
-    1. Make sure to update the {your-test-webhook} placeholder to the URL you copied above.
+  1. Make sure to update the {your-test-webhook} placeholder to the URL you copied above.
 
 ```shell
 curl -X POST "{your-test-webhook}" \
