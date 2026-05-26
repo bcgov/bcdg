@@ -75,8 +75,7 @@ Set up the DevX Message Connector node:
 
 1. Click on the "+" button next to the webhook node
 1. Search for "DevX Message Connector"
-1. Set the "Credential" dropdown to "+ Create new credential"
-![Screenshot of n8n editor. The Credential drop down field is expanded. The Create new credential button is at the bottom of the list. There is a red circle around it to highlight it.](../images/devx-connector-credential.png)
+1. Click the "Set up Credential" button
 1. In the "Teams Channel Link" field, paste the link to your team's channel
   1. The link can be found in MS Teams by clicking on the three dots next to the channel name and selecting "Copy link" 
 1. Rename the Connector by clicking on the name in the top left side of the editor
@@ -244,6 +243,16 @@ The Relay app itself is store as a Microsoft Teams manifest in a private reposit
 The DevX Message Connect API is open source:
 
 [https://github.com/bcgov/devx-teams-connector](https://github.com/bcgov/devx-teams-connector)
+
+
+**Adding additional credentials**
+
+You can add more credentials by:
+
+1. Expanding the Credential drop down box in the DevX Message Connector Node
+1. Clicking the "+ Create new credential" button
+![Screenshot of n8n editor. The Credential drop down field is expanded. The Create new credential button is at the bottom of the list. There is a red circle around it to highlight it.](../images/devx-connector-credential.png)
+
 
 ## Next steps
 
