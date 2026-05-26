@@ -18,11 +18,8 @@ All of the following are internal components of the n8n workflow:
 * Optional transformation node (e.g. Code node)
 * DevX Message Connector node (format + routing logic)
 
-```mermaid
-graph LR
-    A[Webhook Node] --> B[Optional Code Note]
-    B --> C[DevX Message Connector Node]
-```
+![Screenshot of n8n editor. It has three nodes, Webhook, Code in Puthon and DevX Message  Connector. The webhook node has a connector arrow to the Code in Python node. The connector arrow has the label "GET" on it. Below the Code in Python node is a note stating: "Code node is optional. It can be either JavaScript or Python". There is a connector arrow on the right side of the Code in Python node pointing to the DevXMessage Connector node. The DevX Message Connector has a connector line pointing to the right. It ends in a button with a + symbol.](../images/n8n-nodes.png)
+
 These components sit outside of n8n:
 
 * Replay app (Microsoft Teams integration layer)
