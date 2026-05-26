@@ -235,6 +235,7 @@ Limitations:
 * Proper mentions would require Microsoft Graph API structures, which are not currently implemented
 
 **Open source status**
+
 The Relay app itself is store as a Microsoft Teams manifest in a private repository. 
 
 The DevX Message Connect API is open source:
