@@ -50,8 +50,9 @@ nav:
       
   - Developer Community in Microsoft Teams:
     - Developer Community Microsoft Teams guide: developer-community/developer-community-ms-teams-guide.md
-  - Alerts and notifications: 
-    - Microsoft Teams Webhook Integration: webhooks/msteams-webhooks.md
+  - Relay app and webhook integration: 
+    - Onboarding guide:Microsoft Teams Webhook Integration: webhooks/msteams-webhooks.md
+    - Create your first workflow: webhooks/create-your-first-workflow.md
     - FAQ Microsoft Teams Webhook Integration: webhooks/faq-msteams-webhooks.md
 
   - Quickstart Wizards:

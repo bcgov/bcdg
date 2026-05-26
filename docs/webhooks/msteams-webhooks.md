@@ -63,8 +63,6 @@ Before you begin [open a ticket](https://citz-do.atlassian.net/servicedesk/custo
 
 
 ## Relay App in Microsoft Teams installation
-The Relay app will appear in the MS Teams Apps menu after the access permissions have been applied. This can take up to 24 hours.
-
 Once all the permissions are applied, follow these steps to install the app:
 
 1. Open Microsoft Teams
@@ -75,12 +73,15 @@ Once all the permissions are applied, follow these steps to install the app:
 5. Choose the channel(s) to install it in
 
 ### Common issues
+
 **Relay app not visible**
+
 * Ensure you are in the Relay security group
 * Wait up to 24 hours for propagation
 * Restart Teams or clear cache if needed
 
 **Permission denied when installing**
+
 * You must be a Team owner 
 * Ask a Team owner to complete installation 
 

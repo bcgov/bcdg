@@ -18,25 +18,30 @@ After completing the steps you will have a webhook message in your MS Teams' cha
     The n8n workflow currently runs on the Community (free) edition.
 
 **Key limitations**
+
 * Each workflow is owned by a single user
 * Workflows cannot be shared across users
 * Credentials are not shared between users
-* Execution history is user-specific 
-
+* Execution history is user-specific
+ 
 **Recommended team approach**
+
 Use a shared Team mailbox (IDIR account):
+
 * Creates shared ownership of workflows
 * Reduces dependency on individuals 
 
 **Workflow portability workaround**
+
 * Export workflow as JSON
 * Import into another user or team mailbox account
-* Reconfigure: 
+* Reconfigure:
     * Credentials
     * Webhook URLs (conflicts may occur, must be reviewed)
-* Admins may assist with recreation in urgent cases 
+* Admins may assist with recreation in urgent cases
 
 The DevX or Workflow team will:
+
 1. Add the team mailbox IDIR email to the n8n workspace
 2. Export workflows from personal accounts
 3. Import them into the team mailbox account 
@@ -85,7 +90,9 @@ Your workspace should look like following:
 ![Screenshot of n8n editor. It has two nodes, Webhook and DevX Message  Connector. The webhook node has a connector arrow to the DevX Message Connector. The connector arrow has the label POST on it. The DevX Message Connector has a connector line pointing to the right. It ends in a button with a + symbol. There is one red button entitled "Execute workflow" below the nodes.](../images/n8n-devx-node.png)
 
 ### Standard workflow pattern
+
 Most integrations follow this structure:
+
 * Webhook -> receives event
 * Optional code node -> transforms playload
 * DevX Message Connector -> formats message
@@ -131,16 +138,17 @@ Recommended approach:
 * Configure source systems to use the appropriate Production URL
 
 **Test URL**
+
 * Used during development 
 * Requires workflow execution mode
 * Only processes one request at a time
 * Visible in editor logs
 
 **Production URL**
+
 * Active only after publishing workflow
 * Runs continuously in background
 * Intended for real integrations
-
 
 ## Step 4: Publish the workflow
 
@@ -158,40 +166,50 @@ To use the webhook for production:
 ## Troubleshooting
 
 ### Payload and JSON errors
+
 Examples:
+
 * Converting circular structure to JSON
 * Cannot read properties of undefined (reading 'severity')
 
 Common causes:
+
 * Payload schema does not match expected format
 * Missing required fields
 * Empty payloads from test integrations
 * Invalid or unexpected payload structures
 
 Recommended solution:
+
 1. Open the **Executions** tab in n8n
 2. Inspect the incoming payload
 3. Verify required fields exist
 4. Add a Code node to transform or normalize payloads
 
 ### Workflow works in test but fails in production
+
 Possible causes:
+
 * Workflow has not been published
 * Production events differ from test payloads
 * Relay app is not installed in the target Teams channel
 
 ### Integration failures (Sysgid, StatusCake and similar systems)
+
 Common issues:
+
 * Empty payloads
 * Non-standard payload formats
 * Timestamp formatting differences
 * Test payloads may differ from production alerts
 
 Examples: 
+
 * Sysdig may send blank payloads by default
 * Test alerts often differ form real event payloads
 
 Recommended solutions:
+
 * Use standard payload templates where available
 * Normalize payloads using a Code node
 * Explicitly map incoming fields before sending to DevX Message Connector
@@ -200,15 +218,18 @@ Recommended solutions:
 Preview mode does not send messages. It only displays formatted output and is intended for testing. 
 
 To send messages:
+
 * Switch to Send mode
 * Publish the workflow
 * Test using Production URL if validating deployed behaviour
 
 ### Relay app behaviour and limitations
+
 **Mentions** (@user, @group)
 Mentions are not currently supported. 
 
 Limitations:
+
 * Relay does not process mention attributes
 * @user text will not trigger notifications
 * Proper mentions would require Microsoft Graph API structures, which are not currently implemented
