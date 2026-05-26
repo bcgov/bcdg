@@ -28,14 +28,14 @@ These components sit outside of n8n:
 ### Core components:
 
 * n8n workflow (single system boundary)
-Handles:
-  * Receiving webhook events
-  * Transforming payloads
-  * Routing messages to external systems
-Contains:
-  * Webhook node
-  * Optional Code node
-  * DevX Message Connector node 
+  * Handles:
+    * Receiving webhook events
+    * Transforming payloads
+    * Routing messages to external systems
+  * Contains:
+    * Webhook node
+    * Optional Code node
+    * DevX Message Connector node 
 
 * Relay app (MS Teams - external integration layer) 
   * Receives formatted messages from n8n
