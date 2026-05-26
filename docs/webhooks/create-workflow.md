@@ -238,6 +238,7 @@ Limitations:
 The Relay app itself is store as a Microsoft Teams manifest in a private repository. 
 
 The DevX Message Connect API is open source:
+
 [https://github.com/bcgov/devx-teams-connector](https://github.com/bcgov/devx-teams-connector)
 
 ## Next steps
