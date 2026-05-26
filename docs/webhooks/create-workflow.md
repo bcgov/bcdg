@@ -7,9 +7,9 @@ You will need to complete the: [Access Requirements](./msteams-webhooks.md/#acce
 In this walkthrough you will:
 
 1. Understand the n8n workflow ownership model
-2. Prerequisite: [Install the Relay app](./msteams-webhooks.md#relay-app-in-microsoft-teams-installation) in a MS Teams channel
-3. Set up a workflow to accept a generic webhook
-4. Send a generic webhook to your workflow
+1. Prerequisite: [Install the Relay app](./msteams-webhooks.md#relay-app-in-microsoft-teams-installation) in a MS Teams channel
+1. Set up a workflow to accept a generic webhook
+1. Send a generic webhook to your workflow
 
 After completing the steps you will have a webhook message in your MS Teams' channel.
 
@@ -36,15 +36,15 @@ Use a shared Team mailbox (IDIR account):
 * Export workflow as JSON
 * Import into another user or team mailbox account
 * Reconfigure:
-    * Credentials
-    * Webhook URLs (conflicts may occur, must be reviewed)
+  * Credentials
+  * Webhook URLs (conflicts may occur, must be reviewed)
 * Admins may assist with recreation in urgent cases
 
 The DevX or Workflow team will:
 
 1. Add the team mailbox IDIR email to the n8n workspace
-2. Export workflows from personal accounts
-3. Import them into the team mailbox account 
+1. Export workflows from personal accounts
+1. Import them into the team mailbox account 
 
 ## Step 1: Install Relay (prerequisite)
 [Install the Relay app](./msteams-webhooks.md#relay-app-in-microsoft-teams-installation) in a MS Teams channel
@@ -61,11 +61,11 @@ A minimal n8n workflow requires two nodes:
 Set up the Webhook node:
 
 1. Login to [https://n8n.developer.gov.bc.ca/](https://n8n.developer.gov.bc.ca/) 
-2. Click the "Create workflow" button
-3. Click on the "Add first step..." icon
-4. Search for "Webhook"
-5. Change the HTTP Method to `POST`
-6. Click the "X" button to close the node. Your changes will be automatically saved
+1. Click the "Create workflow" button
+1. Click on the "Add first step..." icon
+1. Search for "Webhook"
+1. Change the HTTP Method to `POST`
+1. Click the "X" button to close the node. Your changes will be automatically saved
 
 Your workspace should look like the following:
 
@@ -74,16 +74,16 @@ Your workspace should look like the following:
 Set up the DevX Message Connector node:
 
 1. Click on the "+" button next to the webhook node
-2. Search for "DevX Message Connector"
-3. Set the "Credential" dropdown to "+ Create new credential"
-4. In the "Teams Channel Link" field, paste the link to your team's channel
+1. Search for "DevX Message Connector"
+1. Set the "Credential" dropdown to "+ Create new credential"
+1. In the "Teams Channel Link" field, paste the link to your team's channel
   1. The link can be found in MS Teams by clicking on the three dots next to the channel name and selecting "Copy link" 
-5. Rename the Connector by clicking on the name in the top left side of the editor
-6. Click Save
-7. Set the "Type" dropdown to "Template"
-8. Set the "Source" dropdown to "Generic"
-9. Set the payload field to `{{ $json.body }}`
-10. Click the "X" button to close the node. Your changes will be automatically saved
+1. Rename the Connector by clicking on the name in the top left side of the editor
+1. Click Save
+1. Set the "Type" dropdown to "Template"
+1. Set the "Source" dropdown to "Generic"
+1. Set the payload field to `{{ $json.body }}`
+1. Click the "X" button to close the node. Your changes will be automatically saved
 
 Your workspace should look like following:
 
@@ -103,12 +103,12 @@ Most integrations follow this structure:
 The workflow has two modes, test and production. We will use the **test mode** for this walkthrough:
 
 1. Double click on the webhook node
-2. Copy the `Test URL`
-3. Close the window
-4. Click the "Execute workflow" button 
+1. Copy the `Test URL`
+1. Close the window
+1. Click the "Execute workflow" button 
   1. This will put your workflow into listen mode
-  2. It will listen for **ONE** event and then exit listen mode
-5. Use the curl command below to send a message to your workflow.
+  1. It will listen for **ONE** event and then exit listen mode
+1. Use the curl command below to send a message to your workflow.
   1. Make sure to update the {your-test-webhook} placeholder to the URL you copied above.
 
 ```shell
@@ -155,8 +155,8 @@ Recommended approach:
 To use the webhook for production:
 
 1. Rename the workflow by clicking on its name in the top left section of the editor for clarity
-2. Click the "Publish" button in the top right section of the editor
-3. Use the `Production URL` from your Webhook node to make calls to your workflow
+1. Click the "Publish" button in the top right section of the editor
+1. Use the `Production URL` from your Webhook node to make calls to your workflow
 
 !!! tip Best practice
     * Use Test URL for development
@@ -182,9 +182,9 @@ Common causes:
 Recommended solution:
 
 1. Open the **Executions** tab in n8n
-2. Inspect the incoming payload
-3. Verify required fields exist
-4. Add a Code node to transform or normalize payloads
+1. Inspect the incoming payload
+1. Verify required fields exist
+1. Add a Code node to transform or normalize payloads
 
 ### Workflow works in test but fails in production
 

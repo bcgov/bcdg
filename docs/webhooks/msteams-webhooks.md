@@ -13,6 +13,7 @@ graph LR
 
 ## n8n workflow (single system boundary)
 All of the following are internal components of the n8n workflow:
+
 * Webhook node (entry point)
 * Optional transformation node (e.g. Code node)
 * DevX Message Connector node (format + routing logic)
@@ -23,6 +24,7 @@ graph LR
     B --> C[DevX Message Connector Node]
 ```
 These components sit outside of n8n:
+
 * Replay app (Microsoft Teams integration layer)
 * Microsoft Teams channel (final message destination)
 
@@ -52,6 +54,7 @@ Contains:
 Before you begin [open a ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/561) to request access to the Relay app and the [n8n](https://n8n.developer.gov.bc.ca/) instance.
 
 **Required access**
+
 * Relay app access (via security group)
 * n8n instance access: https://n8n.developer.gov.bc.ca/
 
@@ -66,11 +69,11 @@ Before you begin [open a ticket](https://citz-do.atlassian.net/servicedesk/custo
 Once all the permissions are applied, follow these steps to install the app:
 
 1. Open Microsoft Teams
-2. Go to **Apps**
+1. Go to **Apps**
 ![A screenshot of the MS Teams app. The "Apps" menu is located on the bottom of the left side menu. It is circled in red in this screenshot. The Relay app appears in the main panel of MS Team. It is located under the "Built for your organisation" section. The relay app's icon is a chat bubble with the word "Relay" in the bubble. The relay app is also circled in red in the screenshot. ](../images/relay_app.png)
-3. Search for **Relay**
-4. Select **Add**
-5. Choose the channel(s) to install it in
+1. Search for **Relay**
+1. Select **Add**
+1. Choose the channel(s) to install it in
 
 ### Common issues
 
