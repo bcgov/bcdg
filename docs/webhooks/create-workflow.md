@@ -76,13 +76,16 @@ Set up the DevX Message Connector node:
 1. Click on the "+" button next to the webhook node
 1. Search for "DevX Message Connector"
 1. Set the "Credential" dropdown to "+ Create new credential"
+![Screenshot of n8n editor. The Credential drop down field is expanded. The Create new credential button is at the bottom of the list. There is a red circle around it to highlight it.](../images/devx-connector-credential.png)
 1. In the "Teams Channel Link" field, paste the link to your team's channel
   1. The link can be found in MS Teams by clicking on the three dots next to the channel name and selecting "Copy link" 
 1. Rename the Connector by clicking on the name in the top left side of the editor
 1. Click Save
+![Screenshot of n8n editor. It shows what the credential settings look like after following the steps above.](../images/devx-connector-credential-settings.png)
 1. Set the "Type" dropdown to "Template"
 1. Set the "Source" dropdown to "Generic"
 1. Set the payload field to `{{ $json.body }}`
+![Screenshot of n8n editor. It shows the create new credential screen. There is an input box names "Teams Channel Link" where the url can be pasted. The top left part of the panel has "Reanme to something meaningful" and it is circled in red to draw attention to it.](../images/devx-connector-settings.png)
 1. Click the "X" button to close the node. Your changes will be automatically saved
 
 Your workspace should look like following:

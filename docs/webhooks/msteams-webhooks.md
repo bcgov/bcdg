@@ -11,7 +11,7 @@ graph LR
     D --> E[MS Teams Channel]
 ```
 
-## n8n workflow (single system boundary)
+## n8n workflow
 All of the following are internal components of the n8n workflow:
 
 * Webhook node (entry point)
@@ -27,7 +27,7 @@ These components sit outside of n8n:
 
 ### Core components:
 
-* n8n workflow (single system boundary)
+* n8n workflow 
   * Handles:
     * Receiving webhook events
     * Transforming payloads
@@ -37,12 +37,12 @@ These components sit outside of n8n:
     * Optional Code node
     * DevX Message Connector node 
 
-* Relay app (MS Teams - external integration layer) 
+* Relay app
   * Receives formatted messages from n8n
   * Translates them into Teams messages
   * Posts into configured channel 
 
-* MS Teams channel (destination)
+* MS Teams channel
   * Final delivery endpoint for notifications and alerts 
   * Must be configured via channel link in credentials 
 
