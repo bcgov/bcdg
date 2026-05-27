@@ -6,7 +6,6 @@ You will need to complete the: [Access Requirements](./msteams-webhooks.md/#acce
 
 In this walkthrough you will:
 
-1. Understand the n8n workflow ownership model
 1. Prerequisite: [Install the Relay app](./msteams-webhooks.md#relay-app-in-microsoft-teams-installation) in a MS Teams channel
 1. Set up a workflow to accept a generic webhook
 1. Send a generic webhook to your workflow
