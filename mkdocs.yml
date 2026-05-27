@@ -53,7 +53,7 @@ nav:
   - Relay app and webhook integration: 
     - Onboarding guide:Microsoft Teams Webhook Integration: webhooks/msteams-webhooks.md
     - Create your first workflow: webhooks/create-workflow.md
-    - FAQ Microsoft Teams Webhook Integration: webhooks/faq-msteams-webhooks.md
+    - Troubleshooting guide: webhooks/troubleshooting.md
 
   - Quickstart Wizards:
     - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
