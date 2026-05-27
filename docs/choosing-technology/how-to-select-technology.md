@@ -18,7 +18,12 @@ Please note the following important considerations:
 - Our [open-source content evaluation doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/) 
 
 ### Development Frameworks
-Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. 
+
+**Table guide**
+
+* Column 1 lists the technology type
+* Column 2 lists the documentation for the choices under that type 
+
 
 |Type| Documentation |
 |----| ------|
@@ -28,71 +33,91 @@ Column 1 lists the technology type. Column 2 lists the documentation for the cho
 
 
 ### Application development tooling
-Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for B.C. government related support channels, if applicable.
+
+**Table guide**
+
+* Column 1 lists the technology type
+* Column 2 lists the documentation for the choices under that type 
+* Column 3 lists information for B.C. government related support channels, if applicable
 
 |Type| Documentation | Support |
 |----| ------|------|
-| Artifact & Package Management | [Artifactory*](https://developer.gov.bc.ca/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/setup-artifactory-project-repository/), [GitHub Packages](https://docs.github.com/en/packages) | [OpenShift-howto-artifactory](https://teams.microsoft.com/l/channel/19%3A81e5eb5e92254e47badf383502bd3447%40thread.tacv2/OpenShift-howto-artifactory?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
-| CI/CD (Continuous Integration / Continuous Delivery) & Gitops | [GitHub Actions](https://github.com/features/actions), [ArgoCD*](/docs/default/component/platform-developer-docs/docs/automation-and-resiliency/argo-cd-usage/), [Tekton/OpenShift Pipelines](/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/deploy-an-application/#1-integrate-deployment-into-a-cicd-pipeline) | [DevX Team Support Requests](https://citz-do.atlassian.net/servicedesk/customer/portal/2), [GitHub-howto](https://teams.microsoft.com/l/channel/19%3Aae5f84cbecd3430793841f3944632767%40thread.tacv2/GitHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) [OpenShift-howto-argocd](https://teams.microsoft.com/l/channel/19%3A5d971c5af20d4c6dbab8f7213671aaaf%40thread.tacv2/OpenShift-howto-argocd?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
-| Infrastructure as Code (IaC) | [Terraform](https://www.terraform.io/) | 
-| Logging & Observability | [Loki](/docs/default/component/platform-developer-docs/docs/app-monitoring/best-practices-for-application-logging-in-openshift/#console-logs-in-loki)| 
+| Artifact and Package Management | [Artifactory*](https://developer.gov.bc.ca/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/setup-artifactory-project-repository/), [GitHub Packages](https://docs.github.com/en/packages) | [OpenShift-howto-artifactory](https://teams.microsoft.com/l/channel/19%3A81e5eb5e92254e47badf383502bd3447%40thread.tacv2/OpenShift-howto-artifactory?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| CI/CD (Continuous Integration / Continuous Delivery) and GitOps | [GitHub Actions](https://github.com/features/actions), [ArgoCD*](/docs/default/component/platform-developer-docs/docs/automation-and-resiliency/argo-cd-usage/), [Tekton/OpenShift Pipelines](/docs/default/component/platform-developer-docs/docs/build-deploy-and-maintain-apps/deploy-an-application/#1-integrate-deployment-into-a-cicd-pipeline) | [DevX Team Support Requests](https://citz-do.atlassian.net/servicedesk/customer/portal/2), [GitHub-howto](https://teams.microsoft.com/l/channel/19%3Aae5f84cbecd3430793841f3944632767%40thread.tacv2/GitHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) [OpenShift-howto-argocd](https://teams.microsoft.com/l/channel/19%3A5d971c5af20d4c6dbab8f7213671aaaf%40thread.tacv2/OpenShift-howto-argocd?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| Infrastructure as Code (IaC) | [Terraform](https://www.terraform.io/) |
+| Lab clusters |  | [OpenShift-operations-lab](https://teams.microsoft.com/l/channel/19%3Af5e80cd06e6d40089aa750f8a1ca8229%40thread.tacv2/OpenShift-operations-lab?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| Logging and Observability | [Loki](/docs/default/component/platform-developer-docs/docs/app-monitoring/best-practices-for-application-logging-in-openshift/#console-logs-in-loki)| 
 | Performance Monitoring |[Sysdig*](/docs/default/component/platform-developer-docs/docs/app-monitoring/sysdig-monitor-setup-team/) | [OpenShift-howto-sysdig](https://teams.microsoft.com/l/channel/19%3A93dff023d40c4440b26cf9c0b236a93f%40thread.tacv2/OpenShift-howto-sysdig?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) | [OpenShift-howto-sysdig](https://teams.microsoft.com/l/channel/19%3A93dff023d40c4440b26cf9c0b236a93f%40thread.tacv2/OpenShift-howto-sysdig?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 | Secrets Management |[Vault*](/docs/default/component/platform-developer-docs/docs/secrets-management/vault-getting-started-guide/)| [OpenShift-howto-vault](https://teams.microsoft.com/l/channel/19%3A0ed86e1a6dd74b62a7d965f1a6954c56%40thread.tacv2/OpenShift-howto-vault?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
-| Status & Alerts | Known gap
-| Source Control & Collaboration | [GitHub](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/quick-reference/) | [DevX Team Support Requests](https://citz-do.atlassian.net/servicedesk/customer/portal/2), [GitHub-howto](https://teams.microsoft.com/l/channel/19%3Aae5f84cbecd3430793841f3944632767%40thread.tacv2/GitHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| Status and Alerts | Known gap | [OpenShift-alerts](https://teams.microsoft.com/l/channel/19%3A2466087e039143fbb5258ec96ad65fab%40thread.tacv2/OpenShift-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc), [OpenShift-emergencyhelp](https://teams.microsoft.com/l/channel/19%3A13e667be3a6a46f8aa208c3cef190f20%40thread.tacv2/OpenShift-emergencyhelp?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+| Source Control and Collaboration | [GitHub](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/quick-reference/) | [DevX Team Support Requests](https://citz-do.atlassian.net/servicedesk/customer/portal/2), [GitHub-howto](https://teams.microsoft.com/l/channel/19%3Aae5f84cbecd3430793841f3944632767%40thread.tacv2/GitHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 
 
 \* these tools are currently only available within the Private Cloud ecosystem
 
 ### Collaboration and knowledge sharing
-Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. 
 
-|Type| Documentation | Support |
-|----| ------|------|
-| Chat & Video | [MS Teams](https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software)
-| Design & mockups | Figma
+**Table guide**
+
+* Column 1 lists the technology type
+* Column 2 lists the documentation for the choices under that type 
+
+|Type| Documentation |
+|----| ------|
+| Chat and Video | [MS Teams](https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software)
+| Design and mockups | [B.C. Design System](https://digital.gov.bc.ca/bcgov-common-components/design-system/)
 | Technical Documentation | [DevHub Techdocs](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/content-partner-guide/) 
-| Technical Q&A | [GitHub Discussions](https://github.com/features/discussions), 
+| Technical Q&A | [GitHub Discussions](https://github.com/features/discussions) 
 |Ticketing and backlog| [JIRA](https://www.atlassian.com/software/jira) 
 
 
 ### Common Components
-Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for B.C. government related support channels, if applicable.
+
+**Table guide**
+
+* Column 1 lists the technology type
+* Column 2 lists the documentation for the choices under that type 
+* Column 3 lists information for B.C. government related support channels, if applicable
 
 |Type| Documentation | Support |
 |----| ------|------|
 |Address Geocoding| [BC Address Geocoder](https://digital.gov.bc.ca/bcgov-common-components/bc-address-geocoder/)
 | Analytics| BC Gov Managed Snowplow
 | Design System | [Design System](https://digital.gov.bc.ca/bcgov-common-components/design-system/)
-| Document Generation| [Common Document Generation Service](https://digital.gov.bc.ca/bcgov-common-components/common-document-generation-service/)
-|Email generation| [Common Hosted Email Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-email-service/)
+| Document Generation| [Common Document Generation Service](https://digital.gov.bc.ca/bcgov-common-components/common-document-generation-service/) | [CommonDocumentGenerationService-howto](https://teams.microsoft.com/l/channel/19%3Ac8c2152b9bcd495c8599fc6734d6285f%40thread.tacv2/CommonDocumentGenerationService-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+|Email generation| [Common Hosted Email Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-email-service/) | [CommonHostedEmailService-howto](https://teams.microsoft.com/l/channel/19%3Ae5aa2eb2d2b040a58eed64e8fa079f9f%40thread.tacv2/CommonHostedEmailService-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 |Forms | [Common Hosted Forms Service](https://digital.gov.bc.ca/bcgov-common-components/common-hosted-form-service/)
 | Grants | Unity
 | Identity verification | [Digital Trust](https://digital.gov.bc.ca/digital-trust/home/)
 |Maps | [Simple Map Kit](https://digital.gov.bc.ca/bcgov-common-components/simple-map-kit/)
 | Notifications | Notifications Team
-| Object Management | [Common Object Management Service](https://digital.gov.bc.ca/bcgov-common-components/common-object-management-service/)
+| Object Management | [Common Object Management Service](https://digital.gov.bc.ca/bcgov-common-components/common-object-management-service/) | [CommonObjectManagement-howto](https://teams.microsoft.com/l/channel/19%3A5c6c13cafaed44c79ed9381bcbfa00de%40thread.tacv2/CommonObjectManagementService-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 | Pay Authorizization | Pay Auth
 | Permitting | Permit Connect Navigator Service (PCNS)
 |Route planning | [BC Route Planner](https://digital.gov.bc.ca/bcgov-common-components/bc-route-planner/)
-| Single sign on | [Keycloak SSO](docs/default/component/css-docs)
-| Workflow | BC Gov managed n8n
+| Single sign on | [Keycloak SSO](docs/default/component/css-docs) |  [SSOKeycloak-alerts](https://teams.microsoft.com/l/channel/19%3A1cfe55ab840b4fe3a275dbe4a70b755a%40thread.tacv2/SSOKeycloak-alerts?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc), [SSO-Keycloak-howto](https://teams.microsoft.com/l/channel/19%3A35d0b3389e39479590ba45a19a67a3ba%40thread.tacv2/SSOKeycloak-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc), [SSOKeycloak-operations](https://teams.microsoft.com/l/channel/19%3A5b1d263994ba415189f479dee270a8c9%40thread.tacv2/SSOKeycloak-operations?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+<!-- | Relay app and workflow integration| Update once we have docs about Relay app and Workflow -->
 
 ### Integration and data
 Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for B.C. government related support channels, if applicable.
 
 |Type| Documentation | Support |
 |----| ------|------|
-|API Gateway & Secure Data Exchange| [API Gateway](https://digital.gov.bc.ca/bcgov-common-components/api-program-services/)
+|API Gateway and Secure Data Exchange| [API Gateway](https://digital.gov.bc.ca/bcgov-common-components/api-program-services/)
 | Data Catalogue | [BC Data Catalogue](https://catalogue.data.gov.bc.ca)
-| Data & Analytics Platform | [Microsoft Fabric](https://developer.gov.bc.ca/docs/default/component/public-cloud-techdocs/azure/azure-services/external-fabric/) | 
-|Middleware and databases| PostgreSQL, MySQL, MongoDB, Kafka, Redis, NATS                                                                          
+| Data and Analytics Platform | [Microsoft Fabric](https://developer.gov.bc.ca/docs/default/component/public-cloud-techdocs/azure/azure-services/external-fabric/) | 
+|Middleware and databases| PostgreSQL, MySQL, MongoDB, Kafka, Redis, NATS  | [OpenShift-howto-kafka](https://teams.microsoft.com/l/channel/19%3A8f54965f670c4b06ba55080f353d2520%40thread.tacv2/OpenShift-howto-kafka?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)                                                                          
 
 ### AI Services
-Column 1 lists the technology type. Column 2 lists the documentation for the choices under that type. Column 3 lists information for B.C. government related support channels, if applicable.
 
-|Type| Documentation | Support |
-|----| ------|------|
+**Table guide**
+
+* Column 1 lists the technology type
+* Column 2 lists the documentation for the choices under that type 
+
+
+|Type| Documentation | 
+|----| ------|
 | Secure AI Models as a service | AI Services Hub
 | Forms validation | AI Forms Assist
 | Chatbot | AI Chatbot
@@ -101,19 +126,24 @@ Column 1 lists the technology type. Column 2 lists the documentation for the cho
 
 Each service offers unique features and capabilities that creates a secure and compliant environment for digital service hosting. Only services supported by Connected Services B.C. **(CSBC)** are listed:
 
-- **Data centre: traditional hosting**: offers traditional managed hosting services for virtual and physical systems. It supports numerous operating systems and techonologies. 
+- **Data centre: traditional hosting**: offers traditional managed hosting services for virtual and physical systems. It supports numerous operating systems and techonologies 
  
-- **Private Cloud: Red Hat OpenShift**: combines on-premise and cloud benefits. It offers a self-serve, secure, indepedent and scalable platform for hosting applications.
+- **Private Cloud: Red Hat OpenShift**: combines on-premise and cloud benefits. It offers a self-serve, secure, indepedent and scalable platform for hosting applications
 
-- **Public Cloud: Amazon Web Services (AWS) and Azure**: offers Enterprise support from AWS and Azure, a centralized and supported environment, rapid scalability, and simplified procurement.
+- **Public Cloud: Amazon Web Services (AWS) and Azure**: offers Enterprise support from AWS and Azure, a centralized and supported environment, rapid scalability, and simplified procurement
 
-- **Software as a Service (SaaS)**: offers ready-to-use software applications, hosted and managed by third-party providers. 
+- **Software as a Service (SaaS)**: offers ready-to-use software applications, hosted and managed by third-party providers 
 
 Technical teams can use the table below for comparing Data centres, Private and Public cloud platforms.  
 
 **Application hosting services comparison table**
 
-Column 1 lists features, column 2 lists Data centre traditional hosting features, column 3 lists Private cloud OpenShift platform features, and column 4 lists Public cloud Azure and AWS Landing Zones features.
+**Guide**
+
+* Column 1 lists features
+* Column 2 lists Data centre traditional hosting features 
+* Column 3 lists Private cloud OpenShift platform features 
+* Column 4 lists Public cloud Azure and AWS Landing Zones features
 
 |   | Data centre traditional hosting  |  [Private cloud OpenShift platform](docs/default/component/platform-developer-docs) | [Public cloud Azure and AWS Landing Zones](docs/default/component/public-cloud-techdocs)  |
 |---|--------------------------------------|-----------------------------------|--------------------------------|
