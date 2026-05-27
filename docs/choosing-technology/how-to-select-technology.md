@@ -110,6 +110,10 @@ Column 1 lists the technology type. Column 2 lists the documentation for the cho
 
 ### AI Services
 
+Visit the official B.C. government documenation and resources for [Artificial Intelligence (A.I.)](https://digital.gov.bc.ca/ai/) 
+
+<!-- This table is not ready as no links to corresponding documentation exists yet 
+
 **Table guide**
 
 * Column 1 lists the technology type
@@ -120,7 +124,8 @@ Column 1 lists the technology type. Column 2 lists the documentation for the cho
 |----| ------|
 | Secure AI Models as a service | AI Services Hub
 | Forms validation | AI Forms Assist
-| Chatbot | AI Chatbot
+| Chatbot | AI Chatbot 
+-->
 
 ## Application hosting services options
 
