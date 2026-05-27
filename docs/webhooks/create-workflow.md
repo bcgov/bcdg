@@ -114,14 +114,6 @@ The execution of your test work flow is available in the logs tab found at the b
 ![Screenshot of the n8n workspace with the logs tab expanded. The logs tab is found on the bottom left side of the workspace. It is circled in red in the screenshot. When the logs tab is expanded the nodes are listed. Clicking on a node gives details of the input, output, and execution status.](../images/n8n-logs.png)
 
 ### Test vs Production URLs
-Test and Production URLs should not be used to separate production and non-production environments. 
-
-Recommended approach:
-
-* Create separate Teams channels for production and non-production notifications
-* Use a code node to determine whether the alert is prod or not, and filter them with an if node
-
-![Screenshot of an n8n workspace using a JavaScript code node folled by an if node to filter messages to Prod and Non-Prod channels.](../images/n8n-prod-and-non-prod-filtering.png)
 
 **Test URL**
 
@@ -135,6 +127,17 @@ Recommended approach:
 * Active only after publishing workflow
 * Runs continuously in background
 * Intended for real integrations
+
+**Separate production and non-production environments**
+
+Test and Production URLs should not be used to separate production and non-production environments. 
+
+Recommended approach:
+
+* Create separate Teams channels for production and non-production notifications
+* Use a code node to determine whether the alert is prod or not, and filter them with an if node
+
+![Screenshot of an n8n workspace using a JavaScript code node folled by an if node to filter messages to Prod and Non-Prod channels.](../images/n8n-prod-and-non-prod-filtering.png)
 
 ## Step 4: Publish the workflow
 
