@@ -3,18 +3,29 @@
 This walkthrough will guide you through the process to post a webhook notification to a MS Teams channel.
 
 !!! info
-    You will need to complete the: [Access Requirements](./msteams-webhooks.md/#access-requirements) steps before starting this walkthrough.
+    You will need to complete the [Access Requirements](./msteams-webhooks.md/#access-requirements) steps before starting this walkthrough.
 
 In this walkthrough you will:
 
-1. Prerequisite: [Install the Relay app](./msteams-webhooks.md#relay-app-in-microsoft-teams-installation) in a MS Teams channel
+1. Install the Relay app in a MS Teams channel
 1. Set up a workflow to accept a generic webhook
 1. Send a generic webhook to your workflow
 
 After completing the steps you will have a webhook message in your MS Teams' channel.
 
-## Step 1: Install Relay (prerequisite)
-[Install the Relay app](./msteams-webhooks.md#relay-app-in-microsoft-teams-installation) in a MS Teams channel
+## Step 1: Install Relay 
+Once all the [permissions are applied](./msteams-webhooks.md/#access-requirements), follow these steps to install the app:
+
+1. Open Microsoft Teams
+1. Go to **Apps**
+1. Search for **Relay**
+1. Select **Add**
+1. Choose the channel(s) to install it in
+![A screenshot of the MS Teams app. The "Apps" menu is located on the bottom of the left side menu. It is circled in red in this screenshot. The Relay app appears in the main panel of MS Team. It is located under the "Built for your organisation" section. The relay app's icon is a chat bubble with the word "Relay" in the bubble. The relay app is also circled in red in the screenshot. ](../images/relay_app.png)
+
+
+[Refer to the troubleshooting page](./troubleshooting.md#relay-app-troubleshooting) if you have issues installing the Relay app.
+
 
 ## Step: 2 Set up n8n workflow
 

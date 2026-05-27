@@ -1,5 +1,19 @@
 # Onboarding guide: Microsoft Teams webhook integration 
 
+## Access requirements 
+[Open a ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/561) to request access to the Relay app and the [n8n](https://n8n.developer.gov.bc.ca/) instance.
+
+**Required access**
+
+* Relay app access (via security group)
+* n8n instance access: https://n8n.developer.gov.bc.ca/
+
+!!! warning Important constraints
+    * Relay app access may take up to 24 hours for the security group permissions to be applied. The app will not appear at all until this has been successfully applied
+    * You must log in once to n8n before role assignments take effect
+    * Channels must be **Standard** or **Shared** (Private channels are not supported)
+    * You must be a Team owner to install Relay app in a channel
+
 ## Architecture overview 
 Sending webhook events to a Microsoft Teams channel is supported via an n8n-driven pipeline and the MS Teams Relay app:
 
@@ -89,34 +103,11 @@ The DevX or Workflow team will:
 1. Export workflows from personal accounts
 1. Import them into the team mailbox account 
 
-## Access requirements 
-Before you begin [open a ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/561) to request access to the Relay app and the [n8n](https://n8n.developer.gov.bc.ca/) instance.
+## Relay app
 
-**Required access**
+The Relay app is a MS Teams bot that is [installed](create-workflow.md#step-1-install-relay) into a Standard or Shared channel.
 
-* Relay app access (via security group)
-* n8n instance access: https://n8n.developer.gov.bc.ca/
-
-!!! warning Important constraints
-    * Relay app access may take up to 24 hours for the security group permissions to be applied. The app will not appear at all until this has been successfully applied
-    * You must log in once to n8n before role assignments take effect
-    * Channels must be **Standard** or **Shared** (Private channels are not supported)
-    * You must be a Team owner to install Relay app in a channel
-
-
-## Relay App in Microsoft Teams installation
-Once all the permissions are applied, follow these steps to install the app:
-
-1. Open Microsoft Teams
-1. Go to **Apps**
-1. Search for **Relay**
-1. Select **Add**
-1. Choose the channel(s) to install it in
-![A screenshot of the MS Teams app. The "Apps" menu is located on the bottom of the left side menu. It is circled in red in this screenshot. The Relay app appears in the main panel of MS Team. It is located under the "Built for your organisation" section. The relay app's icon is a chat bubble with the word "Relay" in the bubble. The relay app is also circled in red in the screenshot. ](../images/relay_app.png)
-
-### Common issues
-
-[Refer to the troubleshooting page](./troubleshooting.md#relay-app-troubleshooting) if you have issues with the Relay app.
+The DevX Message Connector node uses the [devx-teams-connector](https://github.com/bcgov/devx-teams-connector) to post notifications to Microsoft Teams via the Relay app bot.
 
 ### Open source status
 
@@ -131,6 +122,7 @@ The DevX Message Connect API is open source:
 
 ## Further Reading
 [Relay App API](https://github.com/bcgov/devx-teams-connector)
+
 [n8n workflow DevX Message Connector](https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instructions/devx-teams-message.md)
 
 
