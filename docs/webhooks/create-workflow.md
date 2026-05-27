@@ -135,7 +135,9 @@ Test and Production URLs should not be used to separate production and non-produ
 Recommended approach:
 
 * Create separate Teams channels for production and non-production notifications
-* Use a code node to determine whether the alert is prod or not, and filter them with an if node
+* Use the Production URL for both the production and non-production environments of your system.
+* Use a `code` node to determine whether the alert is from the production environment or not. 
+* Filter the alert with an `if` node
 
 ![Screenshot of an n8n workspace using a JavaScript code node folled by an if node to filter messages to Prod and Non-Prod channels.](../images/n8n-prod-and-non-prod-filtering.png)
 
