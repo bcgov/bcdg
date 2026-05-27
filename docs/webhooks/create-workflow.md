@@ -237,7 +237,6 @@ Limitations:
 
 * Relay does not process mention attributes
 * @user text will not trigger notifications
-* Proper mentions would require Microsoft Graph API structures, which are not currently implemented
 
 **Open source status**
 
