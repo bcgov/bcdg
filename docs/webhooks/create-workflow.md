@@ -2,7 +2,8 @@
 
 This walkthrough will guide you through the process to post a webhook notification to a MS Teams channel.
 
-You will need to complete the: [Access Requirements](./msteams-webhooks.md/#access-requirements) steps before starting this walkthrough.
+!!! info
+    You will need to complete the: [Access Requirements](./msteams-webhooks.md/#access-requirements) steps before starting this walkthrough.
 
 In this walkthrough you will:
 
