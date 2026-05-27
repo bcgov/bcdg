@@ -141,20 +141,20 @@ Recommended approach:
 
 ![Screenshot of an n8n workspace using a JavaScript code node folled by an if node to filter messages to Prod and Non-Prod channels.](../images/n8n-prod-and-non-prod-filtering.png)
 
+!!! tip Best practice
+    * Use Test URL for development
+    * Use Production URL only for stable workflows 
+
+
 ## Step 4: Publish the workflow
 
 To use the webhook for production:
 
-1. Rename the workflow by clicking on its name in the top left section of the editor for clarity
+1. Rename the workflow by clicking on its name in the top left section of the editor
 1. Click the "Publish" button in the top right section of the editor
 1. Use the `Production URL` from your Webhook node to make calls to your workflow
 
 ![A screenshot of the n8n workflow. The textbox containing the workflow's name is circled in red. The text states Rename workflow](../images/n8n-rename-workflow.png)
-
-!!! tip Best practice
-    * Use Test URL for development
-    * Use Production URL only for stable workflows
-    * Maintain separate workflows for different environments (dev/prod)
 
 ## Next steps
 
