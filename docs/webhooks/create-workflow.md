@@ -76,7 +76,7 @@ Set up the DevX Message Connector node:
 1. Click on the "+" button next to the webhook node
 1. Search for "DevX Message Connector"
 1. Click the "Set up Credential" button
-  1. Refer to the [Adding additional credentials](#adding-additional-credentials) section if the "Set up Credential" button isn't available
+  1. Refer to the [Add additional credentials](#add-additional-credentials) section if the "Set up Credential" button isn't available
 1. In the "Teams Channel Link" field, paste the link to your team's channel
   1. The link can be found in MS Teams by clicking on the three dots next to the channel name and selecting "Copy link" 
 1. Rename the Connector by clicking on the name in the top left side of the editor
@@ -160,6 +160,8 @@ To use the webhook for production:
 1. Rename the workflow by clicking on its name in the top left section of the editor for clarity
 1. Click the "Publish" button in the top right section of the editor
 1. Use the `Production URL` from your Webhook node to make calls to your workflow
+
+![A screenshot of the n8n workflow. The textbox containing the workflow's name is circled in red. The text states Rename workflow](../images/n8n-rename-workflow.png)
 
 !!! tip Best practice
     * Use Test URL for development
@@ -246,7 +248,7 @@ The DevX Message Connect API is open source:
 [https://github.com/bcgov/devx-teams-connector](https://github.com/bcgov/devx-teams-connector)
 
 
-### Adding additional credentials
+### Add additional credentials
 
 You can add more credentials by:
 
