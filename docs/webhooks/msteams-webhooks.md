@@ -36,7 +36,7 @@ All of the following are internal components of the n8n workflow:
 
 These components sit outside of n8n:
 
-* Replay app (Microsoft Teams integration layer)
+* Relay app (Microsoft Teams integration layer)
 * Microsoft Teams channel (final message destination)
 
 ### Core components:
