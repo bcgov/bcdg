@@ -109,8 +109,6 @@ Your MS Teams channel should now have a message like the following:
 
 ### Webhook Test vs Production URLs
 
-The webhook node has 
-
 **Test URL**
 
 * Used during development 
@@ -127,7 +125,7 @@ The webhook node has
 **Recommended usage**
 
 !!! tip "Best practice"
-    * Use Test URL for development
+    * Use Test URL during workflow development
     * Use Production URL only for stable workflows across your environments
 
 Test and Production URLs should not be used to separate production and non-production environments. 
