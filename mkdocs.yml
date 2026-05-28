@@ -50,6 +50,8 @@ nav:
       
   - Developer Community in Microsoft Teams:
     - Developer Community Microsoft Teams guide: developer-community/developer-community-ms-teams-guide.md
+    - Acceptance criteria for public channels: developer-community/acceptance-criteria.md
+    - Participation guidelines: developer-community/participation-guidelines.md
 
   - Quickstart Wizards:
     - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
