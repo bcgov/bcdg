@@ -4,7 +4,7 @@ This guide addresses common issues encountered when integrating the Relay app an
 
 If you have an issue not described here:
 
-* Ask in the **TBD: Relay MS Teams channel**
+* Ask in the [Relay-howto](https://teams.microsoft.com/l/channel/19%3A0ede3fda07ed4c6baedddc729574b668%40thread.tacv2/Relay-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel
 * Open a PR for this page by clicking the edit button (the page and pencil icon) next to the "Troubleshooting" title above.
 
 
