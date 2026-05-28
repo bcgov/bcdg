@@ -1,4 +1,4 @@
-# Create your first workflow
+# Install Relay and create your first workflow
 
 This walkthrough will guide you through the process to post a webhook notification to a MS Teams channel.
 

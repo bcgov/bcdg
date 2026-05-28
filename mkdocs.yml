@@ -52,7 +52,7 @@ nav:
     - Developer Community Microsoft Teams guide: developer-community/developer-community-ms-teams-guide.md
   - Relay app and webhook integration: 
     - Onboarding guide:Microsoft Teams Webhook Integration: webhooks/msteams-webhooks.md
-    - Create your first workflow: webhooks/create-workflow.md
+    - Install Relay and create your first workflow: webhooks/create-workflow.md
     - Troubleshooting guide: webhooks/troubleshooting.md
 
   - Quickstart Wizards:

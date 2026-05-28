@@ -1,5 +1,13 @@
 # Troubleshooting
 
+This guide addresses common issues encountered when integrating the Relay app and n8n workflows. It covers workflow execution failures, message delivery problems, and payload format mismatches. Use this reference to diagnose and resolve issues. 
+
+If you have an issue not described here:
+
+* Ask in the **TBD: Relay MS Teams channel**
+* Open a PR for this page by clicking the edit button (the page and pencil icon) next to the "Troubleshooting" title above.
+
+
 ## n8n troubleshooting
 
 ### View executions
