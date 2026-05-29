@@ -18,11 +18,11 @@ Members are expected to:
 
 1. **Act with integrity**
 
-    * Be honest, accurate and professional
-    * Share reliable information and correct mistakes when needed
-    * Avoid conflicts of interest or situations that could affect objectivity 
-    * Protect confidential, sensitive or restricted information 
-    * Follow all applicable B.C. Public Service policies, standards and security requirements 
+  * Be honest, accurate and professional
+  * Share reliable information and correct mistakes when needed
+  * Avoid conflicts of interest or situations that could affect objectivity 
+  * Protect confidential, sensitive or restricted information 
+  * Follow all applicable B.C. Public Service policies, standards and security requirements 
 
 2. **Treat others fairly and with respect**
 
