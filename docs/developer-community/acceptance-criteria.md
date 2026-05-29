@@ -69,7 +69,7 @@ The service teams agrees to:
 **Step 1: Intake and review**
 
 * DevX reviews the request against the acceptance criteria
-    * JSM ticket asks if the request meets all the criteria. DevX ensure all the requirements have been met
+  * JSM ticket asks if the request meets all the criteria. DevX ensure all the requirements have been met
 * Clarification may be requested from the submitter if information is incomplete
 * DevX may require edits on the channel name and description etc.
 
