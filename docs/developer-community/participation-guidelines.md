@@ -172,6 +172,7 @@ If you encounter inappropriate behaviour or content in any of the channels:
 Channels should be used according to their intended purpose.  
 
 Examples:
+
 * [Service channels](https://bcgov.sharepoint.com/teams/Developercommunity/SitePages/All-channels.aspx?e=ZV4259) for questions, troubleshooting, important updates
 * [Non-service channels](https://bcgov.sharepoint.com/teams/Developercommunity/SitePages/Non-service-channels.aspx) for discussion, building connection and knowledge sharing 
 
