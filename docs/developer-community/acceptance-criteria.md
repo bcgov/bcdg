@@ -76,8 +76,8 @@ The service teams agrees to:
 **Step 2: Decision**
 
 * Approved
-    * Channel creation proceeds
-    * Ownership and moderation expectations are confirmed
+  * Channel creation proceeds 
+  * Ownership and moderation expectations are confirmed
 * Declined
     * DevX documents the reason(s) for the decision
     * DevX provides clear next‑step guidance
