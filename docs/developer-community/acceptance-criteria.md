@@ -35,7 +35,7 @@ A request for a new public channel must meet all of the following criteria to be
 
 * The channel is intended for a broad developer audience
 * Content is appropriate for cross‑ministry or cross‑team visibility
-* The channel is not limited to a single team, vendor, or working group.
+* The channel is not limited to a single team, vendor, or working group
 
 **Alignment with Developer Community goals**
 
