@@ -107,13 +107,7 @@ Your MS Teams channel should now have a message like the following:
 
 ![A screenshot of an adaptive card layout message in a MS Teams channel. It has a green "SUCCESS" label with a check mark. The title of the message is "Demo webhook". The body has the text "This is an example webhook using the generic template. Click the button to view the documentation for the other template types." Below the body is a button with the label "View Documentation" ](../images/relay-message.png)
 
-### Logs
-
-The execution of your test work flow is available in the logs tab found at the bottom left of the workspace.
-
-![Screenshot of the n8n workspace with the logs tab expanded. The logs tab is found on the bottom left side of the workspace. It is circled in red in the screenshot. When the logs tab is expanded the nodes are listed. Clicking on a node gives details of the input, output, and execution status.](../images/n8n-logs.png)
-
-### Test vs Production URLs
+### Webhook Test vs Production URLs
 
 **Test URL**
 
@@ -128,23 +122,28 @@ The execution of your test work flow is available in the logs tab found at the b
 * Runs continuously in background
 * Intended for real integrations
 
-**Separate production and non-production environments**
+**Recommended usage**
+
+!!! tip "Best practice"
+    * Use Test URL during workflow development
+    * Use Production URL only for stable workflows across your environments
 
 Test and Production URLs should not be used to separate production and non-production environments. 
 
 Recommended approach:
 
 * Create separate Teams channels for production and non-production notifications
-* Use the Production URL for both the production and non-production environments of your system.
+* Use the webhook Production URL for both the production and non-production environments of your system.
 * Use a `code` node to determine whether the alert is from the production environment or not. 
 * Filter the alert with an `if` node
 
 ![Screenshot of an n8n workspace using a JavaScript code node folled by an if node to filter messages to Prod and Non-Prod channels.](../images/n8n-prod-and-non-prod-filtering.png)
 
-!!! tip Best practice
-    * Use Test URL for development
-    * Use Production URL only for stable workflows 
+### Logs
 
+The execution of your test work flow is available in the logs tab found at the bottom left of the workspace.
+
+![Screenshot of the n8n workspace with the logs tab expanded. The logs tab is found on the bottom left side of the workspace. It is circled in red in the screenshot. When the logs tab is expanded the nodes are listed. Clicking on a node gives details of the input, output, and execution status.](../images/n8n-logs.png)
 
 ## Step 4: Publish the workflow
 

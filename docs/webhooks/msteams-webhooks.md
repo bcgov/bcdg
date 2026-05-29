@@ -26,6 +26,8 @@ graph LR
 ```
 
 ## n8n workflow
+n8n is an open-source workflow automation platform that enables developers to build event-driven integrations through a node-based visual editor. It supports webhook ingestion, data transformation via code nodes, and routing to external services. In this context, n8n serves as the orchestration layer that receives incoming webhook events, optionally transforms the payload, and forwards formatted messages to the Relay app.
+
 All of the following are internal components of the n8n workflow:
 
 * Webhook node (entry point)
@@ -36,7 +38,7 @@ All of the following are internal components of the n8n workflow:
 
 These components sit outside of n8n:
 
-* Replay app (Microsoft Teams integration layer)
+* Relay app (Microsoft Teams integration layer)
 * Microsoft Teams channel (final message destination)
 
 ### Core components:
@@ -105,7 +107,7 @@ The DevX or Workflow team will:
 
 ## Relay app
 
-The Relay app is a MS Teams bot that is [installed](create-workflow.md#step-1-install-relay) into a Standard or Shared channel.
+The Relay app is a Microsoft Teams bot developed by the Developer Experience (DevX) team. It acts as a delivery layer between external systems and Microsoft Teams, receiving structured message payloads and posting them as notifications to configured channels. It must be [installed](create-workflow.md#step-1-install-relay) into a channel before messages can be delivered to that channel. The channel must be either a Standard or Shared channel, not a Private channel.
 
 The DevX Message Connector node uses the [devx-teams-connector](https://github.com/bcgov/devx-teams-connector) to post notifications to Microsoft Teams via the Relay app bot.
 
