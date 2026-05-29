@@ -80,6 +80,8 @@ return { json: { isProd, body } };
 ```
 Then the payload becomes `{{ $json.body }}` in the connector node.
 
+Note: This code sample uses the `isProd` const to indicate whether the alert is from a production environment or not. The output is used by an `if` node to [direct the message to the appropriate channel](create-workflow.md#recommended-approach-for-production-and-non-production-notifications).
+
 ### Preview shows success but no Teams message
 Preview mode does not send messages. It only displays formatted output and is intended for testing. 
 

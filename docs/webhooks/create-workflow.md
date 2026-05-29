@@ -130,7 +130,7 @@ Your MS Teams channel should now have a message like the following:
 
 Test and Production URLs should not be used to separate production and non-production environments. 
 
-Recommended approach:
+#### Recommended approach for production and non-production notifications
 
 * Create separate Teams channels for production and non-production notifications
 * Use the webhook Production URL for both the production and non-production environments of your system.
