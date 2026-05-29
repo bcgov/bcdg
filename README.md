@@ -1,4 +1,3 @@
-![Lifecycle Experimental](https://img.shields.io/badge/Lifecycle-Experimental-339999 "The contents of this repositroy represent work that is in its early stages")
 [![Package Status](https://github.com/bcgov/bcdg/actions/workflows/publish.yaml/badge.svg)](https://github.com/bcgov/bcdg/actions/workflows/publish.yaml)
 
 
@@ -12,7 +11,7 @@ The latest published version of the BC Developer's Guide can be found at [https:
 
 ## Copyright
 
-Copyright &copy; 2023 Province of British Columbia
+Copyright &copy; 2023 - 2026 Province of British Columbia
 
 ## License
 
