@@ -72,7 +72,7 @@ DevX provides a self-service request process for creating new public channels in
 
 Before requesting a new channel, review the [Developer Community Channel Directory](https://bcgov.sharepoint.com/teams/Developercommunity) to avoid duplication. If a suitable channel already exist, join it instead of creating a new one.
 
-### Step2: Submit a request
+### Step 2: Submit a request
 
 All new public channels must be requested through Jira Service Management JSM form.
 
