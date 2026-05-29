@@ -34,10 +34,10 @@ Members are expected to:
 
 3. **Support the public interest** 
 
-    * Keep discussions focused on improving services and shared technology 
-    * Use channels for their intended purpose 
-    * Contribute in ways that build trust 
-    * Always follow the [Ethics and Standards of Conduct in the BC Public Service](https://www2.gov.bc.ca/gov/content/careers-myhr/about-the-bc-public-service/ethics-standards-of-conduct)
+  * Keep discussions focused on improving services and shared technology 
+  * Use channels for their intended purpose 
+  * Contribute in ways that build trust 
+  * Always follow the [Ethics and Standards of Conduct in the BC Public Service](https://www2.gov.bc.ca/gov/content/careers-myhr/about-the-bc-public-service/ethics-standards-of-conduct)
 
 ## Communication guidelines
 
