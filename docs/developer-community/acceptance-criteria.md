@@ -79,8 +79,8 @@ The service teams agrees to:
   * Channel creation proceeds 
   * Ownership and moderation expectations are confirmed
 * Declined
-    * DevX documents the reason(s) for the decision
-    * DevX provides clear next‑step guidance
+  * DevX documents the reason(s) for the decision
+  * DevX provides clear next‑step guidance
 
 ### Guidance when a request is declined
 
