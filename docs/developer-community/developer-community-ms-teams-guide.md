@@ -104,7 +104,7 @@ Once approved or [declined](../developer-community/acceptance-criteria.md#guidan
 ## Channel naming guide
 
 This guide explains when creating a new channel: 
-```<ServiceOrProduct>-<purpose>-<optional specialized topic >```
+```<ServiceOrProduct>-<purpose>-<optional specialized topic>```
 
 ### Service or Product (required)
 
