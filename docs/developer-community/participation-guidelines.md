@@ -151,7 +151,7 @@ Examples may include:
 * Assigning channel moderators 
 * Creating announcement or read-only style communication in channels 
 
-!!! info Important 
+!!! info "Important" 
     These channel moderation settings focus on the actual configuration and permissions. 
     
     Community moderation and management focus on maintaining a respectful, inclusive and productive environment through communication guidance, support and issue resolution. 
