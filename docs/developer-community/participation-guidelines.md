@@ -26,11 +26,11 @@ Members are expected to:
 
 2. **Treat others fairly and with respect**
 
-    * Use respectful, inclusive and accessible language
-    * Always strive to consider the potential effects of our behaviour 
-    * Respect different perspectives and experiences
-    * Assume positive intent during discussions and collaboration 
-    * Support a safe environment free from harassment or discrimination 
+  * Use respectful, inclusive and accessible language
+  * Always strive to consider the potential effects of our behaviour 
+  * Respect different perspectives and experiences
+  * Assume positive intent during discussions and collaboration 
+  * Support a safe environment free from harassment or discrimination 
 
 3. **Support the public interest** 
 
