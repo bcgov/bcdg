@@ -76,7 +76,7 @@ Before requesting a new channel, review the [Developer Community Channel Directo
 
 All new public channels must be requested through Jira Service Management JSM form.
 
-!!! abstract New public channel 
+!!! abstract "New public channel" 
     You can request a new public channel in the Developer Community by submitting this [form](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/528)
 
 In the form, you will be asked to provide:
