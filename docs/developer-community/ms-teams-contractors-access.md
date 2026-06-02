@@ -9,11 +9,11 @@ Access to Microsoft Teams for contractors depends on whether the other features 
 !!! info "Identify your IDIR account"
     To identify the IDIR account type visit [IDIR and technical guide for SSO](../use-github-in-bcgov/github-transition-guide.md#compatible-idirs-for-contractors), under section: Compatible IDIRs for contractors.
 
-### Contractors who already have IDIR (with an E5 License)
+### Contractors who already have IDIR (with an E5 Licence)
 
 Contractors with E5 licences get the same access as government staff. Use the same process to add them. By default, they can access any site that uses “Everyone except Guests” permissions.
 
-### Contractors who already have IDIR (without an E5 License)
+### Contractors who already have IDIR (without an E5 Licence)
 
 Contractors who already have an IDIR account but do not have an E5 licence need to complete these steps:
 
@@ -62,16 +62,16 @@ flowchart TD
 
     A{Does the contractors have an IDIR?}
 
-    A -->|<b>Yes</b>| B{Is it an E5 license<br/>or P2 license?}
+    A -->|<b>Yes</b>| B{Is it an E5 licence<br/>or P2 licence?}
     A -->|<b>No</b>| C[They will be added as a <b>Guest user</b> in MS Teams]
 
     C --> D[Request Teams owners or administrators to add them as Guest users]
     D --> E["Owners are identified in Manage team<br/>(More options → Manage team → Add member)<br/>or send a request to the owners"]
 
-    B -->|<b>E5 license</b>| F[Contractor has an E5 license]
+    B -->|<b>E5 license</b>| F[Contractor has an E5 licence]
     F --> G([They are all set<br/>No action needed])
 
-    B -->|<b>P2 license</b>| H[Contractor has a P2 license]
+    B -->|<b>P2 license</b>| H[Contractor has a P2 licence]
     H --> I[Convert the IDIR to a Hybrid Cloud Account]
     I --> J[Send a request to CSCHelp@gov.bc.ca]
 
