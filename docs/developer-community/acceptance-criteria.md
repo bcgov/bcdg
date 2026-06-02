@@ -96,3 +96,4 @@ Where possible, links or instructions will be provided to support the requestor.
 
 * [Developer Community Microsoft Teams guide](../developer-community/developer-community-ms-teams-guide.md)
 * [Developer Community participation guidelines](../developer-community/participation-guidelines.md)
+* [Microsoft access for contractors](../developer-community/ms-teams-contractors-access.md)

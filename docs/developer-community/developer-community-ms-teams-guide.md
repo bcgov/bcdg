@@ -225,3 +225,4 @@ Submit a production incident request by following the tab: Report production inc
 
 * Review the [Acceptance criteria of public channels in Developer Community](../developer-community/acceptance-criteria.md)
 * Review the [Developer Community participation guidelines](../developer-community/participation-guidelines.md)
+* [Microsoft access for contractors](../developer-community/ms-teams-contractors-access.md)
