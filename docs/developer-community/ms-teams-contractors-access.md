@@ -23,7 +23,7 @@ Ask an authorized requestor to submit an **Associate an IDIR with an external em
 
 **Step 2: Request hybrid cloud conversion**
 
-Email CSCHelp@gov.bc.ca and ask convert the IDIR account to a [Hybrid Cloud account](https://ociomysc.service-now.com/now/knowledge-center/kb_view/kb_knowledge/83745ccb33d376107f71fe282e5c7b29).
+Email CSCHelp@gov.bc.ca and ask to convert the IDIR account to a [Hybrid Cloud account](https://ociomysc.service-now.com/now/knowledge-center/kb_view/kb_knowledge/83745ccb33d376107f71fe282e5c7b29).
 
 This conversion gives the contractor one identity to access B.C. government resources. It also lets them use their existing organization login to access Microsoft Teams and SharePoint.
 
