@@ -2,12 +2,12 @@
 
 ## Overview
 
-Access to Microsoft Teams for contractors depends on whether the other features of an IDIR account are required for their role. Note that contracted developers who want to use GitHub organizations [bcgov](https://github.com/bcgov) / [bcgov-c](https://github.com/bcgov-c) will require a P2 or higher IDIR. For more information visit the [Github transition guide](../use-github-in-bcgov/github-transition-guide.md)
+Access to Microsoft Teams for contractors depends on whether the other features of an IDIR account are required for their role. Note that contracted developers who want to use GitHub organizations [bcgov](https://github.com/bcgov) / [bcgov-c](https://github.com/bcgov-c) will require a P2 or higher IDIR. For more information visit the [IDIR and technical guide for SSO](../use-github-in-bcgov/github-transition-guide.md)
 
 ## Contractors with IDIR accounts
 
 !!! info "Identify your IDIR account"
-    To identify the IDIR account type visit [IDIR and technical guide for SSO](../use-github-in-bcgov/github-transition-guide.md#compatible-idirs-for-contractors).
+    To identify the IDIR account type visit [IDIR and technical guide for SSO](../use-github-in-bcgov/github-transition-guide.md#compatible-idirs-for-contractors), under section: Compatible IDIRs for contractors.
 
 ### Contractors who already have IDIR (with an E5 License)
 
@@ -51,8 +51,9 @@ Contractors without an IDIR account can join Microsoft Teams as **guest users**.
 
 For help with external guest accounts, email MFA@gov.bc.ca.
 
-!!! warning 
-    "Guest access in Microsoft Teams is currently available at no cost. This process may change in the future."
+!!! warning "Important considerations" 
+    * Guest access in Microsoft Teams is currently available at no cost. This process may change in the future
+    * All service teams need to have an offboarding procedure for Microsoft Teams channels as all guest accounts need to be removed manually. Refer to [Developer Community Microsoft Teams guide](../developer-community/developer-community-ms-teams-guide.md#how-the-developer-community-is-structured) for more guidance.
 
 ## Easy flowchart guide
 

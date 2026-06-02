@@ -52,6 +52,7 @@ Service teams are responsible for:
 * Keeping conversations relevant and on topic
 * Responding to questions from the community
 * Letting DevX know when a channel should be archived
+* Letting DevX know when a contractor added as "guest" should be removed
 * More information on [moderation and community management](../developer-community/participation-guidelines.md#moderation-and-community-management)
 
 ### Channel members
