@@ -2,7 +2,7 @@
 
 ## Overview
 
-Access to Microsoft Teams for contractors depends on whether the other features of an IDIR account are required for their role. Note that contracted developers who want to use GitHub organizations [bcgov](https://github.com/bcgov) / [bcgov-c](https://github.com/bcgov-c) will require a P2 or higher IDIR. For more information visit the [Github technical transition guide](../use-github-in-bcgov/github-technical-transition%20guide.md)
+Access to Microsoft Teams for contractors depends on whether the other features of an IDIR account are required for their role. Note that contracted developers who want to use GitHub organizations [bcgov](https://github.com/bcgov) / [bcgov-c](https://github.com/bcgov-c) will require a P2 or higher IDIR. For more information visit the [Github transition guide](../use-github-in-bcgov/github-transition-guide.md)
 
 ## Contractors with IDIR accounts
 
