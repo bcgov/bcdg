@@ -53,7 +53,7 @@ For help with external guest accounts, email MFA@gov.bc.ca.
 
 !!! warning "Important considerations" 
     * Guest access in Microsoft Teams is currently available at no cost. This process may change in the future
-    * All service teams need to have an offboarding procedure for Microsoft Teams channels as all guest accounts need to be removed manually. Refer to [Developer Community Microsoft Teams guide](../developer-community/developer-community-ms-teams-guide.md#how-the-developer-community-is-structured) for more guidance.
+    * All service teams need to have an offboarding procedure for Microsoft Teams channels as all guest accounts need to be removed manually. Refer to [Developer Community Microsoft Teams guide](../developer-community/developer-community-ms-teams-guide.md#how-the-developer-community-is-structured) for more guidance
 
 ## Easy flowchart guide
 
