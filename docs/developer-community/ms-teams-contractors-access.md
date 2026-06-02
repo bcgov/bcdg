@@ -75,7 +75,7 @@ flowchart TD
     I --> J[Send a request to CSCHelp@gov.bc.ca]
 
     K["Need help identifying the IDIR account type?"]
-    B -.-> K["Need help identifying the IDIR account type?<br/><a href='../use-github-in-bcgov/github-transition-guide#compatible-idirs-for-contractors'>Open IDIR technical guide for SSO</a>"]
+    B -.-> K["Need help identifying the IDIR account type?<br/><a href='https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/github-transition-guide/'>Open IDIR technical guide for SSO</a>"]
 ```
 
 ## Related information
