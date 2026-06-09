@@ -1,37 +1,40 @@
 # DevHub Wizards
 
-Welcome to the DevHub Wizard!
+Welcome to the DevHub Wizard, a tool that streamlines application deployment to OpenShift! We built it based on the starter application of NRS' QuickStart for OpenShift, which you can find [here](). 
 
-Based on the starter application of NRS’ QuickStart for OpenShift, [DevHub Wizard](https://developer.gov.bc.ca/create/templates/default/quickstart-openshift) reduces time to get an application deployed to OpenShift. After filling the form, users can create a new GitHub repo within ten seconds. 
+DevHub Wizards works in tandem with Product Registry. Filling out a quick form creates a new GitHub repo within ten seconds.
 
-It works in tandem with Platform Services’ Product Registry. Before deploying a product, users must create an entry in the product registry. The process gives the namespace in OpenShift. Then, users can create an app wireframe that deploys into that name space. Namespaces follow the same convention as the Product Registry, such as your product set licence plate followed by "-dev", "-test", "-prod", or "-tools.
+<h2>Product Registry: Namespace</h2>
+
+A user **must** create an entry in Product Registry before using DevHub Wizards because the process gives the namespace in OpenShift. 
+
+The naming convention is standardized, following the same format as Product Registry: a product set licence plate followed by "-dev", "-test", "-prod", or "-tools". Once completed, users can deploy an app wireframe through DevHub Wizards.
+
 Aside from generated namespaces, we don’t have standardized naming conventions for GitHub repositories.     
 
-We created both a video and a step-by-step walkthrough below, so users feel prepared beforehand. 
-
 ## Video demo of DevHub Wizards
+
+We created both a video and a step-by-step walkthrough below, so users feel prepared beforehand. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9IiLW1864hs?si=xhcQyxv9yRJUJMf3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Walkthrough
 
-Visit the [QuickStart for OpenShift's wizard](https://developer.gov.bc.ca/create/templates/default/quickstart-openshift).  It and other startup resources are available from the `[+]` in the sidebar.
-
 ### Step 1
 
-Mandatory information from the title, description, product category, and product lifecycle become part of the GitHub repository read.me and become **metadata**. The catalogue **.yaml** file stores the metadata in the new repository. 
+Mandatory information from the title, description, product category, and product lifecycle integrates into the GitHub repo read.me and become **metadata**. The catalogue **.yaml** file stores the metadata in the new repo. 
 
-![Step 1 of Wizards showing fields of metadata fields like Title, Description, Product category and Product lifecycle](images/Wizards-Step%201.PNG)
+![Step 1 of Wizards showing fields of metadata fields of Title, Description, Product category and Product lifecycle](images/Wizards-Step%201.PNG)
 
 ### Step 2
 
-The Ministry field helps with categorizing government repositories. By doing this, we don’t lose track of repositories. The metadata fields (Product name, acronym and Product owner) give needed information to link GitHub repositories with product teams. 
+The Ministry field categorizes government repos. By doing this, we don’t lose track of repositories. The metadata fields (Product name, acronym and Product owner) give needed information to link GitHub repositories with product teams. 
 
 ![Step 2 of Wizards showing fields of Ministry, Product metadata fields like Title, Description, Product category and Product lifecycle](images/Wizards-Step%202.PNG)
  
 ### Step 3
  
-The ‘Select the backend stack’ field defaults to JavaScript/TypeScript because it’s bundled with the QuickStart for OpenShift project  . There are other alternative backend examples that can offer starting points for your team. Currently, DevHub Wizards is only available for the Gold and Silver clusters. 
+The ‘Select the backend stack’ field defaults to JavaScript/TypeScript because it’s bundled with the QuickStart for OpenShift project. There are other alternative backend examples that can offer starting points for your team. Currently, DevHub Wizards is only available for the Gold and Silver clusters. 
 
 Step 5 is for **dev** environment OC_Namespace and OC_Token.
 
