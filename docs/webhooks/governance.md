@@ -1,9 +1,11 @@
 # Webhook & workflow governance
 
 Relay is the DevX team-developed app that provides messaging functionality in MS Teams.
-It has two principal components:
+It has two principal components: 
+
 1. An API service that validates incoming data and then posts messages to MS Teams
-1. A MS Teams app installed on a per-Team basis that functions as a credential for the API 
+1. A MS Teams app installed on a per-Team basis that functions as a credential for the API
+
 The ability to install the MS Teams app is restricted by security group membership.
 
 This document outlines the governance model and responsibility boundaries for Relay, including app ownership, workflow platform dependencies, support expectations, and client responsibilities.
@@ -18,9 +20,9 @@ The **DevX team** is responsible for:
 * (dbl check this) Maintaining connectivity to the DevX instance of the workflow service, provided by the Workflows team
 * Onboarding clients and managing security group membership
 * Maintaining support material including:
- * Keeping support scripts with 77000 service desk current
- * Relay-specific support and user education for workflow integration
- * Related web content on DevHub (developer.gov.bc.ca)
+  * Keeping support scripts with 77000 service desk current
+  * Relay-specific support and user education for workflow integration
+  * Related web content on DevHub (developer.gov.bc.ca)
 
 ### Digital Workplace Team
 The **Digital Workplace team** is responsible for:
