@@ -11,7 +11,7 @@ The ability to install the MS Teams app is restricted by security group membersh
 This document outlines the governance model and responsibility boundaries for Relay, including app ownership, workflow platform dependencies, support expectations, and client responsibilities.
 
 ## Responsibilities
-
+  
 ### DevX Team
 The **DevX team** is responsible for:
 
