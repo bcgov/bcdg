@@ -1,6 +1,7 @@
 # Webhook & workflow governance
 
 Relay is the DevX developed app that provides messaging functionality in MS Teams.
+
 It has two principal components:  
 
 1. An API service that validates incoming data and then posts messages to MS Teams
