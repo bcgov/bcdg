@@ -34,7 +34,7 @@ The **Digital Workplace team** is responsible for:
 The **Workflows** team is responsible for:
 
 * Maintaining the underlying workflow service used by Relay
-* Providing and supprting the DevX instance of the workflow service with high availability
+* Providing and supporting the DevX instance of the workflow service with high availability
 * Providing general support and user education for the workflow service
 * Supporting DevX team as needed to maintain end-to-end webhook functionality in Teams
 
