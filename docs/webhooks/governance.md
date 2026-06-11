@@ -1,6 +1,6 @@
 # Webhook and workflow governance
 
-Relay is the Developer Experience (DevX) developed app that provides messaging functionality in Microsoft Teams.
+Relay is the Developer Experience team (DevX) developed app that provides messaging functionality in Microsoft Teams.
 
 It has two principal components:  
 
@@ -12,7 +12,7 @@ The ability to install the MS Teams app is restricted by security group membersh
 This document outlines the governance model and responsibility boundaries for Relay, including app ownership, workflow platform dependencies, support expectations and client responsibilities.
 
 ## Responsibilities
-### DevX Team
+### DevX team
 The **DevX team** is responsible for:
 
 * Developing and maintaining Relay application code
