@@ -56,8 +56,8 @@ nav:
   - Relay app and webhook integration: 
     - Onboarding guide:Microsoft Teams Webhook Integration: webhooks/msteams-webhooks.md
     - Install Relay and create your first workflow: webhooks/create-workflow.md
-    - Troubleshooting guide: webhooks/troubleshooting.md
-    - Webhook & workflow governance: webhooks/governance.md
+    - Troubleshooting webhook guide: webhooks/troubleshooting.md
+    - Webhook and workflow governance: webhooks/governance.md
 
   - Quickstart Wizards:
     - Quickstart for OpenShift Wizard: wizards/quickstart-for-openshift-wizard.md
