@@ -24,8 +24,8 @@ The **DevX team** is responsible for:
   * Relay-specific support and user education for workflow integration
   * Related web content on DevHub (developer.gov.bc.ca)
 
-### Digital Workplace team
-The **Digital Workplace team** is responsible for:
+### Teams Service Delivery team
+The **Teams Service Delivery team** is responsible for:
 
 * Maintaining MS Teams as an enterprise core service
 * Gatekeeping, publishing and updating Teams apps, including the Relay app
