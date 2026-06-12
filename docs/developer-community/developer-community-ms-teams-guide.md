@@ -139,7 +139,8 @@ Common purposes include:
 * **alerts** - Notices, maintenance updates and planned outages
 * **emergencyhelp** - Urgent issues only
 * **training** - Training related support
-* **communitychat** - Usually only used for non-service channels like General-communitychat-kudos
+* **communitychat** - Usually only used for non-service channels like [General-communitychat-kudos](https://teams.microsoft.com/l/channel/19%3A0e99940131d3460ca765b0004c51cef4%40thread.tacv2/General-communitychat-kudos?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
+* **community-of-practice** - Usually only used for non service channels like common technology tools like [Drupal-community-of-practice](https://teams.microsoft.com/l/channel/19%3A60b2606b9151428282e79f0899d1d50e%40thread.tacv2/Drupal-community-of-practice?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc)
 
 For self-paced training, use hyphenated purposes such as training-selfpaced.
 
