@@ -17,7 +17,7 @@ The **DevX team** is responsible for:
 
 * Developing and maintaining Relay application code
 * Supporting the Relay API hosted in the OpenShift Gold DR environment
-* (dbl check this) Maintaining connectivity to the DevX instance of the workflow service, provided by the Workflows team
+* Maintaining connectivity to the DevX instance of the workflow service, provided by the Workflows team
 * Onboarding clients and managing security group membership
 * Maintaining support material including:
   * Keeping support scripts with 77000 service desk current
