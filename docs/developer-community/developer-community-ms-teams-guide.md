@@ -75,7 +75,7 @@ Before requesting a new channel, review the [Developer Community Channel Directo
 
 ### Step 2: Submit a request
 
-All new public channels must be requested through Jira Service Management JSM form.
+All new public channels must be requested through a Jira Service Management JSM form.
 
 !!! abstract "New public channel" 
     You can request a new public channel in the Developer Community by submitting this [form](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/528)
@@ -104,7 +104,7 @@ Once approved or [declined](../developer-community/acceptance-criteria.md#guidan
 
 ## How to modify an existing channel
 
-If you wish to make changes to a channel you can request the change through Jira Service Management form
+You can request changes to an existing channel through a Jira Service Management form.
 
 !!! abstract "Make a change in a public channel"
     You can request a change in an existing public channel in the Developer Community by submitting this [form](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/660)
@@ -117,6 +117,7 @@ In the form, you will be asked to provide:
 * Division name
 * Branch and team's name 
 * Select the change you wish to make from a list: 
+
     * Delete a message from a channel
     * Add a tab to the channel
     * Update the description of a channel
