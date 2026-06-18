@@ -83,8 +83,8 @@ All new public channels must be requested through Jira Service Management JSM fo
 In the form, you will be asked to provide:
 
 * Preferred name for the public channel
-* Channel description and links to any supporting documentation to include in your channel description or support information so it can be added as a channel tab
-* Service team and channel owner(s): Product owner and technical lead as contact names
+* Channel description and links to any supporting documentation to include in your channel description or support information so they can be added as channel tab(s)
+* Service team and channel owner(s): Product owner and technical lead as contact names and email addresses
 * If a channel supports a critical application and its public name for example: BC Services Card, BC Wildfire Mobile App, etc.
 * If a channel requires any webhook support to post to Microsoft Teams
 * The webhook integration's purpose
@@ -101,6 +101,27 @@ DevX reviews requests to ensure they:
 * Add channel to the [Developer Community Channel Directory](https://bcgov.sharepoint.com/teams/Developercommunity)
 
 Once approved or [declined](../developer-community/acceptance-criteria.md#guidance-when-a-request-is-declined). You will be notified through the same ticket.
+
+## How to modify an existing channel
+
+If you wish to make changes to a channel you can request the change through Jira Service Management form
+
+!!! abstract "Make a change in a public channel"
+    You can request a change in an existing public channel in the Developer Community by submitting this [form](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/660)
+
+In the form, you will be asked to provide: 
+
+* The public channel name you wish to make changes to
+* Product owner and technical lead's email address
+* Ministry name
+* Division name
+* Branch and team's name 
+* Select the change you wish to make from a list: 
+    * Delete a message from a channel
+    * Add a tab to the channel
+    * Update the description of a channel
+    * Turn [moderation settings](https://support.microsoft.com/en-us/office/change-moderator-roles-and-settings-in-a-channel-in-microsoft-teams-6ac54758-3440-4f6a-9bd5-cebf97cb7ea6) on or off  
+    * Other - Offer explanation 
 
 ## Channel naming guide
 

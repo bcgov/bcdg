@@ -156,7 +156,7 @@ Examples may include:
     
     Community moderation and management focus on maintaining a respectful, inclusive and productive environment through communication guidance, support and issue resolution. 
 
-Requests to change channel settings for moderator roles should be directed to the Developer Experience (DevX) or if you are [requesting a new Developer Community channel](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/528) you can indicate to turn this feature on. 
+You can [change channel settings](../developer-community/developer-community-ms-teams-guide.md#how-to-modify-an-existing-channel) for moderator roles or if you are [requesting a new Developer Community channel](../developer-community/developer-community-ms-teams-guide.md#how-to-request-a-new-public-channel) you can indicate to turn this feature on. 
 
 ## Reporting concerns and escalation process
 
