@@ -116,13 +116,12 @@ In the form, you will be asked to provide:
 * Ministry name
 * Division name
 * Branch and team's name 
-* Select the change you wish to make from a list: 
-
-    * Delete a message from a channel
-    * Add a tab to the channel
-    * Update the description of a channel
-    * Turn [moderation settings](https://support.microsoft.com/en-us/office/change-moderator-roles-and-settings-in-a-channel-in-microsoft-teams-6ac54758-3440-4f6a-9bd5-cebf97cb7ea6) on or off
-    * Other - Offer explanation 
+* Select the change you wish to make from a list:
+  * Delete a message from a channel
+  * Add a tab to the channel
+  * Update the description of a channel
+  * Turn [moderation settings](https://support.microsoft.com/en-us/office/change-moderator-roles-and-settings-in-a-channel-in-microsoft-teams-6ac54758-3440-4f6a-9bd5-cebf97cb7ea6) on or off
+  * Other - Offer explanation
 
 ## Channel naming guide
 
