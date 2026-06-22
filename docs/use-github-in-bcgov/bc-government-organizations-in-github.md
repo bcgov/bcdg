@@ -3,12 +3,13 @@
 The [Digital Principles for B.C. Government](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) supports and encourages product teams to work in the open. GitHub is the leading platform for open-source projects and collaboration. 
 
 With GiHub Enterprise Cloud, we can:
-    - Collaborate with the open-source community to build software
-    - Support innvation
-    - Share code and best practices 
-    - Track issues and feature requests
-    - Use tools for team and project management
-    - Save costs and time
+
+  - Collaborate with the open-source community to build software
+  - Support innvation
+  - Share code and best practices 
+  - Track issues and feature requests
+  - Use tools for team and project management
+  - Save costs and time
 
 The **Developer Experience team** manages B.C. Government's GitHub environments. For questions, concerns, or feedback, please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
@@ -54,6 +55,12 @@ Both orgs come with various security features to protect repos and its code. We'
 
 **`bcgov-c`**: cost for security features because GH charges a fee for private repos. **But** the Developer Experience team covers cost **without cost recovery**.
 
+#### Security Insights for GitHub Enterprise-linked organizations
+
+All orgs linked to the corporate GitHub Enterprise accounts have access to the [Security Insight feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), inclusive of branch protection and code owners for private repos.
+
+[Branch protection](https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches) allows specified members to push to the protected branch. The [code owners feature](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) allows automated reviews. For example, if a member is a code owner of certain files, they'll automatically be added as a PR reviewer. A PR needs their approval before the code can be merged.
+
 #### Prominent features
 
 * **Code scanning:** scans code for security vulnerabilities and coding errors.
@@ -77,11 +84,6 @@ Because IDIRs are mandatory for both organizations, we have created [an IDIR gui
 
 If the instructions and troubleshooting help below doesn't resolve any issues, please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
-### Security Insights for GitHub Enterprise-linked organizations
-
-All orgs linked to the corporate GitHub Enterprise accounts have access to the [Security Insight feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), inclusive of branch protection and code owners for private repos.
-
-[Branch protection](https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches) allows specified members to push to the protected branch. The [code owners feature](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) allows automated reviews. For example, if a member is a code owner of certain files, they'll automatically be added as a PR reviewer. A PR needs their approval before the code can be merged.
 
 ### Directions to sign up and link your account for `bcgov`
 
