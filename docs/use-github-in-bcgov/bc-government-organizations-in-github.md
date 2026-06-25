@@ -4,12 +4,12 @@ The [Digital Principles for B.C. Government](https://www2.gov.bc.ca/gov/content/
 
 With GitHub Enterprise Cloud, we can:
 
-  - Collaborate with the open-source community to build software
-  - Support innovation
-  - Share code and best practices 
-  - Track issues and feature requests
-  - Use tools for team and project management
-  - Save costs and time
+- Collaborate with the open-source community to build software
+- Support innovation
+- Share code and best practices 
+- Track issues and feature requests
+- Use tools for team and project management
+- Save costs and time
 
 The **Developer Experience team** manages B.C. government's GitHub environments. For questions, concerns, or feedback, please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
