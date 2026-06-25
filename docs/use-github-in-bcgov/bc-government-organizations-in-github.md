@@ -5,13 +5,13 @@ The [Digital Principles for B.C. Government](https://www2.gov.bc.ca/gov/content/
 With GiHub Enterprise Cloud, we can:
 
   - Collaborate with the open-source community to build software
-  - Support innvation
+  - Support innovation
   - Share code and best practices 
   - Track issues and feature requests
   - Use tools for team and project management
   - Save costs and time
 
-The **Developer Experience team** manages B.C. Government's GitHub environments. For questions, concerns, or feedback, please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
+The **Developer Experience team** manages B.C. government's GitHub environments. For questions, concerns, or feedback, please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
 For users who need quick access to common topics related to using GitHub in B.C. Government, please see the [GitHub for B.C. Government quick reference guide](quick-reference.md) instead of this doc. 
 
@@ -82,7 +82,7 @@ All orgs linked to the corporate GitHub Enterprise accounts have access to the [
 
 Because IDIRs are mandatory for both organizations, we have created [an IDIR guide for SSO](github-transition-guide.md). We've also included contractor-specific instructions. Please note that IDIR order completion can take **several** days.
 
-If the instructions and troubleshooting help below doesn't resolve any issues, please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
+If the instructions and troubleshooting guide below doesn't resolve your encountered issue(s), please [submit a support request on our Jira Service Manager system]( https://citz-do.atlassian.net/servicedesk/customer/portal/2).
 
 
 ### Directions to sign up and link your account for `bcgov`
