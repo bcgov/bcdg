@@ -2,7 +2,7 @@
 
 The [Digital Principles for B.C. Government](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#12.1.1.5) supports and encourages product teams to work in the open. GitHub is the leading platform for open-source projects and collaboration. 
 
-With GiHub Enterprise Cloud, we can:
+With GitHub Enterprise Cloud, we can:
 
   - Collaborate with the open-source community to build software
   - Support innovation
@@ -57,7 +57,7 @@ Both orgs come with various security features to protect repos and its code. We'
 
 #### Security Insights for GitHub Enterprise-linked organizations
 
-All orgs linked to the corporate GitHub Enterprise accounts have access to the [Security Insights feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), and can use branch protection rules and CODEOWNERS on private repos.
+The [bcgov](https://github.com/bcgov) and [bcgov-c](https://github.com/bcgov-c) orgs have access to the [Security Insights feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), and can use branch protection rules and CODEOWNERS on private repos.
 
 [Branch protection](https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches) can restrict who can push to protected branches. The [CODEOWNERS feature](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) can automatically request reviews; if branch protection is configured to require code owner reviews, their approval is required before merging.
 
