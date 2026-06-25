@@ -57,9 +57,9 @@ Both orgs come with various security features to protect repos and its code. We'
 
 #### Security Insights for GitHub Enterprise-linked organizations
 
-All orgs linked to the corporate GitHub Enterprise accounts have access to the [Security Insight feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), inclusive of branch protection and code owners for private repos.
+All orgs linked to the corporate GitHub Enterprise accounts have access to the [Security Insights feature](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/view-and-interpret-data/analyze-organization-data/viewing-security-insights), and can use branch protection rules and CODEOWNERS on private repos.
 
-[Branch protection](https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches) allows specified members to push to the protected branch. The [code owners feature](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) allows automated reviews. For example, if a member is a code owner of certain files, they'll automatically be added as a PR reviewer. A PR needs their approval before the code can be merged.
+[Branch protection](https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches) can restrict who can push to protected branches. The [CODEOWNERS feature](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) can automatically request reviews; if branch protection is configured to require code owner reviews, their approval is required before merging.
 
 #### Prominent features
 
