@@ -125,7 +125,7 @@ The DevX Message Connect API is open source:
 ## Related information
 [Relay App API](https://github.com/bcgov/devx-teams-connector)
 
-[n8n workflow DevX Message Connector](https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instructions/devx-teams-message.md)
+[n8n workflow DevX Message Connector](https://github.com/bcgov/common-hosted-workflow/blob/main/docs/community-nodes/devx-message-connector/workflow-guide.md)
 
 
 
