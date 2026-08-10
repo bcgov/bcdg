@@ -98,7 +98,7 @@ curl -X POST "{your-test-webhook-url}" \
   "title": "Demo webhook",
   "body": "This is an example webhook using the generic template. Click the button to view the documentation for the other template types.",
   "severity": "success",
-  "url": "https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instructions/devx-teams-message.md",
+  "url": "https://github.com/bcgov/common-hosted-workflow/blob/main/docs/community-nodes/devx-message-connector/workflow-guide.md",
   "urlLabel": "View Documentation"
 }'
 ```
@@ -157,7 +157,7 @@ To use the webhook for production:
 
 ## Next steps
 
-* Explore additional templates types in [DevX Message Connector documentation](https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instructions/devx-teams-message.md)
+* Explore additional templates types in [DevX Message Connector documentation](https://github.com/bcgov/common-hosted-workflow/blob/main/docs/community-nodes/devx-message-connector/workflow-guide.md)
 * Review [Onboarding guide: Microsoft Teams webhook integration](../webhooks/msteams-webhooks.md)
 * Use the `Script` node between the `Webhook` and `DevX Message Connector` nodes to set up custom scripting
 

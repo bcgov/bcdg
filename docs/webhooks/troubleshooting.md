@@ -95,7 +95,7 @@ To send messages:
 ### Failed to generate message content
 
 * Does the `Payload` field of the DevX Message Connector match what is expected by the `Template` and `Source` fields? 
-  * Refer to [DevX Teams Message](https://github.com/bcgov/common-hosted-workflow/blob/main/docs/workflow-instructions/devx-teams-message.md) documentation for details on what is expected for the various template types.
+  * Refer to [DevX Teams Message](https://github.com/bcgov/common-hosted-workflow/blob/main/docs/community-nodes/devx-message-connector/workflow-guide.md) documentation for details on what is expected for the various template types.
 
 ### Payload and JSON errors
 
