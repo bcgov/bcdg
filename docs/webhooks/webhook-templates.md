@@ -14,7 +14,7 @@ flowchart LR
     C --> D[Adaptive Card in Teams channel]
 ```
 
-### Relay API Content kinds
+## Relay API content kinds
 
 ```jsonc
 { "kind": "text", "text": "Deployment complete" }              // 1–10000 chars
@@ -26,12 +26,17 @@ flowchart LR
 Valid template names: `generic`, `github_pull_request`, `github_workflow_run`,
 `sysdig`, `uptime`, `db_backup`, `statuscake`.
 
-Each template section below shows the **upstream payload n8n receives**, so you
-can replay it with `curl` against the n8n webhook URL. Additionally, the 
+Each section below lists the fields Relay expects, plus a JSON example.
+
+* **Source-specific templates** (GitHub, Sysdig, Uptime, StatusCake, Backup Container) show the **upstream payload the source system sends to n8n**. The "Source field" column tells you where n8n reads each Relay field from. You can replay these with `curl` against your n8n webhook URL.
+* **Generic** has no upstream source. It is intended to be source-agnostic and used with `code` nodes.
+* **Adaptive Card** payloads are passed through to Teams as-is.
 
 ---
 
 ## Generic
+
+Template name: `generic`
 
 Catch-all card for sources with no dedicated template.
 
@@ -58,6 +63,8 @@ Catch-all card for sources with no dedicated template.
 ---
 
 ## GitHub Pull Request
+
+Template name: `github_pull_request`
 
 | Field | Required | Type / rules | Source field (GitHub webhook) |
 | --- | --- | --- | --- |
@@ -88,6 +95,8 @@ Catch-all card for sources with no dedicated template.
 ---
 
 ## GitHub Workflow Run
+
+Template name: `github_workflow_run`
 
 | Field | Required | Type / rules | Source field (GitHub webhook) |
 | --- | --- | --- | --- |
@@ -127,6 +136,8 @@ Catch-all card for sources with no dedicated template.
 
 ## Sysdig
 
+Template name: `sysdig`
+
 | Field | Required | Type / rules | Source field (Sysdig webhook) |
 | --- | --- | --- | --- |
 | `severity` | yes | integer 0–7 | `alert.severity` — 0 critical, 1 high, 2–3 medium, 4–5 low, 6–7 info |
@@ -157,6 +168,8 @@ Catch-all card for sources with no dedicated template.
 
 ## Uptime
 
+Template name: `uptime`
+
 | Field | Required | Type / rules | Source field |
 | --- | --- | --- | --- |
 | `status` | yes | `up` \| `down` | `data.alert.is_up` — boolean, convert to `"up"`/`"down"` in n8n |
@@ -185,9 +198,11 @@ Catch-all card for sources with no dedicated template.
 
 ## StatusCake
 
+Template name: `statuscake`
+
 | Field | Required | Type / rules | Source field (StatusCake) |
 | --- | --- | --- | --- |
-| `status` | yes | `up` \| `down` | `Status` |
+| `status` | yes | `up` \| `down` | `Status` — StatusCake sends `Up`/`Down`, which are normalised to lowercase |
 | `testName` | yes | string | `Name` |
 | `websiteUrl` | no | URL | `URL` |
 | `statusCode` | no | string | `StatusCode` |
@@ -200,7 +215,7 @@ Catch-all card for sources with no dedicated template.
 ```json
 {
   "Name": "platform alerts",
-  "Status": "down",
+  "Status": "Down",
   "URL": "https://example.com",
   "StatusCode": "503",
   "IP": "127.0.0.1",
@@ -215,7 +230,9 @@ Catch-all card for sources with no dedicated template.
 
 ## Backup Container
 
-| Field | Required | Type / rules | Source field |
+Template name: `db_backup`
+
+| Field | Required | Type / rules | Source field (Backup Container) |
 | --- | --- | --- | --- |
 | `status` | yes | `info` \| `warn` \| `error` | `statusCode` |
 | `projectName` | yes | string | `projectName` |
@@ -235,37 +252,37 @@ Catch-all card for sources with no dedicated template.
 
 ## Adaptive Card
 
-Adaptive Cards can also be passed in directly. Only `type: "AdaptiveCard"` is checked, then the card is forwarded to Teams.
+Adaptive Cards can also be passed in directly. Only `type: "AdaptiveCard"` is checked, then the card is forwarded to Teams. The rest of the card is not validated, so malformed cards fail at Teams rather than at n8n or Relay.
 
 ```json
 {
-    "type": "AdaptiveCard",
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.5",
-    "body": [
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
     {
-        "type": "TextBlock",
-        "text": "Deployment complete",
-        "weight": "Bolder"
+      "type": "TextBlock",
+      "text": "Deployment complete",
+      "weight": "Bolder"
     },
     {
-        "type": "TextBlock",
-        "text": "The deployment completed successfully",
-        "weight": "Default"
+      "type": "TextBlock",
+      "text": "The deployment completed successfully",
+      "weight": "Default"
     }
-    ],
-    "actions": [
+  ],
+  "actions": [
     {
-        "type": "Action.OpenUrl",
-        "title": "Open runbook",
-        "url": "https://example.com/runbook"
+      "type": "Action.OpenUrl",
+      "title": "Open runbook",
+      "url": "https://example.com/runbook"
     }
-    ],
-    "fallbackText": "Deployment complete"
+  ],
+  "fallbackText": "Deployment complete"
 }
 ```
 
 ## Related information 
 
-* [Install Relay and create your first workflow](../webhooks/create-workflow.md)
-* [Troubleshooting webhook guide](../webhooks/troubleshooting.md)
+* [Install Relay and create your first workflow](webhooks/create-workflow.md)
+* [Troubleshooting webhook guide](webhooks/troubleshooting.md)
