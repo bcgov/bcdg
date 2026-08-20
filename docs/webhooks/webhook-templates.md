@@ -284,5 +284,5 @@ Adaptive Cards can also be passed in directly. Only `type: "AdaptiveCard"` is ch
 
 ## Related information 
 
-* [Install Relay and create your first workflow](webhooks/create-workflow.md)
-* [Troubleshooting webhook guide](webhooks/troubleshooting.md)
+* [Install Relay and create your first workflow](./create-workflow.md)
+* [Troubleshooting webhook guide](./troubleshooting.md)
