@@ -8,7 +8,7 @@ described below, and posts it to the specified Teams channel.
 ```mermaid
 flowchart LR
     accTitle: Webhook processing flow
-    accDescr: Mermaid diagram flowchart showing incoming webhooks reach n8n, map fields, then being sent to Relay and posted to Teams
+    accDescr: Mermaid flowchart showing incoming webhooks reaching n8n, where fields are mapped before the message is sent to Relay and posted to Teams
     A[webhook] --> B[n8n workflow]
     B -->|maps fields| C[Relay /api/v1/messages]
     C --> D[Adaptive Card in Teams channel]
