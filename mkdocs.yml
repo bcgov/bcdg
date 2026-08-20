@@ -56,7 +56,7 @@ nav:
   - Relay app and webhook integration: 
     - Onboarding guide:Microsoft Teams Webhook Integration: webhooks/msteams-webhooks.md
     - Install Relay and create your first workflow: webhooks/create-workflow.md
-    - Webhook Fields used by Relay: webhooks/webhook-templates.md
+    - Webhook fields used by Relay: webhooks/webhook-templates.md
     - Troubleshooting webhook guide: webhooks/troubleshooting.md
     - Webhook and workflow governance: webhooks/governance.md
 

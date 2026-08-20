@@ -1,17 +1,17 @@
-# Webhook Fields used by Relay
+# Webhook fields used by Relay
 
-This page outlines the how incoming webhook fields are mapped to the Adaptive Card output that is posted to MS Teams
+This page outlines how incoming webhook fields are mapped to the Adaptive Card output that is posted to MS Teams.
 
-## Who calls this API
-
-The Relay API does **not** receive webhooks directly. n8n receives the webhook (GitHub, Sysdig, StatusCake, uptime, etc.), maps the payload into a template
+The Relay API does **not** receive webhooks directly. n8n receives the webhook (GitHub, Sysdig, StatusCake, Uptime, etc.), maps the payload into a template
 described below, and posts it to the specified Teams channel.
 
 ```mermaid
 flowchart LR
-  A[webhook] --> B[n8n workflow]
-  B -->|maps fields| C[Relay /api/v1/messages]
-  C --> D[Adaptive Card in Teams channel]
+    accTitle: Webhook processing flow
+    accDescr: Mermaid diagram flowchart showing incoming webhooks reach n8n, map fields, then being sent to Relay and posted to Teams
+    A[webhook] --> B[n8n workflow]
+    B -->|maps fields| C[Relay /api/v1/messages]
+    C --> D[Adaptive Card in Teams channel]
 ```
 
 ### Relay API Content kinds
@@ -27,7 +27,7 @@ Valid template names: `generic`, `github_pull_request`, `github_workflow_run`,
 `sysdig`, `uptime`, `db_backup`, `statuscake`.
 
 Each template section below shows the **upstream payload n8n receives**, so you
-can replay it with `curl` against the n8n webhook URL.
+can replay it with `curl` against the n8n webhook URL. Additionally, the 
 
 ---
 
@@ -57,7 +57,7 @@ Catch-all card for sources with no dedicated template.
 
 ---
 
-## `GitHub Pull Request`
+## GitHub Pull Request
 
 | Field | Required | Type / rules | Source field (GitHub webhook) |
 | --- | --- | --- | --- |
@@ -87,7 +87,7 @@ Catch-all card for sources with no dedicated template.
 
 ---
 
-## `GitHub Workflow Run`
+## GitHub Workflow Run
 
 | Field | Required | Type / rules | Source field (GitHub webhook) |
 | --- | --- | --- | --- |
@@ -118,14 +118,14 @@ Catch-all card for sources with no dedicated template.
     }
   },
   "repository": {
-    "full_name": "bcgov/devx-teams-connector"
+    "full_name": "bcgov/my-repo"
   }
 }
 ```
 
 ---
 
-## `sysdig`
+## Sysdig
 
 | Field | Required | Type / rules | Source field (Sysdig webhook) |
 | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ Catch-all card for sources with no dedicated template.
 
 ---
 
-## `uptime`
+## Uptime
 
 | Field | Required | Type / rules | Source field |
 | --- | --- | --- | --- |
@@ -183,7 +183,7 @@ Catch-all card for sources with no dedicated template.
 
 ---
 
-## `statuscake`
+## StatusCake
 
 | Field | Required | Type / rules | Source field (StatusCake) |
 | --- | --- | --- | --- |
@@ -200,7 +200,7 @@ Catch-all card for sources with no dedicated template.
 ```json
 {
   "Name": "platform alerts",
-  "Status": "DOWN",
+  "Status": "down",
   "URL": "https://example.com",
   "StatusCode": "503",
   "IP": "127.0.0.1",
@@ -213,7 +213,7 @@ Catch-all card for sources with no dedicated template.
 
 ---
 
-## `db_backup`
+## Backup Container
 
 | Field | Required | Type / rules | Source field |
 | --- | --- | --- | --- |
@@ -233,34 +233,39 @@ Catch-all card for sources with no dedicated template.
 
 ---
 
-## `Adaptive Card`
+## Adaptive Card
 
 Adaptive Cards can also be passed in directly. Only `type: "AdaptiveCard"` is checked, then the card is forwarded to Teams.
 
 ```json
 {
-  "type": "AdaptiveCard",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
     {
-      "type": "TextBlock",
-      "text": "Deployment complete",
-      "weight": "Bolder"
+        "type": "TextBlock",
+        "text": "Deployment complete",
+        "weight": "Bolder"
     },
-        {
-      "type": "TextBlock",
-      "text": "The deployment completed successfully",
-      "weight": "Default"
-    }
-  ],
-  "actions": [
     {
-      "type": "Action.OpenUrl",
-      "title": "Open runbook",
-      "url": "https://example.com/runbook"
+        "type": "TextBlock",
+        "text": "The deployment completed successfully",
+        "weight": "Default"
     }
-  ],
-  "fallbackText": "Deployment complete"
+    ],
+    "actions": [
+    {
+        "type": "Action.OpenUrl",
+        "title": "Open runbook",
+        "url": "https://example.com/runbook"
+    }
+    ],
+    "fallbackText": "Deployment complete"
 }
 ```
+
+## Related information 
+
+* [Install Relay and create your first workflow](../webhooks/create-workflow.md)
+* [Troubleshooting webhook guide](../webhooks/troubleshooting.md)
