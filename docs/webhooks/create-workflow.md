@@ -139,6 +139,18 @@ Test and Production URLs should not be used to separate production and non-produ
 
 ![Screenshot of an n8n workspace using a JavaScript code node folled by an if node to filter messages to Prod and Non-Prod channels.](../images/n8n-prod-and-non-prod-filtering.png)
 
+### @mention Notifications
+
+Workflows can be configured to include @mention notifications when posting Teams messages. Up to 10 mentions per message is supported.
+
+1. Double click on the DevX Message Connector node
+1. Under `Mention Users`, click the "Choose..." button
+1. Enter the "Email" of the user. This field is used to identify the user and will **not** be displayed on the card.
+1. Enter the "Name" of the user. This field will be prepended to the Teams message.
+1. Repeat for additional users
+
+![A screenshot of the DevX Message Connector settings menu. It is configured to use the "Generic" template. Below the "Payload" drop-down there is a section titled "Mention Users". An email and name has been entered to receive notifications. At the bottom there is a "Choose..." button to add additional users](../images/user-mention.png)
+
 ### Logs
 
 The execution of your test work flow is available in the logs tab found at the bottom left of the workspace.

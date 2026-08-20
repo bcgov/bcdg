@@ -1,4 +1,4 @@
-# Webhook Mapping to Adaptive Cards
+# Webhook Fields used by Relay
 
 This page outlines the how incoming webhook fields are mapped to the Adaptive Card output that is posted to MS Teams
 
@@ -10,7 +10,7 @@ described below, and posts it to the specified Teams channel.
 ```mermaid
 flowchart LR
   A[webhook] --> B[n8n workflow]
-  B -->|maps fields| C[POST /api/v1/messages]
+  B -->|maps fields| C[Relay /api/v1/messages]
   C --> D[Adaptive Card in Teams channel]
 ```
 
