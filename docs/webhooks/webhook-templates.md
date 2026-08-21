@@ -29,7 +29,7 @@ Valid template names: `generic`, `github_pull_request`, `github_workflow_run`,
 Each section below lists the fields Relay expects, plus a JSON example.
 
 * **Source-specific templates** (GitHub, Sysdig, Uptime, StatusCake, Backup Container) show the **upstream payload the source system sends to n8n**. The "Source field" column tells you where n8n reads each Relay field from. You can replay these with `curl` against your n8n webhook URL
-* **Generic** has no upstream source. It is intended to be source-agnostic and used with `code` nodes.
+* **Generic** has no upstream source. It is intended to be source-agnostic and used with `code` nodes
 * **Adaptive Card** payloads are passed through to Teams as-is
 
 ---
