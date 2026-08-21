@@ -134,10 +134,6 @@ Recommended solution:
 
 ### Relay app behaviour and limitations
 
-**Mentions** (@user, @group)
-Mentions are not currently supported. 
+**Mentions** (@group)
+@group Mentions are not currently supported. 
 
-Limitations:
-
-* Relay does not process mention attributes
-* @user text will not trigger notifications
