@@ -149,7 +149,7 @@ You can add up to 10 mentions in a message
 1. Double-click on the DevX Message Connector node
 1. Under `Mention Users`, click the `Choose...` button
 1. Enter the `Email` of the user. This field is used to identify the user and will **not** be displayed on the card.
-1. Enter the `Name` of the user. This field will be prepended to the Teams message.
+1. Enter the `Name` of the user. This field will be prepended to the Microsoft Teams message.
 1. Repeat for additional users
 
 ![A screenshot of the DevX Message Connector settings menu. It is configured to use the "Generic" template. Below the "Payload" drop-down there is a section titled "Mention Users". An email and name has been entered to receive notifications. At the bottom there is a "Choose..." button to add additional users](../images/user-mention.png)
