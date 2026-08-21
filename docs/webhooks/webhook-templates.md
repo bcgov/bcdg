@@ -1,6 +1,6 @@
 # Webhook fields used by Relay
 
-This page outlines how incoming webhook fields are mapped to the Adaptive Card output that is posted to MS Teams.
+This page outlines how incoming webhook fields are mapped to the Adaptive Card output that is posted to Microsoft Teams.
 
 The Relay API does **not** receive webhooks directly. n8n receives the webhook (GitHub, Sysdig, StatusCake, Uptime, etc.), maps the payload into a template
 described below, and posts it to the specified Teams channel.
