@@ -143,7 +143,7 @@ Test and Production URLs should not be used to separate production and non-produ
 
 Workflows can be configured to include @mention notifications when posting on channels on Microsoft Teams messages. 
 The mentioned user needs to be a member of the target Team for the mention to resolve.
-Up to 10 mentions per message are supported.
+You can add up to 10 mentions in a message
 
 
 1. Double-click on the DevX Message Connector node
