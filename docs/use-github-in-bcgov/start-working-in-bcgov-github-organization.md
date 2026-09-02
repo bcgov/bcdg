@@ -40,11 +40,34 @@ Active project needs appropriate processes and terms to manage contributions.
 
 ### Integrating GitHub Apps
 
-We get large volumes of asks about adding GitHub Apps to our org's repos. [Submit a support request on our Jira Service Manager system] to request a GitHub App to be installed. We need to know:
+We get large volumes of asks about adding GitHub Apps to our org's repos. [Submit a support request on our Jira Service Manager system](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10) to request a GitHub App to be installed. We need to know:
 
 * Contact information
-
 * Detailed information about the GitHub App
+
+New GitHub App installations into the bcgov or bcgov-c orgs require a STRA assessment initiated by the requesting team. Existing app installations do not require a new STRA assessment.
+
+#### Existing GitHub App Installations
+
+**Atlassian (JIRA)**
+
+The Atlassian (JIRA) GitHub App is installed in the bcgov and bcgov-c orgs for select repos.
+
+Use the [I want to connect JIRA to GitHub](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/18) ticket to connect your JIRA with bcgov or bcgov-c.
+
+If your JIRA site is already connected to GitHub use the [I want to install an application in a repository](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10) ticket to request access for your repo.
+
+**SonarCloud**
+
+The SonarCloud GitHub App is installed in the bcgov org for all repos.
+
+Use the [I want to import a GitHub repository to SonarCloud](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/594) ticket to import your repo into a Sonar Cloud project.
+
+**Renovate**
+
+The Renovate GitHub App is installed in the bcgov and bcgov-c orgs for select repos.
+
+Use the [I want to install an application in a repository](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10) ticket to request access for your repo.
 
 ### Initiate new code or projects
 
