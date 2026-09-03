@@ -8,7 +8,7 @@ The B.C. Government works in the open, using [open development practices](https:
   - README file
   - Contributing file
   - Code of Conduct file
-  - License file.
+  - License file
 * Roles and responsibilities
 * Basic mechanics of working in GitHub
 
@@ -29,7 +29,7 @@ Both methods use similar ways to release the code. They differ in project manage
   * If using code from another open-source project, follow to the existing licensing provisions, and make sure the licences are compatiable. Per [the evaluate open-source content doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/), don't infringe on intellectual property rights. These can include, patent rights, trademarks in the code or documentation. 
 * Confirming that there are no restrictions on releasing the code or documentation imposed by legislation, policy or contracts.
 * Checking for any dependencies
-  * Check library dependencies, sample or configuration data to make sure it's appropriate for release, or is separated.
+  * Check library dependencies, sample or configuration data to make sure it's appropriate for release, or is separated
 
 Active project needs appropriate processes and terms to manage contributions.
 
