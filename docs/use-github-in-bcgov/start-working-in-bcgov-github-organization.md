@@ -5,13 +5,11 @@ Teams planning to share code need to evaluate the content, and get approval from
 The B.C. Government works in the open, using [open development practices](https://digital.gov.bc.ca/policies-standards/dcop/open/) which includes:
 
 * **[Mandatory GitHub repo files](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/required-pages-for-github-repository/)** 
-    - README file
-    - Contributing file
-    - Code of Conduct file
-    - License file.
-
+  - README file
+  - Contributing file
+  - Code of Conduct file
+  - License file
 * Roles and responsibilities
-
 * Basic mechanics of working in GitHub
 
 ## Three common ways to start working in GitHub
@@ -27,24 +25,44 @@ There are two common approaches a team can take:
 Both methods use similar ways to release the code. They differ in project management and resourcing. Key requirements in these scenarios include:
 
 * Confirming team authority to license.
-
 * Choosing an open-source license, and consult with the Intellectual Property Program **(IPP)** to make sure government has the right to release the code.
-    * If using code from another open-source project, follow to the existing licensing provisions, and make sure the licences are compatiable. Per [the evaluate open-source content doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/), don't infringe on intellectual property rights. These can include, patent rights, trademarks in the code or documentation. 
-
+  * If using code from another open-source project, follow to the existing licensing provisions, and make sure the licences are compatiable. Per [the evaluate open-source content doc](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/evaluate-open-source-content/), don't infringe on intellectual property rights. These can include, patent rights, trademarks in the code or documentation. 
 * Confirming that there are no restrictions on releasing the code or documentation imposed by legislation, policy or contracts.
-
 * Checking for any dependencies
-    - Check library dependencies, sample or configuration data to make sure it's appropriate for release, or is separated.
+  * Check library dependencies, sample or configuration data to make sure it's appropriate for release, or is separated
 
 Active project needs appropriate processes and terms to manage contributions.
 
 ### Integrating GitHub Apps
 
-We get large volumes of asks about adding GitHub Apps to our org's repos. [Submit a support request on our Jira Service Manager system] to request a GitHub App to be installed. We need to know:
+We get large volumes of asks about adding GitHub Apps to our org's repos. [Submit a support request on our Jira Service Manager system](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10) to request a GitHub App to be installed. We need to know:
 
 * Contact information
-
 * Detailed information about the GitHub App
+
+New GitHub App installations into the bcgov or bcgov-c orgs require a STRA assessment initiated by the requesting team. Existing app installations do not require a new STRA assessment.
+
+#### Existing GitHub App Installations
+
+**Atlassian (JIRA)**
+
+The Atlassian (JIRA) GitHub App is installed in the bcgov and bcgov-c orgs for select repos.
+
+Use the [I want to connect JIRA to GitHub](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/18) ticket to connect your JIRA with bcgov or bcgov-c.
+
+If your JIRA site is already connected to GitHub use the [I want to install an application in a repository](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10) ticket to request access for your repo.
+
+**SonarCloud**
+
+The SonarCloud GitHub App is installed in the bcgov org for all repos.
+
+Use the [I want to import a GitHub repository to SonarCloud](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/594) ticket to import your repo into a Sonar Cloud project.
+
+**Renovate**
+
+The Renovate GitHub App is installed in the bcgov and bcgov-c orgs for select repos.
+
+Use the [I want to install an application in a repository](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/10) ticket to request access for your repo.
 
 ### Initiate new code or projects
 
