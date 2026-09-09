@@ -15,7 +15,7 @@ Use the **bcgov-c** GitHub organization for repositories that require restricted
 - The repository contains application source code, scripts, libraries, documentation, templates or configuration that can be publicly shared 
 - The repository does not contain sensitive information 
 - The repository aligns with B.C. government's open source and [Working in the Open](https://digital.gov.bc.ca/design/dcop/open/) principles 
-- Other teams, governments, vendors of members of the public could potentially reuse the code
+- Other teams, governments, vendors or members of the public could potentially reuse the code
 
 Examples include: 
 
