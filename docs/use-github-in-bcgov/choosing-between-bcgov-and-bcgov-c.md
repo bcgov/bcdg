@@ -77,7 +77,7 @@ Before creating a repository in bcgov-c, review the following questions.
 
 **Privacy**
 
-- Does the repository contain personal information? See [Privacy Guidance](https://github.com/bcgov/BC-Policy-Framework-For%20GitHub/blob/master/PRIVACY_GUIDANCE.md)
+- Does the repository contain personal information? See [Privacy Guidance](https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/PRIVACY_GUIDANCE.md)
 - Does it contain sensitive business information that should not be public? 
  
 If **yes**, consider bcgov-c. 
