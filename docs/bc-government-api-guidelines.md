@@ -1,6 +1,6 @@
 _We gratefully acknowledge the assistance of [the Government of Canada in sharing their API standards](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/government-canada-standards-apis.html), providing a baseline for this document._
 
-# BC Government API Guidelines
+# B.C. government API Guidelines
 
 Published by the [Technical Assets Working Group](mailto:jeff.card@gov.bc.ca) under the [BC Data Council](https://www2.gov.bc.ca/gov/content/data/about-data-management/databc)
 

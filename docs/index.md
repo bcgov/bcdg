@@ -1,12 +1,12 @@
-# Welcome to B.C. Government
+# Welcome to the B.C. Developer Guide 
 
-The B.C. Developer Guide **(BCDG)** offers B.C. Government developers a living guide to application development within the public service. Please use it as a reference throughout the software lifecycle, and technical decisions.   
+The B.C. Developer Guide **(BCDG)** offers B.C. government developers a living guide to application development within the public service. Please use it as a reference throughout the software lifecycle, and technical decisions.   
 
-The Developer Experience Team updates the BCDG. We've embedded links into our content to facilitate learning. For any questions, concerns or feedback, we can be reached at developer.experience@gov.bc.ca. 
+The Developer Experience Team (DevX) updates the BCDG. We've embedded links into our content to facilitate learning. For any questions, concerns or feedback, we can be reached at developer.experience@gov.bc.ca. 
 
 ## 7 quick steps to get started
 
-1. Bookmark the Developer Guide because it serves as the central hub for development matters.
+1. Bookmark the B.C. Developer Guide because it serves as the central hub for development matters.
 2. Bookmark the [DevHub documentation page](https://developer.gov.bc.ca/docs?filters%5Buser%5D=all&limit=20) for a list of developer guides.
 3. [Get access to the <code>bcgov</code> GitHub Organization](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#bcgov) and 
    - More information about `bcgov` and `bcgov-c` is available under [Organizations in GitHub](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#organizations-in-github) on the same page.
