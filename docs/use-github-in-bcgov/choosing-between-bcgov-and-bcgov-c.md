@@ -107,7 +107,7 @@ If **yes**, consider using bcgov-c.
 
 If your repository requires restricted access based on the criteria above, request a private repository in bcgov-c: 
 
-**Request a private repository using:**
+**Request a private repository:**
 
 Use the form below and include a brief explanation of why the repository requires restricted access: 
 
