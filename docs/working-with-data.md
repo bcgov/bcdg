@@ -26,8 +26,9 @@ If you are a developer or part of a government team, you can administer and mana
 
 ## Standards
 
-* [API Guidelines](https://classic.developer.gov.bc.ca/Data-and-APIs/BC-Government-API-Guidelines)
-* [OpenAPI specs](https://classic.developer.gov.bc.ca/Data-and-APIs/BC-Government-OpenAPI-Specifications)
+* [API Guidelines](#bc-government-api-guidelines)
+* [OpenAPI specs](https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/bc-government-api-guidelines/#documentation)
+* [Indigenous Languages Technology Standards](https://www2.gov.bc.ca/gov/content/data/policy-standards/data-standards-and-guidelines/ilts)
 
 ### BC Data Catalogue
 
@@ -39,5 +40,5 @@ The province's area, varied topography and predominantly natural resource based 
 
 ## Support
 
-If you're working on a project that will hold citizen or business data, or needs to connect to an existing resource, the [Data Services Client Hub](https://dpdd.atlassian.net/servicedesk/customer/portal/1) can help connect you to the right place for support.
+If you're working on a project that will hold citizen or buisness data, or needs to connect to an existing resource, the [Data Services Client Hub](https://dpdd.atlassian.net/servicedesk/customer/portal/1) can help connect you to the right place for support.
 
