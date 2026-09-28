@@ -25,6 +25,9 @@ Review GitHub's [Transferring a repository](https://docs.github.com/en/repositor
 
 ## Setup
 
+* Review any open [secret scanning alerts](https://docs.github.com/en/code-security/secret-scanning/managing-alerts-from-secret-scanning/resolving-alerts) on your repository's **Security** tab before you transfer.
+  * If the repository will be public after the transfer, its full commit history becomes public as well, including secrets that were committed and later removed.
+  * Rotate any affected keys and passwords before the transfer. Check with your security team if you aren't sure what an alert covers.
 * Make sure all team members have joined the destination organization:
   * [How to join the bcgov organization](bc-government-organizations-in-github.md/#directions-to-sign-up-and-link-your-account-for-bcgov)
   * [How to join the bcgov-c organization](bc-government-organizations-in-github.md/#directions-to-sign-up-and-link-your-account-for-bcgov-c)
@@ -83,6 +86,7 @@ Here are some actions you should consider – not all will apply to everyone.
 
 ## Before migration
 
+* Review open secret scanning alerts and rotate any affected keys and passwords
 * Capture repository access
 * Make sure team members have joined the destination organization
 * Create teams in the destination organization

@@ -26,7 +26,7 @@ exclude_docs: |
     supports_for_developers.md
 
 nav:
-  - Welcome to the B.C. Government: index.md
+  - Welcome to the B.C. Developer Guide: index.md
   # - Digital Government: digital_government.md
   # - Ways of Working: ways_of_working.md
   # - Supports for developers: supports_for_developers.md
@@ -40,6 +40,7 @@ nav:
   - GitHub in the B.C. government:
       - B.C. Government GitHub Quick Reference: use-github-in-bcgov/quick-reference.md
       - bcgov, bcgov-c, and SSO: use-github-in-bcgov/bc-government-organizations-in-github.md
+      - Choosing between bcgov and bcgov-c: use-github-in-bcgov/choosing-between-bcgov-and-bcgov-c.md
       - SSO IDIR and technical guide: use-github-in-bcgov/github-transition-guide.md
       - First steps working in GitHub: use-github-in-bcgov/start-working-in-bcgov-github-organization.md
       - Evaluate open-source content: use-github-in-bcgov/evaluate-open-source-content.md
