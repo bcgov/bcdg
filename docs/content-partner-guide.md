@@ -1,63 +1,49 @@
 # DevHub Content Partner Guide
 
-This guide is for you, if you or your B.C. government team:
+Use this guide if your B.C. government team wants to publish technical documentation in DevHub for a product, service, platform or shared component.
 
-- has a component, service, or platform that aims to make the work of developing software applications for the B.C. government better, faster, or more consistent
-- has technical documentation that technologist should have access to in order to learn about or use your offering
-- would like to publish your documentation in the DevHub alongside documentation for other offerings already in use by technologists working for the B.C. government
+!!! note "**Already familiar with the process and ready to get started?**"
+    Use the [DevHub self-service Wizards](https://developer.gov.bc.ca/create?filters%5Bkind%5D=template&filters%5Buser%5D=all) to create a documentation repository or add existing technical documentation to DevHub. 
 
-## What is DevHub?
+Contact the Developer Experience (DevX) team through Developer Community Microsoft Team's channel [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) if you get stuck or when your documentation is ready for initial publication. 
 
-DevHub is the "landing page for developers" within the B.C. government. It's a work in progress, but we're (we being the [Developer Experience Team](mailto:developer.experience@gov.bc.ca) within the OCIO's Digital office) working to bring together access to as many of the tools, services, and documentation source as possible that technologists need in order to be successful at their jobs of building the next generation of the province's digital services.
+## About DevHub
 
-## What kind of documentation lives in DevHub?
+DevHub is a central place for B.C. government technologists and developers to find tools, services and technical documentation. It helps them also find the information they need to build, maintain and support digital services. 
 
-Documentation in DevHub is technical in nature and helps technologists (developers, DevOps specialists, data scientists, architects, SREs, and more) in their day-to-day work. Business-oriented, non-technical documentation, even if it shares topics with what's in DevHub belongs elsewhere. In parallel to the work we are doing, the [Content Design Team](mailto:do.contentdesign@gov.bc.ca) within the OCIO's Digital Office is working to bring together non-technical documentation in the province's [Digital Government](https://digital.gov.bc.ca) site.   
+## Write and format your documentation
 
-## How does documentation work in DevHub?
+DevHub uses Markdown, a simple text format for writing structured content. Markdown supports headings, links, lists, tables, images and diagrams.
 
-As a small team, we are focused on building the DevHub (and a few other things) but we look to content partners (like you!) for most of the documentation in the site. Since you're the expert about the topics you're documenting, we've designed DevHub and related processes to give you flexibility about how and when your documentation is published within DevHub. There are a few setup steps, which we'll cover below, but after that, you and your team are in control.
+DevHub also uses an `mkdocs.yml` configuration file to control your documentation's navigation. The self-service Wizards provide a starting point for your repository configuration.
 
-We work with several content partners who each work on their own timelines, independently of ours for building DevHub. DevHub is designed for this, and once set up, each content partner can work at their own pace for updating their documentation without impacting each other or relying on our team. Similarly, we can work on improving the DevHub on our timelines without affecting our content partner's documentation work. To enable this, content partners each work in their own GitHub repository, and we work in ours. When a content partner has a version of their documentation ready to publish, it gets automatically published into DevHub and is visible to end users instantly. Content partners also have the ability to preview their content prior to it being available on DevHub. 
+See the [DevHub Content Syntax Guide](../docs/content-syntax-guide.md)for formatting requirements and examples. You can also learn more about Markdown from pages like [Markdown's creator](https://daringfireball.net/projects/markdown/), the Markdown ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/) and [commonmark.org tutorial](https://commonmark.org/help/tutorial/).
 
-Much of the publishing process is enabled through the use of GitHub features, along with an automation component that we have built. The diagram below provides a simple illustration of the overall process, and an explanation of each step follows.
+## Choose an editor
 
-![A diagram of the authoring and publishing process for DevHub. The process is described textually in the paragraph that follows the diagram.](images/devhub_publishing_process_simple.png)
-
-The steps captured in the diagram are as follows:
-
-- As a documentation writer, you edit or create files that will eventually be published in DevHub in your team's GitHub repository . 
-- When you want to preview your documentation, you can save your files to a preview branch (any branch other than a repo's default/main branch) in GitHub and after a few moments, it will then be available for review on the [preview instance of DevHub](https://dev.developer.gov.bc.ca). 
-- Once you're happy with your edits, you'll save your files into your repository's main branch. In this case, after a few moments, your latest documentation will be published and available on the [production DevHub instance](https://developer.gov.bc.ca). 
-- Each time you have changes or additions to make to your documentation, you iterate through this same process.
-
-For those interested in the automated aspect of the process above, it is provided by a purpose-built GitHub "Action" that we have create to simplify things for our content partners, and maintain consistency in the publishing process. It takes care of converting your Markdown content into an HTML format that is compatible with DevHub, packaging it up, and transferring it to a location that DevHub can access it. Your team will be provided with access to the Action as part of the setup steps described [below](#how-do-we-get-set-up-to-have-our-documentation-published-in-devhub).  
-
-## What format is used for DevHub documentation?
-
-DevHub documentation uses the popular Markdown format. Markdown is a simple, text based format that makes writing for the web much easier than using other more complicated formats like HTML. Even though it's simple, Markdown allows writers to use multi-level headings., different text styles, and add tables, images and diagrams. There are many excellent reference on the Internet for writing in Markdown, including  the [pages from Markdown's creator](https://daringfireball.net/projects/markdown/), the Markdown ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/), and [this tutorial](https://commonmark.org/help/tutorial/).
-
-Within DevHub, navigation is driven by a special configuration file called `mkdocs.yml` that is stored in the same GitHub repository as the Markdown files. This file uses the `yml` (pronounced "YAM-EL") format that is slightly more complicated than Markdown, but only infrequently updated. We provide a starter for you and support for working with this file if you need it. 
-
-## What tools can I use to write my documentation?
-
-There are many tools that you can use to write your documentation in Markdown. We provide some examples below.
+You can edit Markdown files directly in GitHub or use a desktop editor.
 
 ### GitHub web interface 
 
-The simplest option for editing your Markdown files is to work on them within GitHub's web interface, which provides a way to edit any text file contained in a GitHub repository.  Using this approach, you can make quick edits, get a preview, and save the changes back to your repository.
+Use GitHub's web interface to edit files in your repository. This is a simple option for making quick changes without installing additional software. You can edit a file, review your changes and save them to your repository.
 
 ### Desktop code or text editor with Markdown plugin
 
-Another way to edit Markdown files is to install a code or text editor on your workstation with plugins for working with Markdown and GitHub. PLugins can help check your syntax and show you a quick preview. Examples of these kinds of tools would be [VS Code](https://code.visualstudio.com) and [Sublime Text](https://www.sublimetext.com), but there are many others. These tools will also help getting your Markdown files into GitHub, but it's not quite as simple as using the GitHub web interface.
+You can also use a desktop editor with Markdown support, such as [Visual Studio Code (VS Code)](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com). These editors can help you write and preview Markdown. You will still need to save your changes to GitHub.
 
 ### Dedicated desktop Markdown editor
 
-One more way to work with Markdown is to install a dedicated Markdown editor on your workstation. There are lots of [options](https://github.com/mundimark/awesome-markdown-editors), but we haven't tried them all. One lightweight option that we have tried for Mac users is [Macdown](https://macdown.uranusjr.com). Using a dedicate Markdown editor, you will usually need a way to get your files stored in GitHub. If you're comfotable with terminal commands, then you can use a [`git` command line client](https://git-scm.com/downloads). If you prefer visual interfaces, tools like [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are options.
+You can install a dedicated Markdown editor on your computer to write and edit documentation.
 
-## What will my documentation look like when it's published?
+The list of Markdown editors includes [many options](https://github.com/mundimark/awesome-markdown-editors). We haven't tested them all. We have tried [MacDown](https://macdown.uranusjr.com), a lightweight editor for Mac.
 
-The appearance of your content is determined by the Markdown syntax you include (headings, text styles, images, etc.) as well as the enhancements and styling provided by DevHub. For example, DevHub will enhance your Markdown with search, and page and document-level navigation. It will also apply styling consistent with B.C. government's visual identity.
+You will still need to save your files to GitHub. If you're comfortable using terminal commands, you can use a [Git command-line client](https://git-scm.com/downloads). If you prefer a graphical interface, you can use tools such as [GitHub Desktop](https://desktop.github.com) or [GitKraken](https://www.gitkraken.com).
+
+## See how DevHub displays documentation
+
+DevHub applies styling to your Markdown content to make it consistent with the B.C. government's visual identity.
+
+It also provides search and page-level navigation to help readers find information.
 
 The images below provide an example of how a Markdown snippet in GitHub (first image) is displayed within DevHub (second image).
 
@@ -65,26 +51,122 @@ The images below provide an example of how a Markdown snippet in GitHub (first i
 
 ![A screenshot of TechDocs-generated documentation displayed within DevHub.](images/devhub_appearance.png)
 
-## How do we get set up to have our documentation published in DevHub?
+## Understand the publishing workflow
 
-The answer is...it depends. If you have existing technical documentation in Markdown format in GitHub, it shouldn't be much work to get it published in DevHub. If you don't have any technical documentation, or it is another format or managed outside GitHub, the path is a bit different and you may have a bit more learning and/or work to do.  
+Your team maintains its documentation in its own GitHub repository. The Developer Experience team maintains DevHub and the tools that publish your content.
 
-In general, the process looks like this:
+You can update your documentation independently without waiting for the Developer Experience team to make changes to DevHub.
 
-1. Set up an overview meeting with [us](mailto:developer.experience@gov.bc.ca). From your team, we suggest including the Product Owner as well as anyone else involved in writing technical documentation for your product or service. It's also helpful to have a technical person from your team who understands the technical tools and processes you're already using. During this meeting, we'll provide an overview of DevHub, answer any questions you have, and talk about next steps (see below). Be prepared to discuss your existing technical documentation, related tools and processes, and what goals you have going forward.
-2.  Following the overview meeting, we will recommend a working session between ourselves and one or more  technical team members to adapt your existing documentation process to one that is compatible with DevHub. The goal of the working session is to get your team comfortable working in a DevHub-compatible workflow, as well as identifying any changes needed to your content in order for it to be publishable in DevHub.
-3. After the working session, your team may have some "homework" to adapt content or implement automated tools. The amount of work will depend on that is uncovered in the working session. You can complete these items on your own timeline.
-4. Once your "homework" is completed, you can contact us and let us know that you are ready to have an initial version of your documentation published in DevHub. We will complete a small technical "registration" task and your documentation will be available within DevHub shortly afterward.
+The publishing process works as follows:
 
-## What license should my content have?
+- **Write and edit**: Create or update your documentation in your team's GitHub repository
+- **Preview:** Save your files to a preview branch (any branch other than a repo's default/main branch) in GitHub and after a few moments, it will then be available for review on the preview instance: [https://dev.developer.gov.bc.ca](https://dev.developer.gov.bc.ca/) of DevHub.
+- **Publish:** Save your approved changes to the main branch to publish them to the live DevHub site
+- **Maintain:** Repeat this process whenever you need to update your documentation
 
-Markdown documentation that is stored in GitHub and will be published in DevHub should have a Creative Commons license. Specifically, the "CC BY" license, which is described in detail on the corresponding [Creative Commons page](https://creativecommons.org/licenses/by/4.0/).  A file called "LICENSE.md" containing the [license legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) should be stored in the root of your documentation repository alongside your documentation.  
+The publishing workflow automatically converts your Markdown files into a format DevHub can display.
 
-> Our self serve tool will automatically include a license file when you use it create a repository for your documentation. If your documentation is being added to an existing repository, you should ensure that a license file is added.  If your repository has both documentation and code, and they are under different licenses, you should have two license files (e.g. LICENSE.md for code and LICENSE_DOCS.md for documentation). You should indicate in your README.md file that the code and documentation are under separate licenses and which license file applies to each.
+Much of the publishing process is enabled through the use of GitHub features, along with an automation component that we have built. The diagram below provides a simple illustration of the overall process you just read above.
 
-## What kinds of modifications are needed to existing technical documentation in Markdown in order to work in DevHub?
+![A diagram of the authoring and publishing process for DevHub. The process is described textually in the paragraph that follows the diagram.](images/devhub_publishing_process_simple.png)
 
-The answer is, again...it depends. In general there is minimal effort required to adapt content for compatibility with DevHub. The [DevHub Content Syntax Guide](content-syntax-guide.md) provides information about the syntax requirements for DevHub content.
+For those interested in the automated aspect of the process above, it is provided by a purpose-built GitHub "Action" that we have create to simplify things for our content partners, and maintain consistency in the publishing process. It takes care of converting your Markdown content into an HTML format that is compatible with DevHub, packaging it up, and transferring it to a location that DevHub can access it.
+
+The Developer Experience team configures access to the publishing workflow during the initial setup process. See [Create and publish your documentation in DevHub](#create-and-publish-your-documentation-in-devhub) for guidance and details.
+
+## Confirm your content belongs in DevHub
+
+DevHub contains technical documentation that helps technologists use or support a product, service, platform or shared component. Business-oriented and other non-technical content belongs on the [Digital Government](https://digital.gov.bc.ca) website.
+
+## Create and publish your documentation in DevHub
+
+Follow these steps to create your documentation repository, prepare your content and request initial publication.
+
+### Before you start: Adapt existing documentation for DevHub
+
+If your team already has technical documentation, review it before you set up your repository. DevHub uses Markdown and has specific content and formatting requirements.
+
+Use the [DevHub Content Syntax Guide](../docs/content-syntax-guide.md) to identify any changes your existing content needs. If your documentation uses another format, plan how you will convert it to Markdown. If it lives outside GitHub, plan how you will move it into your documentation repository after you create or prepare the repository in Step 1.
+
+You will make these changes in Step 2. If you are starting new documentation, you can skip this prerequisite.
+
+### 1. Create or prepare documentation repository
+
+Start with the [DevHub self-service Wizards - TechDocs](https://developer.gov.bc.ca/create?filters%5Bkind%5D=template&filters%5Buser%5D=all)
+
+Choose the Wizard that matches your situation:
+
+- **Create a technical documentation repo:** Choose this option if your team needs a new GitHub repository for its technical documentation. The Wizard creates a repository with the required files for DevHub
+
+- **Add existing technical documentation to DevHub:** Choose this option if your technical documentation already lives in a GitHub repository you want to keep using. The Wizard adds the required files to that repository
+
+Follow the prompts to provide information about your product, service or component, hosting platform, license and repository. 
+
+### 2. Review the information after completing the Wizard
+
+After you complete the Wizard: 
+
+- Open the repository in GitHub
+- Review the starter files and instructions
+- Check the documentation structure and navigation configuration
+- Start adding or updating your technical documentation
+
+Check the documentation license. DevHub documentation should use the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+The Wizard adds a license file when it creates a new repository. If you use an existing repository, check that a file named `LICENSE.md` containing the [license text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) is in the repository's root directory.
+
+If your repository contains both code and documentation under different licenses, add a separate license file for the documentation, such as `LICENSE_DOCS.md`. Update your `README.md` to explain which license applies to each.
+
+If you have questions about the Wizard or repository setup, contact the Developer Experience team in the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel on Microsoft Teams.
+
+### 3. Prepare your documentation 
+
+Add your technical documentation to the repository in Markdown format. If you already maintain Markdown documentation, check it against the [DevHub Content Syntax Guide](../docs/content-syntax-guide.md).
+
+If your content uses another format or lives outside GitHub, adapt it before publishing. Organize your files and update the navigation configuration as needed.
+
+### 4. Coordinate your initial publishing setup
+
+Contact the Developer Experience team before you merge your first publishing changes into main. Post in the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel in Microsoft Teams and include:
+
+- A link to your GitHub repository
+- A brief note that your documentation is ready for initial publishing setup
+- A link to your catalog pull request, if you have opened one
+
+The Developer Experience team needs to grant your repository access to the GitHub secrets used by the publishing workflow. DevX also needs to make sure DevHub has a catalog entry for your documentation. 
+
+#### Add or update your DevHub catalog entry
+
+The catalog helps DevHub organize information about products, services and documentation.
+
+1. Open the [Developer Experience team catalog repository](https://github.com/bcgov/developer-experience-team/tree/main/developer-portal/catalog)
+2. Review existing entries to find the appropriate file and see how entries are structured
+3. Add or update your entry using the repository's format and required fields
+4. Open a pull request for your changes, following the repository's contribution process
+
+Check that the entry identifies your offering and points to the correct documentation. If you are unsure which file to edit or how to submit the change, ask the Developer Experience team for help in the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel.
+
+Finally, wait for the Developer Experience team to confirm that the required GitHub secrets are configured and the catalog setup is ready before you merge your publishing changes into `main`.
+
+### 5. Preview your changes and publish your documentation
+
+Preview your documentation before publishing it.
+
+**Preview in DevHub**
+
+1. Save your changes to a branch other than main
+2. Open the DevHub [preview environment](https://dev.developer.gov.bc.ca/) after the publishing workflow has run
+3. Review your content, navigation, links, images and formatting.
+Fix any issues you find and preview your changes again
+
+**Preview locally on your computer**
+
+You can also preview your documentation locally using the DevHub TechDocs Publish Docker image. This option generates a preview of your documentation and runs a link check before starting a local preview server.
+
+Review: [How to use the Docker image to preview content locally](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) for setup instructions and commands. You can use Docker, Colima or Podman.
+
+Using the preview options allows you see how your documentation would look live on DevHub. This allows you to fix any issues prior publishing. When you're satisfied with the result, merge or save your approved changes to main, following your team's GitHub workflow.
+
 
 
 
