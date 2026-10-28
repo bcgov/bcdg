@@ -165,7 +165,7 @@ You can also preview your documentation locally using the DevHub TechDocs Publis
 
 Review: [How to use the Docker image to preview content locally](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) for setup instructions and commands. You can use Docker, Colima or Podman.
 
-Using the preview options allows you see how your documentation would look live on DevHub. This allows you to fix any issues prior publishing. When you're satisfied with the result, merge or save your approved changes to main, following your team's GitHub workflow.
+Using the preview options allows you see how your documentation would look live on DevHub. This allows you to fix any issues prior to publishing. When you're satisfied with the result, commit your changes to a branch and push to GitHub, following your team's GitHub workflow.
 
 
 
