@@ -60,7 +60,7 @@ You can update your documentation independently without waiting for the Develope
 The publishing process works as follows:
 
 - **Write and edit**: Create or update your documentation in your team's GitHub repository
-- **Preview:** Save your files to a preview branch (any branch other than a repo's default/main branch) in GitHub and after a few moments, it will then be available for review on the preview instance: [https://dev.developer.gov.bc.ca](https://dev.developer.gov.bc.ca/) of DevHub.
+- **Preview:** Save your files to a preview branch (any branch other than a repo's default/main branch) and create a [pull request](https://docs.github.com/en/pull-requests/reference/pull-requests) in GitHub. After a few moments, it will then be available for review on the preview instance: [https://dev.developer.gov.bc.ca](https://dev.developer.gov.bc.ca/) of DevHub. Note: the PR with the most recent commit will be displayed on the preview site.
 - **Publish:** Save your approved changes to the main branch to publish them to the live DevHub site
 - **Maintain:** Repeat this process whenever you need to update your documentation
 
