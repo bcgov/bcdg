@@ -2,7 +2,7 @@
 
 Use this guide if your B.C. government team wants to publish technical documentation in DevHub for a product, service, platform or shared component.
 
-!!! note "**Already familiar with the process and ready to get started?**"
+!!! note **Already familiar with the process and ready to get started?**
     Use the [DevHub self-service Wizards](https://developer.gov.bc.ca/create?filters%5Bkind%5D=template&filters%5Buser%5D=all) to create a documentation repository or add existing technical documentation to DevHub. 
 
 Contact the Developer Experience (DevX) team through Developer Community Microsoft Team's channel [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) if you get stuck or when your documentation is ready for initial publication. 
@@ -21,6 +21,8 @@ Refer to the [DevHub Content Syntax Guide](content-syntax-guide.md) for formatti
 
 ## Choose an editor
 
+!!! Warning Always verify guidance by the [Appropriate Use Policy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/appropriate-use-policy) for approved software.
+
 You can edit Markdown files directly in GitHub or use a desktop editor.
 
 ### GitHub web interface 
@@ -29,16 +31,15 @@ Use GitHub's web interface to edit files in your repository. This is a simple op
 
 ### Desktop code or text editor with Markdown plugin
 
-You can also use a desktop editor with Markdown support, such as [Visual Studio Code (VS Code)](https://code.visualstudio.com) or [Sublime Text](https://www.sublimetext.com). These editors can help you write and preview Markdown. You will still need to save your changes to GitHub.
+You can also use a desktop editor with Markdown support, such as [Visual Studio Code (VS Code)](https://code.visualstudio.com). The editors can help you write and preview Markdown. You will still need to save your changes to GitHub.
 
 ### Dedicated desktop Markdown editor
 
-You can install a dedicated Markdown editor on your computer to write and edit documentation.
+Where appropriate, you can install a dedicated Markdown editor on your computer to write and edit documentation.
 
-The list of Markdown editors includes [many options](https://github.com/mundimark/awesome-markdown-editors). We haven't tested them all. We have tried [MacDown](https://macdown.uranusjr.com), a lightweight editor for Mac.
+The list of Markdown editors includes [many options](https://github.com/mundimark/awesome-markdown-editors) examples include: VSCode, Git CLI and GitHub Desktop. 
 
-You will still need to save your files to GitHub. If you're comfortable using terminal commands, you can use a [Git command-line client](https://git-scm.com/downloads). If you prefer a graphical interface, you can use tools such as [GitHub Desktop](https://desktop.github.com) or [GitKraken](https://www.gitkraken.com).
-
+You will still need to save your files to GitHub. If you're comfortable using terminal commands, you can use a [Git command-line client](https://git-scm.com/downloads). If you prefer a graphical interface, you can use tools such as [GitHub Desktop](https://desktop.github.com),
 ## See how DevHub displays documentation
 
 DevHub applies styling to your Markdown content to make it consistent with the B.C. government's visual identity.
@@ -60,19 +61,48 @@ You can update your documentation independently without waiting for the Develope
 The publishing process works as follows:
 
 - **Write and edit**: Create or update your documentation in your team's GitHub repository
-- **Preview:** Save your files to a preview branch (any branch other than a repo's default/main branch) and create a [pull request](https://docs.github.com/en/pull-requests/reference/pull-requests) in GitHub. After a few moments, it will then be available for review on the preview instance: [https://dev.developer.gov.bc.ca](https://dev.developer.gov.bc.ca/) of DevHub. Note: the PR with the most recent commit will be displayed on the preview site.
+- **Preview:** Save your files to a preview branch (any branch other than a repo's default/main branch) and create a [pull request](https://docs.github.com/en/pull-requests/reference/pull-requests) in GitHub. After a few moments, it will then be available for review on the preview instance: [https://test.developer.gov.bc.ca](https://test.developer.gov.bc.ca/) of DevHub. Note: the PR with the most recent commit will be displayed on the preview site.
 - **Publish:** Merge your approved pull request to the main branch to publish them to the live DevHub site
 - **Maintain:** Repeat this process whenever you need to update your documentation
 
 The publishing workflow automatically converts your Markdown files into a format DevHub can display.
 
-Much of the publishing process is enabled through the use of GitHub features, along with an automation component that we have built. The diagram below provides a simple illustration of the overall process you just read above.
+Much of the publishing process is enabled through the use of GitHub features, along with an automation component that we have built. The diagram below provides a simple illustration of the overall process.
 
-![A diagram of the authoring and publishing process for DevHub. The process is described textually in the paragraph that follows the diagram.](images/devhub_publishing_process_simple.png)
+```mermaid
+flowchart TD
+    A["Create a repository using the Wizard<br/>or prepare an existing repository"]
+    B["Review the generated files<br/>and add your documentation"]
+    C["Update publish.yaml<br/>Set publish: true and uncomment<br/>the required lines"]
+    D["Contact the Developer Experience team<br/>to coordinate initial setup"]
+    E["Team grants access to required<br/>GitHub secrets and checks catalog setup"]
+    F["Create a pull request (PR)<br/>to preview changes"]
+    G["GitHub Actions builds<br/>and publishes the preview"]
+    H["Review changes in the<br/>DevHub test environment"]
+    I{"Are changes ready?"}
+    J["Merge approved changes<br/>into the main branch"]
+    K["GitHub Actions builds<br/>and publishes to production"]
+    L["Documentation is live on DevHub"]
+
+    A --> B --> C --> D --> E --> F --> G --> H --> I
+    I -->|No| B
+    I -->|Yes| J --> K --> L
+
+    H -.-> T["TEST<br/>https://test.developer.gov.bc.ca"]
+    L -.-> P["PRODUCTION<br/>https://developer.gov.bc.ca"]
+
+    classDef setup fill:#f2f2f2,stroke:#666,color:#222
+    classDef preview fill:#eaf4ff,stroke:#268bd2,color:#123
+    classDef production fill:#eaf7ed,stroke:#399b59,color:#123
+
+    class A,B,C,D,E setup
+    class F,G,H,T preview
+    class I,J,K,L,P production
+```
 
 For those interested in the automated aspect of the process above, it is provided by a purpose-built GitHub "Action" that we have create to simplify things for our content partners, and maintain consistency in the publishing process. It takes care of converting your Markdown content into an HTML format that is compatible with DevHub, packaging it up, and transferring it to a location that DevHub can access it.
 
-The Developer Experience team configures access to the publishing workflow during the initial setup process. See [Create and publish your documentation in DevHub](#create-and-publish-your-documentation-in-devhub) for guidance and details.
+The Developer Experience team configures access to the publishing workflow during the initial setup process. Refer to the section: [Create and publish your documentation in DevHub](#create-and-publish-your-documentation-in-devhub) for guidance and details.
 
 ## Confirm your content belongs in DevHub
 
@@ -102,18 +132,30 @@ Choose the Wizard that matches your situation:
 
 Follow the prompts to provide information about your product, service or component, hosting platform, license and repository. 
 
-### 2. Review the information after completing the Wizard
+### 2. Review the files created by the Wizard
 
-After you complete the Wizard: 
+After completing the Wizard, open your repository and review the files it created. Check the documentation structure and navigation, then start adding or updating your content.
 
-- Open the repository in GitHub
-- Review the starter files and instructions
-- Check the documentation structure and navigation configuration
-- Start adding or updating your technical documentation
+#### Enable the publishing workflow
 
-Check the documentation license. DevHub documentation should use the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+The Wizard creates a `.github/workflows/publish.yaml` file in your repository. Publishing is disabled by default, so you must update this file before your documentation can appear on the DevHub preview or production site.
 
-The Wizard adds a license file when it creates a new repository. If you use an existing repository, check that a file named `LICENSE.md` containing the [license text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) is in the repository's root directory.
+To enable publishing: 
+
+1. Open `.github/workflows/publish.yaml in your repository
+2. Find the publish: `false` line
+3. Change it to publish: `true`
+4. Uncomment the lines immediately below it, as indicated in the file
+
+You can refer to the [publishing workflow template](https://github.com/bcgov/devhub-templates/blob/075fe8d8985f6eccf295db095baa9a0399f55bc8/shared/.github/workflows/publish.yaml#L33) for guidance. This link points to the template used by the Wizard. **Make these changes in your own repository's copy of `publish.yaml`, not the template.**
+
+The Developer Experience team (DevX) must also grant your repository access to the GitHub secrets required for publishing. Contact the team in the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) Microsoft Teams channel to coordinate the initial set up. Your documentation will not publish until the workflow is enabled and the required access is configured. 
+
+#### Check the documentation licence
+
+The Wizard adds a `LICENSE.md` file with the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) when it creates a new repository.
+
+If you are adding documenation to an existing repository, check that its root directory contains a `LICENSE.md` containing the [license text](https://creativecommons.org/licenses/by/4.0/legalcode.txt).
 
 If your repository contains both code and documentation under different licenses, add a separate license file for the documentation, such as `LICENSE_DOCS.md`. Update your `README.md` to explain which license applies to each.
 
@@ -165,7 +207,9 @@ You can also preview your documentation locally using the DevHub TechDocs Publis
 
 Review: [How to use the Docker image to preview content locally](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) for setup instructions and commands. You can use Docker, Colima or Podman.
 
-Using the preview options allows you see how your documentation would look live on DevHub. This allows you to fix any issues prior to publishing. When you're satisfied with the result, commit your changes to a branch and push to GitHub, following your team's GitHub workflow.
+Using the preview options allows you see how your documentation would look live on DevHub. This allows you to fix any issues prior to publishing. 
+
+When you're satisfied with the result, commit your changes to a branch and push to GitHub, following your team's GitHub workflow.
 
 
 
