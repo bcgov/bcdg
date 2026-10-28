@@ -154,7 +154,7 @@ Preview your documentation before publishing it.
 
 **Preview in DevHub**
 
-1. Save your changes to a branch other than main
+1. Save your changes to a branch other than main and create a pull request
 2. Open the DevHub [preview environment](https://dev.developer.gov.bc.ca/) after the publishing workflow has run
 3. Review your content, navigation, links, images and formatting.
 Fix any issues you find and preview your changes again
