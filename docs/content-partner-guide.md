@@ -140,7 +140,7 @@ The Developer Experience team needs to grant your repository access to the GitHu
 The catalog helps DevHub organize information about products, services and documentation.
 
 1. Open the [Developer Experience team catalog repository](https://github.com/bcgov/developer-experience-team/tree/main/developer-portal/catalog)
-2. Review existing entries to find the appropriate file and see how entries are structured
+2. Review existing entries in the `catalog-seed-[dev|test|prod].yml files to find the appropriate file and see how entries are structured
 3. Add or update your entry using the repository's format and required fields
 4. Open a pull request for your changes, following the repository's contribution process
 
