@@ -17,7 +17,7 @@ DevHub uses Markdown, a simple text format for writing structured content. Markd
 
 DevHub also uses an `mkdocs.yml` configuration file to control your documentation's navigation. The self-service Wizards provide a starting point for your repository configuration.
 
-See the [DevHub Content Syntax Guide](../docs/content-syntax-guide.md)for formatting requirements and examples. You can also learn more about Markdown from pages like [Markdown's creator](https://daringfireball.net/projects/markdown/), the Markdown ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/) and [commonmark.org tutorial](https://commonmark.org/help/tutorial/).
+Refer to the [DevHub Content Syntax Guide](content-syntax-guide.md) for formatting requirements and examples. You can also learn more about Markdown from pages like [Markdown's creator](https://daringfireball.net/projects/markdown/), the Markdown ["cheat sheet"](https://www.markdownguide.org/cheat-sheet/) and [commonmark.org tutorial](https://commonmark.org/help/tutorial/).
 
 ## Choose an editor
 
