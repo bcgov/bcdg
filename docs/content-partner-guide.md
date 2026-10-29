@@ -2,7 +2,7 @@
 
 Use this guide if your B.C. government team wants to publish technical documentation in DevHub for a product, service, platform or shared component.
 
-!!! note **Already familiar with the process and ready to get started?**
+!!! note "Already familiar with the process and ready to get started?"
     Use the [DevHub self-service Wizards](https://developer.gov.bc.ca/create?filters%5Bkind%5D=template&filters%5Buser%5D=all) to create a documentation repository or add existing technical documentation to DevHub. 
 
 Contact the Developer Experience (DevX) team through Developer Community Microsoft Team's channel [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) if you get stuck or when your documentation is ready for initial publication. 
@@ -21,7 +21,7 @@ Refer to the [DevHub Content Syntax Guide](content-syntax-guide.md) for formatti
 
 ## Choose an editor
 
-!!! Warning Always verify guidance by the [Appropriate Use Policy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/appropriate-use-policy) for approved software.
+!!! Warning "Always verify guidance by the [Appropriate Use Policy](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/appropriate-use-policy) for approved software."
 
 You can edit Markdown files directly in GitHub or use a desktop editor.
 
