@@ -116,7 +116,7 @@ Follow these steps to create your documentation repository, prepare your content
 
 If your team already has technical documentation, review it before you set up your repository. DevHub uses Markdown and has specific content and formatting requirements.
 
-Use the [DevHub Content Syntax Guide](../docs/content-syntax-guide.md) to identify any changes your existing content needs. If your documentation uses another format, plan how you will convert it to Markdown. If it lives outside GitHub, plan how you will move it into your documentation repository after you create or prepare the repository in Step 1.
+Use the [DevHub Content Syntax Guide](content-syntax-guide.md) to identify any changes your existing content needs. If your documentation uses another format, plan how you will convert it to Markdown. If it lives outside GitHub, plan how you will move it into your documentation repository after you create or prepare the repository in Step 1.
 
 You will make these changes in Step 2. If you are starting new documentation, you can skip this prerequisite.
 
