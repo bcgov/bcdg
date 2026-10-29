@@ -39,7 +39,8 @@ Where appropriate, you can install a dedicated Markdown editor on your computer 
 
 The list of Markdown editors includes [many options](https://github.com/mundimark/awesome-markdown-editors) examples include: VSCode, Git CLI and GitHub Desktop. 
 
-You will still need to save your files to GitHub. If you're comfortable using terminal commands, you can use a [Git command-line client](https://git-scm.com/downloads). If you prefer a graphical interface, you can use tools such as [GitHub Desktop](https://desktop.github.com),
+You will still need to save your files to GitHub. If you're comfortable using terminal commands, you can use a [Git command-line client](https://git-scm.com/downloads). If you prefer a graphical interface, you can use tools such as [GitHub Desktop](https://desktop.github.com).
+
 ## See how DevHub displays documentation
 
 DevHub applies styling to your Markdown content to make it consistent with the B.C. government's visual identity.
@@ -54,51 +55,17 @@ The images below provide an example of how a Markdown snippet in GitHub (first i
 
 ## Understand the publishing workflow
 
-Your team maintains its documentation in its own GitHub repository. The Developer Experience team maintains DevHub and the tools that publish your content.
+Your team maintains its documentation in its own GitHub repository. The Developer Experience (DevX) team maintains DevHub and the tools that publish your content.
 
-You can update your documentation independently without waiting for the Developer Experience team to make changes to DevHub.
+Once your repository is configured for publishing, you can update your documentation independently without waiting for DevX to make changes.
 
-The publishing process works as follows:
+The publishing process has 3 main steps:
 
 - **Write and edit**: Create or update your documentation in your team's GitHub repository
 - **Preview:** Save your files to a preview branch (any branch other than a repo's default/main branch) and create a [pull request](https://docs.github.com/en/pull-requests/reference/pull-requests) in GitHub. After a few moments, it will then be available for review on the preview instance: [https://test.developer.gov.bc.ca](https://test.developer.gov.bc.ca/) of DevHub. Note: the PR with the most recent commit will be displayed on the preview site.
 - **Publish:** Merge your approved pull request to the main branch to publish them to the live DevHub site
-- **Maintain:** Repeat this process whenever you need to update your documentation
 
-The publishing workflow automatically converts your Markdown files into a format DevHub can display.
-
-Much of the publishing process is enabled through the use of GitHub features, along with an automation component that we have built. The diagram below provides a simple illustration of the overall process.
-
-```mermaid
-flowchart TD
-    A["Create a repository using the Wizard<br/>or prepare an existing repository"]
-    B["Review the generated files<br/>and add your documentation"]
-    C["Update publish.yaml<br/>Set publish: true and uncomment<br/>the required lines"]
-    D["Contact the Developer Experience team<br/>to coordinate initial setup"]
-    E["Team grants access to required<br/>GitHub secrets and checks catalog setup"]
-    F["Create a pull request (PR)<br/>to preview changes"]
-    G["GitHub Actions builds<br/>and publishes the preview"]
-    H["Review changes in the<br/>DevHub test environment"]
-    I{"Are changes ready?"}
-    J["Merge approved changes<br/>into the main branch"]
-    K["GitHub Actions builds<br/>and publishes to production"]
-    L["Documentation is live on DevHub"]
-
-    A --> B --> C --> D --> E --> F --> G --> H --> I
-    I -->|No| B
-    I -->|Yes| J --> K --> L
-
-    H -.-> T["TEST<br/>https://test.developer.gov.bc.ca"]
-    L -.-> P["PRODUCTION<br/>https://developer.gov.bc.ca"]
-
-    classDef setup fill:#f2f2f2,stroke:#666,color:#222
-    classDef preview fill:#eaf4ff,stroke:#268bd2,color:#123
-    classDef production fill:#eaf7ed,stroke:#399b59,color:#123
-
-    class A,B,C,D,E setup
-    class F,G,H,T preview
-    class I,J,K,L,P production
-```
+The following sections explain how to set up your repository and publish your documentation for the first time.
 
 For those interested in the automated aspect of the process above, it is provided by a purpose-built GitHub "Action" that we have create to simplify things for our content partners, and maintain consistency in the publishing process. It takes care of converting your Markdown content into an HTML format that is compatible with DevHub, packaging it up, and transferring it to a location that DevHub can access it.
 
@@ -142,7 +109,7 @@ The Wizard creates a `.github/workflows/publish.yaml` file in your repository. P
 
 To enable publishing: 
 
-1. Open `.github/workflows/publish.yaml in your repository
+1. Open `.github/workflows/publish.yaml` in your repository
 2. Find the publish: `false` line
 3. Change it to publish: `true`
 4. Uncomment the lines immediately below it, as indicated in the file
@@ -169,13 +136,37 @@ If your content uses another format or lives outside GitHub, adapt it before pub
 
 ### 4. Coordinate your initial publishing setup
 
-Contact the Developer Experience team before you merge your first publishing changes into main. Post in the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel in Microsoft Teams and include:
+#### Initial setup at a glance
+
+Complete these steps before publishing your documentation for the first time. You only need to coordinate the initial setup once per repository unless changes to the configuration are needed later.
+
+```mermaid
+flowchart TD
+    A["Complete Steps 1–3<br/>Prepare your repository and documentation"] --> B["Enable publishing in publish.yaml<br/>See Step 2"]
+    B --> C["Create or update your<br/>DevHub catalog entry"]
+    C --> D["Contact DevX in the<br/>DevHub-howto Teams channel"]
+    D --> E["DevX grants access to required<br/>GitHub secrets and checks catalog setup"]
+    E --> F["Wait for DevX to confirm<br/>initial setup is ready"]
+    F --> G["Ready to preview and publish<br/>your documentation"]
+
+    classDef preparation fill:#f2f2f2,stroke:#666,color:#222
+    classDef coordination fill:#fff1db,stroke:#c58b32,color:#222
+    classDef ready fill:#eaf7ed,stroke:#399b59,color:#123
+
+    class A,B,C preparation
+    class D,E,F coordination
+    class G ready
+```
+
+Before merging your first publishing changes into main, contact the Developer Experience (DevX) team through the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel in Microsoft Teams and include:
 
 - A link to your GitHub repository
 - A brief note that your documentation is ready for initial publishing setup
 - A link to your catalog pull request, if you have opened one
 
-The Developer Experience team needs to grant your repository access to the GitHub secrets used by the publishing workflow. DevX also needs to make sure DevHub has a catalog entry for your documentation. 
+DevX must grant your repository access to the GitHub secrets required by the publishing workflow. The team also needs to confirm that the DevHub catalog entry is ready.
+
+Wait for DevX to confirm that the required access and catalog setup are ready before merging your initial publishing changes into main.
 
 #### Add or update your DevHub catalog entry
 
@@ -211,8 +202,33 @@ Using the preview options allows you see how your documentation would look live 
 
 When you're satisfied with the result, commit your changes to a branch and push to GitHub, following your team's GitHub workflow.
 
+This diagram shows the recurring process after your repository has been configured for publishing.
 
+```mermaid
+flowchart TD
+    A["Edit documentation<br/>in your repository"] --> B["Create a pull request (PR)<br/>to preview your changes"]
+    B --> C["GitHub Actions builds<br/>and publishes the preview"]
+    C --> D["Review changes in the<br/>DevHub test environment"]
+    D --> E{"Are the changes ready?"}
 
+    E -->|No| F["Make corrections<br/>in your repository"]
+    F --> B
+
+    E -->|Yes| G["Merge the approved changes<br/>into the main branch"]
+    G --> H["GitHub Actions builds<br/>and publishes to production"]
+    H --> I["Changes are live on DevHub"]
+
+    D -.-> J["TEST<br/>https://test.developer.gov.bc.ca"]
+    I -.-> K["PRODUCTION<br/>https://developer.gov.bc.ca"]
+
+    classDef author fill:#f2f2f2,stroke:#666,color:#222
+    classDef preview fill:#eaf4ff,stroke:#268bd2,color:#123
+    classDef production fill:#eaf7ed,stroke:#399b59,color:#123
+
+    class A,F author
+    class B,C,D,J preview
+    class E,G,H,I,K production
+```
 
 
 
