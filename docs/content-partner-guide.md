@@ -163,7 +163,7 @@ If you have questions about the Wizard or repository setup, contact the Develope
 
 ### 3. Prepare your documentation 
 
-Add your technical documentation to the repository in Markdown format. If you already maintain Markdown documentation, check it against the [DevHub Content Syntax Guide](../docs/content-syntax-guide.md).
+Add your technical documentation to the repository in Markdown format. If you already maintain Markdown documentation, check it against the [DevHub Content Syntax Guide](content-syntax-guide.md).
 
 If your content uses another format or lives outside GitHub, adapt it before publishing. Organize your files and update the navigation configuration as needed.
 
