@@ -5,7 +5,10 @@ Use this guide if your B.C. government team wants to publish technical documenta
 !!! note "Already familiar with the process and ready to get started?"
     Use the [DevHub self-service Wizards](https://developer.gov.bc.ca/create?filters%5Bkind%5D=template&filters%5Buser%5D=all) to create a documentation repository or add existing technical documentation to DevHub. 
 
-Contact the Developer Experience (DevX) team through Developer Community Microsoft Team's channel [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) if you get stuck or when your documentation is ready for initial publication. 
+- Contact the Developer Experience (DevX) team through Developer Community Microsoft Team's channel [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) if you get stuck 
+
+Or 
+- [Create a request ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/764) when your documentation is ready for initial publication or you need changes to an existing publishing configuration
 
 ## About DevHub
 
@@ -49,7 +52,7 @@ It also provides search and page-level navigation to help readers find informati
 
 The images below provide an example of how a Markdown snippet in GitHub (first image) is displayed within DevHub (second image).
 
-![A screenshot of the Mardown source ](images/markdown_source.png)
+![A screenshot of the Markdown source ](images/markdown_source.png)
 
 ![A screenshot of TechDocs-generated documentation displayed within DevHub.](images/devhub_appearance.png)
 
@@ -73,7 +76,7 @@ The Developer Experience team configures access to the publishing workflow durin
 
 ## Confirm your content belongs in DevHub
 
-DevHub contains technical documentation that helps technologists use or support a product, service, platform or shared component. Business-oriented and other non-technical content belongs on the [Digital Government](https://digital.gov.bc.ca) website.
+DevHub contains technical documentation that helps technologists use or support a product, service, platform or shared component. Business-oriented and other non-technical content belongs on the [Connected Services BC](https://digital.gov.bc.ca) website.
 
 ## Create and publish your documentation in DevHub
 
@@ -116,7 +119,7 @@ To enable publishing:
 
 You can refer to the [publishing workflow template](https://github.com/bcgov/devhub-templates/blob/075fe8d8985f6eccf295db095baa9a0399f55bc8/shared/.github/workflows/publish.yaml#L33) for guidance. This link points to the template used by the Wizard. **Make these changes in your own repository's copy of `publish.yaml`, not the template.**
 
-The Developer Experience team (DevX) must also grant your repository access to the GitHub secrets required for publishing. Contact the team in the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) Microsoft Teams channel to coordinate the initial set up. Your documentation will not publish until the workflow is enabled and the required access is configured. 
+The Developer Experience team (DevX) must also grant your repository access to the GitHub secrets required for publishing. Your documentation will not publish until the workflow is enabled and the required access is configured. More on this in [Step 4](#4-coordinate-your-initial-publishing-setup).
 
 #### Check the documentation licence
 
@@ -125,8 +128,6 @@ The Wizard adds a `LICENSE.md` file with the [Creative Commons Attribution 4.0 I
 If you are adding documenation to an existing repository, check that its root directory contains a `LICENSE.md` containing the [license text](https://creativecommons.org/licenses/by/4.0/legalcode.txt).
 
 If your repository contains both code and documentation under different licenses, add a separate license file for the documentation, such as `LICENSE_DOCS.md`. Update your `README.md` to explain which license applies to each.
-
-If you have questions about the Wizard or repository setup, contact the Developer Experience team in the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel on Microsoft Teams.
 
 ### 3. Prepare your documentation 
 
@@ -158,11 +159,10 @@ flowchart TD
     class G ready
 ```
 
-Before merging your first publishing changes into main, contact the Developer Experience (DevX) team through the [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) channel in Microsoft Teams and include:
+[Create a service request](https://citz-do.atlassian.net/servicedesk/customer/portal/2/create/764) to coordinate the initial set up. You will need: 
 
-- A link to your GitHub repository
+- A link to your GitHub repository URL
 - A brief note that your documentation is ready for initial publishing setup
-- A link to your catalog pull request, if you have opened one
 
 DevX must grant your repository access to the GitHub secrets required by the publishing workflow. The team also needs to confirm that the DevHub catalog entry is ready.
 
