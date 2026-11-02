@@ -150,7 +150,7 @@ DevX must grant your repository access to the GitHub secrets required by the pub
 
 Wait for DevX to confirm that the required access and catalog setup are ready before merging your initial publishing changes into main.
 
-!!! info "The diagram shows your first publishing process". 
+!!! info "The diagram shows your first publishing process." 
     After this initial publishing, the following ones will no longer need to contact the DevX team or create a new request ticket. More on this in [Step 5](#5-preview-your-changes-and-publish-your-documentation) 
 
 ```mermaid
