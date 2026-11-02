@@ -5,10 +5,12 @@ Use this guide if your B.C. government team wants to publish technical documenta
 !!! note "Already familiar with the process and ready to get started?"
     Use the [DevHub self-service Wizards](https://developer.gov.bc.ca/create?filters%5Bkind%5D=template&filters%5Buser%5D=all) to create a documentation repository or add existing technical documentation to DevHub. 
 
-- Contact the Developer Experience (DevX) team through Developer Community Microsoft Team's channel [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) if you get stuck 
 
-Or 
-- [Create a request ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/764) when your documentation is ready for initial publication or you need changes to an existing publishing configuration
+- Contact the Developer Experience (DevX) team through Developer Community Microsoft Team's channel [DevHub-howto](https://teams.microsoft.com/l/channel/19%3Acd0757bed1244bd5ac6aa90943828077%40thread.tacv2/DevHub-howto?groupId=a80418da-c27b-406e-89ab-7695b61924d8&tenantId=6fdb5200-3d0d-4a8a-b036-d3685e359adc) if you get stuck
+
+Or
+
+- You can [create a request ticket](https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/764) when your documentation is ready for initial publication or you need changes to an existing publishing configuration
 
 ## About DevHub
 
@@ -38,9 +40,7 @@ You can also use a desktop editor with Markdown support, such as [Visual Studio 
 
 ### Dedicated desktop Markdown editor
 
-Where appropriate, you can install a dedicated Markdown editor on your computer to write and edit documentation.
-
-The list of Markdown editors includes [many options](https://github.com/mundimark/awesome-markdown-editors) examples include: VSCode, Git CLI and GitHub Desktop. 
+Where appropriate, you can install a dedicated Markdown editor on your computer to write and edit documentation. The list of Markdown editors includes [many options](https://github.com/mundimark/awesome-markdown-editors). 
 
 You will still need to save your files to GitHub. If you're comfortable using terminal commands, you can use a [Git command-line client](https://git-scm.com/downloads). If you prefer a graphical interface, you can use tools such as [GitHub Desktop](https://desktop.github.com).
 
@@ -125,7 +125,7 @@ The Developer Experience team (DevX) must also grant your repository access to t
 
 The Wizard adds a `LICENSE.md` file with the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) when it creates a new repository.
 
-If you are adding documenation to an existing repository, check that its root directory contains a `LICENSE.md` containing the [license text](https://creativecommons.org/licenses/by/4.0/legalcode.txt).
+If you are adding documentation to an existing repository, check that its root directory contains a `LICENSE.md` containing the [license text](https://creativecommons.org/licenses/by/4.0/legalcode.txt).
 
 If your repository contains both code and documentation under different licenses, add a separate license file for the documentation, such as `LICENSE_DOCS.md`. Update your `README.md` to explain which license applies to each.
 
@@ -141,11 +141,23 @@ If your content uses another format or lives outside GitHub, adapt it before pub
 
 Complete these steps before publishing your documentation for the first time. You only need to coordinate the initial setup once per repository unless changes to the configuration are needed later.
 
+[Create a service request](https://citz-do.atlassian.net/servicedesk/customer/portal/2/create/764) to coordinate the initial set up. You will need: 
+
+- A link to your GitHub repository URL
+- A brief note that your documentation is ready for initial publishing setup
+
+DevX must grant your repository access to the GitHub secrets required by the publishing workflow. The team also needs to confirm that the DevHub catalog entry is ready.
+
+Wait for DevX to confirm that the required access and catalog setup are ready before merging your initial publishing changes into main.
+
+!!! info "The diagram shows your first publishing process". 
+    After this initial publishing, the following ones will no longer need to contact the DevX team or create a new request ticket. More on this in [Step 5](#5-preview-your-changes-and-publish-your-documentation) 
+
 ```mermaid
 flowchart TD
     A["Complete Steps 1–3<br/>Prepare your repository and documentation"] --> B["Enable publishing in publish.yaml<br/>See Step 2"]
     B --> C["Create or update your<br/>DevHub catalog entry"]
-    C --> D["Contact DevX in the<br/>DevHub-howto Teams channel"]
+    C --> D["Contact DevX<br/>Create a request ticket"]
     D --> E["DevX grants access to required<br/>GitHub secrets and checks catalog setup"]
     E --> F["Wait for DevX to confirm<br/>initial setup is ready"]
     F --> G["Ready to preview and publish<br/>your documentation"]
@@ -157,23 +169,16 @@ flowchart TD
     class A,B,C preparation
     class D,E,F coordination
     class G ready
+
+    click D "https://citz-do.atlassian.net/servicedesk/customer/portal/2/group/9/create/764" "Create a TechDocs setup request" _blank
 ```
-
-[Create a service request](https://citz-do.atlassian.net/servicedesk/customer/portal/2/create/764) to coordinate the initial set up. You will need: 
-
-- A link to your GitHub repository URL
-- A brief note that your documentation is ready for initial publishing setup
-
-DevX must grant your repository access to the GitHub secrets required by the publishing workflow. The team also needs to confirm that the DevHub catalog entry is ready.
-
-Wait for DevX to confirm that the required access and catalog setup are ready before merging your initial publishing changes into main.
 
 #### Add or update your DevHub catalog entry
 
 The catalog helps DevHub organize information about products, services and documentation.
 
 1. Open the [Developer Experience team catalog repository](https://github.com/bcgov/developer-experience-team/tree/main/developer-portal/catalog)
-2. Review existing entries in the `catalog-seed-[dev|test|prod].yml files to find the appropriate file and see how entries are structured
+2. Review existing entries in the `catalog-seed-[dev|test|prod].yml` files to find the appropriate file and see how entries are structured
 3. Add or update your entry using the repository's format and required fields
 4. Open a pull request for your changes, following the repository's contribution process
 
@@ -192,17 +197,17 @@ Preview your documentation before publishing it.
 3. Review your content, navigation, links, images and formatting.
 Fix any issues you find and preview your changes again
 
-**Preview locally on your computer**
+**Optional: Preview locally on your computer**
 
-You can also preview your documentation locally using the DevHub TechDocs Publish Docker image. This option generates a preview of your documentation and runs a link check before starting a local preview server.
+You can preview your documentation locally using the DevHub TechDocs Publish Docker image. This option generates a preview of your documentation and runs a link check before starting a local preview server.
 
 Review: [How to use the Docker image to preview content locally](https://github.com/bcgov/devhub-techdocs-publish/blob/main/docs/index.md#how-to-use-the-docker-image-to-preview-content-locally) for setup instructions and commands. You can use Docker, Colima or Podman.
 
-Using the preview options allows you see how your documentation would look live on DevHub. This allows you to fix any issues prior to publishing. 
+Local preview is optional. We strongly recommend previewing your changes in the DevHub test environment before publishing. Local previews may not render all content the same way as DevHub. For example, Mermaid diagrams and clickable links may not work as expected locally.
 
-When you're satisfied with the result, commit your changes to a branch and push to GitHub, following your team's GitHub workflow.
+Once you're satisfied with the preview, follow your team's GitHub workflow to merge the approved changes into the `main branch` and publish your documentation.
 
-This diagram shows the recurring process after your repository has been configured for publishing.
+!!! info "This diagram shows the recurring or maintenance process after your repository has been configured for publishing."
 
 ```mermaid
 flowchart TD
@@ -218,8 +223,8 @@ flowchart TD
     G --> H["GitHub Actions builds<br/>and publishes to production"]
     H --> I["Changes are live on DevHub"]
 
-    D -.-> J["TEST<br/>https://test.developer.gov.bc.ca"]
-    I -.-> K["PRODUCTION<br/>https://developer.gov.bc.ca"]
+    D -.-> J["TEST<br/>test.developer.gov.bc.ca"]
+    I -.-> K["PRODUCTION<br/>developer.gov.bc.ca"]
 
     classDef author fill:#f2f2f2,stroke:#666,color:#222
     classDef preview fill:#eaf4ff,stroke:#268bd2,color:#123
@@ -228,6 +233,9 @@ flowchart TD
     class A,F author
     class B,C,D,J preview
     class E,G,H,I,K production
+
+    click J "https://test.developer.gov.bc.ca" "Open DevHub test environment" _blank
+    click K "https://developer.gov.bc.ca" "Open DevHub production site" _blank
 ```
 
 
